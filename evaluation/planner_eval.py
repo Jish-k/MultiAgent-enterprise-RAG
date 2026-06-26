@@ -2,27 +2,37 @@ import json
 import time
 import os
 import sys
+import numpy as np
 
 # Add project root to path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from agents.planner.agent import PlannerAgent
+from embeddings.embedder import get_embedding_model
 
-def compute_overlap(list1, list2):
-    """Computes simple Jaccard similarity of words to measure decomposition accuracy."""
-    words1 = set(" ".join(list1).lower().replace("?", "").split())
-    words2 = set(" ".join(list2).lower().replace("?", "").split())
-    
-    # Remove common stop words for better semantic scoring
-    stopwords = {"what", "is", "the", "how", "do", "i", "to", "for", "and", "who", "are", "of", "a", "an"}
-    words1 = words1 - stopwords
-    words2 = words2 - stopwords
-    
-    if not words1 or not words2: 
+def cosine_similarity(vec1, vec2):
+    dot = np.dot(vec1, vec2)
+    norm1 = np.linalg.norm(vec1)
+    norm2 = np.linalg.norm(vec2)
+    if norm1 == 0 or norm2 == 0:
+        return 0.0
+    return dot / (norm1 * norm2)
+
+def compute_semantic_overlap(gen_queries, exp_queries, embeddings_model):
+    """Computes semantic similarity using Sentence Transformer embeddings and Cosine Similarity."""
+    if not gen_queries or not exp_queries:
         return 0.0
         
-    intersection = words1.intersection(words2)
-    union = words1.union(words2)
-    return len(intersection) / len(union)
+    gen_vecs = embeddings_model.embed_documents(gen_queries)
+    exp_vecs = embeddings_model.embed_documents(exp_queries)
+    
+    # For each expected query, find the highest cosine similarity among generated queries
+    max_sims = []
+    for e_vec in exp_vecs:
+        sims = [cosine_similarity(e_vec, g_vec) for g_vec in gen_vecs]
+        max_sims.append(max(sims))
+        
+    # Average the maximum similarities to ensure all expected aspects were covered
+    return sum(max_sims) / len(max_sims)
 
 def evaluate_planner():
     base_dir = os.path.dirname(__file__)
@@ -35,15 +45,16 @@ def evaluate_planner():
     with open(exp_path, "r") as f:
         expected = json.load(f)
         
-    print("Initializing Planner Agent for evaluation...")
+    print("Initializing Planner Agent and Embedding Model for evaluation...")
     planner = PlannerAgent()
+    embeddings_model = get_embedding_model()
     
     total = len(expected)
     intent_hits = 0
     decomp_scores = []
     times = []
     
-    print(f"Running evaluation on {total} test cases...")
+    print(f"\nRunning evaluation on {total} test cases...")
     for exp in expected:
         qid = exp["id"]
         q_text = questions[qid]
@@ -57,14 +68,12 @@ def evaluate_planner():
         if result.get("intent", "").lower().strip() == exp["intent"].lower().strip():
             intent_hits += 1
             
-        # Decomposition Accuracy
+        # Decomposition Accuracy (Semantic)
         gen_queries = result.get("sub_queries", [])
         exp_queries = exp["sub_queries"]
-        score = compute_overlap(gen_queries, exp_queries)
+        score = compute_semantic_overlap(gen_queries, exp_queries, embeddings_model)
         
-        # Scale score up slightly to account for valid LLM rephrasings (cap at 1.0)
-        adjusted_score = min(score * 1.5, 1.0) 
-        decomp_scores.append(adjusted_score)
+        decomp_scores.append(score)
         
     avg_intent = (intent_hits / total) * 100
     avg_decomp = (sum(decomp_scores) / total) * 100
