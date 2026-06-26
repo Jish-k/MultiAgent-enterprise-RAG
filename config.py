@@ -6,7 +6,7 @@ load_dotenv()
 
 class Config:
     # LLM Settings
-    LLM_PROVIDER = os.getenv("LLM_PROVIDER", "ollama") # "ollama", "groq", or "openai"
+    LLM_PROVIDER = os.getenv("LLM_PROVIDER", "groq") # "groq", "openai", or "ollama"
     
     OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.1")
     
