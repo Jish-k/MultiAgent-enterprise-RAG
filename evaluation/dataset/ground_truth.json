@@ -1,0 +1,12 @@
+[
+  {"id": 1, "answer": "Employees are entitled to 12 casual leaves per year."},
+  {"id": 2, "answer": "Female employees are entitled to 26 weeks of paid Maternity Leave. It must be approved by the HR Head and Department Head."},
+  {"id": 3, "answer": "The notice period for resignation is not mentioned in the provided policies."},
+  {"id": 4, "answer": "Passwords must be at least 14 characters long, contain numbers and symbols, and be changed every 90 days."},
+  {"id": 5, "answer": "Employees are not allowed to use personal USB drives by default, unless explicit exception is granted by the CISO."},
+  {"id": 6, "answer": "Employees can claim travel expenses by submitting all receipts through the Concur portal within 15 days of returning from the trip."},
+  {"id": 7, "answer": "Domestic travel is approved by the reporting manager. International travel requires VP and CEO approval. Flights over 8 hours require VP approval."},
+  {"id": 8, "answer": "Maternity leave requests must be submitted through the internal portal at least two weeks in advance. It must be approved by the HR Head and the respective Department Head."},
+  {"id": 9, "answer": "Interns are not eligible for remote work, and full-time employees can work remotely 2 days a week. There is no specific policy regarding remote work during probation."},
+  {"id": 10, "answer": "Information security is everyone's responsibility and employees must adhere to the IT Security Policy at all times, but the specific consequences for violating the policy are not defined in the documents."}
+]

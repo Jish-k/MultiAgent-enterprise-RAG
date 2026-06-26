@@ -1,0 +1,12 @@
+[
+  {"id": 1, "category": "HR", "difficulty": "Easy", "documents": ["Leave_Policy.pdf"]},
+  {"id": 2, "category": "HR", "difficulty": "Easy", "documents": ["Leave_Policy.pdf"]},
+  {"id": 3, "category": "HR", "difficulty": "Medium", "documents": ["Leave_Policy.pdf", "Employee_Handbook.pdf"]},
+  {"id": 4, "category": "IT", "difficulty": "Easy", "documents": ["IT_Security.pdf"]},
+  {"id": 5, "category": "IT", "difficulty": "Easy", "documents": ["IT_Security.pdf"]},
+  {"id": 6, "category": "Travel", "difficulty": "Easy", "documents": ["Travel_Policy.pdf"]},
+  {"id": 7, "category": "Travel", "difficulty": "Easy", "documents": ["Travel_Policy.pdf"]},
+  {"id": 8, "category": "HR", "difficulty": "Hard", "documents": ["Leave_Policy.pdf", "Employee_Handbook.pdf"]},
+  {"id": 9, "category": "HR", "difficulty": "Hard", "documents": ["HR_Policy.pdf", "Employee_Handbook.pdf"]},
+  {"id": 10, "category": "IT", "difficulty": "Hard", "documents": ["IT_Security.pdf", "Code_of_Conduct.pdf"]}
+]

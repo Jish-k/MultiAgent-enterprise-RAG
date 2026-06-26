@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "intent": "HR Policy",
+    "complexity": "single",
+    "sub_queries": [
+      "What is the casual leave policy?",
+      "How many casual leaves are allowed per year?"
+    ]
+  },
+  {
+    "id": 8,
+    "intent": "HR Policy",
+    "complexity": "multi",
+    "sub_queries": [
+      "What is the process to apply for maternity leave?",
+      "Who is the approval authority for maternity leave?"
+    ]
+  },
+  {
+    "id": 10,
+    "intent": "IT Policy",
+    "complexity": "multi",
+    "sub_queries": [
+      "What are the consequences of violating the company's IT security policy?",
+      "How do I report a security policy violation?"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {"id": 1, "question": "How many casual leaves are employees entitled to each year?"},
+  {"id": 2, "question": "What is the maternity leave policy?"},
+  {"id": 3, "question": "What is the notice period for resignation?"},
+  {"id": 4, "question": "What are the password requirements?"},
+  {"id": 5, "question": "Can employees use personal USB drives?"},
+  {"id": 6, "question": "How can employees claim travel expenses?"},
+  {"id": 7, "question": "Who approves business travel?"},
+  {"id": 8, "question": "How do I apply for maternity leave and who approves it?"},
+  {"id": 9, "question": "Can I work remotely while on probation?"},
+  {"id": 10, "question": "What happens if I violate the company's IT security policy?"}
+]
