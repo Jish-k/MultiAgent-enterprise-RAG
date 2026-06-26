@@ -6,10 +6,16 @@ load_dotenv()
 
 class Config:
     # LLM Settings
-    LLM_PROVIDER = os.getenv("LLM_PROVIDER", "openai") # "openai" or "ollama"
+    LLM_PROVIDER = os.getenv("LLM_PROVIDER", "ollama") # "ollama", "groq", or "openai"
+    
+    OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.1")
+    
+    GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+    GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
+    
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
     OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
-    OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3")
+    
     TEMPERATURE = float(os.getenv("TEMPERATURE", "0.0"))
     
     # Retrieval Settings

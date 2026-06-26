@@ -8,9 +8,30 @@ def get_llm():
     """
     Initializes and returns the language model based on the configuration.
     """
-    if Config.LLM_PROVIDER.lower() == "openai":
-        from langchain_openai import ChatOpenAI
+    provider = Config.LLM_PROVIDER.lower()
+    
+    if provider == "ollama":
+        from langchain_community.chat_models import ChatOllama
+        print(f"Initializing local Ollama LLM: {Config.OLLAMA_MODEL}")
+        return ChatOllama(
+            model=Config.OLLAMA_MODEL,
+            temperature=Config.TEMPERATURE
+        )
         
+    elif provider == "groq":
+        from langchain_groq import ChatGroq
+        if not Config.GROQ_API_KEY or Config.GROQ_API_KEY == "your_groq_api_key_here":
+            raise ValueError("GROQ_API_KEY is missing or invalid in the .env file.")
+            
+        print(f"Initializing Groq LLM: {Config.GROQ_MODEL}")
+        return ChatGroq(
+            model_name=Config.GROQ_MODEL,
+            temperature=Config.TEMPERATURE,
+            groq_api_key=Config.GROQ_API_KEY
+        )
+        
+    elif provider == "openai":
+        from langchain_openai import ChatOpenAI
         if not Config.OPENAI_API_KEY or Config.OPENAI_API_KEY == "your_openai_api_key_here":
             raise ValueError("OPENAI_API_KEY is missing or invalid in the .env file.")
             
@@ -19,15 +40,6 @@ def get_llm():
             model=Config.OPENAI_MODEL,
             temperature=Config.TEMPERATURE,
             openai_api_key=Config.OPENAI_API_KEY
-        )
-        
-    elif Config.LLM_PROVIDER.lower() == "ollama":
-        from langchain_community.chat_models import ChatOllama
-        
-        print(f"Initializing local Ollama LLM: {Config.OLLAMA_MODEL}")
-        return ChatOllama(
-            model=Config.OLLAMA_MODEL,
-            temperature=Config.TEMPERATURE
         )
         
     else:
