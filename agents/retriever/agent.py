@@ -15,7 +15,7 @@ class EvidenceRetrievalAgent:
     Executes sub-queries, merges results, removes duplicates semantically, and ranks the evidence.
     """
     
-    def retrieve(self, request_id: str, sub_queries: list[str], planner_confidence: float = 1.0) -> EvidencePackage:
+    def retrieve(self, request_id: str, sub_queries: list[str], planner_confidence: float = 1.0, ranking_weights: dict = None) -> EvidencePackage:
         metrics = RetrievalMetrics()
         
         # 1. Search
@@ -38,7 +38,7 @@ class EvidenceRetrievalAgent:
         
         # 4. Rank
         start = time.time()
-        ranked_chunks = rank_evidence(unique_results, planner_confidence)
+        ranked_chunks = rank_evidence(unique_results, planner_confidence, ranking_weights)
         metrics.ranking_time_ms = (time.time() - start) * 1000
         
         metrics.total_time_ms = metrics.search_time_ms + metrics.merge_time_ms + metrics.dedup_time_ms + metrics.ranking_time_ms

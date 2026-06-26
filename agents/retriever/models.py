@@ -14,6 +14,9 @@ class RetrievalMetrics(BaseModel):
 class RankedChunk(BaseModel):
     chunk_id: str
     content: str
+    document: str
+    page: int
+    section: str = "Unknown"
     metadata: Dict[str, Any]
     retrieval_similarity: float
     planner_confidence: float = 1.0
