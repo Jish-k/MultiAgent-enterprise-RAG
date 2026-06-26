@@ -1,11 +1,17 @@
 import os
+import sys
 import glob
-from loader import load_pdf
-from cleaner import clean_pages
-from metadata import extract_metadata
-from chunker import chunk_documents
 
-def run_ingestion_pipeline(raw_docs_dir="../data/raw_documents"):
+# Add the project root to sys.path to allow absolute imports
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from ingestion.loader import load_pdf
+from ingestion.cleaner import clean_pages
+from ingestion.metadata import extract_metadata
+from ingestion.chunker import chunk_documents
+from embeddings.vector_store import add_to_vector_store
+
+def run_ingestion_pipeline(raw_docs_dir="data/raw_documents"):
     pdf_files = glob.glob(os.path.join(raw_docs_dir, "*.pdf"))
     if not pdf_files:
         # Fallback if run from project root instead of ingestion folder
@@ -20,23 +26,26 @@ def run_ingestion_pipeline(raw_docs_dir="../data/raw_documents"):
         
         # 1. Load
         pages = load_pdf(pdf_file)
-        print(f"  -> Loaded {len(pages)} pages.")
         
         # 2. Clean
         pages = clean_pages(pages)
-        print("  -> Cleaned text.")
         
         # 3. Metadata
         pages = extract_metadata(pages)
-        print("  -> Extracted metadata.")
         
         # 4. Chunk
         chunks = chunk_documents(pages)
-        print(f"  -> Created {len(chunks)} chunks.")
+        print(f"  -> Extracted {len(chunks)} chunks.")
         
         all_chunks.extend(chunks)
         
     print(f"\nTotal chunks generated across all documents: {len(all_chunks)}")
+    
+    # 5. Embed and Store
+    if all_chunks:
+        print("\n--- Starting Vector Embedding Phase ---")
+        add_to_vector_store(all_chunks)
+        
     return all_chunks
 
 if __name__ == "__main__":
