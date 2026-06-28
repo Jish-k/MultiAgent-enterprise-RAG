@@ -1,0 +1,196 @@
+[
+  {
+    "id": "Q004",
+    "question": "What employee benefits are provided by the company?",
+    "category": "Employee Handbook",
+    "difficulty": "Easy",
+    "question_type": "Single Document",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q009",
+    "question": "What are the responsibilities of employees regarding workplace safety?",
+    "category": "Employee Handbook",
+    "difficulty": "Medium",
+    "question_type": "Single Document",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q002",
+    "question": "What is the company's dress code policy?",
+    "category": "Employee Handbook",
+    "difficulty": "Easy",
+    "question_type": "Single Document",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q033",
+    "question": "Does the company provide unlimited paid leave?",
+    "category": "Leave Policy",
+    "difficulty": "Expert",
+    "question_type": "Out of Domain",
+    "expected_documents": []
+  },
+  {
+    "id": "Q027",
+    "question": "Compare maternity leave and paternity leave benefits.",
+    "category": "Leave Policy",
+    "difficulty": "Hard",
+    "question_type": "Comparison",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q031",
+    "question": "How many unpaid leaves can an employee take every year?",
+    "category": "Leave Policy",
+    "difficulty": "Expert",
+    "question_type": "Missing Information",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q054",
+    "question": "What is the company's policy regarding stock options for employees?",
+    "category": "HR Policy",
+    "difficulty": "Expert",
+    "question_type": "Out of Domain",
+    "expected_documents": []
+  },
+  {
+    "id": "Q038",
+    "question": "What is the company's policy on employee promotions?",
+    "category": "HR Policy",
+    "difficulty": "Easy",
+    "question_type": "Single Document",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q045",
+    "question": "How are employee promotions evaluated?",
+    "category": "HR Policy",
+    "difficulty": "Medium",
+    "question_type": "Single Document",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q067",
+    "question": "Compare phishing attacks and malware attacks, and explain how employees should respond to each.",
+    "category": "IT Security",
+    "difficulty": "Hard",
+    "question_type": "Comparison",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q058",
+    "question": "Can employees use personal USB drives on company computers?",
+    "category": "IT Security",
+    "difficulty": "Easy",
+    "question_type": "Single Document",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q064",
+    "question": "When is the use of external storage devices permitted?",
+    "category": "IT Security",
+    "difficulty": "Medium",
+    "question_type": "Single Document",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q088",
+    "question": "How should employees manage travel expenses during long international trips?",
+    "category": "Travel Policy",
+    "difficulty": "Hard",
+    "question_type": "Scenario Based",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q085",
+    "question": "How are emergency travel requests handled?",
+    "category": "Travel Policy",
+    "difficulty": "Medium",
+    "question_type": "Scenario Based",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q091",
+    "question": "Which business expenses are eligible for reimbursement?",
+    "category": "Expense Policy",
+    "difficulty": "Easy",
+    "question_type": "Single Document",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q094",
+    "question": "Who approves employee expense reimbursement requests?",
+    "category": "Expense Policy",
+    "difficulty": "Easy",
+    "question_type": "Single Document",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q124",
+    "question": "Explain the complete onboarding process, including IT account creation and security responsibilities.",
+    "category": "Cross Document",
+    "difficulty": "Expert",
+    "question_type": "Comprehensive",
+    "expected_documents": [
+      "Employee_Handbook.pdf",
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q116",
+    "question": "What should I do if my company laptop is stolen during a business trip?",
+    "category": "Cross Document",
+    "difficulty": "Hard",
+    "question_type": "Scenario Based",
+    "expected_documents": [
+      "Travel_Policy.pdf",
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q137",
+    "question": "Can employees carry firearms while travelling for business?",
+    "category": "Adversarial",
+    "difficulty": "Expert",
+    "question_type": "Unsupported Policy",
+    "expected_documents": []
+  },
+  {
+    "id": "Q133",
+    "question": "What is the annual salary of the CEO?",
+    "category": "Adversarial",
+    "difficulty": "Expert",
+    "question_type": "Out of Domain",
+    "expected_documents": []
+  }
+]

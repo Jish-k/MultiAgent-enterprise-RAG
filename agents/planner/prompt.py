@@ -16,6 +16,10 @@ You MUST respond with strictly valid JSON. Do NOT wrap the JSON in markdown bloc
     "sub_queries": [
         "sub-query 1",
         "sub-query 2"
+    ],
+    "required_information": [
+        "core entity or concept 1",
+        "core entity or concept 2"
     ]
 }}
 
@@ -27,6 +31,10 @@ Output:
     "sub_queries": [
         "What is the process to apply for maternity leave?",
         "Who is the approval authority for maternity leave?"
+    ],
+    "required_information": [
+        "application process",
+        "approval authority"
     ]
 }}
 """

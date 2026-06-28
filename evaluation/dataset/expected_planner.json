@@ -1,29 +1,1702 @@
 [
   {
-    "id": 1,
-    "intent": "HR Policy",
-    "complexity": "single",
-    "sub_queries": [
-      "What is the casual leave policy?",
-      "How many casual leaves are allowed per year?"
+    "id": "Q001",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
     ]
   },
   {
-    "id": 8,
-    "intent": "HR Policy",
-    "complexity": "multi",
-    "sub_queries": [
-      "What is the process to apply for maternity leave?",
-      "Who is the approval authority for maternity leave?"
+    "id": "Q002",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
     ]
   },
   {
-    "id": 10,
-    "intent": "IT Policy",
-    "complexity": "multi",
-    "sub_queries": [
-      "What are the consequences of violating the company's IT security policy?",
-      "How do I report a security policy violation?"
+    "id": "Q003",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q004",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q005",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q006",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "probation_period_requirements",
+      "employee_duties"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q007",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q008",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q009",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q010",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q011",
+    "intent": "leave_policy",
+    "complexity": "comprehensive",
+    "required_information": [
+      "leave_types",
+      "leave_eligibility",
+      "leave_request_process",
+      "employee_responsibilities",
+      "manager_responsibilities"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q012",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q013",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q014",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q015",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": []
+  },
+  {
+    "id": "Q016",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q017",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q018",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q019",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q020",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q021",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q022",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q023",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q024",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q025",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q026",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q027",
+    "intent": "leave_policy",
+    "complexity": "comprehensive",
+    "required_information": [
+      "maternity leave benefits",
+      "paternity leave benefits",
+      "leave policy comparison"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q028",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q029",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q030",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q031",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q032",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q033",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": []
+  },
+  {
+    "id": "Q034",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "leave_policy",
+      "US_office"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": []
+  },
+  {
+    "id": "Q035",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q036",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "probation period",
+      "newly hired employees"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q037",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q038",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q039",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q040",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q041",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "remote_work_policy",
+      "interns"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q042",
+    "intent": "probation_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "remote_work",
+      "probation_period"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q043",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q044",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q045",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q046",
+    "intent": "leave_policy",
+    "complexity": "comprehensive",
+    "required_information": [
+      "probation period",
+      "probation requirements",
+      "probation process",
+      "confirmation process"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q047",
+    "intent": "leave_policy",
+    "complexity": "comprehensive",
+    "required_information": [
+      "remote work policy",
+      "approval process",
+      "steps involved",
+      "timeframe",
+      "responsibilities"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q048",
+    "intent": "leave_policy",
+    "complexity": "comprehensive",
+    "required_information": [
+      "work-from-home policy",
+      "hybrid work policy",
+      "comparison"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q049",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q050",
+    "intent": "leave_policy",
+    "complexity": "comprehensive",
+    "required_information": [
+      "employee performance review process",
+      "company policy"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q051",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q052",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q053",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": []
+  },
+  {
+    "id": "Q054",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": []
+  },
+  {
+    "id": "Q055",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q056",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q057",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q058",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q059",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q060",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q061",
+    "intent": "it_security",
+    "complexity": "single_hop",
+    "required_information": [
+      "password_creation_policy"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q062",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q063",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "IT_Security.pdf",
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q064",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q065",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q066",
+    "intent": "it_security",
+    "complexity": "comprehensive",
+    "required_information": [
+      "incident_reporting_process",
+      "security_breach",
+      "it_security_procedures"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q067",
+    "intent": "it_security",
+    "complexity": "comprehensive",
+    "required_information": [
+      "phishing_attack",
+      "malware_attack",
+      "employee_response"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q068",
+    "intent": "it_security",
+    "complexity": "comprehensive",
+    "required_information": [
+      "access_control_policy",
+      "company_systems",
+      "policy_details"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q069",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "IT_Security.pdf",
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q070",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q071",
+    "intent": "it_security",
+    "complexity": "single_hop",
+    "required_information": [
+      "company_policy",
+      "software_installation_procedure"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q072",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q073",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": []
+  },
+  {
+    "id": "Q074",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": []
+  },
+  {
+    "id": "Q075",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q076",
+    "intent": "travel_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "approval_process",
+      "travel_types"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q077",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q078",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q079",
+    "intent": "travel_expenses_submission",
+    "complexity": "single_hop",
+    "required_information": [
+      "travel_expenses_submission_deadline"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q080",
+    "intent": "unknown",
+    "complexity": "unknown",
+    "required_information": [],
+    "retrieval_strategy": "unknown",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q081",
+    "intent": "business_travel",
+    "complexity": "comprehensive",
+    "required_information": [
+      "travel_request_form",
+      "approval_chain",
+      "expense_report_process",
+      "travel_policy_document",
+      "manager_roles_and_responsibilities"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q082",
+    "intent": "travel_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "reimbursement_policy",
+      "official_travel",
+      "hotel_accommodations"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q083",
+    "intent": "travel_policy",
+    "complexity": "comprehensive",
+    "required_information": [
+      "types_of_travel_expenses",
+      "reimbursement_criteria",
+      "exclusions_from_reimbursement"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q084",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "employee_travel_policy",
+      "cancellation_procedure"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q085",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "emergency travel request process",
+      "emergency leave policy"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q086",
+    "intent": "travel_reimbursement",
+    "complexity": "comprehensive",
+    "required_information": [
+      "booking_process",
+      "reimbursement_eligibility",
+      "documentation_requirements",
+      "payment_process"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q087",
+    "intent": "travel_policy",
+    "complexity": "comparison",
+    "required_information": [
+      "domestic_travel_approval_procedure",
+      "international_travel_approval_procedure",
+      "travel_policy_document"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q088",
+    "intent": "travel_expenses",
+    "complexity": "single_hop",
+    "required_information": [
+      "company_travel_policy",
+      "international_travel_expenses_procedure",
+      "expense_reporting_deadlines"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q089",
+    "intent": "travel_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "employee_travel_eligibility",
+      "business_class_flight_booking_policy_domestic"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q090",
+    "intent": "travel_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "travel_request_process",
+      "travel_expenses_reimbursement",
+      "travel_restrictions",
+      "travel_documentation_requirements"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q091",
+    "intent": "expense_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "types_of_business_expenses",
+      "reimbursement_eligibility_criteria"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q092",
+    "intent": "expense_claim",
+    "complexity": "single_hop",
+    "required_information": [
+      "types_of_receipts_required",
+      "expense_claim_process"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q093",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "expense_claim_submission_deadline"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q094",
+    "intent": "expense_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "employee_expense_reimbursement_process",
+      "approval_authority"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q095",
+    "intent": "employee_onboarding",
+    "complexity": "single_hop",
+    "required_information": [
+      "reimbursement_process",
+      "claim_submission_procedure"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q096",
+    "intent": "expense_reimbursement",
+    "complexity": "comprehensive",
+    "required_information": [
+      "expense_reporting_process",
+      "reimbursement_request_submission",
+      "approval_process",
+      "payment_timeline",
+      "documentation_requirements"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q097",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "company_policy",
+      "reimbursable_expenses"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q098",
+    "intent": "expense_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "employee_expense_reporting_process",
+      "lost_receipt_procedure"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q099",
+    "intent": "travel_expenses",
+    "complexity": "single_hop",
+    "required_information": [
+      "company_policy",
+      "employee_eligibility",
+      "reimbursable_expenses"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q100",
+    "intent": "expense_policy",
+    "complexity": "comprehensive",
+    "required_information": [
+      "company_expense_types",
+      "expense_reporting_process",
+      "reimbursement_procedure",
+      "expense_limitations",
+      "compliance_requirements"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q101",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "remote_work_eligibility",
+      "workweek_duration"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q102",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "company_remote_work_policy",
+      "employee_eligibility_criteria"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q103",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "remote_work_request_approval_process"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q104",
+    "intent": "remote_work",
+    "complexity": "single_hop",
+    "required_information": [
+      "company_equipment_provided",
+      "remote_employee_benefits"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q105",
+    "intent": "remote_work_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "employee_responsibilities",
+      "remote_work_policy_document"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q106",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "remote_work_policy",
+      "interns_eligibility"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q107",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "remote_work_policy",
+      "probation_period",
+      "employee_status"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q108",
+    "intent": "remote_work_policy",
+    "complexity": "comprehensive",
+    "required_information": [
+      "remote_work_request_process",
+      "manager_approval_process",
+      "team_lead_approval_process",
+      "hr_approval_process",
+      "approval_timeline",
+      "approval_requirements"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q109",
+    "intent": "it_security",
+    "complexity": "single_hop",
+    "required_information": [
+      "remote_work_procedure",
+      "internet_connectivity_issues"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q110",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "company_remote_work_policy_document"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q111",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "maternity_leave_application_process",
+      "leave_approval_authority"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Leave_Policy.pdf",
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q112",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "probation_period",
+      "remote_work_policy"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "HR_Policy.pdf",
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q113",
+    "intent": "it_security",
+    "complexity": "single_hop",
+    "required_information": [
+      "company_it_security_policy",
+      "consequences_of_policy_violation"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "IT_Security.pdf",
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q114",
+    "intent": "travel_expenses",
+    "complexity": "single_hop",
+    "required_information": [
+      "company_travel_policy",
+      "expense_claim_process",
+      "required_documents_for_expense_claim"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Travel_Policy.pdf",
+      "Expense_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q115",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "remote_work_policy",
+      "official_business_travel_policy"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Travel_Policy.pdf",
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q116",
+    "intent": "it_security",
+    "complexity": "single_hop",
+    "required_information": [
+      "company laptop theft policy",
+      "business trip procedures"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Travel_Policy.pdf",
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q117",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "remote_work_policy",
+      "annual_leave_policy",
+      "intern_status"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "HR_Policy.pdf",
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q118",
+    "intent": "leave_policy",
+    "complexity": "comprehensive",
+    "required_information": [
+      "employee_exit_process",
+      "resignation_process",
+      "IT_asset_return_process"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "Employee_Handbook.pdf",
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q119",
+    "intent": "it_security",
+    "complexity": "single_hop",
+    "required_information": [
+      "company_policies_on_data_protection",
+      "best_practices_for_remote_work",
+      "tools_for_encrypting_data"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "HR_Policy.pdf",
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q120",
+    "intent": "travel_reimbursement",
+    "complexity": "single_hop",
+    "required_information": [
+      "travel_policy",
+      "medical_emergency_definition",
+      "reimbursement_process",
+      "required_documents"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Travel_Policy.pdf",
+      "Expense_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q121",
+    "intent": "leave_policy",
+    "complexity": "comprehensive",
+    "required_information": [
+      "maternity_leave_eligibility",
+      "leave_application_process",
+      "required_documents_for_leave",
+      "notice_period_for_long_leave",
+      "benefits_during_leave",
+      "return_to_work_process"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "Leave_Policy.pdf",
+      "Employee_Handbook.pdf",
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q122",
+    "intent": "hr_policy",
+    "complexity": "comparison",
+    "required_information": [
+      "attendance_policy",
+      "remote_work_policy",
+      "performance_evaluation_process"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "HR_Policy.pdf",
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q123",
+    "intent": "leave_policy",
+    "complexity": "comparison",
+    "required_information": [
+      "leave_request_approval_process",
+      "travel_request_approval_process",
+      "expense_claim_approval_process"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "Leave_Policy.pdf",
+      "Travel_Policy.pdf",
+      "Expense_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q124",
+    "intent": "onboarding_process",
+    "complexity": "comprehensive",
+    "required_information": [
+      "IT account creation process",
+      "security responsibilities for new employees",
+      "onboarding checklist",
+      "company policies and procedures"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "Employee_Handbook.pdf",
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q125",
+    "intent": "it_security",
+    "complexity": "comprehensive",
+    "required_information": [
+      "company_data_classification_policy",
+      "employee_data_protection_policy",
+      "travel_security_guidelines",
+      "incident_reporting_procedure"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "Travel_Policy.pdf",
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q126",
+    "intent": "leave_policy",
+    "complexity": "comparison",
+    "required_information": [
+      "maternity_leave_approval_process",
+      "sick_leave_approval_process",
+      "emergency_leave_approval_process",
+      "maternity_leave_documentation_requirements",
+      "sick_leave_documentation_requirements",
+      "emergency_leave_documentation_requirements"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "Leave_Policy.pdf",
+      "Employee_Handbook.pdf"
+    ]
+  },
+  {
+    "id": "Q127",
+    "intent": "it_security",
+    "complexity": "comprehensive",
+    "required_information": [
+      "IT security guidelines for international travel",
+      "Employee responsibilities for IT security during travel",
+      "Company policies for data protection while abroad",
+      "Recommended security measures for laptops and mobile devices",
+      "Travel documentation requirements for IT security"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "Travel_Policy.pdf",
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q128",
+    "intent": "business_travel",
+    "complexity": "comprehensive",
+    "required_information": [
+      "business_travel_approval_process",
+      "reimbursement_payment_process",
+      "workflow_overview"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "Travel_Policy.pdf",
+      "Expense_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q129",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "hybrid work policy",
+      "new employee onboarding process",
+      "company leave policies"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Employee_Handbook.pdf",
+      "HR_Policy.pdf",
+      "IT_Security.pdf"
+    ]
+  },
+  {
+    "id": "Q130",
+    "intent": "employee_handbook",
+    "complexity": "comprehensive",
+    "required_information": [
+      "leave_policy",
+      "travel_policy",
+      "it_security_policy",
+      "workplace_conduct_policy"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "Employee_Handbook.pdf",
+      "Leave_Policy.pdf",
+      "Travel_Policy.pdf",
+      "IT_Security.pdf",
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q131",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "types_of_leave",
+      "leave_application_process",
+      "leave_entitlement_policy"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q132",
+    "intent": "leave_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "travel_expenses",
+      "employee_status",
+      "approval_authority"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": [
+      "Travel_Policy.pdf",
+      "HR_Policy.pdf"
+    ]
+  },
+  {
+    "id": "Q133",
+    "intent": "company_info",
+    "complexity": "single_hop",
+    "required_information": [
+      "CEO",
+      "annual salary"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": []
+  },
+  {
+    "id": "Q134",
+    "intent": "stock_price",
+    "complexity": "single_hop",
+    "required_information": [
+      "current_stock_price"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": []
+  },
+  {
+    "id": "Q135",
+    "intent": "sports",
+    "complexity": "single_hop",
+    "required_information": [
+      "IPL 2025",
+      "championship winner"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": []
+  },
+  {
+    "id": "Q136",
+    "intent": "merger_and_acquisition_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "company_merger_policy",
+      "company_acquisition_policy",
+      "policy_summary"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": []
+  },
+  {
+    "id": "Q137",
+    "intent": "it_security",
+    "complexity": "single_hop",
+    "required_information": [
+      "company_policy_on_firearms",
+      "travel_policy_for_employees"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": []
+  },
+  {
+    "id": "Q138",
+    "intent": "hr_policy",
+    "complexity": "single_hop",
+    "required_information": [
+      "employee_hierarchy",
+      "salary_change_authorization"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": []
+  },
+  {
+    "id": "Q139",
+    "intent": "employee_benefits",
+    "complexity": "single_hop",
+    "required_information": [
+      "cryptocurrency_reimbursement_policy"
+    ],
+    "retrieval_strategy": "single_document",
+    "expected_documents": []
+  },
+  {
+    "id": "Q140",
+    "intent": "leave_policy",
+    "complexity": "comprehensive",
+    "required_information": [
+      "company_leave_policies",
+      "policy_documentation",
+      "unofficial_policy_information"
+    ],
+    "retrieval_strategy": "multi_document",
+    "expected_documents": [
+      "Employee_Handbook.pdf",
+      "Leave_Policy.pdf",
+      "HR_Policy.pdf",
+      "IT_Security.pdf",
+      "Travel_Policy.pdf",
+      "Expense_Policy.pdf"
     ]
   }
 ]

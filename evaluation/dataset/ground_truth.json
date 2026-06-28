@@ -1,12 +1,1128 @@
 [
-  {"id": 1, "answer": "Employees are entitled to 12 casual leaves per year."},
-  {"id": 2, "answer": "Female employees are entitled to 26 weeks of paid Maternity Leave. It must be approved by the HR Head and Department Head."},
-  {"id": 3, "answer": "The notice period for resignation is not mentioned in the provided policies."},
-  {"id": 4, "answer": "Passwords must be at least 14 characters long, contain numbers and symbols, and be changed every 90 days."},
-  {"id": 5, "answer": "Employees are not allowed to use personal USB drives by default, unless explicit exception is granted by the CISO."},
-  {"id": 6, "answer": "Employees can claim travel expenses by submitting all receipts through the Concur portal within 15 days of returning from the trip."},
-  {"id": 7, "answer": "Domestic travel is approved by the reporting manager. International travel requires VP and CEO approval. Flights over 8 hours require VP approval."},
-  {"id": 8, "answer": "Maternity leave requests must be submitted through the internal portal at least two weeks in advance. It must be approved by the HR Head and the respective Department Head."},
-  {"id": 9, "answer": "Interns are not eligible for remote work, and full-time employees can work remotely 2 days a week. There is no specific policy regarding remote work during probation."},
-  {"id": 10, "answer": "Information security is everyone's responsibility and employees must adhere to the IT Security Policy at all times, but the specific consequences for violating the policy are not defined in the documents."}
+  {
+    "id": "Q001",
+    "expected_answer": "The official working hours at TechNova Solutions are 9:00 AM to 6:00 PM IST, Monday through Friday, inclusive of a one-hour lunch break.",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q002",
+    "expected_answer": "The company's dress code policy is 'Smart Casual'. However, when meeting with clients or attending formal corporate events, 'Business Professional' attire is required.",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q003",
+    "expected_answer": "At TechNova Solutions, the Core Values are:\n\n1. Innovation: We challenge the status quo and embrace creative problem-solving.\n2. Integrity: We conduct our business with the utmost honesty and transparency.\n3. Collaboration: We believe that the best ideas are born from diverse, cross-functional teamwork.\n4. Customer-Centricity: The success of our clients is the ultimate measure of our success.\n5. Empathy: We respect and support each other, cultivating a safe and inclusive workplace.",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q004",
+    "expected_answer": "Comprehensive health insurance covering the employee, spouse, and up to two children, \na provident fund (PF) matching program, annual health check-ups, \na monthly internet allowance for remote work days, \na fully subsidized cafeteria, \na wellness room, \nan on-site gymnasium, \nand access to the Employee Assistance Program (EAP) for mental health and legal counseling services.",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q005",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q006",
+    "expected_answer": "Probation ends after exactly 6 months from the date of joining, pending a successful performance review.",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q007",
+    "expected_answer": "Employee performance is evaluated bi-annually, in June and December, using the Objective and Key Results (OKR) framework, as stated in section 19, \"Performance\" of the Employee Handbook.",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q008",
+    "expected_answer": "To resign, submit a formal email to your manager and hr@technova.com with a 30-day notice period. Probation ends after exactly 6 months from the date of joining, pending a successful performance review. On the final day, the employee must return all company property, including laptops and ID badges, to receive their full and final settlement.",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q009",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q010",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q011",
+    "expected_answer": "TechNova Solutions Pvt. Ltd. offers a comprehensive leave policy to support work-life balance. The leave policy includes:\n\n1. **Earned Leave (PTO)**: 20 days per calendar year, up to 10 days can be carried forward to the next calendar year.\n2. **Casual Leave**: 12 days per year.\n3. **Sick Leave**: 10 days per year.\n4. **Maternity Leave**: 26 weeks, subject to approval by the HR Head and Department Head.\n5. **Paternity Leave**: 4 weeks.\n6. **Bereavement Leave**: Up to 5 days.\n\nEmployee responsibilities:\n\n1. Submit leave requests through the internal portal at least two weeks in advance, except in emergencies.\n2. Ensure all leave requests are approved before taking time off.\n3. Return to work on the scheduled date after taking leave.\n4. Inform their manager and HR department if they are unable to report to work due to unforeseen circumstances.\n5. Log their daily attendance through the HR portal by 9:30 AM.",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q012",
+    "expected_answer": "Company-provided IT resources are to be used strictly for business purposes. Employees are prohibited from downloading unauthorized software, accessing inappropriate content, or using company resources for personal commercial gain. Passwords must be at least 14 characters long, contain numbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA) is mandatory. The company monitors network traffic to ensure compliance with security standards. All communications sent via the corporate email system are the property of TechNova Solutions Pvt. Ltd.",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q013",
+    "expected_answer": "Employee learning, development, and performance management are connected through the following:\n\n- The Learning & Development (L&D) department provides access to various online courses, technical certifications, and soft-skills workshops (Page 20).\n- Performance Appraisals at TechNova are conducted bi-annually, in June and December, using the Objective and Key Results (OKR) framework, focusing on employee growth, skill development, and alignment with company goals (Page 19).\n- Employees are allotted a $500 annual training budget to pursue professional development opportunities relevant to their roles (Page 20).\n- Regular 1-on-1 feedback sessions with managers are strongly encouraged, which helps in continuous learning and development (Page 19).\n- Promotions, salary increments, and performance bonuses are tied to the December review cycle, indicating a direct connection between performance management and employee development (Page 19).",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q014",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q015",
+    "expected_answer": "No expected documents specified. Out of domain.",
+    "expected_documents": [],
+    "expected_pages": []
+  },
+  {
+    "id": "Q016",
+    "expected_answer": "Employees are allowed 12 casual leaves per year.",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q017",
+    "expected_answer": "20 days per calendar year, with up to 10 days able to be carried forward to the next calendar year.",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q018",
+    "expected_answer": "Female employees are entitled to 26 weeks of paid Maternity Leave, in accordance with the Maternity Benefit Act.",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q019",
+    "expected_answer": "TechNova offers 4 weeks of paid Paternity Leave to all male employees upon the birth or adoption of a child. This leave can be taken in a single block or divided into two blocks of 2 weeks each, subject to approval from the reporting manager.",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q020",
+    "expected_answer": "A valid medical certificate from a registered medical practitioner is required for sick leave extending beyond 3 consecutive working days.",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q021",
+    "expected_answer": "For unplanned casual leave, employees must notify their immediate supervisor via email or Slack as soon as possible, and formally apply for the leave in the centralized HR Leave Portal within 24 hours of returning to work.",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q022",
+    "expected_answer": "Maternity leave must be approved by the HR Head and the respective Department Head.",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q023",
+    "expected_answer": "Yes, up to 10 days of earned leave can be carried forward to the next calendar year.",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q024",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q025",
+    "expected_answer": "Sick leave can be taken for personal illness, medical appointments, or to care for an immediate family member who is unwell, and requires a valid medical certificate for leave extending beyond 3 consecutive working days. Casual leave, on the other hand, is intended to accommodate unforeseen circumstances, personal emergencies, or brief personal matters that require an employee's attention during standard working hours, and does not require a medical certificate.",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q026",
+    "expected_answer": "According to the Leave Policy document, the complete process for applying for maternity leave is as follows:\n\n1. The leave must be approved by the HR Head and the respective Department Head.\n2. The leave can be availed starting up to 8 weeks before the expected date of delivery.\n3. Female employees are entitled to 26 weeks of paid Maternity Leave, in accordance with the Maternity Benefit Act.\n4. Employees returning from maternity leave may also request flexible working arrangements or extended remote work, subject to managerial approval.\n\nNote: The process for submitting the leave request is not explicitly mentioned in the provided context, but it is mentioned in the Leave Approval Process section that all leave requests must be submitted through the centralized HR Leave Portal.",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q027",
+    "expected_answer": "Maternity leave is 26 weeks of paid leave, available to female employees, with approval from the HR Head and Department Head. \nPaternity leave is 4 weeks of paid leave, available to all male employees upon the birth or adoption of a child, with approval from the reporting manager.",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q028",
+    "expected_answer": "The different types of leave available to employees are:\n\n1. Casual Leave\n2. Sick Leave\n3. Earned Leave (also known as Paid Time Off or PTO)\n4. Maternity Leave\n5. Paternity Leave",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q029",
+    "expected_answer": "The leave approval workflow from application to final approval is as follows:\n\n1. Employees submit leave requests through the centralized HR Leave Portal.\n2. For planned leaves, requests must be submitted at least two weeks in advance.\n3. For unplanned leaves, employees must notify their immediate supervisor via email or Slack as soon as possible, and formally apply for the leave in the portal within 24 hours of returning to work.\n4. The leave request is then reviewed and approved at the discretion of the reporting manager.",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q030",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q031",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q032",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q033",
+    "expected_answer": "No expected documents specified. Out of domain.",
+    "expected_documents": [],
+    "expected_pages": []
+  },
+  {
+    "id": "Q034",
+    "expected_answer": "No expected documents specified. Out of domain.",
+    "expected_documents": [],
+    "expected_pages": []
+  },
+  {
+    "id": "Q035",
+    "expected_answer": "Based on the provided document context, here is a comprehensive summary of the company's leave policy:\n\n**Eligibility:** All full-time and part-time employees are eligible for leave benefits, while contract employees and interns may have different leave structures as specified in their respective contracts.\n\n**Types of Leave:**\n\n1. **Casual Leave:** 12 leaves per year, credited at the beginning of each calendar year, pro-rated for mid-year joiners. Cannot be carried forward or encashed.\n2. **Sick Leave:** 10 days per calendar year, can be taken for personal illness, medical appointments, or to care for an immediate family member. A valid medical certificate is required for sick leave extending beyond 3 consecutive working days. Cannot be encashed but can be carried forward up to 20 days.\n3. **Earned Leave (EL/PTO):** 20 days per calendar year, accrued at a rate of 1.66 days per month. Up to 10 days can be carried forward to the next calendar year. Can be encashed at the time of separation from the company, subject to a maximum cap of 30 days.\n4. **Maternity Leave:** 26 weeks of paid leave, in accordance with the Maternity Benefit Act. Must be approved by the HR Head and the respective Department Head.\n5. **Paternity Leave:** 4 weeks of paid leave, available to all male employees upon the birth or adoption of a child. Must be utilized within the first 6 months of the child's birth or placement for adoption.\n\n**Leave Approval Process:**\n\n* All leave requests must be submitted through the centralized HR Leave Portal.\n* Planned leaves (such as Earned Leave) must be submitted at least two weeks in advance.\n* Unplanned leaves (such as Sick Leave or emergency Casual Leave) must be notified to the immediate supervisor via email or Slack as soon as possible, and formally applied for in the portal within 24 hours of returning to work.\n\n**Additional Information:**\n\n* Interns are not eligible for remote work and must work from the Bengaluru office.\n* Employees can request flexible working arrangements or extended remote work after returning from maternity leave, subject to managerial approval.",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q053",
+    "expected_answer": "No expected documents specified. Out of domain.",
+    "expected_documents": [],
+    "expected_pages": []
+  },
+  {
+    "id": "Q054",
+    "expected_answer": "No expected documents specified. Out of domain.",
+    "expected_documents": [],
+    "expected_pages": []
+  },
+  {
+    "id": "Q056",
+    "expected_answer": "Passwords must be at least 14 characters long, contain numbers, symbols, and be changed every 90 days.",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q057",
+    "expected_answer": "Every 90 days.",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q058",
+    "expected_answer": "Portable storage devices, such as USB drives, are blocked by default unless an explicit exception is granted by the CISO.",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q059",
+    "expected_answer": "Caution must be exercised when opening attachments or clicking on links from unknown senders to prevent phishing attacks.",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q060",
+    "expected_answer": "Employees must report incidents to the IT Security Desk by calling ext. 5555 or emailing security-alert@technova.com.",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q061",
+    "expected_answer": "Passwords must be at least 14 characters long, contain numbers, and symbols, and be changed every 90 days.",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q062",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q063",
+    "expected_answer": "Any violation of the IT Security Policy, whether in the office, during remote work, or at company-sponsored events, will be met with strict disciplinary action, up to and including termination of employment.",
+    "expected_documents": [
+      "IT_Security.pdf",
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q064",
+    "expected_answer": "Portable storage devices, such as USB drives, are blocked by default unless an explicit exception is granted by the CISO.",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q065",
+    "expected_answer": "All data at rest on company-issued laptops is fully encrypted using standard disk encryption technologies (BitLocker for Windows, FileVault for macOS). Additionally, data classification labels (Public, Internal, Confidential, Restricted) must be applied to all documents.",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q066",
+    "expected_answer": "Any suspected security incident, including lost or stolen laptops, suspicious emails, or unauthorized access attempts, must be reported immediately to the IT Security Desk by:\n\n1. Calling ext. 5555\n2. Emailing security-alert@technova.com\n\nDo not attempt to investigate or remediate a suspected cyber attack on your own, as this may destroy critical forensic evidence.",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q067",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q068",
+    "expected_answer": "Based on the provided document context, the complete access control policy for company systems is as follows:\n\n1. **Password Policy**: \n   - Passwords must be at least 14 characters long, contain numbers, symbols, and be changed every 90 days.\n   - Multi-Factor Authentication (MFA) is strictly mandatory for accessing all TechNova internal systems.\n\n2. **Device Usage**:\n   - No Bring Your Own Device (BYOD) is allowed; company-issued laptops must be used for all business activities.\n   - Laptops must be locked when unattended.\n\n3. **VPN Access**:\n   - The Enterprise Virtual Private Network (VPN) must be used at all times when working remotely or connecting from public Wi-Fi networks.\n   - Split tunneling is disabled by default to prevent data leakage.\n\n4. **Data Security**:\n   - All data at rest on company-issued laptops is fully encrypted using standard disk encryption technologies.\n   - Data classification labels (Public, Internal, Confidential, Restricted) must be applied to all documents.\n\n5. **Incident Reporting**:\n   - Any suspected security incident, including lost or stolen laptops, suspicious emails, or unauthorized access attempts, must be reported immediately to the IT Security Desk.\n\nNote: The provided document does not explicitly mention a comprehensive access control policy, but these points collectively form the access control policy for company systems.",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q069",
+    "expected_answer": "According to the provided documents, employees are responsible for maintaining information security as follows:\n\n- Adhering to the IT Security Policy at all times.\n- Using passwords that are at least 14 characters long, contain numbers and symbols, and are changed every 90 days.\n- Enabling Multi-Factor Authentication (MFA) for accessing all TechNova internal systems.\n- Not sharing their passwords with colleagues, contractors, or IT support staff.\n- Reporting any suspected security incidents, including lost or stolen devices, or suspected phishing attempts, to the IT Security Desk immediately.\n- Using company-issued laptops and not Bring Your Own Device (BYOD).\n- Ensuring they have a quiet, secure environment and a stable internet connection during remote work days.\n- Not working from public spaces (like cafes) while handling sensitive data due to security risks.",
+    "expected_documents": [
+      "IT_Security.pdf",
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q070",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q071",
+    "expected_answer": "Employees must not install unauthorized software, which includes games or personal software, on their company-issued laptops.",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q072",
+    "expected_answer": "No, under no circumstances should an employee share their password with colleagues, contractors, or IT support staff.",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q073",
+    "expected_answer": "No expected documents specified. Out of domain.",
+    "expected_documents": [],
+    "expected_pages": []
+  },
+  {
+    "id": "Q074",
+    "expected_answer": "No expected documents specified. Out of domain.",
+    "expected_documents": [],
+    "expected_pages": []
+  },
+  {
+    "id": "Q075",
+    "expected_answer": "As a new employee, you are expected to adhere to the following key points of the IT Security Policy:\n\n1. **Password Policy**: Use a password that is at least 14 characters long, contains numbers and symbols, and is changed every 90 days. Do not share your password with anyone.\n2. **Email Usage**: Use corporate email responsibly, do not use it for personal commercial activities, and exercise caution when opening attachments or clicking on links from unknown senders.\n3. **VPN Access**: Use the Enterprise Virtual Private Network (VPN) when working remotely or connecting from public Wi-Fi networks.\n4. **Device Usage**: Use the company-issued laptop for all business activities, lock it when unattended, and do not install unauthorized software or disable the endpoint detection and response (EDR) agent.\n5. **Data Security**: Do not upload corporate data to unauthorized public cloud storage services or generative AI tools without an enterprise agreement. Encrypt data at rest on company-issued laptops and apply data classification labels to all documents.\n6. **Incident Reporting**: Report suspected security incidents, including lost or stolen laptops, suspicious emails, or unauthorized access attempts, immediately to the IT Security Desk.\n7. **General**: Familiarize yourself with the approved list of software in Appendix A and request explicit CISO approval for any software not listed.\n\nRemember to use the company-approved password manager to generate and securely store your credentials, and use Multi-Factor Authentication (MFA) to access all TechNova internal systems.",
+    "expected_documents": [
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q076",
+    "expected_answer": "The immediate reporting manager must approve domestic business travel.",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q077",
+    "expected_answer": "The respective Vice President and the CEO must approve international business travel.",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q078",
+    "expected_answer": "Employees should submit travel expense claims through the Concur portal within 15 days of returning from the trip.",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q079",
+    "expected_answer": "Expense claims must be submitted within 15 days of returning from the trip.",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q080",
+    "expected_answer": "Employees should utilize the corporate travel desk for all bookings to ensure compliance with duty-of-care requirements, and for domestic travel, airport transfers should utilize authorized cab aggregators like Ola or Uber, using the corporate billing profile.",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q081",
+    "expected_answer": "The complete business travel approval process is as follows:\n\n1. Domestic travel: \n   - Bookings must be made at least 7 days in advance.\n   - Employees must use TechNova preferred airlines for flights.\n   - Approval is required from the immediate reporting manager through the Concur portal.\n\n2. International travel:\n   - Requires extensive justification and pre-approval.\n   - Flights exceeding 8 hours may be booked in Premium Economy, subject to VP approval.\n   - Business class is strictly reserved for Executive Leadership (C-Suite) or specific client-mandated travel.\n   - Approval must be granted by the respective Vice President and the CEO through the Concur portal.\n\n3. Expense claims:\n   - Must be submitted within 15 days of returning from the trip through the Concur portal.\n   - Claims submitted after 30 days will be rejected unless an exceptional circumstance is documented and approved by HR.",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q082",
+    "expected_answer": "Hotel accommodations are reimbursed based on the following criteria:\n\n- For domestic travel, the standard daily hotel cap is INR 5000 for Tier-1 cities and INR 3500 for Tier-2 cities.\n- For international travel, hotel caps are defined dynamically based on the destination city's cost of living index (e.g., $150/night for North America, 120 Euros/night for Europe).\n- If a preferred hotel is unavailable, employees may book alternative accommodation within the stated limits, but a justification must be provided.",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q083",
+    "expected_answer": "Based on the provided document context, the following travel expenses are reimbursable:\n\n1. Domestic air travel booked at least 7 days in advance using TechNova preferred airlines.\n2. Train travel in 2-Tier or 3-Tier AC.\n3. Road travel via personal vehicle at a standard rate of INR 10 per kilometer, subject to prior approval and submission of toll receipts.\n4. Airport transfers using authorized cab aggregators like Ola or Uber, using the corporate billing profile.\n5. Visa application fees, travel insurance, and necessary vaccinations for international travel.\n6. Hotel expenses booked using the corporate travel desk's preferred hotel partners, up to the stated daily hotel caps.\n7. Food and incidental expenses during business travel, covered by the daily per diem allowance.\n8. Actual expenses for business dinners with clients, subject to the client entertainment policy.\n\nThe following travel expenses are not reimbursable or require special approval:\n\n1. Flights exceeding 8 hours of continuous travel, unless booked in Premium Economy with VP approval.\n2. Business class travel, except for Executive Leadership (C-Suite) or specific client-mandated travel.\n3. Hotel expenses exceeding the stated daily hotel caps.\n4. Food expenses exceeding the daily per diem allowance, unless itemized receipts are submitted for business dinners with clients.",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q084",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q085",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q086",
+    "expected_answer": "Based on the provided document context, the complete travel reimbursement workflow from booking to payment is as follows:\n\n1. **Booking**: Domestic travel must be booked at least 7 days in advance, while international travel requires extensive justification and pre-approval.\n2. **Approval**: Domestic travel requires approval from the immediate reporting manager, while international travel requires approval from the respective Vice President and the CEO.\n3. **Travel**: Employees must use TechNova preferred airlines, hotels, and authorized cab aggregators for domestic travel, and the corporate travel desk for international travel.\n4. **Expense Claim**: Employees must submit all travel expense receipts through the Concur portal within 15 days of returning from the trip.\n5. **Approval of Expense Claim**: Expense claims submitted after 30 days will be rejected unless an exceptional circumstance is documented and approved by HR.\n6. **Reimbursement**: Approved reimbursements will be credited directly to the employee's salary account in the subsequent payroll cycle.",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q087",
+    "expected_answer": "For domestic travel, approval is required from the immediate reporting manager. \n\nFor international travel, approval must be granted by the respective Vice President and the CEO.",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q088",
+    "expected_answer": "For international travel exceeding 8 hours of continuous travel, employees may book flights in Premium Economy, subject to VP approval.",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q089",
+    "expected_answer": "No, economy class is the standard for all domestic air travel, regardless of employee level.",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q090",
+    "expected_answer": "As a newly joined employee at TechNova Solutions Pvt. Ltd., here is a summary of the Travel Policy:\n\n**Domestic Travel:**\n\n- Book flights at least 7 days in advance using TechNova preferred airlines.\n- Economy class is the standard for all domestic air travel.\n- Reimbursement for train travel is approved for 2-Tier or 3-Tier AC.\n- Road travel via personal vehicle is reimbursed at INR 10 per kilometer, subject to prior approval and submission of toll receipts.\n- Airport transfers should use authorized cab aggregators like Ola or Uber.\n\n**International Travel:**\n\n- Requires extensive justification and pre-approval.\n- Flights exceeding 8 hours may be booked in Premium Economy, subject to VP approval.\n- Business class is reserved for Executive Leadership (C-Suite) or specific client-mandated travel.\n- Visa application fees, travel insurance, and necessary vaccinations will be fully reimbursed.\n- Employees must use the corporate travel desk for all bookings.\n\n**Hotel Reimbursement:**\n\n- Accommodation should be booked using the corporate travel desk's preferred hotel partners.\n- Standard daily hotel caps are INR 5000 for Tier-1 cities and INR 3500 for Tier-2 cities.\n- For international travel, hotel caps are defined dynamically based on the destination city's cost of living index.\n\n**Food Allowance:**\n\n- TechNova provides a daily per diem allowance for food and incidental expenses during business travel.\n- Domestic per diem is INR 1000 per day.\n- International per diem varies by region but averages $60 or 50 Euros per day.\n- Per diem allowances are automatically calculated based on the travel dates.\n\n**Approval Workflow:**\n\n- Domestic travel requires approval from the immediate reporting manager.\n- International travel requires approval from the respective Vice President and the CEO.\n- Expense claims must be submitted within 15 days of returning from the trip.\n- Approved reimbursements will be credited directly to the employee's salary account in the subsequent payroll cycle.",
+    "expected_documents": [
+      "Travel_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q091",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q092",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q093",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q094",
+    "expected_answer": "The document does not provide information on who approves employee expense reimbursement requests.",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q095",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q096",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q097",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q098",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q099",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q100",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Expense_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q111",
+    "expected_answer": "According to the Leave Policy document (Page 6) and the Employee Handbook (Page 12), maternity leave must be approved by the HR Head and the respective Department Head.",
+    "expected_documents": [
+      "Leave_Policy.pdf",
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q113",
+    "expected_answer": "Any violation of the IT Security Policy, whether in the office, during remote work, or at company-sponsored events, will be met with strict disciplinary action, up to and including termination of employment.",
+    "expected_documents": [
+      "IT_Security.pdf",
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q114",
+    "expected_answer": "Submit all travel expense receipts through the Concur portal within 15 days of return.",
+    "expected_documents": [
+      "Travel_Policy.pdf",
+      "Expense_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q116",
+    "expected_answer": "Report the incident immediately to the IT Security Desk by calling ext. 5555 or emailing security-alert@technova.com. Do not attempt to investigate or remediate the incident on your own.",
+    "expected_documents": [
+      "Travel_Policy.pdf",
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q118",
+    "expected_answer": "To resign, submit a formal email to your manager and hr@technova.com with a 30-day notice period. \n\nProbation ends after exactly 6 months from the date of joining, pending a successful performance review.\n\nOn the final day, the employee must return all company property, including laptops and ID badges, to receive their full and final settlement.",
+    "expected_documents": [
+      "Employee_Handbook.pdf",
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q120",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Travel_Policy.pdf",
+      "Expense_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q123",
+    "expected_answer": "For leave requests, the approval process is as follows:\n\n- All leave requests must be submitted through the centralized HR Leave Portal.\n- For planned leaves, requests must be submitted at least two weeks in advance.\n- For unplanned leaves, employees must notify their immediate supervisor via email or Slack as soon as possible, and formally apply for the leave in the portal within 24 hours of returning to work. Approval is at the discretion of the reporting manager.\n\nFor travel requests, the approval process is as follows:\n\n- Domestic travel requires approval from the immediate reporting manager.\n- International travel requires approval from the respective Vice President and the CEO.\n\nFor expense claims, the approval process is as follows:\n\n- Expense claims must be submitted within 15 days of returning from the trip.\n- Claims submitted after 30 days will be rejected unless an exceptional circumstance is documented and approved by HR.\n- Approved reimbursements will be credited directly to the employee's salary account in the subsequent payroll cycle.\n\nIn summary, the approval process for leave requests is primarily at the discretion of the reporting manager, while travel requests require approval from a higher level of management (immediate reporting manager for domestic travel and VP and CEO for international travel). Expense claims require submission within a specific timeframe and approval from HR in case of exceptional circumstances.",
+    "expected_documents": [
+      "Leave_Policy.pdf",
+      "Travel_Policy.pdf",
+      "Expense_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q124",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Employee_Handbook.pdf",
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q125",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Travel_Policy.pdf",
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q126",
+    "expected_answer": "Based on the provided documents, here is a comparison of maternity leave, sick leave, and emergency leave with respect to approval and documentation:\n\n- **Maternity Leave**: Must be approved by the HR Head and the respective Department Head. No specific documentation mentioned.\n- **Sick Leave**: No specific approval process mentioned, but a valid medical certificate from a registered medical practitioner is required for sick leave extending beyond 3 consecutive working days.\n- **Emergency Leave (Casual Leave)**: No specific approval process mentioned, but employees must notify their immediate supervisor via email or Slack as soon as possible, and formally apply for the leave in the portal within 24 hours of returning to work.\n\nNote: The context does not explicitly mention \"emergency leave\" as a separate type of leave. However, it is implied that Casual Leave can be taken for unforeseen circumstances, personal emergencies, or brief personal matters.",
+    "expected_documents": [
+      "Leave_Policy.pdf",
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q127",
+    "expected_answer": "To prepare for an international business trip while following IT security guidelines, an employee should:\n\n1. Use the corporate travel desk for all bookings to ensure compliance with duty-of-care requirements.\n2. Utilize the Enterprise Virtual Private Network (VPN) when working remotely or connecting from public Wi-Fi networks.\n3. Ensure their laptop is fully encrypted using standard disk encryption technologies (BitLocker for Windows, FileVault for macOS).\n4. Not upload corporate data to unauthorized public cloud storage services or generative AI tools without an enterprise agreement with TechNova.\n5. Report any suspected security incidents, including lost or stolen laptops, to the IT Security Desk immediately.",
+    "expected_documents": [
+      "Travel_Policy.pdf",
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q128",
+    "expected_answer": "The complete workflow from business travel approval to reimbursement payment is as follows:\n\n1. **Domestic Travel**: \n   - Employee books travel at least 7 days in advance using TechNova preferred airlines or authorized cab aggregators.\n   - Employee submits travel request through the internal Concur portal for approval from their immediate reporting manager.\n   - Manager approves or rejects the request.\n   - Employee travels and submits expense claims through the Concur portal within 15 days of returning from the trip.\n   - Expense claims are automatically approved and reimbursed directly to the employee's salary account in the subsequent payroll cycle.\n\n2. **International Travel**: \n   - Employee books travel through the corporate travel desk for all bookings to ensure compliance with duty-of-care requirements.\n   - Employee submits travel request through the internal Concur portal for approval from the respective Vice President and the CEO.\n   - VP and CEO approve or reject the request.\n   - Employee travels and submits expense claims through the Concur portal within 15 days of returning from the trip.\n   - Expense claims are automatically approved and reimbursed directly to the employee's salary account in the subsequent payroll cycle.",
+    "expected_documents": [
+      "Travel_Policy.pdf",
+      "Expense_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q131",
+    "expected_answer": "Leave is outlined in the Leave Policy of TechNova Solutions Pvt. Ltd. and includes various types such as Casual Leave, Sick Leave, Earned Leave, Maternity Leave, and Paternity Leave.",
+    "expected_documents": [
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q133",
+    "expected_answer": "No expected documents specified. Out of domain.",
+    "expected_documents": [],
+    "expected_pages": []
+  },
+  {
+    "id": "Q134",
+    "expected_answer": "No expected documents specified. Out of domain.",
+    "expected_documents": [],
+    "expected_pages": []
+  },
+  {
+    "id": "Q135",
+    "expected_answer": "No expected documents specified. Out of domain.",
+    "expected_documents": [],
+    "expected_pages": []
+  },
+  {
+    "id": "Q136",
+    "expected_answer": "No expected documents specified. Out of domain.",
+    "expected_documents": [],
+    "expected_pages": []
+  },
+  {
+    "id": "Q137",
+    "expected_answer": "No expected documents specified. Out of domain.",
+    "expected_documents": [],
+    "expected_pages": []
+  },
+  {
+    "id": "Q138",
+    "expected_answer": "No expected documents specified. Out of domain.",
+    "expected_documents": [],
+    "expected_pages": []
+  },
+  {
+    "id": "Q139",
+    "expected_answer": "No expected documents specified. Out of domain.",
+    "expected_documents": [],
+    "expected_pages": []
+  },
+  {
+    "id": "Q036",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q037",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q038",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q039",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q040",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q041",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q042",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q043",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q044",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q045",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q046",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q047",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q048",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q049",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q050",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q051",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q052",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q055",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q101",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q102",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q103",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q104",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q105",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q106",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q107",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q108",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q109",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q110",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q112",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf",
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q115",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Travel_Policy.pdf",
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q117",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf",
+      "Leave_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q119",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf",
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q121",
+    "expected_answer": "Based on the provided document context, an employee must do the following before going on long maternity leave:\n\n1. The employee must notify their immediate supervisor and the HR department as soon as possible, preferably before the start of the workday, if they are unable to report to work due to unforeseen circumstances (Attendance policy, Page 11).\n2. The employee must submit a leave request through the centralized HR Leave Portal at least two weeks in advance, except in emergencies (Leave Approval Process, Page 8).\n3. For maternity leave, the employee must obtain approval from the HR Head and the respective Department Head (Maternity Leave, Page 6).\n4. The employee must submit a formal application for maternity leave in the HR Leave Portal within 24 hours of returning to work after taking unplanned leave (Leave Approval Process, Page 8).\n5. The employee may also request flexible working arrangements or extended remote work, subject to managerial approval, upon returning from maternity leave (Maternity Leave, Page 6).",
+    "expected_documents": [
+      "Leave_Policy.pdf",
+      "Employee_Handbook.pdf",
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q122",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "HR_Policy.pdf",
+      "Employee_Handbook.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q129",
+    "expected_answer": "Before beginning hybrid work, a new employee should read the following policies:\n\n1. Working Hours (Page 10) - to understand the standard working hours, core collaboration hours, and remote work expectations.\n2. Attendance (Page 11) - to understand the importance of punctuality and consistent attendance, and the procedures for reporting absences.\n3. Remote Work (Page 18) - to understand the expectations for remote work, including the requirement to have a quiet, secure environment and a stable internet connection, and the prohibition on working from public spaces while handling sensitive data.",
+    "expected_documents": [
+      "Employee_Handbook.pdf",
+      "HR_Policy.pdf",
+      "IT_Security.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q130",
+    "expected_answer": "Based on the provided document context, the following are the company responsibilities an employee has regarding leave, travel, security, and workplace conduct:\n\n**Leave:**\n\n- Employees must submit all leave requests through the internal portal at least two weeks in advance, except in emergencies (Page 12).\n- Employees must return all company property, including laptops and ID badges, on the final day of employment to receive their full and final settlement (Page 21).\n- Employees are entitled to 20 days of Earned Leave (PTO), 12 days of Casual Leave, and 10 days of Sick Leave per calendar year (Page 12).\n- Employees can carry forward up to 10 days of earned leave to the next calendar year (Page 12).\n- Employees must provide a valid medical certificate from a registered medical practitioner for sick leave extending beyond 3 consecutive working days (Page 4).\n\n**Travel:**\n\n- Employees must submit all travel expense receipts through the Concur portal within 15 days of return (Page 23).\n- All international travel must be approved by the VP of Finance and the CEO (Page 23).\n\n**Security:**\n\n- Employees must adhere to the IT Security Policy at all times (Page 17).\n- Employees must use the company-issued laptop and not Bring Your Own Device (BYOD) (Page 17).\n- Employees must report any lost or stolen devices, or suspected phishing attempts, to the IT Security Desk immediately (Page 17).\n- Employees must ensure they have a quiet, secure environment and a stable internet connection during remote work days (Page 18).\n- Employees must remain online and responsive on Slack and email during core working hours (Page 18).\n\n**Workplace Conduct:**\n\n- Employees must behave in a professional, respectful, and ethical manner at all times (Page 14).\n- Employees must avoid any conflicts of interest and act in the best interests of the company (Page 14).\n- Employees must not engage in workplace harassment, discrimination, or bullying (Page 14).\n- Employees must follow the company's Code of Conduct, which includes a zero-tolerance policy for workplace misconduct (Page 14).\n- Employees must adhere to the company's IT Usage Policy, which includes restrictions on downloading unauthorized software and accessing inappropriate content (Page 16).",
+    "expected_documents": [
+      "Employee_Handbook.pdf",
+      "Leave_Policy.pdf",
+      "Travel_Policy.pdf",
+      "IT_Security.pdf",
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q132",
+    "expected_answer": "Information not found in the expected documents.",
+    "expected_documents": [
+      "Travel_Policy.pdf",
+      "HR_Policy.pdf"
+    ],
+    "expected_pages": []
+  },
+  {
+    "id": "Q140",
+    "expected_answer": "Based on the provided documents, here's a comprehensive overview of the company's policies:\n\n**1. Working Hours Policy:**\n- TechNova operates on a Hybrid work model, allowing full-time employees to work 3 days from the Bengaluru office and 2 days remotely per week.\n- Standard working hours are 9:00 AM to 6:00 PM IST, Monday through Friday, inclusive of a one-hour lunch break.\n- Core collaboration hours are between 10:30 AM and 4:00 PM; during this time, all employees must be available for meetings and synchronized work.\n\n**2. Attendance Policy:**\n- Punctuality and consistent attendance are critical to operational success.\n- Employees must log their daily attendance through the HR portal by 9:30 AM.\n- Repeated unauthorized absences or unpunctuality may result in disciplinary action.\n\n**3. Leave Policy:**\n- TechNova recognizes the importance of work-life balance and offers a comprehensive leave policy.\n- Employees are entitled to:\n  - 20 days of Earned Leave (PTO)\n  - 12 days of Casual Leave\n  - 10 days of Sick Leave per calendar year\n- Maternity leave is provided for 26 weeks, and Paternity leave for 4 weeks.\n- Bereavement leave of up to 5 days is available.\n- All leave requests must be submitted through the internal portal at least two weeks in advance, except in emergencies.\n\n**4. Benefits Policy:**\n- TechNova offers a robust benefits package, including:\n  - Comprehensive health insurance covering the employee, spouse, and up to two children\n  - Provident fund (PF) matching program\n  - Annual health check-ups\n  - Monthly internet allowance for remote work days\n  - Fully subsidized cafeteria, wellness room, and on-site gymnasium\n  - Employee Assistance Program (EAP) for mental health and legal counseling services\n\n**5. Code of Conduct Policy:**\n- The TechNova Code of Conduct mandates that all employees behave in a professional, respectful, and ethical manner at all times.\n- A zero-tolerance policy for workplace harassment, discrimination, and bullying is in place.\n- Employees must avoid any conflicts of interest and act in the best interests of the company.\n\n**6. Dress Code Policy:**\n- TechNova promotes a 'Smart Casual' dress code.\n- 'Business Professional' attire is required when meeting with clients or attending formal corporate events.\n- Offensive graphics, overly revealing clothing, and beachwear are not permitted in the office.\n- Employees must ensure they are professionally presented from the waist up during remote video calls.\n\n**7. IT Usage Policy:**\n- Company-provided IT resources, including laptops, software, and networks, are to be used strictly for business purposes.\n- TechNova monitors network traffic to ensure compliance with security standards.\n- Employees are prohibited from downloading unauthorized software, accessing inappropriate content, or using company resources for personal commercial gain.\n\n**8. Security Policy:**\n- Information security is everyone's responsibility.\n- Employees must adhere to the IT Security Policy at all times.\n- Passwords must be at least 14 characters long, contain numbers, symbols, and be changed every 90 days.\n- Multi-Factor Authentication (MFA) is mandatory.\n- Bring Your Own Device (BYOD) is strictly prohibited; employees must use the company-issued laptop.\n\n**9. Remote Work Policy:**\n- The Hybrid model allows for 2 days of remote work per week for full-time employees.\n- Interns are not eligible for remote work and must work from the Bengaluru office.\n- During remote days, employees must ensure they have a quiet, secure environment and a stable internet connection.\n- Working from public spaces (like cafes) while handling sensitive data is prohibited due to security risks.\n\n**10. Performance Policy:**\n- Performance Appraisals at TechNova are conducted bi-annually, in June and December, using the Objective and Key Results (OKR) framework.\n- These reviews are designed to be constructive, focusing on employee growth, skill development, and alignment with company goals.\n- Promotions, salary increments, and performance bonuses are tied to the December review cycle.\n- Regular 1-on-1 feedback sessions with managers are strongly encouraged.\n\n**11. Training Policy:**\n- Continuous Learning is a core pillar of TechNova.\n- The Learning & Development (L&D) department provides access to various online courses, technical certifications, and soft-skills workshops.\n- Employees are allotted a $500 annual training budget to pursue professional development opportunities relevant to their roles.\n- Monthly 'Tech Talks' are hosted where internal experts share knowledge on emerging AI trends.\n\n**12. Exit Process Policy:**\n- Employees must follow the standard exit process when leaving TechNova.\n- A 30-day notice period is required, and a formal email must be submitted to the manager and hr@technova.com.\n- Probation ends after exactly 6 months from the date of joining, pending a successful performance review.\n- On the final day, the employee must return all company property, including laptops and ID badges, to receive their full and final settlement.\n\n**13. Emergency Contacts Policy:**\n- In the event of a medical emergency or security threat at the Bengaluru office, employees must immediately contact the Building Security Desk or the HR Emergency Hotline at +91-80-5555-0000.\n- For IT Security incidents, contact the IT response team.\n- All employees are required to keep their emergency contact information updated in the HR portal.\n\n**14. FAQ Policy:**\n- The company maintains an FAQ section in the Employee Handbook, addressing common questions and providing clarity on various policies.\n\n**15. Other Policies:**\n- Information not found in the provided documents includes:\n  - Travel policy (only mentions that international travel must be approved by the VP of Finance and the CEO)\n  - Confidentiality and non-disclosure agreements\n  - Intellectual property policies\n  - Data protection and privacy policies\n  - Social media and online presence policies\n  - Employee recognition and reward policies\n  - Conflict of interest policies\n  - Whistleblower policies\n  - Disability and accommodation policies\n  - Family and medical leave policies\n  - Employee conduct and behavior policies\n  - Substance abuse and addiction policies\n  - Workplace safety and health policies\n  - Environmental policies\n  - Community involvement and volunteer policies\n  - Diversity, equity, and inclusion policies\n  - Employee engagement and feedback policies\n  - Performance management and disciplinary actions policies\n  - Severance and termination policies\n  - Post-employment obligations policies\n  - Other company-specific policies and procedures.",
+    "expected_documents": [
+      "Employee_Handbook.pdf",
+      "Leave_Policy.pdf",
+      "HR_Policy.pdf",
+      "IT_Security.pdf",
+      "Travel_Policy.pdf",
+      "Expense_Policy.pdf"
+    ],
+    "expected_pages": []
+  }
 ]

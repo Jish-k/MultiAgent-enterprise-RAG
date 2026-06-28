@@ -44,6 +44,8 @@ class PlannerAgent:
                     plan_dict["sub_queries"] = [question]
                 if "intent" not in plan_dict:
                     plan_dict["intent"] = "Unknown"
+                if "required_information" not in plan_dict or not isinstance(plan_dict["required_information"], list):
+                    plan_dict["required_information"] = []
                 return plan_dict
             except json.JSONDecodeError:
                 print(f"[PlannerAgent Warning] JSONDecodeError. Raw output: {content}")
@@ -53,5 +55,6 @@ class PlannerAgent:
         # Fallback if parsing completely fails
         return {
             "intent": "Unknown",
-            "sub_queries": [question]
+            "sub_queries": [question],
+            "required_information": []
         }
