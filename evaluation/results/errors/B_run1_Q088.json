@@ -1,0 +1,28 @@
+{
+  "Question": "How should employees manage travel expenses during long international trips?",
+  "Config": "B",
+  "Run": 1,
+  "Expected Answer": "For international travel exceeding 8 hours of continuous travel, employees may book flights in Premium Economy, subject to VP approval.",
+  "Generated Answer": "Employees should submit all travel expense receipts through the Concur portal within 15 days of return from the trip. They must also ensure that all international travel is approved by the VP of Finance and the CEO prior to the trip.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8",
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n5. Approval Workflow\nThe travel approval workflow is strictly enforced through the internal Concur portal.\nFor domestic travel, approval is required from the immediate reporting manager. For\ninternational travel, approval must be granted by the respective Vice President and\nthe CEO.\nExpense claims must be submitted within 15 days of returning from the trip. Claims\nsubmitted after 30 days will be rejected unless an exceptional circumstance is\ndocumented and approved by HR. Approved reimbursements will be credited directly\nto the employee's salary account in the subsequent payroll cycle.\nPage 7",
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\nTable of Contents\n1. Domestic Travel\n2. International Travel\n3. Hotel Reimbursement\n4. Food Allowance\n5. Approval Workflow\n6. FAQ\nPage 2",
+    "Travel & Expense Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1"
+  ],
+  "Planner Output": {
+    "intent": "IT Policy",
+    "sub_queries": [
+      "What are the guidelines for international travel expenses?",
+      "How do employees submit and track travel expense reports?"
+    ],
+    "required_information": [
+      "international travel policy",
+      "expense reporting process"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.15133150109466356,
+  "Failure Reason": "Low Final Accuracy Score: 0.15"
+}

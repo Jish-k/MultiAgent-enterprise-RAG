@@ -1,0 +1,17 @@
+{
+  "Question": "How should employees manage travel expenses during long international trips?",
+  "Config": "A",
+  "Run": 2,
+  "Expected Answer": "For international travel exceeding 8 hours of continuous travel, employees may book flights in Premium Economy, subject to VP approval.",
+  "Generated Answer": "This question is not listed in the FAQ section. However, based on the context, I can provide a general answer.\n\nSince the policy is effective from January 1, 2026, and the FAQ section does not provide a specific answer to this question, I would recommend referring to the general guidelines for international travel (Section 2) and the approval workflow (Section 5) for managing travel expenses during long international trips.\n\nHowever, a more precise answer would be to refer to the policy document for specific guidance on managing travel expenses during long international trips.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8",
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\nTable of Contents\n1. Domestic Travel\n2. International Travel\n3. Hotel Reimbursement\n4. Food Allowance\n5. Approval Workflow\n6. FAQ\nPage 2",
+    "Travel & Expense Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.3925989019330701,
+  "Failure Reason": "Low Final Accuracy Score: 0.39"
+}

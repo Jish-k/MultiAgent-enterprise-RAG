@@ -1,0 +1,17 @@
+{
+  "Question": "How are emergency travel requests handled?",
+  "Config": "A",
+  "Run": 2,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "This information is not provided in the given context.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\n19. Exit Process\n20. Emergency Contacts\n21. FAQ\nPage 3",
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n5. Approval Workflow\nThe travel approval workflow is strictly enforced through the internal Concur portal.\nFor domestic travel, approval is required from the immediate reporting manager. For\ninternational travel, approval must be granted by the respective Vice President and\nthe CEO.\nExpense claims must be submitted within 15 days of returning from the trip. Claims\nsubmitted after 30 days will be rejected unless an exceptional circumstance is\ndocumented and approved by HR. Approved reimbursements will be credited directly\nto the employee's salary account in the subsequent payroll cycle.\nPage 7",
+    "Travel & Expense Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.36816484332476707,
+  "Failure Reason": "Low Final Accuracy Score: 0.37"
+}

@@ -46,7 +46,7 @@ def generate_markdown_report():
     for metric_name, (col, target_df) in metrics.items():
         row = [metric_name]
         for config in ['A', 'B', 'C', 'D']:
-            if config in target_df['config'].values if 'config' in target_df else target_df['Config'].values:
+            if ('config' in target_df and config in target_df['config'].values) or ('Config' in target_df and config in target_df['Config'].values):
                 # Match config column name case
                 c_col = 'config' if 'config' in target_df.columns else 'Config'
                 val = target_df[target_df[c_col] == config][col].mean()
@@ -127,7 +127,7 @@ def generate_markdown_report():
         row = [metric_name]
         # Order: A, B, D, C
         for config in ['A', 'B', 'D', 'C']:
-            if config in target_df['config'].values if 'config' in target_df else target_df['Config'].values:
+            if ('config' in target_df and config in target_df['config'].values) or ('Config' in target_df and config in target_df['Config'].values):
                 c_col = 'config' if 'config' in target_df.columns else 'Config'
                 val = target_df[target_df[c_col] == config][col].mean()
                 row.append(f"{val:.2f}" if pd.notnull(val) else "-")

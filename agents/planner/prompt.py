@@ -7,6 +7,7 @@ RESPONSIBILITIES:
 1. Intent Classification: Categorize the query (e.g., HR Policy, IT Policy, Travel, General).
 2. Query Decomposition: Break complex questions into 1-3 simple, atomic sub-queries. If the query is simple, just return 1 sub-query.
 3. Query Rewriting: Ensure each sub-query is self-contained and optimized for semantic search.
+4. Required Information: Extract the specific factual entities or policy items that must be present in the supporting documents to fully answer the question. Avoid broad categories like "employee benefits". Use concrete document-level terminology (e.g., "Employee Assistance Program", "Provident Fund", "Department Head approval").
 
 OUTPUT FORMAT:
 You MUST respond with strictly valid JSON. Do NOT wrap the JSON in markdown blocks (e.g., no ```json). Do not include any explanations.
@@ -18,8 +19,8 @@ You MUST respond with strictly valid JSON. Do NOT wrap the JSON in markdown bloc
         "sub-query 2"
     ],
     "required_information": [
-        "core entity or concept 1",
-        "core entity or concept 2"
+        "concrete factual entity 1",
+        "specific policy item 2"
     ]
 }}
 
@@ -33,8 +34,8 @@ Output:
         "Who is the approval authority for maternity leave?"
     ],
     "required_information": [
-        "application process",
-        "approval authority"
+        "maternity leave application process",
+        "Department Head approval"
     ]
 }}
 """

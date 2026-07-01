@@ -1,0 +1,28 @@
+{
+  "Question": "How many unpaid leaves can an employee take every year?",
+  "Config": "D",
+  "Run": 1,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "Based on the provided context, there is no specific information about unpaid leaves. However, it can be inferred that Sick Leave is not explicitly mentioned as being paid or unpaid. \n\nIn the context of the provided information, it is not possible to determine the number of unpaid leaves an employee can take every year.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n2. Casual Leave\nEmployees are allowed 12 casual leaves per year. Casual leave is intended to\naccommodate unforeseen circumstances, personal emergencies, or brief personal\nmatters that require an employee's attention during standard working hours.\nCasual leave is credited at the beginning of each calendar year. For employees\njoining mid-year, casual leave is pro-rated based on the date of joining. Casual leave\ncannot be carried forward to the next calendar year and cannot be encashed.\nPage 4",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nLeaves\nTechNova recognizes the importance of work-life balance and offers a\ncomprehensive leave policy. Employees are entitled to 20 days of Earned Leave\n(PTO), 12 days of Casual Leave, and 10 days of Sick Leave per calendar year. Yes,\nup to 10 days of earned leave can be carried forward to the next calendar year.\nMaternity leave is provided for 26 weeks, and Paternity leave for 4 weeks. Maternity\nleave must be approved by the HR Head and the respective Department Head.\nBereavement leave of up to 5 days is available. All leave requests must be submitted\nthrough the internal portal at least two weeks in advance, except in emergencies.\nPage 13",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n7. Leave Approval Process\nAll leave requests must be submitted through the centralized HR Leave Portal. For\nplanned leaves (such as Earned Leave), requests must be submitted at least two\nweeks in advance to allow for adequate resource planning and handover.\nFor unplanned leaves (such as Sick Leave or emergency Casual Leave), employees\nmust notify their immediate supervisor via email or Slack as soon as possible, and\nformally apply for the leave in the portal within 24 hours of returning to work. Approval\nis at the discretion of the reporting manager.\nPage 9"
+  ],
+  "Planner Output": {
+    "intent": "HR Policy",
+    "sub_queries": [
+      "What are the types of unpaid leaves available to employees?",
+      "How many unpaid leaves can an employee take per year?"
+    ],
+    "required_information": [
+      "types of unpaid leaves",
+      "leave entitlement"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.40498534576142053,
+  "Failure Reason": "Low Final Accuracy Score: 0.40"
+}

@@ -1,0 +1,17 @@
+{
+  "Question": "Explain the complete onboarding process, including IT account creation and security responsibilities.",
+  "Config": "A",
+  "Run": 1,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "Based on the provided IT Security Policy, the complete onboarding process, including IT account creation and security responsibilities, can be inferred as follows:\n\n1. **Pre-Onboarding**:\n   - The employee is informed about the company's IT Security Policy, including password management and multi-factor authentication (MFA) requirements.\n\n2. **IT Account Creation**:\n   - Upon joining the company, the employee's IT account is created by the IT support staff.\n   - The employee is required to set a password that meets the policy's requirements (at least 14 characters long, contains numbers, symbols, and is changed every 90 days).\n   - The employee is encouraged to use the company-approved password manager to generate and securely store their credentials.\n\n3. **Multi-Factor Authentication (MFA) Setup**:\n   - The employee is required to set up MFA for accessing all TechNova internal systems, including the HR portal, email servers, and GitHub repositories.\n\n4. **Security Responsibilities**:\n   - The employee is responsible for maintaining the security of their IT account by:\n     - Not sharing their password with colleagues, contractors, or IT support staff.\n     - Changing their password every 90 days.\n     - Using the company-approved password manager to generate and securely store their credentials.\n   - The employee is also responsible for reporting any security incidents or concerns to the IT support staff.\n\n5. **Post-Onboarding**:\n   - The employee is expected to familiarize themselves with the company's IT Security Policy and adhere to its requirements.\n   - The IT support staff may conduct regular security audits to ensure that the employee is complying with the policy.",
+  "Retrieved Chunks": [
+    "IT Security Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n1. Password Policy\nThe foundation of our enterprise security begins with robust password management.\nPasswords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days. Under no circumstances should an employee share their\npassword with colleagues, contractors, or IT support staff.\nMulti-Factor Authentication (MFA) is strictly mandatory for accessing all TechNova\ninternal systems, including the HR portal, email servers, and GitHub repositories.\nEmployees are strongly encouraged to use the company-approved password\nmanager to generate and securely store their credentials.\nPage 3"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.33215555501529515,
+  "Failure Reason": "Low Final Accuracy Score: 0.33"
+}

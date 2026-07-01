@@ -1,0 +1,17 @@
+{
+  "Question": "Which business expenses are eligible for reimbursement?",
+  "Config": "A",
+  "Run": 3,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "Based on the provided context, the business expenses eligible for reimbursement are:\n\n1. Food and incidental expenses during business travel (covered by the per diem allowance).\n2. Actual expenses for business dinners with clients (subject to the client entertainment policy), provided an itemized receipt is submitted.\n\nAdditionally, hotel reimbursement is also mentioned in the policy, but it is not directly related to the question about which business expenses are eligible for reimbursement.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n4. Food Allowance\nTechNova provides a daily per diem allowance for food and incidental expenses\nduring business travel. The domestic per diem is INR 1000 per day. The international\nper diem varies by region but averages $60 or 50 Euros per day.\nPer diem allowances are automatically calculated based on the travel dates and do\nnot require the submission of individual food receipts. However, if an employee hosts\na business dinner with a client, the actual expenses can be claimed separately using\nan itemized receipt, subject to the client entertainment policy.\nPage 6",
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\nTable of Contents\n1. Domestic Travel\n2. International Travel\n3. Hotel Reimbursement\n4. Food Allowance\n5. Approval Workflow\n6. FAQ\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.3898708329522458,
+  "Failure Reason": "Low Final Accuracy Score: 0.39"
+}

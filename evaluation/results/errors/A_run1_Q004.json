@@ -1,0 +1,13 @@
+{
+  "Question": "What employee benefits are provided by the company?",
+  "Config": "A",
+  "Run": 1,
+  "Expected Answer": "Comprehensive health insurance covering the employee, spouse, and up to two children, \na provident fund (PF) matching program, annual health check-ups, \na monthly internet allowance for remote work days, \na fully subsidized cafeteria, \na wellness room, \nan on-site gymnasium, \nand access to the Employee Assistance Program (EAP) for mental health and legal counseling services.",
+  "Generated Answer": "ERROR: 'RankedChunk' object has no attribute 'text'",
+  "Retrieved Chunks": [],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.0,
+  "Failure Reason": "Exception: 'RankedChunk' object has no attribute 'text'\nTraceback (most recent call last):\n  File \"/Users/jishnusmacbook/Desktop/Internship/project/Enterprise-Agentic-RAG/evaluation/benchmark.py\", line 159, in run_benchmark\n    raw_out[\"retrieved_chunks\"] = [c.text for c in evidence_pkg.chunks]\n                                   ^^^^^^\n  File \"/Users/jishnusmacbook/Desktop/Internship/project/Enterprise-Agentic-RAG/venv/lib/python3.13/site-packages/pydantic/main.py\", line 1042, in __getattr__\n    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')\nAttributeError: 'RankedChunk' object has no attribute 'text'\n"
+}

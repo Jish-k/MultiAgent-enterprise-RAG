@@ -1,0 +1,29 @@
+{
+  "Question": "Does the company provide unlimited paid leave?",
+  "Config": "D",
+  "Run": 1,
+  "Expected Answer": "No expected documents specified. Out of domain.",
+  "Generated Answer": "No, the company does not provide unlimited paid leave. The policy outlines specific leave entitlements, including Earned Leave (20 days per calendar year), Sick Leave (10 days per calendar year), and Casual Leave (12 days per calendar year).",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n1. Purpose & Eligibility\nThe purpose of this Leave Policy is to outline the various types of leave available to\nemployees of TechNova Solutions Pvt. Ltd., the eligibility criteria for each, and the\nprocedure for requesting and approving leave.\nAll full-time and part-time employees are eligible for leave benefits as described in this\npolicy. Contract employees and interns may have different leave structures, as\nspecified in their respective contracts.\nPage 3",
+    "Leave Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n3. Sick Leave\nTechNova recognizes that employees may occasionally fall ill and require time off to\nrecover. Employees are granted 10 days of paid sick leave per calendar year.\nSick leave can be taken for personal illness, medical appointments, or to care for an\nimmediate family member who is unwell. A valid medical certificate from a registered\nmedical practitioner is required for sick leave extending beyond 3 consecutive working\ndays. Sick leave cannot be encashed but can be carried forward up to a maximum of\n20 days.\nPage 5",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nLeaves\nTechNova recognizes the importance of work-life balance and offers a\ncomprehensive leave policy. Employees are entitled to 20 days of Earned Leave\n(PTO), 12 days of Casual Leave, and 10 days of Sick Leave per calendar year. Yes,\nup to 10 days of earned leave can be carried forward to the next calendar year.\nMaternity leave is provided for 26 weeks, and Paternity leave for 4 weeks. Maternity\nleave must be approved by the HR Head and the respective Department Head.\nBereavement leave of up to 5 days is available. All leave requests must be submitted\nthrough the internal portal at least two weeks in advance, except in emergencies.\nPage 13"
+  ],
+  "Planner Output": {
+    "intent": "HR Policy",
+    "sub_queries": [
+      "What are the company's paid leave policies?",
+      "Is there a limit to the number of paid days off?"
+    ],
+    "required_information": [
+      "paid leave policies",
+      "leave limits"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.3043437538995633,
+  "Failure Reason": "Low Final Accuracy Score: 0.30"
+}

@@ -1,0 +1,33 @@
+{
+  "Question": "Compare maternity leave and paternity leave benefits.",
+  "Config": "C",
+  "Run": 1,
+  "Expected Answer": "Maternity leave is 26 weeks of paid leave, available to female employees, with approval from the HR Head and Department Head. \nPaternity leave is 4 weeks of paid leave, available to all male employees upon the birth or adoption of a child, with approval from the reporting manager.",
+  "Generated Answer": "Maternity leave benefits are more extensive than paternity leave benefits. Maternity leave is provided for 26 weeks, whereas paternity leave is provided for 4 weeks. Additionally, maternity leave requires approval from both the HR Head and the Department Head, whereas the provided information does not specify any approval requirements for paternity leave. However, it is worth noting that employees returning from maternity leave may request flexible working arrangements or extended remote work, which is not mentioned as an option for paternity leave.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n6. Paternity Leave\nTo support new fathers, TechNova offers 4 weeks of paid Paternity Leave. This leave\nis available to all male employees upon the birth or adoption of a child.\nPaternity leave must be utilized within the first 6 months of the child's birth or\nplacement for adoption. It can be taken in a single block or divided into two blocks of\n2 weeks each, subject to approval from the reporting manager.\nPage 8",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nLeaves\nTechNova recognizes the importance of work-life balance and offers a\ncomprehensive leave policy. Employees are entitled to 20 days of Earned Leave\n(PTO), 12 days of Casual Leave, and 10 days of Sick Leave per calendar year. Yes,\nup to 10 days of earned leave can be carried forward to the next calendar year.\nMaternity leave is provided for 26 weeks, and Paternity leave for 4 weeks. Maternity\nleave must be approved by the HR Head and the respective Department Head.\nBereavement leave of up to 5 days is available. All leave requests must be submitted\nthrough the internal portal at least two weeks in advance, except in emergencies.\nPage 13",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n5. Maternity Leave\nTechNova is committed to supporting its employees during significant life events.\nFemale employees are entitled to 26 weeks of paid Maternity Leave, in accordance\nwith the Maternity Benefit Act.\nMaternity leave must be approved by the HR Head and the respective Department\nHead. The leave can be availed starting up to 8 weeks before the expected date of\ndelivery. Employees returning from maternity leave may also request flexible working\narrangements or extended remote work, subject to managerial approval.\nPage 7",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\nTable of Contents\n1. Purpose & Eligibility\n2. Casual Leave\n3. Sick Leave\n4. Earned Leave\n5. Maternity Leave\n6. Paternity Leave\n7. Leave Approval Process\n8. FAQ\nPage 2"
+  ],
+  "Planner Output": {
+    "intent": "HR Policy",
+    "sub_queries": [
+      "What are the maternity leave benefits?",
+      "What are the paternity leave benefits?",
+      "How do the maternity and paternity leave benefits compare?"
+    ],
+    "required_information": [
+      "maternity leave duration",
+      "paternity leave duration",
+      "maternity leave pay",
+      "paternity leave pay",
+      "Employee Assistance Program",
+      "Provident Fund"
+    ]
+  },
+  "Confidence": 0.7729720364274419,
+  "ESS": 0.3333333333333333,
+  "Final Score": 0.4465745493485757,
+  "Failure Reason": "Low Final Accuracy Score: 0.45"
+}

@@ -1,0 +1,28 @@
+{
+  "Question": "When is the use of external storage devices permitted?",
+  "Config": "D",
+  "Run": 1,
+  "Expected Answer": "Portable storage devices, such as USB drives, are blocked by default unless an explicit exception is granted by the CISO.",
+  "Generated Answer": "The use of external storage devices, such as USB drives, is permitted when an explicit exception is granted by the CISO.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n4. Device Usage\nThe physical security of computing devices is paramount. No, Bring Your Own Device\n(BYOD) is strictly prohibited. You must use the company-issued laptop for all\nbusiness activities.\nLaptops must be locked when unattended, even within the Bengaluru headquarters.\nEmployees must not install unauthorized software or disable the endpoint detection\nand response (EDR) agent installed on their machines. Portable storage devices,\nsuch as USB drives, are blocked by default unless an explicit exception is granted by\nthe CISO.\nPage 6",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n7. FAQ\nQ: What is the password policy?\nA: Passwords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days.\nQ: Can I use my own laptop?\nA: No, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop.\nPage 9"
+  ],
+  "Planner Output": {
+    "intent": "IT Policy",
+    "sub_queries": [
+      "What are the company's policies on external storage devices?",
+      "When is the use of external storage devices allowed?"
+    ],
+    "required_information": [
+      "company policy",
+      "device type"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.47998452399717495,
+  "Failure Reason": "Low Final Accuracy Score: 0.48"
+}

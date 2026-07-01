@@ -1,0 +1,29 @@
+{
+  "Question": "What is the company's policy on employee promotions?",
+  "Config": "B",
+  "Run": 1,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "Based on the provided Key Facts, the company's policy on employee promotions is tied to the December review cycle, where promotions, salary increments, and performance bonuses are evaluated.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nPerformance\nPerformance Appraisals at TechNova are conducted bi-annually, in June and\nDecember, using the Objective and Key Results (OKR) framework. These reviews are\ndesigned to be constructive, focusing on employee growth, skill development, and\nalignment with company goals.\nPromotions, salary increments, and performance bonuses are tied to the December\nreview cycle. Regular 1-on-1 feedback sessions with managers are strongly\nencouraged.\nPage 20",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+    "Employee Handbook\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nPage 1",
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n5. Approval Workflow\nThe travel approval workflow is strictly enforced through the internal Concur portal.\nFor domestic travel, approval is required from the immediate reporting manager. For\ninternational travel, approval must be granted by the respective Vice President and\nthe CEO.\nExpense claims must be submitted within 15 days of returning from the trip. Claims\nsubmitted after 30 days will be rejected unless an exceptional circumstance is\ndocumented and approved by HR. Approved reimbursements will be credited directly\nto the employee's salary account in the subsequent payroll cycle.\nPage 7",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n7. Leave Approval Process\nAll leave requests must be submitted through the centralized HR Leave Portal. For\nplanned leaves (such as Earned Leave), requests must be submitted at least two\nweeks in advance to allow for adequate resource planning and handover.\nFor unplanned leaves (such as Sick Leave or emergency Casual Leave), employees\nmust notify their immediate supervisor via email or Slack as soon as possible, and\nformally apply for the leave in the portal within 24 hours of returning to work. Approval\nis at the discretion of the reporting manager.\nPage 9"
+  ],
+  "Planner Output": {
+    "intent": "HR Policy",
+    "sub_queries": [
+      "What are the criteria for employee promotions?",
+      "What is the process for requesting a promotion?"
+    ],
+    "required_information": [
+      "promotion criteria",
+      "promotion process"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.2605569927188869,
+  "Failure Reason": "Low Final Accuracy Score: 0.26"
+}

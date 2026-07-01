@@ -1,0 +1,33 @@
+{
+  "Question": "Compare phishing attacks and malware attacks, and explain how employees should respond to each.",
+  "Config": "C",
+  "Run": 2,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "Phishing attacks and malware attacks are two distinct types of cyber threats that employees should be aware of. Phishing attacks involve attempting to trick employees into revealing sensitive information or clicking on malicious links, whereas malware attacks involve the installation of malicious software on a device. To respond to phishing attacks, employees should exercise caution when opening attachments or clicking on links from unknown senders and report any suspected incidents to the IT Security Desk immediately. To respond to malware attacks, employees should not attempt to handle the situation themselves, as the IT department is equipped to handle and resolve such incidents. However, it is unclear from the provided facts how employees should respond to malware attacks, as there is no specific guidance on what actions to take in case of a malware attack.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n6. Incident Reporting\nRapid response is essential to mitigating the impact of a security breach. Any\nsuspected security incident, including lost or stolen laptops, suspicious emails, or\nunauthorized access attempts, must be reported immediately.\nEmployees must report incidents to the IT Security Desk by calling ext. 5555 or\nemailing security-alert@technova.com. Do not attempt to investigate or remediate a\nsuspected cyber attack on your own, as this may destroy critical forensic evidence.\nPage 8",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n2. Email Usage\nTechNova's email system is a critical business tool and must be used responsibly.\nEmployees are prohibited from using corporate email accounts for personal\ncommercial activities, political campaigning, or transmitting inappropriate content.\nCaution must be exercised when opening attachments or clicking on links from\nunknown senders to prevent phishing attacks. All outbound emails containing\nsensitive client information or proprietary source code must be encrypted using the\ninternal secure mailing gateway.\nPage 4",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7"
+  ],
+  "Planner Output": {
+    "intent": "IT Policy",
+    "sub_queries": [
+      "What are the characteristics of phishing attacks?",
+      "How do employees respond to phishing attacks?",
+      "What are the characteristics of malware attacks?",
+      "How do employees respond to malware attacks?"
+    ],
+    "required_information": [
+      "phishing attack characteristics",
+      "phishing response",
+      "malware attack characteristics",
+      "malware response"
+    ]
+  },
+  "Confidence": 0.6477110710237802,
+  "ESS": 0.0,
+  "Final Score": 0.25819987520571047,
+  "Failure Reason": "Low Final Accuracy Score: 0.26"
+}

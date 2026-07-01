@@ -1,0 +1,13 @@
+{
+  "Question": "Compare maternity leave and paternity leave benefits.",
+  "Config": "A",
+  "Run": 1,
+  "Expected Answer": "Maternity leave is 26 weeks of paid leave, available to female employees, with approval from the HR Head and Department Head. \nPaternity leave is 4 weeks of paid leave, available to all male employees upon the birth or adoption of a child, with approval from the reporting manager.",
+  "Generated Answer": "ERROR: 'RankedChunk' object has no attribute 'text'",
+  "Retrieved Chunks": [],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.0,
+  "Failure Reason": "Exception: 'RankedChunk' object has no attribute 'text'\nTraceback (most recent call last):\n  File \"/Users/jishnusmacbook/Desktop/Internship/project/Enterprise-Agentic-RAG/evaluation/benchmark.py\", line 159, in run_benchmark\n    raw_out[\"retrieved_chunks\"] = [c.text for c in evidence_pkg.chunks]\n                                   ^^^^^^\n  File \"/Users/jishnusmacbook/Desktop/Internship/project/Enterprise-Agentic-RAG/venv/lib/python3.13/site-packages/pydantic/main.py\", line 1042, in __getattr__\n    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')\nAttributeError: 'RankedChunk' object has no attribute 'text'\n"
+}

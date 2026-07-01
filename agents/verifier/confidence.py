@@ -1,9 +1,12 @@
 import sys
 import os
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 from agents.verifier.models import SupportedClaim
 from agents.retriever.models import RankedChunk
+from embeddings.embedder import get_embedding_model
 
 class ConfidenceCalculator:
     """
@@ -40,17 +43,51 @@ class ConfidenceCalculator:
         # 5. Evidence Sufficiency Score (ESS)
         ess = 1.0
         if required_info:
-            covered_reqs = set()
-            for req in required_info:
-                req_lower = req.lower()
-                # Try simple substring match
-                for claim in supported_claims:
-                    if req_lower in claim.claim.lower():
+            if not supported_claims:
+                ess = 0.0
+            else:
+                embedding_model = get_embedding_model()
+                covered_reqs = set()
+                
+                claim_texts = [claim.claim for claim in supported_claims]
+                claim_embeddings = embedding_model.embed_documents(claim_texts)
+                
+                print(f"\n--- ESS Debug ---")
+                for req in required_info:
+                    print(f"Requirement: {req}")
+                    req_lower = req.lower()
+                    
+                    # 1. Exact/Substring Match First
+                    exact_match_found = False
+                    for claim in supported_claims:
+                        if req_lower in claim.claim.lower():
+                            exact_match_found = True
+                            break
+                            
+                    if exact_match_found:
+                        print("  -> MATCHED (Exact/Substring)")
                         covered_reqs.add(req)
-                        break
-            
-            ess = len(covered_reqs) / len(required_info)
-        elif not supported_claims and required_info:
-            ess = 0.0
-            
+                        continue
+                        
+                    # 2. Semantic Similarity Fallback
+                    req_emb = embedding_model.embed_query(req)
+                    
+                    sims = cosine_similarity([req_emb], claim_embeddings)[0]
+                    best_idx = np.argmax(sims)
+                    best_sim = sims[best_idx]
+                    
+                    print(f"  -> Best Claim: {claim_texts[best_idx]}")
+                    print(f"  -> Similarity: {best_sim:.2f}")
+                    
+                    if best_sim > 0.75:
+                        print(f"  -> MATCHED (Semantic)")
+                        covered_reqs.add(req)
+                    else:
+                        print(f"  -> NOT MATCHED")
+                        
+                ess = len(covered_reqs) / len(required_info)
+                print(f"ESS: {len(covered_reqs)} / {len(required_info)} = {ess:.2f}")
+                print(f"-----------------\\n")
+                
         return min(confidence, 1.0), ess
+

@@ -1,0 +1,28 @@
+{
+  "Question": "What is the company's policy regarding stock options for employees?",
+  "Config": "C",
+  "Run": 2,
+  "Expected Answer": "No expected documents specified. Out of domain.",
+  "Generated Answer": "The company's policy regarding stock options for employees is unknown based on the provided facts.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n1. Purpose & Eligibility\nThe purpose of this Leave Policy is to outline the various types of leave available to\nemployees of TechNova Solutions Pvt. Ltd., the eligibility criteria for each, and the\nprocedure for requesting and approving leave.\nAll full-time and part-time employees are eligible for leave benefits as described in this\npolicy. Contract employees and interns may have different leave structures, as\nspecified in their respective contracts.\nPage 3",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nBenefits\nIn addition to competitive compensation, TechNova offers a robust benefits package.\nThis includes comprehensive health insurance covering the employee, spouse, and\nup to two children. We provide a provident fund (PF) matching program, annual health\ncheck-ups, and a monthly internet allowance for remote work days.\nThe Bengaluru office features a fully subsidized cafeteria, a wellness room, and an\non-site gymnasium. Employees also have access to our Employee Assistance\nProgram (EAP) for mental health and legal counseling services.\nPage 14",
+    "TechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India | 650 Employees | Hybrid Work Model\nEmployee Records\nThis section outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2"
+  ],
+  "Planner Output": {
+    "intent": "HR Policy",
+    "sub_queries": [
+      "What are the company's stock option policies for employees?",
+      "How do employees receive and exercise stock options?"
+    ],
+    "required_information": [
+      "stock option policies",
+      "employee benefits"
+    ]
+  },
+  "Confidence": 0.42058302719229235,
+  "ESS": 0.0,
+  "Final Score": 0.3,
+  "Failure Reason": "Low Final Accuracy Score: 0.30"
+}
