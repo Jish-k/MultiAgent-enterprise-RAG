@@ -16,8 +16,8 @@
       "How are employee performance evaluations used in promotion decisions?"
     ],
     "required_information": [
-      "promotion criteria",
-      "performance evaluation"
+      "employee performance evaluation criteria",
+      "promotion evaluation framework"
     ]
   },
   "Confidence": null,

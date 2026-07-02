@@ -3,7 +3,7 @@
   "Config": "D",
   "Run": 3,
   "Expected Answer": "Information not found in the expected documents.",
-  "Generated Answer": "Based on the provided context, here's a comparison of phishing attacks and malware attacks, along with the recommended response for each:\n\n**Phishing Attacks:**\n\n- Description: Phishing attacks involve suspicious emails or messages that attempt to trick employees into revealing sensitive information or clicking on malicious links.\n- Prevention: Employees must exercise caution when opening attachments or clicking on links from unknown senders.\n- Response: Employees must report suspected phishing attempts to the IT Security Desk immediately at ext. 5555.\n\n**Malware Attacks:**\n\n- Description: Malware attacks involve malicious software that can compromise company data or systems.\n- Prevention: Employees must not attempt to investigate or remediate a suspected cyber attack on their own, as this may destroy critical forensic evidence.\n- Response: Employees must report suspected malware attacks to the IT Security Desk immediately at ext. 5555, without attempting to investigate or remediate the issue.\n\nIn summary, both phishing and malware attacks require immediate reporting to the IT Security Desk. However, employees should not attempt to investigate or remediate malware attacks on their own, as this may compromise forensic evidence.",
+  "Generated Answer": "Based on the provided context, here's a comparison of phishing attacks and malware attacks, along with the recommended response for each:\n\n**Phishing Attacks:**\n\n- Description: Phishing attacks involve suspicious emails or messages that attempt to trick employees into revealing sensitive information or clicking on malicious links.\n- Prevention: Employees must exercise caution when opening attachments or clicking on links from unknown senders.\n- Response: Employees must report suspected phishing attempts to the IT Security Desk immediately at ext. 5555.\n\n**Malware Attacks:**\n\n- Description: Malware attacks involve unauthorized access attempts or malicious software that can compromise company data or systems.\n- Prevention: Employees must not attempt to investigate or remediate a suspected cyber attack on their own, as this may destroy critical forensic evidence.\n- Response: Employees must report incidents to the IT Security Desk by calling ext. 5555 or emailing security-alert@technova.com.",
   "Retrieved Chunks": [
     "TechNova Solutions Pvt. Ltd. - IT Security Policy\n6. Incident Reporting\nRapid response is essential to mitigating the impact of a security breach. Any\nsuspected security incident, including lost or stolen laptops, suspicious emails, or\nunauthorized access attempts, must be reported immediately.\nEmployees must report incidents to the IT Security Desk by calling ext. 5555 or\nemailing security-alert@technova.com. Do not attempt to investigate or remediate a\nsuspected cyber attack on your own, as this may destroy critical forensic evidence.\nPage 8",
     "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
@@ -21,13 +21,13 @@
     ],
     "required_information": [
       "phishing attack characteristics",
-      "phishing response",
+      "phishing attack response",
       "malware attack characteristics",
-      "malware response"
+      "malware attack response"
     ]
   },
   "Confidence": null,
   "ESS": null,
-  "Final Score": 0.019432136750177298,
-  "Failure Reason": "Low Final Accuracy Score: 0.02"
+  "Final Score": 0.014297923288159133,
+  "Failure Reason": "Low Final Accuracy Score: 0.01"
 }

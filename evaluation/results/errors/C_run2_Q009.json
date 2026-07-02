@@ -3,7 +3,7 @@
   "Config": "C",
   "Run": 2,
   "Expected Answer": "Information not found in the expected documents.",
-  "Generated Answer": "Based on the provided Key Facts, there is no direct mention of workplace safety responsibilities for employees. However, it can be inferred that employees are expected to act in the best interests of the company, which may include following safety protocols and guidelines to prevent harm to themselves and others.",
+  "Generated Answer": "Based on the provided Key Facts, there is no direct mention of workplace safety responsibilities for employees. However, it can be inferred that employees are expected to act in the best interests of the company, which may indirectly imply a responsibility to prioritize workplace safety. Nevertheless, this is not explicitly stated.",
   "Retrieved Chunks": [
     "TechNova Solutions Pvt. Ltd. - Employee Handbook\nCode of Conduct\nThe TechNova Code of Conduct mandates that all employees behave in a\nprofessional, respectful, and ethical manner at all times. We have a zero-tolerance\npolicy for workplace harassment, discrimination, and bullying.\nEmployees must avoid any conflicts of interest and act in the best interests of the\ncompany. Any violation of this code, whether in the office, during remote work, or at\ncompany-sponsored events, will be met with strict disciplinary action, up to and\nincluding termination of employment.\nPage 15",
     "Employee Handbook\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nPage 1",
@@ -22,8 +22,8 @@
       "Workplace Safety Policy"
     ]
   },
-  "Confidence": 0.4503728546752689,
+  "Confidence": 0.44754181039981755,
   "ESS": 0.0,
-  "Final Score": 0.3868181767204384,
+  "Final Score": 0.39439663893794685,
   "Failure Reason": "Low Final Accuracy Score: 0.39"
 }

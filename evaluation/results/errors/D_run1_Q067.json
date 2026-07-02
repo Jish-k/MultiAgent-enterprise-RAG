@@ -21,9 +21,9 @@
     ],
     "required_information": [
       "phishing attack characteristics",
-      "phishing response",
+      "phishing attack response",
       "malware attack characteristics",
-      "malware response"
+      "malware attack response"
     ]
   },
   "Confidence": null,

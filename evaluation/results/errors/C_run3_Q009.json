@@ -3,7 +3,7 @@
   "Config": "C",
   "Run": 3,
   "Expected Answer": "Information not found in the expected documents.",
-  "Generated Answer": "Employees are not explicitly mentioned as having direct responsibilities regarding workplace safety in the provided key facts. However, it can be inferred that employees are expected to act in the best interests of the company, which may include following safety protocols and guidelines. The key facts primarily focus on code of conduct, conflicts of interest, and zero-tolerance policies for harassment, discrimination, and bullying.",
+  "Generated Answer": "Employees are responsible for maintaining a safe work environment by adhering to the zero-tolerance policy for workplace harassment, discrimination, and bullying. However, the provided key facts do not explicitly mention workplace safety responsibilities.",
   "Retrieved Chunks": [
     "TechNova Solutions Pvt. Ltd. - Employee Handbook\nCode of Conduct\nThe TechNova Code of Conduct mandates that all employees behave in a\nprofessional, respectful, and ethical manner at all times. We have a zero-tolerance\npolicy for workplace harassment, discrimination, and bullying.\nEmployees must avoid any conflicts of interest and act in the best interests of the\ncompany. Any violation of this code, whether in the office, during remote work, or at\ncompany-sponsored events, will be met with strict disciplinary action, up to and\nincluding termination of employment.\nPage 15",
     "Employee Handbook\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nPage 1",
@@ -24,6 +24,6 @@
   },
   "Confidence": 0.44754181039981755,
   "ESS": 0.0,
-  "Final Score": 0.39827215824522905,
-  "Failure Reason": "Low Final Accuracy Score: 0.40"
+  "Final Score": 0.14049518851706344,
+  "Failure Reason": "Low Final Accuracy Score: 0.14"
 }

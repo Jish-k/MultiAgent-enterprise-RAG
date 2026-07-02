@@ -3,7 +3,7 @@ import pandas as pd
 import json
 
 def generate_markdown_report():
-    results_dir = "evaluation/results/pilot_v1.0"
+    results_dir = "evaluation/results/pilot"
     csv_path = os.path.join(results_dir, "pilot_benchmark_data.csv")
     breakdown_path = os.path.join(results_dir, "evaluation_breakdown.csv")
     out_path = "evaluation/results/pilot_report.md"

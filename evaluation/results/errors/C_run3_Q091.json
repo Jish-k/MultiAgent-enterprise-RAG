@@ -3,25 +3,25 @@
   "Config": "C",
   "Run": 3,
   "Expected Answer": "Information not found in the expected documents.",
-  "Generated Answer": "Business expenses eligible for reimbursement include the domestic per diem allowance, international per diem allowance, and actual expenses for business dinners, provided they meet the client entertainment policy and are submitted through the Concur portal within 15 days of return. The per diem allowances are automatically calculated based on the travel dates.",
+  "Generated Answer": "Eligible business expenses for reimbursement include domestic per diem allowance, international per diem allowance (varies by region), and actual expenses for business dinners with itemized receipts.",
   "Retrieved Chunks": [
-    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n4. Food Allowance\nTechNova provides a daily per diem allowance for food and incidental expenses\nduring business travel. The domestic per diem is INR 1000 per day. The international\nper diem varies by region but averages $60 or 50 Euros per day.\nPer diem allowances are automatically calculated based on the travel dates and do\nnot require the submission of individual food receipts. However, if an employee hosts\na business dinner with a client, the actual expenses can be claimed separately using\nan itemized receipt, subject to the client entertainment policy.\nPage 6",
     "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\nTable of Contents\n1. Domestic Travel\n2. International Travel\n3. Hotel Reimbursement\n4. Food Allowance\n5. Approval Workflow\n6. FAQ\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n4. Food Allowance\nTechNova provides a daily per diem allowance for food and incidental expenses\nduring business travel. The domestic per diem is INR 1000 per day. The international\nper diem varies by region but averages $60 or 50 Euros per day.\nPer diem allowances are automatically calculated based on the travel dates and do\nnot require the submission of individual food receipts. However, if an employee hosts\na business dinner with a client, the actual expenses can be claimed separately using\nan itemized receipt, subject to the client entertainment policy.\nPage 6",
     "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8"
   ],
   "Planner Output": {
     "intent": "IT Policy",
     "sub_queries": [
-      "What types of business expenses are eligible for reimbursement?",
-      "What are the criteria for eligible business expenses?"
+      "What business expenses are eligible for reimbursement?",
+      "What are the categories of expenses that can be reimbursed?"
     ],
     "required_information": [
-      "expense types",
-      "reimbursement criteria"
+      "eligible business expenses",
+      "reimbursement categories"
     ]
   },
-  "Confidence": 0.6852461590331077,
+  "Confidence": 0.7379968417111955,
   "ESS": 0.0,
-  "Final Score": 0.26169930808854575,
-  "Failure Reason": "Low Final Accuracy Score: 0.26"
+  "Final Score": 0.24,
+  "Failure Reason": "Low Final Accuracy Score: 0.24"
 }

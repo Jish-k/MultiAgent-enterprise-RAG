@@ -3,7 +3,7 @@
   "Config": "B",
   "Run": 2,
   "Expected Answer": "Information not found in the expected documents.",
-  "Generated Answer": "Employees are responsible for behaving in a professional, respectful, and ethical manner at all times, but there is no explicit mention of workplace safety responsibilities in the provided key facts.",
+  "Generated Answer": "Employees are not explicitly mentioned as having direct responsibilities regarding workplace safety in the provided key facts. However, it can be inferred that employees are expected to act in the best interests of the company, which may include following safety protocols and guidelines. The key facts primarily focus on code of conduct, conflicts of interest, and zero-tolerance policies for harassment, discrimination, and bullying.",
   "Retrieved Chunks": [
     "TechNova Solutions Pvt. Ltd. - Employee Handbook\nCode of Conduct\nThe TechNova Code of Conduct mandates that all employees behave in a\nprofessional, respectful, and ethical manner at all times. We have a zero-tolerance\npolicy for workplace harassment, discrimination, and bullying.\nEmployees must avoid any conflicts of interest and act in the best interests of the\ncompany. Any violation of this code, whether in the office, during remote work, or at\ncompany-sponsored events, will be met with strict disciplinary action, up to and\nincluding termination of employment.\nPage 15",
     "Employee Handbook\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nPage 1",
@@ -18,12 +18,12 @@
       "What are the consequences of non-compliance with workplace safety regulations?"
     ],
     "required_information": [
-      "employee responsibilities",
-      "workplace safety regulations"
+      "Employee Safety Handbook",
+      "Workplace Safety Policy"
     ]
   },
   "Confidence": null,
   "ESS": null,
-  "Final Score": 0.38319123274334616,
-  "Failure Reason": "Low Final Accuracy Score: 0.38"
+  "Final Score": 0.39827215824522905,
+  "Failure Reason": "Low Final Accuracy Score: 0.40"
 }

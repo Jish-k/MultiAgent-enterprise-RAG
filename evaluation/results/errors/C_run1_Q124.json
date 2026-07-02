@@ -3,30 +3,33 @@
   "Config": "C",
   "Run": 1,
   "Expected Answer": "Information not found in the expected documents.",
-  "Generated Answer": "The onboarding process for new employees at TechNova involves the following steps:\n\n1. Initial IT account creation: The IT department will create a new account for the employee, which will be activated after the employee has completed the necessary paperwork and has been cleared by HR.\n2. Password creation: The employee will be required to create a password that meets the company's password policy, which includes being at least 14 characters long, containing numbers, and symbols. The password must also be changed every 90 days.\n3. Multi-Factor Authentication (MFA) setup: The employee will be required to set up MFA for accessing all TechNova internal systems.\n4. Device issuance: The employee will be issued a company-issued laptop, which must be used for work purposes.\n5. Security responsibilities: The employee is responsible for reporting any lost or stolen devices, or suspected phishing attempts, to the IT Security Desk immediately.\n6. Password management: The employee is strongly encouraged to use the company-approved password manager to generate and securely store their credentials.",
+  "Generated Answer": "The complete onboarding process for TechNova employees involves the following steps:\n\n1. Initial IT account creation: The IT department will create an IT account for the new employee, which will be used to access all internal systems.\n2. Mandatory Multi-Factor Authentication (MFA) setup: The employee will be required to set up MFA on their company-issued laptop, which will be used to access all internal systems.\n3. Laptop setup and configuration: The IT department will configure the company-issued laptop with the necessary software and settings, including the endpoint detection and response (EDR) agent.\n4. Security responsibilities: The employee will be responsible for changing their password every 90 days, ensuring it is at least 14 characters long and contains numbers and symbols. They will also be responsible for locking their laptop when unattended and not installing unauthorized software.\n5. Final security check: The IT department will conduct a final security check to ensure that the employee's laptop is configured correctly and that they understand their security responsibilities.",
   "Retrieved Chunks": [
     "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
-    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n1. Password Policy\nThe foundation of our enterprise security begins with robust password management.\nPasswords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days. Under no circumstances should an employee share their\npassword with colleagues, contractors, or IT support staff.\nMulti-Factor Authentication (MFA) is strictly mandatory for accessing all TechNova\ninternal systems, including the HR portal, email servers, and GitHub repositories.\nEmployees are strongly encouraged to use the company-approved password\nmanager to generate and securely store their credentials.\nPage 3",
-    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
-    "operating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by",
     "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n4. Device Usage\nThe physical security of computing devices is paramount. No, Bring Your Own Device\n(BYOD) is strictly prohibited. You must use the company-issued laptop for all\nbusiness activities.\nLaptops must be locked when unattended, even within the Bengaluru headquarters.\nEmployees must not install unauthorized software or disable the endpoint detection\nand response (EDR) agent installed on their machines. Portable storage devices,\nsuch as USB drives, are blocked by default unless an explicit exception is granted by\nthe CISO.\nPage 6",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+    "TechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India | 650 Employees | Hybrid Work Model\nRecruitment\nThis section outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n1. Password Policy\nThe foundation of our enterprise security begins with robust password management.\nPasswords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days. Under no circumstances should an employee share their\npassword with colleagues, contractors, or IT support staff.\nMulti-Factor Authentication (MFA) is strictly mandatory for accessing all TechNova\ninternal systems, including the HR portal, email servers, and GitHub repositories.\nEmployees are strongly encouraged to use the company-approved password\nmanager to generate and securely store their credentials.\nPage 3",
     "TechNova Solutions Pvt. Ltd. - IT Security Policy\n7. FAQ\nQ: What is the password policy?\nA: Passwords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days.\nQ: Can I use my own laptop?\nA: No, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop.\nPage 9"
   ],
   "Planner Output": {
     "intent": "IT Policy",
     "sub_queries": [
-      "What are the steps to complete the onboarding process?",
-      "How do I create an IT account and what are the required information?",
-      "What are the security responsibilities and best practices for new employees?"
+      "What are the steps to complete the onboarding process for new employees?",
+      "How do I create an IT account for a new employee?",
+      "What are the security responsibilities for employees with IT access?"
     ],
     "required_information": [
-      "onboarding process",
-      "IT account creation",
-      "security responsibilities"
+      "onboarding checklist",
+      "IT account creation process",
+      "password policy",
+      "multi-factor authentication",
+      "data classification policy"
     ]
   },
-  "Confidence": 0.7807939587876753,
-  "ESS": 0.0,
-  "Final Score": 0.027322008596602616,
-  "Failure Reason": "Low Final Accuracy Score: 0.03"
+  "Confidence": 0.8169606201894325,
+  "ESS": 0.2,
+  "Final Score": 0.02414151440581772,
+  "Failure Reason": "Low Final Accuracy Score: 0.02"
 }

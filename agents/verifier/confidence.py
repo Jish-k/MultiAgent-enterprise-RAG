@@ -52,9 +52,7 @@ class ConfidenceCalculator:
                 claim_texts = [claim.claim for claim in supported_claims]
                 claim_embeddings = embedding_model.embed_documents(claim_texts)
                 
-                print(f"\n--- ESS Debug ---")
                 for req in required_info:
-                    print(f"Requirement: {req}")
                     req_lower = req.lower()
                     
                     # 1. Exact/Substring Match First
@@ -65,29 +63,19 @@ class ConfidenceCalculator:
                             break
                             
                     if exact_match_found:
-                        print("  -> MATCHED (Exact/Substring)")
                         covered_reqs.add(req)
                         continue
                         
                     # 2. Semantic Similarity Fallback
                     req_emb = embedding_model.embed_query(req)
-                    
                     sims = cosine_similarity([req_emb], claim_embeddings)[0]
                     best_idx = np.argmax(sims)
                     best_sim = sims[best_idx]
                     
-                    print(f"  -> Best Claim: {claim_texts[best_idx]}")
-                    print(f"  -> Similarity: {best_sim:.2f}")
-                    
-                    if best_sim > 0.75:
-                        print(f"  -> MATCHED (Semantic)")
+                    if best_sim > 0.60:
                         covered_reqs.add(req)
-                    else:
-                        print(f"  -> NOT MATCHED")
                         
                 ess = len(covered_reqs) / len(required_info)
-                print(f"ESS: {len(covered_reqs)} / {len(required_info)} = {ess:.2f}")
-                print(f"-----------------\\n")
                 
         return min(confidence, 1.0), ess
 

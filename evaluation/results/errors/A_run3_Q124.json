@@ -1,0 +1,17 @@
+{
+  "Question": "Explain the complete onboarding process, including IT account creation and security responsibilities.",
+  "Config": "A",
+  "Run": 3,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "Based on the provided context, the complete onboarding process, including IT account creation and security responsibilities, can be inferred as follows:\n\n1. **IT Account Creation**: \n   - The exact steps for IT account creation are not explicitly mentioned in the provided context. However, it can be assumed that the IT department will create the account once the employee has completed the necessary paperwork and has been cleared by HR.\n\n2. **Security Responsibilities**:\n   - **Password Policy**: Employees must create a password that is at least 14 characters long, contains numbers, and symbols. They must also change their password every 90 days.\n   - **Multi-Factor Authentication (MFA)**: MFA is mandatory for all employees.\n   - **Device Usage**: Employees are strictly prohibited from using Bring Your Own Device (BYOD). They must use the company-issued laptop.\n   - **Reporting Lost/Stolen Devices or Phishing Attempts**: Employees must report any lost or stolen devices, or suspected phishing attempts, to the IT Security Desk immediately at ext. 5555.\n\n3. **Onboarding Process**:\n   - The onboarding process likely includes:\n     - Completing necessary paperwork\n     - Being cleared by HR\n     - Creation of IT account by the IT department\n     - IT Security Policy briefing and training on security responsibilities\n     - Issuance of company-issued laptop\n     - Setup of MFA and password policy compliance\n\nPlease note that the exact onboarding process may vary based on the company's internal procedures and policies.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+    "IT Security Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.387778996444687,
+  "Failure Reason": "Low Final Accuracy Score: 0.39"
+}

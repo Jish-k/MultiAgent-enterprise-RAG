@@ -12,12 +12,10 @@
   "Planner Output": {
     "intent": "General",
     "sub_queries": [
-      "What is the annual salary of the CEO?",
-      "What is the current CEO's salary?"
+      "What is the annual salary of the CEO?"
     ],
     "required_information": [
-      "CEO",
-      "annual salary"
+      "CEO annual compensation"
     ]
   },
   "Confidence": 0.3924685976290857,

@@ -21,8 +21,8 @@
       "paid leave entitlements"
     ]
   },
-  "Confidence": 0.7905459925725866,
-  "ESS": 0.0,
+  "Confidence": 0.7984014267222314,
+  "ESS": 0.5,
   "Final Score": 0.3719647910640327,
   "Failure Reason": "Low Final Accuracy Score: 0.37"
 }

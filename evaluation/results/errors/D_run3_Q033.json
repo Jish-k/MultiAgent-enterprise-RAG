@@ -3,27 +3,26 @@
   "Config": "D",
   "Run": 3,
   "Expected Answer": "No expected documents specified. Out of domain.",
-  "Generated Answer": "No, the company does not provide unlimited paid leave. The policy outlines specific leave entitlements, including 20 days of Earned Leave (EL), 12 days of Casual Leave, and 10 days of Sick Leave per calendar year.",
+  "Generated Answer": "No, the company does not provide unlimited paid leave. The policy outlines specific accrual rates for Earned Leave (EL) and Casual Leave, with limits on the total number of days that can be taken per year.",
   "Retrieved Chunks": [
     "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6",
-    "Leave Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1",
     "TechNova Solutions Pvt. Ltd. - Leave Policy\n1. Purpose & Eligibility\nThe purpose of this Leave Policy is to outline the various types of leave available to\nemployees of TechNova Solutions Pvt. Ltd., the eligibility criteria for each, and the\nprocedure for requesting and approving leave.\nAll full-time and part-time employees are eligible for leave benefits as described in this\npolicy. Contract employees and interns may have different leave structures, as\nspecified in their respective contracts.\nPage 3",
-    "TechNova Solutions Pvt. Ltd. - Leave Policy\n2. Casual Leave\nEmployees are allowed 12 casual leaves per year. Casual leave is intended to\naccommodate unforeseen circumstances, personal emergencies, or brief personal\nmatters that require an employee's attention during standard working hours.\nCasual leave is credited at the beginning of each calendar year. For employees\njoining mid-year, casual leave is pro-rated based on the date of joining. Casual leave\ncannot be carried forward to the next calendar year and cannot be encashed.\nPage 4",
-    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nLeaves\nTechNova recognizes the importance of work-life balance and offers a\ncomprehensive leave policy. Employees are entitled to 20 days of Earned Leave\n(PTO), 12 days of Casual Leave, and 10 days of Sick Leave per calendar year. Yes,\nup to 10 days of earned leave can be carried forward to the next calendar year.\nMaternity leave is provided for 26 weeks, and Paternity leave for 4 weeks. Maternity\nleave must be approved by the HR Head and the respective Department Head.\nBereavement leave of up to 5 days is available. All leave requests must be submitted\nthrough the internal portal at least two weeks in advance, except in emergencies.\nPage 13"
+    "Leave Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n2. Casual Leave\nEmployees are allowed 12 casual leaves per year. Casual leave is intended to\naccommodate unforeseen circumstances, personal emergencies, or brief personal\nmatters that require an employee's attention during standard working hours.\nCasual leave is credited at the beginning of each calendar year. For employees\njoining mid-year, casual leave is pro-rated based on the date of joining. Casual leave\ncannot be carried forward to the next calendar year and cannot be encashed.\nPage 4"
   ],
   "Planner Output": {
     "intent": "HR Policy",
     "sub_queries": [
-      "What are the company's leave policies?",
-      "Is paid leave unlimited?"
+      "Does the company offer unlimited paid leave?",
+      "What are the paid leave policies of the company?"
     ],
     "required_information": [
-      "leave policies",
-      "paid leave"
+      "unlimited paid leave policy",
+      "paid leave entitlements"
     ]
   },
   "Confidence": null,
   "ESS": null,
-  "Final Score": 0.32047658690905984,
-  "Failure Reason": "Low Final Accuracy Score: 0.32"
+  "Final Score": 0.3720444265630185,
+  "Failure Reason": "Low Final Accuracy Score: 0.37"
 }

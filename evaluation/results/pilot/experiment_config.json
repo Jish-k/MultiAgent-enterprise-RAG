@@ -2,7 +2,7 @@
   "experiment_id": "pilot_v1.0",
   "dataset_version": "1.0",
   "pipeline_version": "1.0",
-  "benchmark_date": "2026-07-01",
+  "benchmark_date": "2026-07-02",
   "llm_provider": "Groq",
   "model": "llama-3.1-8b",
   "temperature": 0.0,

@@ -14,11 +14,11 @@
     "intent": "IT Policy",
     "sub_queries": [
       "What are the guidelines for international travel expenses?",
-      "How do employees submit and track travel expense reports?"
+      "How do employees submit and claim travel expense reports?"
     ],
     "required_information": [
-      "international travel policy",
-      "expense reporting process"
+      "International Travel Expense Policy",
+      "Expense Report Submission Guidelines"
     ]
   },
   "Confidence": null,

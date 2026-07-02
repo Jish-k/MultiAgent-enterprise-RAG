@@ -18,8 +18,8 @@
       "What is the process for requesting a promotion?"
     ],
     "required_information": [
-      "promotion criteria",
-      "promotion process"
+      "employee promotion criteria",
+      "promotion request process"
     ]
   },
   "Confidence": 0.6615456065797443,

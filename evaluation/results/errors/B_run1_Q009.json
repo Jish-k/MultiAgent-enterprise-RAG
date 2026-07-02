@@ -3,7 +3,7 @@
   "Config": "B",
   "Run": 1,
   "Expected Answer": "Information not found in the expected documents.",
-  "Generated Answer": "Based on the provided Key Facts, the responsibilities of employees regarding workplace safety are not explicitly stated. However, it can be inferred that employees are expected to act in a manner that aligns with the company's code of conduct and zero-tolerance policy for workplace harassment, discrimination, and bullying. This implies that employees should maintain a safe and respectful work environment.",
+  "Generated Answer": "Based on the provided Key Facts, the responsibilities of employees regarding workplace safety are not explicitly stated. However, it can be inferred that employees are expected to maintain a safe work environment, as TechNova Solutions Pvt. Ltd. has a zero-tolerance policy for workplace harassment, discrimination, and bullying. Additionally, employees are expected to adhere to the code of conduct, which implies a responsibility to act in a manner that does not compromise workplace safety.",
   "Retrieved Chunks": [
     "TechNova Solutions Pvt. Ltd. - Employee Handbook\nCode of Conduct\nThe TechNova Code of Conduct mandates that all employees behave in a\nprofessional, respectful, and ethical manner at all times. We have a zero-tolerance\npolicy for workplace harassment, discrimination, and bullying.\nEmployees must avoid any conflicts of interest and act in the best interests of the\ncompany. Any violation of this code, whether in the office, during remote work, or at\ncompany-sponsored events, will be met with strict disciplinary action, up to and\nincluding termination of employment.\nPage 15",
     "Employee Handbook\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nPage 1",
@@ -18,12 +18,12 @@
       "What are the consequences of non-compliance with workplace safety regulations?"
     ],
     "required_information": [
-      "employee responsibilities",
-      "workplace safety regulations"
+      "Employee Safety Handbook",
+      "Workplace Safety Policy"
     ]
   },
   "Confidence": null,
   "ESS": null,
-  "Final Score": 0.3897330275168936,
+  "Final Score": 0.39491346859143367,
   "Failure Reason": "Low Final Accuracy Score: 0.39"
 }

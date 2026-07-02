@@ -3,26 +3,25 @@
   "Config": "D",
   "Run": 3,
   "Expected Answer": "No expected documents specified. Out of domain.",
-  "Generated Answer": "There is no information provided in the given context about employees carrying firearms while traveling for business. The policies provided are related to travel and expense, IT security, and leave, but none of them mention firearms. Therefore, the answer is \"No information available.\"",
+  "Generated Answer": "There is no information provided in the given context about employees carrying firearms while traveling for business. The policies provided are related to travel and expense, IT security, and leave, but none of them mention firearms.",
   "Retrieved Chunks": [
     "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n2. International Travel\nAll international travel requires extensive justification and pre-approval. Flights\nexceeding 8 hours of continuous travel may be booked in Premium Economy, subject\nto VP approval. Business class is strictly reserved for Executive Leadership (C-Suite)\nor specific client-mandated travel.\nVisa application fees, travel insurance, and necessary vaccinations will be fully\nreimbursed by TechNova. Employees traveling internationally are required to use the\ncorporate travel desk for all bookings to ensure compliance with duty-of-care\nrequirements.\nPage 4",
     "TechNova Solutions Pvt. Ltd. - IT Security Policy\n4. Device Usage\nThe physical security of computing devices is paramount. No, Bring Your Own Device\n(BYOD) is strictly prohibited. You must use the company-issued laptop for all\nbusiness activities.\nLaptops must be locked when unattended, even within the Bengaluru headquarters.\nEmployees must not install unauthorized software or disable the endpoint detection\nand response (EDR) agent installed on their machines. Portable storage devices,\nsuch as USB drives, are blocked by default unless an explicit exception is granted by\nthe CISO.\nPage 6",
-    "TechNova Solutions Pvt. Ltd. - Leave Policy\n2. Casual Leave\nEmployees are allowed 12 casual leaves per year. Casual leave is intended to\naccommodate unforeseen circumstances, personal emergencies, or brief personal\nmatters that require an employee's attention during standard working hours.\nCasual leave is credited at the beginning of each calendar year. For employees\njoining mid-year, casual leave is pro-rated based on the date of joining. Casual leave\ncannot be carried forward to the next calendar year and cannot be encashed.\nPage 4",
-    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\nTable of Contents\n1. Domestic Travel\n2. International Travel\n3. Hotel Reimbursement\n4. Food Allowance\n5. Approval Workflow\n6. FAQ\nPage 2"
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n2. Casual Leave\nEmployees are allowed 12 casual leaves per year. Casual leave is intended to\naccommodate unforeseen circumstances, personal emergencies, or brief personal\nmatters that require an employee's attention during standard working hours.\nCasual leave is credited at the beginning of each calendar year. For employees\njoining mid-year, casual leave is pro-rated based on the date of joining. Casual leave\ncannot be carried forward to the next calendar year and cannot be encashed.\nPage 4"
   ],
   "Planner Output": {
     "intent": "IT Policy",
     "sub_queries": [
-      "Are firearms allowed in company travel policies?",
-      "Can employees carry firearms while on business trips?"
+      "Are firearms allowed in company travel",
+      "Company policy on carrying firearms while traveling"
     ],
     "required_information": [
-      "company travel policy",
-      "firearm policy"
+      "firearms policy in company travel",
+      "gun laws in foreign countries"
     ]
   },
   "Confidence": null,
   "ESS": null,
-  "Final Score": 0.4961916167952177,
-  "Failure Reason": "Low Final Accuracy Score: 0.50"
+  "Final Score": 0.49259202170405936,
+  "Failure Reason": "Low Final Accuracy Score: 0.49"
 }

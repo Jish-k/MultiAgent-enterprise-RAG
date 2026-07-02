@@ -3,7 +3,7 @@
   "Config": "D",
   "Run": 2,
   "Expected Answer": "Information not found in the expected documents.",
-  "Generated Answer": "Based on the provided context, there is no specific information about unpaid leaves. However, we can infer that Sick Leave is not explicitly mentioned as being paid or unpaid. \n\nIn the context of the provided information, it seems that Sick Leave is a type of leave that can be taken, but it is not explicitly stated whether it is paid or unpaid.",
+  "Generated Answer": "Based on the provided context, there is no specific information about unpaid leaves. However, we can infer that Sick Leave is not explicitly mentioned as being paid or unpaid. \n\nIn the context of the provided documents, Sick Leave is mentioned as part of the total leave entitlements, but it is not explicitly stated as being paid or unpaid. \n\nHowever, considering the context of the leave policy, it can be inferred that Sick Leave is likely to be unpaid, as it is not explicitly mentioned as being paid.",
   "Retrieved Chunks": [
     "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6",
     "TechNova Solutions Pvt. Ltd. - Leave Policy\n2. Casual Leave\nEmployees are allowed 12 casual leaves per year. Casual leave is intended to\naccommodate unforeseen circumstances, personal emergencies, or brief personal\nmatters that require an employee's attention during standard working hours.\nCasual leave is credited at the beginning of each calendar year. For employees\njoining mid-year, casual leave is pro-rated based on the date of joining. Casual leave\ncannot be carried forward to the next calendar year and cannot be encashed.\nPage 4",
@@ -18,11 +18,11 @@
     ],
     "required_information": [
       "types of unpaid leaves",
-      "leave entitlement"
+      "annual unpaid leave limit"
     ]
   },
   "Confidence": null,
   "ESS": null,
-  "Final Score": 0.27269888824028987,
-  "Failure Reason": "Low Final Accuracy Score: 0.27"
+  "Final Score": 0.39674389043664876,
+  "Failure Reason": "Low Final Accuracy Score: 0.40"
 }

@@ -3,7 +3,7 @@
   "Config": "A",
   "Run": 2,
   "Expected Answer": "Information not found in the expected documents.",
-  "Generated Answer": "Based on the provided context, here's a comparison of phishing attacks and malware attacks, along with the recommended response for each:\n\nPhishing attacks:\n- Description: Refers to the act of opening attachments or clicking on links from unknown senders.\n- Prevention: Caution must be exercised when opening attachments or clicking on links from unknown senders.\n- Response: Employees should not attempt to investigate or remediate a suspected phishing attack on their own.\n\nMalware attacks:\n- Description: Not explicitly mentioned in the provided context.\n- However, based on general knowledge, malware attacks refer to the installation of malicious software on a device.\n- Prevention: Not explicitly mentioned in the provided context.\n- Response: Not explicitly mentioned in the provided context.\n\nHowever, based on the Incident Reporting section, it can be inferred that employees should report any suspected security incidents, including malware attacks, to the IT Security Desk immediately.",
+  "Generated Answer": "Based on the provided context, here's a comparison of phishing attacks and malware attacks, along with the recommended response for each:\n\nPhishing attacks:\n- Description: Refers to the act of opening attachments or clicking on links from unknown senders.\n- Prevention: Caution must be exercised when opening attachments or clicking on links from unknown senders.\n- Response: Employees should not attempt to investigate or remediate a suspected phishing attack on their own.\n\nMalware attacks:\n- Description: Not explicitly mentioned in the provided context, but it can be inferred that it refers to unauthorized access attempts.\n- Prevention: Not explicitly mentioned, but it can be inferred that caution must be exercised when dealing with suspicious emails or unauthorized access attempts.\n- Response: Employees should report incidents to the IT Security Desk by calling ext. 5555 or emailing security-alert@technova.com. Do not attempt to investigate or remediate a suspected cyber attack on your own.\n\nIn summary, employees should be cautious when dealing with unknown senders and report any suspicious activity to the IT Security Desk.",
   "Retrieved Chunks": [
     "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
     "TechNova Solutions Pvt. Ltd. - IT Security Policy\n2. Email Usage\nTechNova's email system is a critical business tool and must be used responsibly.\nEmployees are prohibited from using corporate email accounts for personal\ncommercial activities, political campaigning, or transmitting inappropriate content.\nCaution must be exercised when opening attachments or clicking on links from\nunknown senders to prevent phishing attacks. All outbound emails containing\nsensitive client information or proprietary source code must be encrypted using the\ninternal secure mailing gateway.\nPage 4",
@@ -12,6 +12,6 @@
   "Planner Output": "N/A",
   "Confidence": null,
   "ESS": null,
-  "Final Score": 0.3959150179255616,
-  "Failure Reason": "Low Final Accuracy Score: 0.40"
+  "Final Score": 0.2647025119571976,
+  "Failure Reason": "Low Final Accuracy Score: 0.26"
 }

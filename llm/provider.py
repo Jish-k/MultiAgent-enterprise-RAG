@@ -27,7 +27,9 @@ def get_llm():
         return ChatGroq(
             model_name=Config.GROQ_MODEL,
             temperature=Config.TEMPERATURE,
-            groq_api_key=Config.GROQ_API_KEY
+            groq_api_key=Config.GROQ_API_KEY,
+            max_retries=3,
+            timeout=30.0
         )
         
     elif provider == "openai":

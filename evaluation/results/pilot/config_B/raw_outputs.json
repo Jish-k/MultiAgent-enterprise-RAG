@@ -1,0 +1,782 @@
+[
+  {
+    "id": "Q004",
+    "run": 1,
+    "config": "B",
+    "question": "What employee benefits are provided by the company?",
+    "answer": "TechNova provides comprehensive health insurance covering the employee, spouse, and up to two children, a provident fund (PF) matching program, annual health check-ups, a monthly internet allowance for remote work days, a fully subsidized cafeteria, a wellness room, an on-site gymnasium, and access to the Employee Assistance Program (EAP) for mental health and legal counseling services.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nBenefits\nIn addition to competitive compensation, TechNova offers a robust benefits package.\nThis includes comprehensive health insurance covering the employee, spouse, and\nup to two children. We provide a provident fund (PF) matching program, annual health\ncheck-ups, and a monthly internet allowance for remote work days.\nThe Bengaluru office features a fully subsidized cafeteria, a wellness room, and an\non-site gymnasium. Employees also have access to our Employee Assistance\nProgram (EAP) for mental health and legal counseling services.\nPage 14",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+      "Employee Handbook\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nPage 1"
+    ]
+  },
+  {
+    "id": "Q009",
+    "run": 1,
+    "config": "B",
+    "question": "What are the responsibilities of employees regarding workplace safety?",
+    "answer": "Based on the provided Key Facts, the responsibilities of employees regarding workplace safety are not explicitly stated. However, it can be inferred that employees are expected to maintain a safe work environment, as TechNova Solutions Pvt. Ltd. has a zero-tolerance policy for workplace harassment, discrimination, and bullying. Additionally, employees are expected to adhere to the code of conduct, which implies a responsibility to act in a manner that does not compromise workplace safety.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nCode of Conduct\nThe TechNova Code of Conduct mandates that all employees behave in a\nprofessional, respectful, and ethical manner at all times. We have a zero-tolerance\npolicy for workplace harassment, discrimination, and bullying.\nEmployees must avoid any conflicts of interest and act in the best interests of the\ncompany. Any violation of this code, whether in the office, during remote work, or at\ncompany-sponsored events, will be met with strict disciplinary action, up to and\nincluding termination of employment.\nPage 15",
+      "Employee Handbook\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nPage 1",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\n19. Exit Process\n20. Emergency Contacts\n21. FAQ\nPage 3",
+      "procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd.\nPage 23"
+    ]
+  },
+  {
+    "id": "Q002",
+    "run": 1,
+    "config": "B",
+    "question": "What is the company's dress code policy?",
+    "answer": "The company's dress code policy is as follows: for everyday office work, a 'Smart Casual' dress code is promoted, but when meeting with clients or attending formal corporate events, 'Business Professional' attire is required. Additionally, certain types of clothing such as offensive graphics, overly revealing clothing, and beachwear are not permitted in the office, and employees must also dress professionally from the waist up for remote video calls.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nDress Code\nTechNova promotes a 'Smart Casual' dress code. We trust our employees to use their\nbest judgment in selecting attire that is professional, comfortable, and appropriate for\nthe workplace.\nWhen meeting with clients or attending formal corporate events, 'Business\nProfessional' attire is required. Offensive graphics, overly revealing clothing, and\nbeachwear are not permitted in the office. For remote video calls, employees must\nensure they are professionally presented from the waist up.\nPage 16",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nCode of Conduct\nThe TechNova Code of Conduct mandates that all employees behave in a\nprofessional, respectful, and ethical manner at all times. We have a zero-tolerance\npolicy for workplace harassment, discrimination, and bullying.\nEmployees must avoid any conflicts of interest and act in the best interests of the\ncompany. Any violation of this code, whether in the office, during remote work, or at\ncompany-sponsored events, will be met with strict disciplinary action, up to and\nincluding termination of employment.\nPage 15",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n7. FAQ\nQ: What is the password policy?\nA: Passwords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days.\nQ: Can I use my own laptop?\nA: No, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop.\nPage 9"
+    ]
+  },
+  {
+    "id": "Q033",
+    "run": 1,
+    "config": "B",
+    "question": "Does the company provide unlimited paid leave?",
+    "answer": "The company does not provide unlimited paid leave. Instead, it offers earned leave that can be carried forward up to 10 days and encashed at the time of separation, subject to a maximum cap of 30 days.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n1. Purpose & Eligibility\nThe purpose of this Leave Policy is to outline the various types of leave available to\nemployees of TechNova Solutions Pvt. Ltd., the eligibility criteria for each, and the\nprocedure for requesting and approving leave.\nAll full-time and part-time employees are eligible for leave benefits as described in this\npolicy. Contract employees and interns may have different leave structures, as\nspecified in their respective contracts.\nPage 3",
+      "Leave Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n2. Casual Leave\nEmployees are allowed 12 casual leaves per year. Casual leave is intended to\naccommodate unforeseen circumstances, personal emergencies, or brief personal\nmatters that require an employee's attention during standard working hours.\nCasual leave is credited at the beginning of each calendar year. For employees\njoining mid-year, casual leave is pro-rated based on the date of joining. Casual leave\ncannot be carried forward to the next calendar year and cannot be encashed.\nPage 4"
+    ]
+  },
+  {
+    "id": "Q027",
+    "run": 1,
+    "config": "B",
+    "question": "Compare maternity leave and paternity leave benefits.",
+    "answer": "Maternity leave benefits at TechNova are more generous than paternity leave benefits. While both types of leave are paid, maternity leave is offered for 26 weeks, whereas paternity leave is offered for 4 weeks. Additionally, maternity leave requires approval from the HR Head and the Department Head, whereas paternity leave requires approval from the reporting manager.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n6. Paternity Leave\nTo support new fathers, TechNova offers 4 weeks of paid Paternity Leave. This leave\nis available to all male employees upon the birth or adoption of a child.\nPaternity leave must be utilized within the first 6 months of the child's birth or\nplacement for adoption. It can be taken in a single block or divided into two blocks of\n2 weeks each, subject to approval from the reporting manager.\nPage 8",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nLeaves\nTechNova recognizes the importance of work-life balance and offers a\ncomprehensive leave policy. Employees are entitled to 20 days of Earned Leave\n(PTO), 12 days of Casual Leave, and 10 days of Sick Leave per calendar year. Yes,\nup to 10 days of earned leave can be carried forward to the next calendar year.\nMaternity leave is provided for 26 weeks, and Paternity leave for 4 weeks. Maternity\nleave must be approved by the HR Head and the respective Department Head.\nBereavement leave of up to 5 days is available. All leave requests must be submitted\nthrough the internal portal at least two weeks in advance, except in emergencies.\nPage 13",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n5. Maternity Leave\nTechNova is committed to supporting its employees during significant life events.\nFemale employees are entitled to 26 weeks of paid Maternity Leave, in accordance\nwith the Maternity Benefit Act.\nMaternity leave must be approved by the HR Head and the respective Department\nHead. The leave can be availed starting up to 8 weeks before the expected date of\ndelivery. Employees returning from maternity leave may also request flexible working\narrangements or extended remote work, subject to managerial approval.\nPage 7",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\nTable of Contents\n1. Purpose & Eligibility\n2. Casual Leave\n3. Sick Leave\n4. Earned Leave\n5. Maternity Leave\n6. Paternity Leave\n7. Leave Approval Process\n8. FAQ\nPage 2"
+    ]
+  },
+  {
+    "id": "Q031",
+    "run": 1,
+    "config": "B",
+    "question": "How many unpaid leaves can an employee take every year?",
+    "answer": "Based on the provided Key Facts, there is no information about the number of unpaid leaves an employee can take every year. The facts only mention earned leave and casual leaves, but do not specify unpaid leaves.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n2. Casual Leave\nEmployees are allowed 12 casual leaves per year. Casual leave is intended to\naccommodate unforeseen circumstances, personal emergencies, or brief personal\nmatters that require an employee's attention during standard working hours.\nCasual leave is credited at the beginning of each calendar year. For employees\njoining mid-year, casual leave is pro-rated based on the date of joining. Casual leave\ncannot be carried forward to the next calendar year and cannot be encashed.\nPage 4",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nLeaves\nTechNova recognizes the importance of work-life balance and offers a\ncomprehensive leave policy. Employees are entitled to 20 days of Earned Leave\n(PTO), 12 days of Casual Leave, and 10 days of Sick Leave per calendar year. Yes,\nup to 10 days of earned leave can be carried forward to the next calendar year.\nMaternity leave is provided for 26 weeks, and Paternity leave for 4 weeks. Maternity\nleave must be approved by the HR Head and the respective Department Head.\nBereavement leave of up to 5 days is available. All leave requests must be submitted\nthrough the internal portal at least two weeks in advance, except in emergencies.\nPage 13",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n7. Leave Approval Process\nAll leave requests must be submitted through the centralized HR Leave Portal. For\nplanned leaves (such as Earned Leave), requests must be submitted at least two\nweeks in advance to allow for adequate resource planning and handover.\nFor unplanned leaves (such as Sick Leave or emergency Casual Leave), employees\nmust notify their immediate supervisor via email or Slack as soon as possible, and\nformally apply for the leave in the portal within 24 hours of returning to work. Approval\nis at the discretion of the reporting manager.\nPage 9"
+    ]
+  },
+  {
+    "id": "Q054",
+    "run": 1,
+    "config": "B",
+    "question": "What is the company's policy regarding stock options for employees?",
+    "answer": "There is no information provided regarding the company's policy on stock options for employees. The key facts only mention leave benefits and leave policy, but do not mention stock options.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n1. Purpose & Eligibility\nThe purpose of this Leave Policy is to outline the various types of leave available to\nemployees of TechNova Solutions Pvt. Ltd., the eligibility criteria for each, and the\nprocedure for requesting and approving leave.\nAll full-time and part-time employees are eligible for leave benefits as described in this\npolicy. Contract employees and interns may have different leave structures, as\nspecified in their respective contracts.\nPage 3",
+      "TechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India | 650 Employees | Hybrid Work Model\nEmployee Records\nThis section outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2"
+    ]
+  },
+  {
+    "id": "Q038",
+    "run": 1,
+    "config": "B",
+    "question": "What is the company's policy on employee promotions?",
+    "answer": "The company's policy on employee promotions is that they are tied to the December review cycle, but there is no explicit information provided on the specific criteria or process for promotions.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nPerformance\nPerformance Appraisals at TechNova are conducted bi-annually, in June and\nDecember, using the Objective and Key Results (OKR) framework. These reviews are\ndesigned to be constructive, focusing on employee growth, skill development, and\nalignment with company goals.\nPromotions, salary increments, and performance bonuses are tied to the December\nreview cycle. Regular 1-on-1 feedback sessions with managers are strongly\nencouraged.\nPage 20",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+      "Employee Handbook\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nPage 1",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n5. Approval Workflow\nThe travel approval workflow is strictly enforced through the internal Concur portal.\nFor domestic travel, approval is required from the immediate reporting manager. For\ninternational travel, approval must be granted by the respective Vice President and\nthe CEO.\nExpense claims must be submitted within 15 days of returning from the trip. Claims\nsubmitted after 30 days will be rejected unless an exceptional circumstance is\ndocumented and approved by HR. Approved reimbursements will be credited directly\nto the employee's salary account in the subsequent payroll cycle.\nPage 7",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n7. Leave Approval Process\nAll leave requests must be submitted through the centralized HR Leave Portal. For\nplanned leaves (such as Earned Leave), requests must be submitted at least two\nweeks in advance to allow for adequate resource planning and handover.\nFor unplanned leaves (such as Sick Leave or emergency Casual Leave), employees\nmust notify their immediate supervisor via email or Slack as soon as possible, and\nformally apply for the leave in the portal within 24 hours of returning to work. Approval\nis at the discretion of the reporting manager.\nPage 9"
+    ]
+  },
+  {
+    "id": "Q045",
+    "run": 1,
+    "config": "B",
+    "question": "How are employee promotions evaluated?",
+    "answer": "Employee promotions are evaluated bi-annually in June and December, with the December review cycle being the primary time for promotions, salary increments, and performance bonuses.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nPerformance\nPerformance Appraisals at TechNova are conducted bi-annually, in June and\nDecember, using the Objective and Key Results (OKR) framework. These reviews are\ndesigned to be constructive, focusing on employee growth, skill development, and\nalignment with company goals.\nPromotions, salary increments, and performance bonuses are tied to the December\nreview cycle. Regular 1-on-1 feedback sessions with managers are strongly\nencouraged.\nPage 20",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+      "Employee Handbook\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nPage 1"
+    ]
+  },
+  {
+    "id": "Q067",
+    "run": 1,
+    "config": "B",
+    "question": "Compare phishing attacks and malware attacks, and explain how employees should respond to each.",
+    "answer": "Phishing attacks and malware attacks are two distinct types of cyber threats that employees should be aware of. Phishing attacks involve attempting to trick employees into revealing sensitive information or clicking on malicious links, whereas malware attacks involve the installation of malicious software on a device. To respond to phishing attacks, employees should exercise caution when opening attachments or clicking on links from unknown senders and report any suspected incidents to the IT Security Desk immediately. To respond to malware attacks, employees should not attempt to investigate or remediate the issue on their own, but rather report it to the IT Security Desk immediately.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n6. Incident Reporting\nRapid response is essential to mitigating the impact of a security breach. Any\nsuspected security incident, including lost or stolen laptops, suspicious emails, or\nunauthorized access attempts, must be reported immediately.\nEmployees must report incidents to the IT Security Desk by calling ext. 5555 or\nemailing security-alert@technova.com. Do not attempt to investigate or remediate a\nsuspected cyber attack on your own, as this may destroy critical forensic evidence.\nPage 8",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n2. Email Usage\nTechNova's email system is a critical business tool and must be used responsibly.\nEmployees are prohibited from using corporate email accounts for personal\ncommercial activities, political campaigning, or transmitting inappropriate content.\nCaution must be exercised when opening attachments or clicking on links from\nunknown senders to prevent phishing attacks. All outbound emails containing\nsensitive client information or proprietary source code must be encrypted using the\ninternal secure mailing gateway.\nPage 4",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7"
+    ]
+  },
+  {
+    "id": "Q058",
+    "run": 1,
+    "config": "B",
+    "question": "Can employees use personal USB drives on company computers?",
+    "answer": "No, employees cannot use personal USB drives on company computers, unless an explicit exception is granted by the CISO.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n4. Device Usage\nThe physical security of computing devices is paramount. No, Bring Your Own Device\n(BYOD) is strictly prohibited. You must use the company-issued laptop for all\nbusiness activities.\nLaptops must be locked when unattended, even within the Bengaluru headquarters.\nEmployees must not install unauthorized software or disable the endpoint detection\nand response (EDR) agent installed on their machines. Portable storage devices,\nsuch as USB drives, are blocked by default unless an explicit exception is granted by\nthe CISO.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n7. FAQ\nQ: What is the password policy?\nA: Passwords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days.\nQ: Can I use my own laptop?\nA: No, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop.\nPage 9",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7"
+    ]
+  },
+  {
+    "id": "Q064",
+    "run": 1,
+    "config": "B",
+    "question": "When is the use of external storage devices permitted?",
+    "answer": "The use of external storage devices, specifically portable storage devices like USB drives, is permitted only when an explicit exception is granted by the CISO.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n4. Device Usage\nThe physical security of computing devices is paramount. No, Bring Your Own Device\n(BYOD) is strictly prohibited. You must use the company-issued laptop for all\nbusiness activities.\nLaptops must be locked when unattended, even within the Bengaluru headquarters.\nEmployees must not install unauthorized software or disable the endpoint detection\nand response (EDR) agent installed on their machines. Portable storage devices,\nsuch as USB drives, are blocked by default unless an explicit exception is granted by\nthe CISO.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n7. FAQ\nQ: What is the password policy?\nA: Passwords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days.\nQ: Can I use my own laptop?\nA: No, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop.\nPage 9"
+    ]
+  },
+  {
+    "id": "Q088",
+    "run": 1,
+    "config": "B",
+    "question": "How should employees manage travel expenses during long international trips?",
+    "answer": "Employees should submit all travel expense receipts through the Concur portal within 15 days of return from the trip. They must also ensure that all international travel is approved by the VP of Finance and the CEO prior to the trip.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n5. Approval Workflow\nThe travel approval workflow is strictly enforced through the internal Concur portal.\nFor domestic travel, approval is required from the immediate reporting manager. For\ninternational travel, approval must be granted by the respective Vice President and\nthe CEO.\nExpense claims must be submitted within 15 days of returning from the trip. Claims\nsubmitted after 30 days will be rejected unless an exceptional circumstance is\ndocumented and approved by HR. Approved reimbursements will be credited directly\nto the employee's salary account in the subsequent payroll cycle.\nPage 7",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\nTable of Contents\n1. Domestic Travel\n2. International Travel\n3. Hotel Reimbursement\n4. Food Allowance\n5. Approval Workflow\n6. FAQ\nPage 2",
+      "Travel & Expense Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1"
+    ]
+  },
+  {
+    "id": "Q085",
+    "run": 1,
+    "config": "B",
+    "question": "How are emergency travel requests handled?",
+    "answer": "Emergency travel requests are handled by requiring approval from specific individuals based on the destination of the travel. For domestic travel, approval is required from the immediate reporting manager, while for international travel, approval is required from both the VP of Finance and the CEO.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\n19. Exit Process\n20. Emergency Contacts\n21. FAQ\nPage 3",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n5. Approval Workflow\nThe travel approval workflow is strictly enforced through the internal Concur portal.\nFor domestic travel, approval is required from the immediate reporting manager. For\ninternational travel, approval must be granted by the respective Vice President and\nthe CEO.\nExpense claims must be submitted within 15 days of returning from the trip. Claims\nsubmitted after 30 days will be rejected unless an exceptional circumstance is\ndocumented and approved by HR. Approved reimbursements will be credited directly\nto the employee's salary account in the subsequent payroll cycle.\nPage 7",
+      "Travel & Expense Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8"
+    ]
+  },
+  {
+    "id": "Q091",
+    "run": 1,
+    "config": "B",
+    "question": "Which business expenses are eligible for reimbursement?",
+    "answer": "Eligible business expenses for reimbursement include domestic per diem allowance, international per diem allowance (subject to regional variation and approval), and actual expenses for business dinners with itemized receipts. However, the reimbursement process for international travel is conditional upon prior approval from the VP of Finance and the CEO.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\nTable of Contents\n1. Domestic Travel\n2. International Travel\n3. Hotel Reimbursement\n4. Food Allowance\n5. Approval Workflow\n6. FAQ\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n4. Food Allowance\nTechNova provides a daily per diem allowance for food and incidental expenses\nduring business travel. The domestic per diem is INR 1000 per day. The international\nper diem varies by region but averages $60 or 50 Euros per day.\nPer diem allowances are automatically calculated based on the travel dates and do\nnot require the submission of individual food receipts. However, if an employee hosts\na business dinner with a client, the actual expenses can be claimed separately using\nan itemized receipt, subject to the client entertainment policy.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8"
+    ]
+  },
+  {
+    "id": "Q094",
+    "run": 1,
+    "config": "B",
+    "question": "Who approves employee expense reimbursement requests?",
+    "answer": "For domestic travel, the immediate reporting manager approves employee expense reimbursement requests. For international travel, approval is required from the respective Vice President, the VP of Finance, and the CEO.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n5. Approval Workflow\nThe travel approval workflow is strictly enforced through the internal Concur portal.\nFor domestic travel, approval is required from the immediate reporting manager. For\ninternational travel, approval must be granted by the respective Vice President and\nthe CEO.\nExpense claims must be submitted within 15 days of returning from the trip. Claims\nsubmitted after 30 days will be rejected unless an exceptional circumstance is\ndocumented and approved by HR. Approved reimbursements will be credited directly\nto the employee's salary account in the subsequent payroll cycle.\nPage 7",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\nTable of Contents\n1. Domestic Travel\n2. International Travel\n3. Hotel Reimbursement\n4. Food Allowance\n5. Approval Workflow\n6. FAQ\nPage 2"
+    ]
+  },
+  {
+    "id": "Q124",
+    "run": 1,
+    "config": "B",
+    "question": "Explain the complete onboarding process, including IT account creation and security responsibilities.",
+    "answer": "The onboarding process for new employees at TechNova involves the following steps:\n\n1. Initial IT account creation: The IT department will create a new account for the employee, which will be activated after the employee completes the onboarding process.\n2. Mandatory IT account setup: The employee must set up their IT account with a password that meets the minimum requirements (at least 14 characters long, contains numbers, and symbols) and enable Multi-Factor Authentication (MFA) to access all internal systems.\n3. Device setup: The employee will be issued a company-issued laptop, which must be used for all business activities. The laptop must be locked when unattended, even within the Bengaluru headquarters.\n4. Security responsibilities: The employee is responsible for not installing unauthorized software and not disabling the endpoint detection and response (EDR) agent installed on their machine.\n5. Portable storage device setup: If the employee requires the use of portable storage devices, such as USB drives, they must request an explicit exception from the CISO.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n4. Device Usage\nThe physical security of computing devices is paramount. No, Bring Your Own Device\n(BYOD) is strictly prohibited. You must use the company-issued laptop for all\nbusiness activities.\nLaptops must be locked when unattended, even within the Bengaluru headquarters.\nEmployees must not install unauthorized software or disable the endpoint detection\nand response (EDR) agent installed on their machines. Portable storage devices,\nsuch as USB drives, are blocked by default unless an explicit exception is granted by\nthe CISO.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+      "TechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India | 650 Employees | Hybrid Work Model\nRecruitment\nThis section outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n1. Password Policy\nThe foundation of our enterprise security begins with robust password management.\nPasswords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days. Under no circumstances should an employee share their\npassword with colleagues, contractors, or IT support staff.\nMulti-Factor Authentication (MFA) is strictly mandatory for accessing all TechNova\ninternal systems, including the HR portal, email servers, and GitHub repositories.\nEmployees are strongly encouraged to use the company-approved password\nmanager to generate and securely store their credentials.\nPage 3",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n7. FAQ\nQ: What is the password policy?\nA: Passwords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days.\nQ: Can I use my own laptop?\nA: No, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop.\nPage 9"
+    ]
+  },
+  {
+    "id": "Q116",
+    "run": 1,
+    "config": "B",
+    "question": "What should I do if my company laptop is stolen during a business trip?",
+    "answer": "If your company laptop is stolen during a business trip, you should report it to the IT Security Desk immediately at ext. 5555. This is the only action explicitly mentioned in the provided Key Facts.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n6. Incident Reporting\nRapid response is essential to mitigating the impact of a security breach. Any\nsuspected security incident, including lost or stolen laptops, suspicious emails, or\nunauthorized access attempts, must be reported immediately.\nEmployees must report incidents to the IT Security Desk by calling ext. 5555 or\nemailing security-alert@technova.com. Do not attempt to investigate or remediate a\nsuspected cyber attack on your own, as this may destroy critical forensic evidence.\nPage 8",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n4. Device Usage\nThe physical security of computing devices is paramount. No, Bring Your Own Device\n(BYOD) is strictly prohibited. You must use the company-issued laptop for all\nbusiness activities.\nLaptops must be locked when unattended, even within the Bengaluru headquarters.\nEmployees must not install unauthorized software or disable the endpoint detection\nand response (EDR) agent installed on their machines. Portable storage devices,\nsuch as USB drives, are blocked by default unless an explicit exception is granted by\nthe CISO.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7"
+    ]
+  },
+  {
+    "id": "Q137",
+    "run": 1,
+    "config": "B",
+    "question": "Can employees carry firearms while travelling for business?",
+    "answer": "It is not possible to determine if employees can carry firearms while travelling for business based on the provided Key Facts, as there is no mention of firearms or any related policies.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n2. International Travel\nAll international travel requires extensive justification and pre-approval. Flights\nexceeding 8 hours of continuous travel may be booked in Premium Economy, subject\nto VP approval. Business class is strictly reserved for Executive Leadership (C-Suite)\nor specific client-mandated travel.\nVisa application fees, travel insurance, and necessary vaccinations will be fully\nreimbursed by TechNova. Employees traveling internationally are required to use the\ncorporate travel desk for all bookings to ensure compliance with duty-of-care\nrequirements.\nPage 4",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n4. Device Usage\nThe physical security of computing devices is paramount. No, Bring Your Own Device\n(BYOD) is strictly prohibited. You must use the company-issued laptop for all\nbusiness activities.\nLaptops must be locked when unattended, even within the Bengaluru headquarters.\nEmployees must not install unauthorized software or disable the endpoint detection\nand response (EDR) agent installed on their machines. Portable storage devices,\nsuch as USB drives, are blocked by default unless an explicit exception is granted by\nthe CISO.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n2. Casual Leave\nEmployees are allowed 12 casual leaves per year. Casual leave is intended to\naccommodate unforeseen circumstances, personal emergencies, or brief personal\nmatters that require an employee's attention during standard working hours.\nCasual leave is credited at the beginning of each calendar year. For employees\njoining mid-year, casual leave is pro-rated based on the date of joining. Casual leave\ncannot be carried forward to the next calendar year and cannot be encashed.\nPage 4"
+    ]
+  },
+  {
+    "id": "Q133",
+    "run": 1,
+    "config": "B",
+    "question": "What is the annual salary of the CEO?",
+    "answer": "The annual salary of the CEO cannot be determined based on the provided Key Facts.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n3. Hotel Reimbursement\nAccommodation should be booked using the corporate travel desk's preferred hotel\npartners. The standard daily hotel cap is INR 5000 for Tier-1 cities (Mumbai, Delhi,\nBengaluru, Chennai) and INR 3500 for Tier-2 cities.\nFor international travel, hotel caps are defined dynamically based on the destination\ncity's cost of living index (e.g., $150/night for North America, 120 Euros/night for\nEurope). If a preferred hotel is unavailable, employees may book alternative\naccommodation within the stated limits, but a justification must be provided.\nPage 5",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nOrganization Structure\nTechNova operates on a matrix organizational structure to promote agility and\ncross-departmental collaboration. Our Executive Leadership Team, led by the CEO,\noversees the strategic direction of the company. Reporting directly to the executive\nboard are the Vice Presidents of our core divisions: Engineering, Human Resources,\nFinance, Sales & Marketing, IT Security, Administration, and Customer Support.\nEmployees are encouraged to engage with leadership through open-door policies and\nregular town-hall meetings, ensuring transparency across all levels of the\norganization.\nPage 9",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nPerformance\nPerformance Appraisals at TechNova are conducted bi-annually, in June and\nDecember, using the Objective and Key Results (OKR) framework. These reviews are\ndesigned to be constructive, focusing on employee growth, skill development, and\nalignment with company goals.\nPromotions, salary increments, and performance bonuses are tied to the December\nreview cycle. Regular 1-on-1 feedback sessions with managers are strongly\nencouraged.\nPage 20"
+    ]
+  },
+  {
+    "id": "Q004",
+    "run": 2,
+    "config": "B",
+    "question": "What employee benefits are provided by the company?",
+    "answer": "TechNova provides comprehensive health insurance covering the employee, spouse, and up to two children, a provident fund (PF) matching program, annual health check-ups, a monthly internet allowance for remote work days, a fully subsidized cafeteria, a wellness room, an on-site gymnasium, and access to the Employee Assistance Program (EAP) for mental health and legal counseling services.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nBenefits\nIn addition to competitive compensation, TechNova offers a robust benefits package.\nThis includes comprehensive health insurance covering the employee, spouse, and\nup to two children. We provide a provident fund (PF) matching program, annual health\ncheck-ups, and a monthly internet allowance for remote work days.\nThe Bengaluru office features a fully subsidized cafeteria, a wellness room, and an\non-site gymnasium. Employees also have access to our Employee Assistance\nProgram (EAP) for mental health and legal counseling services.\nPage 14",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+      "Employee Handbook\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nPage 1"
+    ]
+  },
+  {
+    "id": "Q009",
+    "run": 2,
+    "config": "B",
+    "question": "What are the responsibilities of employees regarding workplace safety?",
+    "answer": "Employees are not explicitly mentioned as having direct responsibilities regarding workplace safety in the provided key facts. However, it can be inferred that employees are expected to act in the best interests of the company, which may include following safety protocols and guidelines. The key facts primarily focus on code of conduct, conflicts of interest, and zero-tolerance policies for harassment, discrimination, and bullying.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nCode of Conduct\nThe TechNova Code of Conduct mandates that all employees behave in a\nprofessional, respectful, and ethical manner at all times. We have a zero-tolerance\npolicy for workplace harassment, discrimination, and bullying.\nEmployees must avoid any conflicts of interest and act in the best interests of the\ncompany. Any violation of this code, whether in the office, during remote work, or at\ncompany-sponsored events, will be met with strict disciplinary action, up to and\nincluding termination of employment.\nPage 15",
+      "Employee Handbook\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nPage 1",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\n19. Exit Process\n20. Emergency Contacts\n21. FAQ\nPage 3",
+      "procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd.\nPage 23"
+    ]
+  },
+  {
+    "id": "Q002",
+    "run": 2,
+    "config": "B",
+    "question": "What is the company's dress code policy?",
+    "answer": "The company's dress code policy is as follows: for everyday office work, a 'Smart Casual' dress code is promoted, but when meeting with clients or attending formal corporate events, 'Business Professional' attire is required. Additionally, certain types of clothing such as offensive graphics, overly revealing clothing, and beachwear are not permitted in the office, and employees must also dress professionally from the waist up for remote video calls.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nDress Code\nTechNova promotes a 'Smart Casual' dress code. We trust our employees to use their\nbest judgment in selecting attire that is professional, comfortable, and appropriate for\nthe workplace.\nWhen meeting with clients or attending formal corporate events, 'Business\nProfessional' attire is required. Offensive graphics, overly revealing clothing, and\nbeachwear are not permitted in the office. For remote video calls, employees must\nensure they are professionally presented from the waist up.\nPage 16",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nCode of Conduct\nThe TechNova Code of Conduct mandates that all employees behave in a\nprofessional, respectful, and ethical manner at all times. We have a zero-tolerance\npolicy for workplace harassment, discrimination, and bullying.\nEmployees must avoid any conflicts of interest and act in the best interests of the\ncompany. Any violation of this code, whether in the office, during remote work, or at\ncompany-sponsored events, will be met with strict disciplinary action, up to and\nincluding termination of employment.\nPage 15",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n7. FAQ\nQ: What is the password policy?\nA: Passwords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days.\nQ: Can I use my own laptop?\nA: No, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop.\nPage 9"
+    ]
+  },
+  {
+    "id": "Q033",
+    "run": 2,
+    "config": "B",
+    "question": "Does the company provide unlimited paid leave?",
+    "answer": "The company does not provide unlimited paid leave. Instead, it offers earned leave that can be carried forward up to 10 days and encashed at the time of separation, subject to a maximum cap of 30 days.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n1. Purpose & Eligibility\nThe purpose of this Leave Policy is to outline the various types of leave available to\nemployees of TechNova Solutions Pvt. Ltd., the eligibility criteria for each, and the\nprocedure for requesting and approving leave.\nAll full-time and part-time employees are eligible for leave benefits as described in this\npolicy. Contract employees and interns may have different leave structures, as\nspecified in their respective contracts.\nPage 3",
+      "Leave Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n2. Casual Leave\nEmployees are allowed 12 casual leaves per year. Casual leave is intended to\naccommodate unforeseen circumstances, personal emergencies, or brief personal\nmatters that require an employee's attention during standard working hours.\nCasual leave is credited at the beginning of each calendar year. For employees\njoining mid-year, casual leave is pro-rated based on the date of joining. Casual leave\ncannot be carried forward to the next calendar year and cannot be encashed.\nPage 4"
+    ]
+  },
+  {
+    "id": "Q027",
+    "run": 2,
+    "config": "B",
+    "question": "Compare maternity leave and paternity leave benefits.",
+    "answer": "Maternity leave benefits at TechNova are more generous than paternity leave benefits. While both types of leave are paid, maternity leave is offered for 26 weeks, whereas paternity leave is offered for 4 weeks. Additionally, maternity leave requires approval from the HR Head and the Department Head, whereas paternity leave requires approval from the reporting manager.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n6. Paternity Leave\nTo support new fathers, TechNova offers 4 weeks of paid Paternity Leave. This leave\nis available to all male employees upon the birth or adoption of a child.\nPaternity leave must be utilized within the first 6 months of the child's birth or\nplacement for adoption. It can be taken in a single block or divided into two blocks of\n2 weeks each, subject to approval from the reporting manager.\nPage 8",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nLeaves\nTechNova recognizes the importance of work-life balance and offers a\ncomprehensive leave policy. Employees are entitled to 20 days of Earned Leave\n(PTO), 12 days of Casual Leave, and 10 days of Sick Leave per calendar year. Yes,\nup to 10 days of earned leave can be carried forward to the next calendar year.\nMaternity leave is provided for 26 weeks, and Paternity leave for 4 weeks. Maternity\nleave must be approved by the HR Head and the respective Department Head.\nBereavement leave of up to 5 days is available. All leave requests must be submitted\nthrough the internal portal at least two weeks in advance, except in emergencies.\nPage 13",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n5. Maternity Leave\nTechNova is committed to supporting its employees during significant life events.\nFemale employees are entitled to 26 weeks of paid Maternity Leave, in accordance\nwith the Maternity Benefit Act.\nMaternity leave must be approved by the HR Head and the respective Department\nHead. The leave can be availed starting up to 8 weeks before the expected date of\ndelivery. Employees returning from maternity leave may also request flexible working\narrangements or extended remote work, subject to managerial approval.\nPage 7",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\nTable of Contents\n1. Purpose & Eligibility\n2. Casual Leave\n3. Sick Leave\n4. Earned Leave\n5. Maternity Leave\n6. Paternity Leave\n7. Leave Approval Process\n8. FAQ\nPage 2"
+    ]
+  },
+  {
+    "id": "Q031",
+    "run": 2,
+    "config": "B",
+    "question": "How many unpaid leaves can an employee take every year?",
+    "answer": "Based on the provided Key Facts, there is no information about the number of unpaid leaves an employee can take every year. The facts only mention earned leave and casual leaves, but do not specify unpaid leaves.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n2. Casual Leave\nEmployees are allowed 12 casual leaves per year. Casual leave is intended to\naccommodate unforeseen circumstances, personal emergencies, or brief personal\nmatters that require an employee's attention during standard working hours.\nCasual leave is credited at the beginning of each calendar year. For employees\njoining mid-year, casual leave is pro-rated based on the date of joining. Casual leave\ncannot be carried forward to the next calendar year and cannot be encashed.\nPage 4",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nLeaves\nTechNova recognizes the importance of work-life balance and offers a\ncomprehensive leave policy. Employees are entitled to 20 days of Earned Leave\n(PTO), 12 days of Casual Leave, and 10 days of Sick Leave per calendar year. Yes,\nup to 10 days of earned leave can be carried forward to the next calendar year.\nMaternity leave is provided for 26 weeks, and Paternity leave for 4 weeks. Maternity\nleave must be approved by the HR Head and the respective Department Head.\nBereavement leave of up to 5 days is available. All leave requests must be submitted\nthrough the internal portal at least two weeks in advance, except in emergencies.\nPage 13",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n7. Leave Approval Process\nAll leave requests must be submitted through the centralized HR Leave Portal. For\nplanned leaves (such as Earned Leave), requests must be submitted at least two\nweeks in advance to allow for adequate resource planning and handover.\nFor unplanned leaves (such as Sick Leave or emergency Casual Leave), employees\nmust notify their immediate supervisor via email or Slack as soon as possible, and\nformally apply for the leave in the portal within 24 hours of returning to work. Approval\nis at the discretion of the reporting manager.\nPage 9"
+    ]
+  },
+  {
+    "id": "Q054",
+    "run": 2,
+    "config": "B",
+    "question": "What is the company's policy regarding stock options for employees?",
+    "answer": "There is no information provided regarding the company's policy on stock options for employees.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n1. Purpose & Eligibility\nThe purpose of this Leave Policy is to outline the various types of leave available to\nemployees of TechNova Solutions Pvt. Ltd., the eligibility criteria for each, and the\nprocedure for requesting and approving leave.\nAll full-time and part-time employees are eligible for leave benefits as described in this\npolicy. Contract employees and interns may have different leave structures, as\nspecified in their respective contracts.\nPage 3",
+      "TechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India | 650 Employees | Hybrid Work Model\nEmployee Records\nThis section outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2"
+    ]
+  },
+  {
+    "id": "Q038",
+    "run": 2,
+    "config": "B",
+    "question": "What is the company's policy on employee promotions?",
+    "answer": "Based on the provided Key Facts, the company's policy on employee promotions is tied to the December review cycle, where promotions, salary increments, and performance bonuses are evaluated.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nPerformance\nPerformance Appraisals at TechNova are conducted bi-annually, in June and\nDecember, using the Objective and Key Results (OKR) framework. These reviews are\ndesigned to be constructive, focusing on employee growth, skill development, and\nalignment with company goals.\nPromotions, salary increments, and performance bonuses are tied to the December\nreview cycle. Regular 1-on-1 feedback sessions with managers are strongly\nencouraged.\nPage 20",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+      "Employee Handbook\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nPage 1",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n5. Approval Workflow\nThe travel approval workflow is strictly enforced through the internal Concur portal.\nFor domestic travel, approval is required from the immediate reporting manager. For\ninternational travel, approval must be granted by the respective Vice President and\nthe CEO.\nExpense claims must be submitted within 15 days of returning from the trip. Claims\nsubmitted after 30 days will be rejected unless an exceptional circumstance is\ndocumented and approved by HR. Approved reimbursements will be credited directly\nto the employee's salary account in the subsequent payroll cycle.\nPage 7",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n7. Leave Approval Process\nAll leave requests must be submitted through the centralized HR Leave Portal. For\nplanned leaves (such as Earned Leave), requests must be submitted at least two\nweeks in advance to allow for adequate resource planning and handover.\nFor unplanned leaves (such as Sick Leave or emergency Casual Leave), employees\nmust notify their immediate supervisor via email or Slack as soon as possible, and\nformally apply for the leave in the portal within 24 hours of returning to work. Approval\nis at the discretion of the reporting manager.\nPage 9"
+    ]
+  },
+  {
+    "id": "Q045",
+    "run": 2,
+    "config": "B",
+    "question": "How are employee promotions evaluated?",
+    "answer": "Employee promotions are evaluated bi-annually in June and December, with the December review cycle being the primary time for promotions, salary increments, and performance bonuses.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nPerformance\nPerformance Appraisals at TechNova are conducted bi-annually, in June and\nDecember, using the Objective and Key Results (OKR) framework. These reviews are\ndesigned to be constructive, focusing on employee growth, skill development, and\nalignment with company goals.\nPromotions, salary increments, and performance bonuses are tied to the December\nreview cycle. Regular 1-on-1 feedback sessions with managers are strongly\nencouraged.\nPage 20",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+      "Employee Handbook\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nPage 1"
+    ]
+  },
+  {
+    "id": "Q067",
+    "run": 2,
+    "config": "B",
+    "question": "Compare phishing attacks and malware attacks, and explain how employees should respond to each.",
+    "answer": "Phishing attacks and malware attacks are two distinct types of cyber threats that employees should be aware of. Phishing attacks involve attempting to trick employees into revealing sensitive information or clicking on malicious links, whereas malware attacks involve the installation of malicious software on a device. To respond to phishing attacks, employees should be cautious when opening attachments or clicking on links from unknown senders and use Multi-Factor Authentication (MFA) to prevent unauthorized access. In the event of a suspected phishing attack, employees should immediately report it to the IT Security Desk. To respond to malware attacks, employees should not attempt to investigate or remediate the issue on their own, but rather report it to the IT Security Desk immediately.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n6. Incident Reporting\nRapid response is essential to mitigating the impact of a security breach. Any\nsuspected security incident, including lost or stolen laptops, suspicious emails, or\nunauthorized access attempts, must be reported immediately.\nEmployees must report incidents to the IT Security Desk by calling ext. 5555 or\nemailing security-alert@technova.com. Do not attempt to investigate or remediate a\nsuspected cyber attack on your own, as this may destroy critical forensic evidence.\nPage 8",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n2. Email Usage\nTechNova's email system is a critical business tool and must be used responsibly.\nEmployees are prohibited from using corporate email accounts for personal\ncommercial activities, political campaigning, or transmitting inappropriate content.\nCaution must be exercised when opening attachments or clicking on links from\nunknown senders to prevent phishing attacks. All outbound emails containing\nsensitive client information or proprietary source code must be encrypted using the\ninternal secure mailing gateway.\nPage 4",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7"
+    ]
+  },
+  {
+    "id": "Q058",
+    "run": 2,
+    "config": "B",
+    "question": "Can employees use personal USB drives on company computers?",
+    "answer": "No, employees cannot use personal USB drives on company computers, as they are blocked by default unless an explicit exception is granted by the CISO. Additionally, BYOD is strictly prohibited, and employees must use the company-issued laptop for all business activities.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n4. Device Usage\nThe physical security of computing devices is paramount. No, Bring Your Own Device\n(BYOD) is strictly prohibited. You must use the company-issued laptop for all\nbusiness activities.\nLaptops must be locked when unattended, even within the Bengaluru headquarters.\nEmployees must not install unauthorized software or disable the endpoint detection\nand response (EDR) agent installed on their machines. Portable storage devices,\nsuch as USB drives, are blocked by default unless an explicit exception is granted by\nthe CISO.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n7. FAQ\nQ: What is the password policy?\nA: Passwords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days.\nQ: Can I use my own laptop?\nA: No, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop.\nPage 9",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7"
+    ]
+  },
+  {
+    "id": "Q064",
+    "run": 2,
+    "config": "B",
+    "question": "When is the use of external storage devices permitted?",
+    "answer": "The use of external storage devices, specifically portable storage devices like USB drives, is permitted only when an explicit exception is granted by the CISO.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n4. Device Usage\nThe physical security of computing devices is paramount. No, Bring Your Own Device\n(BYOD) is strictly prohibited. You must use the company-issued laptop for all\nbusiness activities.\nLaptops must be locked when unattended, even within the Bengaluru headquarters.\nEmployees must not install unauthorized software or disable the endpoint detection\nand response (EDR) agent installed on their machines. Portable storage devices,\nsuch as USB drives, are blocked by default unless an explicit exception is granted by\nthe CISO.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n7. FAQ\nQ: What is the password policy?\nA: Passwords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days.\nQ: Can I use my own laptop?\nA: No, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop.\nPage 9"
+    ]
+  },
+  {
+    "id": "Q088",
+    "run": 2,
+    "config": "B",
+    "question": "How should employees manage travel expenses during long international trips?",
+    "answer": "Employees should submit all travel expense receipts through the Concur portal within 15 days of return from the trip. They must also ensure that all international travel is approved by the VP of Finance and the CEO prior to the trip.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n5. Approval Workflow\nThe travel approval workflow is strictly enforced through the internal Concur portal.\nFor domestic travel, approval is required from the immediate reporting manager. For\ninternational travel, approval must be granted by the respective Vice President and\nthe CEO.\nExpense claims must be submitted within 15 days of returning from the trip. Claims\nsubmitted after 30 days will be rejected unless an exceptional circumstance is\ndocumented and approved by HR. Approved reimbursements will be credited directly\nto the employee's salary account in the subsequent payroll cycle.\nPage 7",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\nTable of Contents\n1. Domestic Travel\n2. International Travel\n3. Hotel Reimbursement\n4. Food Allowance\n5. Approval Workflow\n6. FAQ\nPage 2",
+      "Travel & Expense Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1"
+    ]
+  },
+  {
+    "id": "Q085",
+    "run": 2,
+    "config": "B",
+    "question": "How are emergency travel requests handled?",
+    "answer": "Emergency travel requests are handled by requiring approval from specific individuals based on the destination of the travel. For domestic travel, approval is required from the immediate reporting manager, while for international travel, approval is required from both the VP of Finance and the CEO.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\n19. Exit Process\n20. Emergency Contacts\n21. FAQ\nPage 3",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n5. Approval Workflow\nThe travel approval workflow is strictly enforced through the internal Concur portal.\nFor domestic travel, approval is required from the immediate reporting manager. For\ninternational travel, approval must be granted by the respective Vice President and\nthe CEO.\nExpense claims must be submitted within 15 days of returning from the trip. Claims\nsubmitted after 30 days will be rejected unless an exceptional circumstance is\ndocumented and approved by HR. Approved reimbursements will be credited directly\nto the employee's salary account in the subsequent payroll cycle.\nPage 7",
+      "Travel & Expense Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8"
+    ]
+  },
+  {
+    "id": "Q091",
+    "run": 2,
+    "config": "B",
+    "question": "Which business expenses are eligible for reimbursement?",
+    "answer": "Eligible business expenses for reimbursement include domestic per diem allowance, international per diem allowance (subject to regional variation), actual expenses for business dinners with itemized receipts, and other travel-related expenses. However, the reimbursement process for international travel is more complex and requires approval from the VP of Finance and the CEO.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\nTable of Contents\n1. Domestic Travel\n2. International Travel\n3. Hotel Reimbursement\n4. Food Allowance\n5. Approval Workflow\n6. FAQ\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n4. Food Allowance\nTechNova provides a daily per diem allowance for food and incidental expenses\nduring business travel. The domestic per diem is INR 1000 per day. The international\nper diem varies by region but averages $60 or 50 Euros per day.\nPer diem allowances are automatically calculated based on the travel dates and do\nnot require the submission of individual food receipts. However, if an employee hosts\na business dinner with a client, the actual expenses can be claimed separately using\nan itemized receipt, subject to the client entertainment policy.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8"
+    ]
+  },
+  {
+    "id": "Q094",
+    "run": 2,
+    "config": "B",
+    "question": "Who approves employee expense reimbursement requests?",
+    "answer": "For domestic travel, the immediate reporting manager approves employee expense reimbursement requests. For international travel, approval is required from the respective Vice President, the VP of Finance, and the CEO.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n5. Approval Workflow\nThe travel approval workflow is strictly enforced through the internal Concur portal.\nFor domestic travel, approval is required from the immediate reporting manager. For\ninternational travel, approval must be granted by the respective Vice President and\nthe CEO.\nExpense claims must be submitted within 15 days of returning from the trip. Claims\nsubmitted after 30 days will be rejected unless an exceptional circumstance is\ndocumented and approved by HR. Approved reimbursements will be credited directly\nto the employee's salary account in the subsequent payroll cycle.\nPage 7",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\nTable of Contents\n1. Domestic Travel\n2. International Travel\n3. Hotel Reimbursement\n4. Food Allowance\n5. Approval Workflow\n6. FAQ\nPage 2"
+    ]
+  },
+  {
+    "id": "Q124",
+    "run": 2,
+    "config": "B",
+    "question": "Explain the complete onboarding process, including IT account creation and security responsibilities.",
+    "answer": "The complete onboarding process for TechNova employees involves the following steps:\n\n1. Initial IT account creation: The IT department will create an IT account for the new employee, which will be used to access all internal systems.\n2. Mandatory Multi-Factor Authentication (MFA) setup: The employee will be required to set up MFA on their company-issued laptop, which will be used to access all internal systems.\n3. Laptop setup and configuration: The IT department will configure the company-issued laptop with the necessary software and settings, including the endpoint detection and response (EDR) agent.\n4. Security responsibilities: The employee will be responsible for changing their password every 90 days, ensuring it is at least 14 characters long and contains numbers and symbols. They will also be responsible for locking their laptop when unattended and not installing unauthorized software.\n5. Final security check: The IT department will conduct a final security check to ensure that the employee's laptop is configured correctly and that they understand their security responsibilities.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n4. Device Usage\nThe physical security of computing devices is paramount. No, Bring Your Own Device\n(BYOD) is strictly prohibited. You must use the company-issued laptop for all\nbusiness activities.\nLaptops must be locked when unattended, even within the Bengaluru headquarters.\nEmployees must not install unauthorized software or disable the endpoint detection\nand response (EDR) agent installed on their machines. Portable storage devices,\nsuch as USB drives, are blocked by default unless an explicit exception is granted by\nthe CISO.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+      "TechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India | 650 Employees | Hybrid Work Model\nRecruitment\nThis section outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n1. Password Policy\nThe foundation of our enterprise security begins with robust password management.\nPasswords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days. Under no circumstances should an employee share their\npassword with colleagues, contractors, or IT support staff.\nMulti-Factor Authentication (MFA) is strictly mandatory for accessing all TechNova\ninternal systems, including the HR portal, email servers, and GitHub repositories.\nEmployees are strongly encouraged to use the company-approved password\nmanager to generate and securely store their credentials.\nPage 3",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n7. FAQ\nQ: What is the password policy?\nA: Passwords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days.\nQ: Can I use my own laptop?\nA: No, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop.\nPage 9"
+    ]
+  },
+  {
+    "id": "Q116",
+    "run": 2,
+    "config": "B",
+    "question": "What should I do if my company laptop is stolen during a business trip?",
+    "answer": "If your company laptop is stolen during a business trip, you should report it to the IT Security Desk immediately at ext. 5555. This is the only action explicitly mentioned in the provided Key Facts.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n6. Incident Reporting\nRapid response is essential to mitigating the impact of a security breach. Any\nsuspected security incident, including lost or stolen laptops, suspicious emails, or\nunauthorized access attempts, must be reported immediately.\nEmployees must report incidents to the IT Security Desk by calling ext. 5555 or\nemailing security-alert@technova.com. Do not attempt to investigate or remediate a\nsuspected cyber attack on your own, as this may destroy critical forensic evidence.\nPage 8",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n4. Device Usage\nThe physical security of computing devices is paramount. No, Bring Your Own Device\n(BYOD) is strictly prohibited. You must use the company-issued laptop for all\nbusiness activities.\nLaptops must be locked when unattended, even within the Bengaluru headquarters.\nEmployees must not install unauthorized software or disable the endpoint detection\nand response (EDR) agent installed on their machines. Portable storage devices,\nsuch as USB drives, are blocked by default unless an explicit exception is granted by\nthe CISO.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7"
+    ]
+  },
+  {
+    "id": "Q137",
+    "run": 2,
+    "config": "B",
+    "question": "Can employees carry firearms while travelling for business?",
+    "answer": "Based on the provided Key Facts, there is no direct information that explicitly states whether employees are allowed to carry firearms while traveling for business. However, since employees are not allowed to carry personal devices for business activities, it can be inferred that carrying personal firearms might be subject to the same restriction. However, this is not explicitly stated.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n2. International Travel\nAll international travel requires extensive justification and pre-approval. Flights\nexceeding 8 hours of continuous travel may be booked in Premium Economy, subject\nto VP approval. Business class is strictly reserved for Executive Leadership (C-Suite)\nor specific client-mandated travel.\nVisa application fees, travel insurance, and necessary vaccinations will be fully\nreimbursed by TechNova. Employees traveling internationally are required to use the\ncorporate travel desk for all bookings to ensure compliance with duty-of-care\nrequirements.\nPage 4",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n4. Device Usage\nThe physical security of computing devices is paramount. No, Bring Your Own Device\n(BYOD) is strictly prohibited. You must use the company-issued laptop for all\nbusiness activities.\nLaptops must be locked when unattended, even within the Bengaluru headquarters.\nEmployees must not install unauthorized software or disable the endpoint detection\nand response (EDR) agent installed on their machines. Portable storage devices,\nsuch as USB drives, are blocked by default unless an explicit exception is granted by\nthe CISO.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n2. Casual Leave\nEmployees are allowed 12 casual leaves per year. Casual leave is intended to\naccommodate unforeseen circumstances, personal emergencies, or brief personal\nmatters that require an employee's attention during standard working hours.\nCasual leave is credited at the beginning of each calendar year. For employees\njoining mid-year, casual leave is pro-rated based on the date of joining. Casual leave\ncannot be carried forward to the next calendar year and cannot be encashed.\nPage 4"
+    ]
+  },
+  {
+    "id": "Q133",
+    "run": 2,
+    "config": "B",
+    "question": "What is the annual salary of the CEO?",
+    "answer": "The annual salary of the CEO cannot be determined based on the provided Key Facts.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n3. Hotel Reimbursement\nAccommodation should be booked using the corporate travel desk's preferred hotel\npartners. The standard daily hotel cap is INR 5000 for Tier-1 cities (Mumbai, Delhi,\nBengaluru, Chennai) and INR 3500 for Tier-2 cities.\nFor international travel, hotel caps are defined dynamically based on the destination\ncity's cost of living index (e.g., $150/night for North America, 120 Euros/night for\nEurope). If a preferred hotel is unavailable, employees may book alternative\naccommodation within the stated limits, but a justification must be provided.\nPage 5",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nOrganization Structure\nTechNova operates on a matrix organizational structure to promote agility and\ncross-departmental collaboration. Our Executive Leadership Team, led by the CEO,\noversees the strategic direction of the company. Reporting directly to the executive\nboard are the Vice Presidents of our core divisions: Engineering, Human Resources,\nFinance, Sales & Marketing, IT Security, Administration, and Customer Support.\nEmployees are encouraged to engage with leadership through open-door policies and\nregular town-hall meetings, ensuring transparency across all levels of the\norganization.\nPage 9",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nPerformance\nPerformance Appraisals at TechNova are conducted bi-annually, in June and\nDecember, using the Objective and Key Results (OKR) framework. These reviews are\ndesigned to be constructive, focusing on employee growth, skill development, and\nalignment with company goals.\nPromotions, salary increments, and performance bonuses are tied to the December\nreview cycle. Regular 1-on-1 feedback sessions with managers are strongly\nencouraged.\nPage 20"
+    ]
+  },
+  {
+    "id": "Q004",
+    "run": 3,
+    "config": "B",
+    "question": "What employee benefits are provided by the company?",
+    "answer": "TechNova provides comprehensive health insurance covering the employee, spouse, and up to two children, a provident fund (PF) matching program, annual health check-ups, a monthly internet allowance for remote work days, a fully subsidized cafeteria, a wellness room, an on-site gymnasium, and access to the Employee Assistance Program (EAP) for mental health and legal counseling services.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nBenefits\nIn addition to competitive compensation, TechNova offers a robust benefits package.\nThis includes comprehensive health insurance covering the employee, spouse, and\nup to two children. We provide a provident fund (PF) matching program, annual health\ncheck-ups, and a monthly internet allowance for remote work days.\nThe Bengaluru office features a fully subsidized cafeteria, a wellness room, and an\non-site gymnasium. Employees also have access to our Employee Assistance\nProgram (EAP) for mental health and legal counseling services.\nPage 14",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+      "Employee Handbook\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nPage 1"
+    ]
+  },
+  {
+    "id": "Q009",
+    "run": 3,
+    "config": "B",
+    "question": "What are the responsibilities of employees regarding workplace safety?",
+    "answer": "Based on the provided Key Facts, there is no direct mention of workplace safety responsibilities for employees. However, it can be inferred that employees are expected to act in the best interests of the company, which may indirectly include maintaining a safe working environment. Unfortunately, the Key Facts do not explicitly state the responsibilities of employees regarding workplace safety.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nCode of Conduct\nThe TechNova Code of Conduct mandates that all employees behave in a\nprofessional, respectful, and ethical manner at all times. We have a zero-tolerance\npolicy for workplace harassment, discrimination, and bullying.\nEmployees must avoid any conflicts of interest and act in the best interests of the\ncompany. Any violation of this code, whether in the office, during remote work, or at\ncompany-sponsored events, will be met with strict disciplinary action, up to and\nincluding termination of employment.\nPage 15",
+      "Employee Handbook\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nPage 1",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\n19. Exit Process\n20. Emergency Contacts\n21. FAQ\nPage 3",
+      "procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd.\nPage 23"
+    ]
+  },
+  {
+    "id": "Q002",
+    "run": 3,
+    "config": "B",
+    "question": "What is the company's dress code policy?",
+    "answer": "The company's dress code policy is as follows: for everyday office work, a 'Smart Casual' dress code is promoted, but when meeting with clients or attending formal corporate events, 'Business Professional' attire is required. Additionally, certain types of clothing such as offensive graphics, overly revealing clothing, and beachwear are not permitted in the office, and employees must also dress professionally from the waist up for remote video calls.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nDress Code\nTechNova promotes a 'Smart Casual' dress code. We trust our employees to use their\nbest judgment in selecting attire that is professional, comfortable, and appropriate for\nthe workplace.\nWhen meeting with clients or attending formal corporate events, 'Business\nProfessional' attire is required. Offensive graphics, overly revealing clothing, and\nbeachwear are not permitted in the office. For remote video calls, employees must\nensure they are professionally presented from the waist up.\nPage 16",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nCode of Conduct\nThe TechNova Code of Conduct mandates that all employees behave in a\nprofessional, respectful, and ethical manner at all times. We have a zero-tolerance\npolicy for workplace harassment, discrimination, and bullying.\nEmployees must avoid any conflicts of interest and act in the best interests of the\ncompany. Any violation of this code, whether in the office, during remote work, or at\ncompany-sponsored events, will be met with strict disciplinary action, up to and\nincluding termination of employment.\nPage 15",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n7. FAQ\nQ: What is the password policy?\nA: Passwords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days.\nQ: Can I use my own laptop?\nA: No, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop.\nPage 9"
+    ]
+  },
+  {
+    "id": "Q033",
+    "run": 3,
+    "config": "B",
+    "question": "Does the company provide unlimited paid leave?",
+    "answer": "The company does not provide unlimited paid leave. Instead, it offers earned leave that can be carried forward up to 10 days and encashed at the time of separation, subject to a maximum cap of 30 days.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n1. Purpose & Eligibility\nThe purpose of this Leave Policy is to outline the various types of leave available to\nemployees of TechNova Solutions Pvt. Ltd., the eligibility criteria for each, and the\nprocedure for requesting and approving leave.\nAll full-time and part-time employees are eligible for leave benefits as described in this\npolicy. Contract employees and interns may have different leave structures, as\nspecified in their respective contracts.\nPage 3",
+      "Leave Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n2. Casual Leave\nEmployees are allowed 12 casual leaves per year. Casual leave is intended to\naccommodate unforeseen circumstances, personal emergencies, or brief personal\nmatters that require an employee's attention during standard working hours.\nCasual leave is credited at the beginning of each calendar year. For employees\njoining mid-year, casual leave is pro-rated based on the date of joining. Casual leave\ncannot be carried forward to the next calendar year and cannot be encashed.\nPage 4"
+    ]
+  },
+  {
+    "id": "Q027",
+    "run": 3,
+    "config": "B",
+    "question": "Compare maternity leave and paternity leave benefits.",
+    "answer": "Maternity leave benefits at TechNova are more generous than paternity leave benefits. While both types of leave are paid, maternity leave is offered for 26 weeks, whereas paternity leave is offered for 4 weeks. Additionally, maternity leave requires approval from the HR Head and the Department Head, whereas paternity leave requires approval from the reporting manager.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n6. Paternity Leave\nTo support new fathers, TechNova offers 4 weeks of paid Paternity Leave. This leave\nis available to all male employees upon the birth or adoption of a child.\nPaternity leave must be utilized within the first 6 months of the child's birth or\nplacement for adoption. It can be taken in a single block or divided into two blocks of\n2 weeks each, subject to approval from the reporting manager.\nPage 8",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nLeaves\nTechNova recognizes the importance of work-life balance and offers a\ncomprehensive leave policy. Employees are entitled to 20 days of Earned Leave\n(PTO), 12 days of Casual Leave, and 10 days of Sick Leave per calendar year. Yes,\nup to 10 days of earned leave can be carried forward to the next calendar year.\nMaternity leave is provided for 26 weeks, and Paternity leave for 4 weeks. Maternity\nleave must be approved by the HR Head and the respective Department Head.\nBereavement leave of up to 5 days is available. All leave requests must be submitted\nthrough the internal portal at least two weeks in advance, except in emergencies.\nPage 13",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n5. Maternity Leave\nTechNova is committed to supporting its employees during significant life events.\nFemale employees are entitled to 26 weeks of paid Maternity Leave, in accordance\nwith the Maternity Benefit Act.\nMaternity leave must be approved by the HR Head and the respective Department\nHead. The leave can be availed starting up to 8 weeks before the expected date of\ndelivery. Employees returning from maternity leave may also request flexible working\narrangements or extended remote work, subject to managerial approval.\nPage 7",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\nTable of Contents\n1. Purpose & Eligibility\n2. Casual Leave\n3. Sick Leave\n4. Earned Leave\n5. Maternity Leave\n6. Paternity Leave\n7. Leave Approval Process\n8. FAQ\nPage 2"
+    ]
+  },
+  {
+    "id": "Q031",
+    "run": 3,
+    "config": "B",
+    "question": "How many unpaid leaves can an employee take every year?",
+    "answer": "Based on the provided Key Facts, there is no information about the number of unpaid leaves an employee can take every year. The facts only mention earned leave and casual leaves, but do not specify unpaid leaves.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n2. Casual Leave\nEmployees are allowed 12 casual leaves per year. Casual leave is intended to\naccommodate unforeseen circumstances, personal emergencies, or brief personal\nmatters that require an employee's attention during standard working hours.\nCasual leave is credited at the beginning of each calendar year. For employees\njoining mid-year, casual leave is pro-rated based on the date of joining. Casual leave\ncannot be carried forward to the next calendar year and cannot be encashed.\nPage 4",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nLeaves\nTechNova recognizes the importance of work-life balance and offers a\ncomprehensive leave policy. Employees are entitled to 20 days of Earned Leave\n(PTO), 12 days of Casual Leave, and 10 days of Sick Leave per calendar year. Yes,\nup to 10 days of earned leave can be carried forward to the next calendar year.\nMaternity leave is provided for 26 weeks, and Paternity leave for 4 weeks. Maternity\nleave must be approved by the HR Head and the respective Department Head.\nBereavement leave of up to 5 days is available. All leave requests must be submitted\nthrough the internal portal at least two weeks in advance, except in emergencies.\nPage 13",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n7. Leave Approval Process\nAll leave requests must be submitted through the centralized HR Leave Portal. For\nplanned leaves (such as Earned Leave), requests must be submitted at least two\nweeks in advance to allow for adequate resource planning and handover.\nFor unplanned leaves (such as Sick Leave or emergency Casual Leave), employees\nmust notify their immediate supervisor via email or Slack as soon as possible, and\nformally apply for the leave in the portal within 24 hours of returning to work. Approval\nis at the discretion of the reporting manager.\nPage 9"
+    ]
+  },
+  {
+    "id": "Q054",
+    "run": 3,
+    "config": "B",
+    "question": "What is the company's policy regarding stock options for employees?",
+    "answer": "There is no information provided regarding the company's policy on stock options for employees. The key facts only mention leave benefits and the Employee Handbook, but do not mention stock options.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n1. Purpose & Eligibility\nThe purpose of this Leave Policy is to outline the various types of leave available to\nemployees of TechNova Solutions Pvt. Ltd., the eligibility criteria for each, and the\nprocedure for requesting and approving leave.\nAll full-time and part-time employees are eligible for leave benefits as described in this\npolicy. Contract employees and interns may have different leave structures, as\nspecified in their respective contracts.\nPage 3",
+      "TechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India | 650 Employees | Hybrid Work Model\nEmployee Records\nThis section outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2"
+    ]
+  },
+  {
+    "id": "Q038",
+    "run": 3,
+    "config": "B",
+    "question": "What is the company's policy on employee promotions?",
+    "answer": "The company's policy on employee promotions is that they are tied to the December review cycle, but there is no explicit information provided on the specific criteria or process for promotions.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nPerformance\nPerformance Appraisals at TechNova are conducted bi-annually, in June and\nDecember, using the Objective and Key Results (OKR) framework. These reviews are\ndesigned to be constructive, focusing on employee growth, skill development, and\nalignment with company goals.\nPromotions, salary increments, and performance bonuses are tied to the December\nreview cycle. Regular 1-on-1 feedback sessions with managers are strongly\nencouraged.\nPage 20",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+      "Employee Handbook\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nPage 1",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n5. Approval Workflow\nThe travel approval workflow is strictly enforced through the internal Concur portal.\nFor domestic travel, approval is required from the immediate reporting manager. For\ninternational travel, approval must be granted by the respective Vice President and\nthe CEO.\nExpense claims must be submitted within 15 days of returning from the trip. Claims\nsubmitted after 30 days will be rejected unless an exceptional circumstance is\ndocumented and approved by HR. Approved reimbursements will be credited directly\nto the employee's salary account in the subsequent payroll cycle.\nPage 7",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n7. Leave Approval Process\nAll leave requests must be submitted through the centralized HR Leave Portal. For\nplanned leaves (such as Earned Leave), requests must be submitted at least two\nweeks in advance to allow for adequate resource planning and handover.\nFor unplanned leaves (such as Sick Leave or emergency Casual Leave), employees\nmust notify their immediate supervisor via email or Slack as soon as possible, and\nformally apply for the leave in the portal within 24 hours of returning to work. Approval\nis at the discretion of the reporting manager.\nPage 9"
+    ]
+  },
+  {
+    "id": "Q045",
+    "run": 3,
+    "config": "B",
+    "question": "How are employee promotions evaluated?",
+    "answer": "Employee promotions are evaluated bi-annually in June and December, with the December review cycle being the primary time for promotions, salary increments, and performance bonuses.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nPerformance\nPerformance Appraisals at TechNova are conducted bi-annually, in June and\nDecember, using the Objective and Key Results (OKR) framework. These reviews are\ndesigned to be constructive, focusing on employee growth, skill development, and\nalignment with company goals.\nPromotions, salary increments, and performance bonuses are tied to the December\nreview cycle. Regular 1-on-1 feedback sessions with managers are strongly\nencouraged.\nPage 20",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+      "Employee Handbook\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nPage 1"
+    ]
+  },
+  {
+    "id": "Q067",
+    "run": 3,
+    "config": "B",
+    "question": "Compare phishing attacks and malware attacks, and explain how employees should respond to each.",
+    "answer": "Phishing attacks and malware attacks are two distinct types of cyber threats that employees should be aware of. Phishing attacks involve attempting to trick employees into revealing sensitive information or clicking on malicious links, whereas malware attacks involve the installation of malicious software on a device. To respond to phishing attacks, employees should exercise caution when opening attachments or clicking on links from unknown senders and report any suspected incidents to the IT Security Desk immediately. To respond to malware attacks, employees should not attempt to investigate or remediate the issue on their own, but rather report it to the IT Security Desk immediately.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n6. Incident Reporting\nRapid response is essential to mitigating the impact of a security breach. Any\nsuspected security incident, including lost or stolen laptops, suspicious emails, or\nunauthorized access attempts, must be reported immediately.\nEmployees must report incidents to the IT Security Desk by calling ext. 5555 or\nemailing security-alert@technova.com. Do not attempt to investigate or remediate a\nsuspected cyber attack on your own, as this may destroy critical forensic evidence.\nPage 8",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n2. Email Usage\nTechNova's email system is a critical business tool and must be used responsibly.\nEmployees are prohibited from using corporate email accounts for personal\ncommercial activities, political campaigning, or transmitting inappropriate content.\nCaution must be exercised when opening attachments or clicking on links from\nunknown senders to prevent phishing attacks. All outbound emails containing\nsensitive client information or proprietary source code must be encrypted using the\ninternal secure mailing gateway.\nPage 4",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7"
+    ]
+  },
+  {
+    "id": "Q058",
+    "run": 3,
+    "config": "B",
+    "question": "Can employees use personal USB drives on company computers?",
+    "answer": "No, employees cannot use personal USB drives on company computers, unless an explicit exception is granted by the CISO.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n4. Device Usage\nThe physical security of computing devices is paramount. No, Bring Your Own Device\n(BYOD) is strictly prohibited. You must use the company-issued laptop for all\nbusiness activities.\nLaptops must be locked when unattended, even within the Bengaluru headquarters.\nEmployees must not install unauthorized software or disable the endpoint detection\nand response (EDR) agent installed on their machines. Portable storage devices,\nsuch as USB drives, are blocked by default unless an explicit exception is granted by\nthe CISO.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n7. FAQ\nQ: What is the password policy?\nA: Passwords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days.\nQ: Can I use my own laptop?\nA: No, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop.\nPage 9",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7"
+    ]
+  },
+  {
+    "id": "Q064",
+    "run": 3,
+    "config": "B",
+    "question": "When is the use of external storage devices permitted?",
+    "answer": "The use of external storage devices is permitted when an explicit exception is granted by the CISO.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n4. Device Usage\nThe physical security of computing devices is paramount. No, Bring Your Own Device\n(BYOD) is strictly prohibited. You must use the company-issued laptop for all\nbusiness activities.\nLaptops must be locked when unattended, even within the Bengaluru headquarters.\nEmployees must not install unauthorized software or disable the endpoint detection\nand response (EDR) agent installed on their machines. Portable storage devices,\nsuch as USB drives, are blocked by default unless an explicit exception is granted by\nthe CISO.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n7. FAQ\nQ: What is the password policy?\nA: Passwords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days.\nQ: Can I use my own laptop?\nA: No, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop.\nPage 9"
+    ]
+  },
+  {
+    "id": "Q088",
+    "run": 3,
+    "config": "B",
+    "question": "How should employees manage travel expenses during long international trips?",
+    "answer": "Employees should submit all travel expense receipts through the Concur portal within 15 days of return from the trip. They must also ensure that all international travel is approved by the VP of Finance and the CEO prior to the trip.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n5. Approval Workflow\nThe travel approval workflow is strictly enforced through the internal Concur portal.\nFor domestic travel, approval is required from the immediate reporting manager. For\ninternational travel, approval must be granted by the respective Vice President and\nthe CEO.\nExpense claims must be submitted within 15 days of returning from the trip. Claims\nsubmitted after 30 days will be rejected unless an exceptional circumstance is\ndocumented and approved by HR. Approved reimbursements will be credited directly\nto the employee's salary account in the subsequent payroll cycle.\nPage 7",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\nTable of Contents\n1. Domestic Travel\n2. International Travel\n3. Hotel Reimbursement\n4. Food Allowance\n5. Approval Workflow\n6. FAQ\nPage 2",
+      "Travel & Expense Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1"
+    ]
+  },
+  {
+    "id": "Q085",
+    "run": 3,
+    "config": "B",
+    "question": "How are emergency travel requests handled?",
+    "answer": "Emergency travel requests are handled by requiring approval from specific individuals based on the destination of the travel. For domestic travel, approval is required from the immediate reporting manager, while for international travel, approval is required from both the VP of Finance and the CEO.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\n19. Exit Process\n20. Emergency Contacts\n21. FAQ\nPage 3",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n5. Approval Workflow\nThe travel approval workflow is strictly enforced through the internal Concur portal.\nFor domestic travel, approval is required from the immediate reporting manager. For\ninternational travel, approval must be granted by the respective Vice President and\nthe CEO.\nExpense claims must be submitted within 15 days of returning from the trip. Claims\nsubmitted after 30 days will be rejected unless an exceptional circumstance is\ndocumented and approved by HR. Approved reimbursements will be credited directly\nto the employee's salary account in the subsequent payroll cycle.\nPage 7",
+      "Travel & Expense Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8"
+    ]
+  },
+  {
+    "id": "Q091",
+    "run": 3,
+    "config": "B",
+    "question": "Which business expenses are eligible for reimbursement?",
+    "answer": "Eligible business expenses for reimbursement include domestic per diem allowance, international per diem allowance (subject to regional variation and approval), and actual expenses for business dinners with itemized receipts. However, the reimbursement process for international travel is conditional upon prior approval from the VP of Finance and the CEO.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\nTable of Contents\n1. Domestic Travel\n2. International Travel\n3. Hotel Reimbursement\n4. Food Allowance\n5. Approval Workflow\n6. FAQ\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n4. Food Allowance\nTechNova provides a daily per diem allowance for food and incidental expenses\nduring business travel. The domestic per diem is INR 1000 per day. The international\nper diem varies by region but averages $60 or 50 Euros per day.\nPer diem allowances are automatically calculated based on the travel dates and do\nnot require the submission of individual food receipts. However, if an employee hosts\na business dinner with a client, the actual expenses can be claimed separately using\nan itemized receipt, subject to the client entertainment policy.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8"
+    ]
+  },
+  {
+    "id": "Q094",
+    "run": 3,
+    "config": "B",
+    "question": "Who approves employee expense reimbursement requests?",
+    "answer": "For domestic travel, the immediate reporting manager approves employee expense reimbursement requests. For international travel, approval is required from the respective Vice President, the VP of Finance, and the CEO.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n5. Approval Workflow\nThe travel approval workflow is strictly enforced through the internal Concur portal.\nFor domestic travel, approval is required from the immediate reporting manager. For\ninternational travel, approval must be granted by the respective Vice President and\nthe CEO.\nExpense claims must be submitted within 15 days of returning from the trip. Claims\nsubmitted after 30 days will be rejected unless an exceptional circumstance is\ndocumented and approved by HR. Approved reimbursements will be credited directly\nto the employee's salary account in the subsequent payroll cycle.\nPage 7",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8",
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\nTable of Contents\n1. Domestic Travel\n2. International Travel\n3. Hotel Reimbursement\n4. Food Allowance\n5. Approval Workflow\n6. FAQ\nPage 2"
+    ]
+  },
+  {
+    "id": "Q124",
+    "run": 3,
+    "config": "B",
+    "question": "Explain the complete onboarding process, including IT account creation and security responsibilities.",
+    "answer": "The onboarding process for new employees at TechNova involves the following steps:\n\n1. Initial IT account creation: The IT department will create a new account for the employee, which will be activated after the employee completes the onboarding process.\n2. Mandatory IT account setup: The employee must set up their account with a password that meets the minimum requirements (at least 14 characters long, contains numbers, and symbols) and enable Multi-Factor Authentication (MFA) to access all internal systems.\n3. Security responsibilities: The employee is responsible for changing their password every 90 days and keeping their laptop locked when unattended, even within the Bengaluru headquarters.\n4. Device setup: The employee will be issued a company-issued laptop, which must be used for all business activities. Portable storage devices, such as USB drives, will be blocked by default, and the employee must request an exception from the CISO if they need to use one.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n4. Device Usage\nThe physical security of computing devices is paramount. No, Bring Your Own Device\n(BYOD) is strictly prohibited. You must use the company-issued laptop for all\nbusiness activities.\nLaptops must be locked when unattended, even within the Bengaluru headquarters.\nEmployees must not install unauthorized software or disable the endpoint detection\nand response (EDR) agent installed on their machines. Portable storage devices,\nsuch as USB drives, are blocked by default unless an explicit exception is granted by\nthe CISO.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+      "TechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India | 650 Employees | Hybrid Work Model\nRecruitment\nThis section outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n1. Password Policy\nThe foundation of our enterprise security begins with robust password management.\nPasswords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days. Under no circumstances should an employee share their\npassword with colleagues, contractors, or IT support staff.\nMulti-Factor Authentication (MFA) is strictly mandatory for accessing all TechNova\ninternal systems, including the HR portal, email servers, and GitHub repositories.\nEmployees are strongly encouraged to use the company-approved password\nmanager to generate and securely store their credentials.\nPage 3",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n7. FAQ\nQ: What is the password policy?\nA: Passwords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days.\nQ: Can I use my own laptop?\nA: No, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop.\nPage 9"
+    ]
+  },
+  {
+    "id": "Q116",
+    "run": 3,
+    "config": "B",
+    "question": "What should I do if my company laptop is stolen during a business trip?",
+    "answer": "If your company laptop is stolen during a business trip, you should report it to the IT Security Desk immediately at ext. 5555. This is the only action explicitly mentioned in the provided Key Facts.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n6. Incident Reporting\nRapid response is essential to mitigating the impact of a security breach. Any\nsuspected security incident, including lost or stolen laptops, suspicious emails, or\nunauthorized access attempts, must be reported immediately.\nEmployees must report incidents to the IT Security Desk by calling ext. 5555 or\nemailing security-alert@technova.com. Do not attempt to investigate or remediate a\nsuspected cyber attack on your own, as this may destroy critical forensic evidence.\nPage 8",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n4. Device Usage\nThe physical security of computing devices is paramount. No, Bring Your Own Device\n(BYOD) is strictly prohibited. You must use the company-issued laptop for all\nbusiness activities.\nLaptops must be locked when unattended, even within the Bengaluru headquarters.\nEmployees must not install unauthorized software or disable the endpoint detection\nand response (EDR) agent installed on their machines. Portable storage devices,\nsuch as USB drives, are blocked by default unless an explicit exception is granted by\nthe CISO.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7"
+    ]
+  },
+  {
+    "id": "Q137",
+    "run": 3,
+    "config": "B",
+    "question": "Can employees carry firearms while travelling for business?",
+    "answer": "It is not possible to determine if employees can carry firearms while travelling for business based on the provided Key Facts, as there is no mention of firearms or any related policies.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n2. International Travel\nAll international travel requires extensive justification and pre-approval. Flights\nexceeding 8 hours of continuous travel may be booked in Premium Economy, subject\nto VP approval. Business class is strictly reserved for Executive Leadership (C-Suite)\nor specific client-mandated travel.\nVisa application fees, travel insurance, and necessary vaccinations will be fully\nreimbursed by TechNova. Employees traveling internationally are required to use the\ncorporate travel desk for all bookings to ensure compliance with duty-of-care\nrequirements.\nPage 4",
+      "TechNova Solutions Pvt. Ltd. - IT Security Policy\n4. Device Usage\nThe physical security of computing devices is paramount. No, Bring Your Own Device\n(BYOD) is strictly prohibited. You must use the company-issued laptop for all\nbusiness activities.\nLaptops must be locked when unattended, even within the Bengaluru headquarters.\nEmployees must not install unauthorized software or disable the endpoint detection\nand response (EDR) agent installed on their machines. Portable storage devices,\nsuch as USB drives, are blocked by default unless an explicit exception is granted by\nthe CISO.\nPage 6",
+      "TechNova Solutions Pvt. Ltd. - Leave Policy\n2. Casual Leave\nEmployees are allowed 12 casual leaves per year. Casual leave is intended to\naccommodate unforeseen circumstances, personal emergencies, or brief personal\nmatters that require an employee's attention during standard working hours.\nCasual leave is credited at the beginning of each calendar year. For employees\njoining mid-year, casual leave is pro-rated based on the date of joining. Casual leave\ncannot be carried forward to the next calendar year and cannot be encashed.\nPage 4"
+    ]
+  },
+  {
+    "id": "Q133",
+    "run": 3,
+    "config": "B",
+    "question": "What is the annual salary of the CEO?",
+    "answer": "The annual salary of the CEO cannot be determined based on the provided Key Facts.",
+    "retrieved_chunks": [
+      "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n3. Hotel Reimbursement\nAccommodation should be booked using the corporate travel desk's preferred hotel\npartners. The standard daily hotel cap is INR 5000 for Tier-1 cities (Mumbai, Delhi,\nBengaluru, Chennai) and INR 3500 for Tier-2 cities.\nFor international travel, hotel caps are defined dynamically based on the destination\ncity's cost of living index (e.g., $150/night for North America, 120 Euros/night for\nEurope). If a preferred hotel is unavailable, employees may book alternative\naccommodation within the stated limits, but a justification must be provided.\nPage 5",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nOrganization Structure\nTechNova operates on a matrix organizational structure to promote agility and\ncross-departmental collaboration. Our Executive Leadership Team, led by the CEO,\noversees the strategic direction of the company. Reporting directly to the executive\nboard are the Vice Presidents of our core divisions: Engineering, Human Resources,\nFinance, Sales & Marketing, IT Security, Administration, and Customer Support.\nEmployees are encouraged to engage with leadership through open-door policies and\nregular town-hall meetings, ensuring transparency across all levels of the\norganization.\nPage 9",
+      "TechNova Solutions Pvt. Ltd. - Employee Handbook\nPerformance\nPerformance Appraisals at TechNova are conducted bi-annually, in June and\nDecember, using the Objective and Key Results (OKR) framework. These reviews are\ndesigned to be constructive, focusing on employee growth, skill development, and\nalignment with company goals.\nPromotions, salary increments, and performance bonuses are tied to the December\nreview cycle. Regular 1-on-1 feedback sessions with managers are strongly\nencouraged.\nPage 20"
+    ]
+  }
+]

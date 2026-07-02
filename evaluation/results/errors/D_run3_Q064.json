@@ -17,8 +17,8 @@
       "When is the use of external storage devices allowed?"
     ],
     "required_information": [
-      "company policy",
-      "device type"
+      "company data security policy",
+      "external storage device usage guidelines"
     ]
   },
   "Confidence": null,
