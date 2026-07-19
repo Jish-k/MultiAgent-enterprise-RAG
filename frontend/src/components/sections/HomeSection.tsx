@@ -5,8 +5,11 @@ import { ArrowRight, Activity, Target, Zap, Play, BookOpen } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card";
 
 export default function HomeSection({ projectData, resultsData }: { projectData: any; resultsData: any }) {
-  // Use reasoner stats as the highlight if available, else baseline
-  const highlightMetrics = resultsData?.reasoner || resultsData?.baseline || {};
+  // Select the most advanced stage that has metric data
+  const highlightMetrics = (resultsData?.verifier?.accuracy) ? resultsData.verifier 
+                         : (resultsData?.reasoner?.accuracy) ? resultsData.reasoner 
+                         : (resultsData?.planner?.accuracy) ? resultsData.planner 
+                         : resultsData?.baseline || {};
   const accuracy = highlightMetrics.accuracy ? `${highlightMetrics.accuracy}%` : "--";
   const recall = highlightMetrics.recall ? `${highlightMetrics.recall}%` : "--";
   const latency = highlightMetrics.latency ? `${highlightMetrics.latency}s` : "--";
