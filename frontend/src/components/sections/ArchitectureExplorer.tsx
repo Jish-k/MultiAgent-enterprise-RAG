@@ -196,11 +196,11 @@ export default function ArchitectureExplorer() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <h4 className="text-sm font-bold text-muted-foreground uppercase tracking-wider">Inputs</h4>
-                    <Badge variant="secondary" className="px-3 py-1 font-mono text-xs">{details.inputs}</Badge>
+                    <Badge variant="secondary" className="px-3 py-1 font-mono text-xs whitespace-normal break-words h-auto text-left leading-relaxed">{details.inputs}</Badge>
                   </div>
                   <div className="space-y-2">
                     <h4 className="text-sm font-bold text-muted-foreground uppercase tracking-wider">Outputs</h4>
-                    <Badge variant="outline" className="px-3 py-1 font-mono text-xs">{details.outputs}</Badge>
+                    <Badge variant="outline" className="px-3 py-1 font-mono text-xs whitespace-normal break-words h-auto text-left leading-relaxed">{details.outputs}</Badge>
                   </div>
                 </div>
 
