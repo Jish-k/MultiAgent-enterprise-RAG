@@ -22,7 +22,16 @@ export default function ResultsDashboard({ results }: { results: any }) {
     })).filter(data => data.accuracy > 0); // Only show stages that have data
   }, [results]);
 
-  const bestMetrics = results?.verifier || results?.reasoner || results?.planner || results?.baseline || {};
+  const bestMetrics = useMemo(() => {
+    if (!results) return {};
+    // Find the most advanced stage that actually has a non-null accuracy value
+    for (const stage of [...stages].reverse()) {
+      if (results[stage] && results[stage].accuracy) {
+        return results[stage];
+      }
+    }
+    return {};
+  }, [results, stages]);
 
   if (!results || Object.keys(results).length === 0) {
     return (
