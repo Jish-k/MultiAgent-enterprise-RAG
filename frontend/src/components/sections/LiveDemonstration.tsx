@@ -138,7 +138,7 @@ export default function LiveDemonstration() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="leading-relaxed font-medium text-amber-100">{result.reasoning}</p>
+                  <p className="leading-relaxed font-medium text-amber-900 dark:text-amber-100">{result.reasoning}</p>
                 </CardContent>
               </Card>
 
@@ -150,7 +150,7 @@ export default function LiveDemonstration() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="leading-relaxed text-emerald-400 font-medium">{result.verification}</p>
+                  <p className="leading-relaxed text-emerald-900 dark:text-emerald-400 font-medium">{result.verification}</p>
                 </CardContent>
               </Card>
 
