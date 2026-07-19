@@ -3,6 +3,8 @@ from functools import lru_cache
 from langchain_chroma import Chroma
 from .embedder import get_embedding_model
 
+from config import Config
+
 CHROMA_PERSIST_DIR = os.path.join(os.path.dirname(__file__), "chroma_db")
 
 @lru_cache(maxsize=1)
@@ -13,7 +15,7 @@ def get_vector_store():
     embedding_model = get_embedding_model()
         
     vector_store = Chroma(
-        collection_name="enterprise_hr_docs",
+        collection_name=Config.ACTIVE_CHROMA_COLLECTION,
         embedding_function=embedding_model,
         persist_directory=CHROMA_PERSIST_DIR
     )

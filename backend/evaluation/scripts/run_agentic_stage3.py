@@ -50,6 +50,9 @@ def main():
     total_acc = 0
     total_latency = 0
     total_recall = 0
+    total_recall_1 = 0
+    total_recall_3 = 0
+    total_recall_5 = 0
     total_mrr = 0.0
     total_input_tokens = 0
     total_output_tokens = 0
@@ -78,6 +81,9 @@ def main():
                         
             mrr = 1.0 / first_hit_rank if first_hit_rank else 0.0
             recall_hit = 1 if first_hit_rank else 0
+            recall_1 = 1 if first_hit_rank and first_hit_rank <= 1 else 0
+            recall_3 = 1 if first_hit_rank and first_hit_rank <= 3 else 0
+            recall_5 = 1 if first_hit_rank and first_hit_rank <= 5 else 0
             
             context_str = format_docs(retrieved_docs)
             
@@ -107,6 +113,9 @@ def main():
         total_acc += is_correct
         total_latency += latency
         total_recall += recall_hit
+        total_recall_1 += recall_1
+        total_recall_3 += recall_3
+        total_recall_5 += recall_5
         total_mrr += mrr
         total_input_tokens += cb.prompt_tokens
         total_output_tokens += cb.completion_tokens
@@ -143,6 +152,9 @@ def main():
 - **Accuracy (Substring Match):** {(total_acc/n)*100:.2f}%
 - **Average Latency:** {total_latency/n:.2f} seconds
 - **Retrieval Recall (Hit@K):** {(total_recall/n)*100:.2f}%
+- **Recall@1:** {(total_recall_1/n)*100:.2f}%
+- **Recall@3:** {(total_recall_3/n)*100:.2f}%
+- **Recall@5:** {(total_recall_5/n)*100:.2f}%
 - **Mean Reciprocal Rank (MRR):** {total_mrr/n:.4f}
 - **Avg Prompt Tokens:** {total_input_tokens/n:.1f}
 - **Avg Completion Tokens:** {total_output_tokens/n:.1f}

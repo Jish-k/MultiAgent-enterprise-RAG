@@ -29,7 +29,8 @@ def normalize_answer(s):
 def main():
     benchmark_path = os.path.join(os.path.dirname(__file__), "../datasets/hotpotqa_benchmark_v1.json")
     results_csv_path = os.path.join(os.path.dirname(__file__), "../hotpot_baseline_results.csv")
-    report_md_path = os.path.join(os.path.dirname(__file__), "../hotpot_baseline_report.md")
+    report_md_path = os.path.join(os.path.dirname(__file__), "../baseline_rag_report.md")
+    json_results_path = os.path.join(os.path.dirname(__file__), "../../results/baseline.json")
     
     with open(benchmark_path, "r") as f:
         dataset = json.load(f)
@@ -136,7 +137,18 @@ def main():
     with open(report_md_path, "w") as f:
         f.write(md_content)
         
-    print(f"\nDone! Results saved to:\n- {results_csv_path}\n- {report_md_path}")
+    # Write JSON results for frontend
+    os.makedirs(os.path.dirname(json_results_path), exist_ok=True)
+    import json
+    with open(json_results_path, "w") as f:
+        json.dump({
+            "accuracy": round(agg_acc * 100, 2),
+            "recall": round(agg_recall * 100, 2),
+            "latency": round(agg_latency, 2),
+            "mrr": round(agg_mrr, 4)
+        }, f, indent=4)
+        
+    print(f"\nDone! Results saved to:\n- {results_csv_path}\n- {report_md_path}\n- {json_results_path}")
 
 if __name__ == "__main__":
     main()
