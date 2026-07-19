@@ -1,0 +1,17 @@
+{
+  "Question": "Can interns approve travel expenses for employees?",
+  "Config": "A",
+  "Run": 3,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "Based on the provided context, there is no information about interns approving travel expenses for employees. However, we can infer that interns are not eligible for remote work and must work from the Bengaluru office.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nFAQ\nQ: Can interns work remotely?\nA: Interns are not eligible for remote work and must work from the Bengaluru office.\nQ: How many casual leaves are allowed?\nA: Employees are allowed 12 casual leaves per year.\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: When does probation end?\nA: Probation ends after exactly 6 months from the date of joining, pending a\nsuccessful performance review.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 24",
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8",
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n5. Approval Workflow\nThe travel approval workflow is strictly enforced through the internal Concur portal.\nFor domestic travel, approval is required from the immediate reporting manager. For\ninternational travel, approval must be granted by the respective Vice President and\nthe CEO.\nExpense claims must be submitted within 15 days of returning from the trip. Claims\nsubmitted after 30 days will be rejected unless an exceptional circumstance is\ndocumented and approved by HR. Approved reimbursements will be credited directly\nto the employee's salary account in the subsequent payroll cycle.\nPage 7"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.3872456342338054,
+  "Failure Reason": "Low Final Accuracy Score: 0.39"
+}

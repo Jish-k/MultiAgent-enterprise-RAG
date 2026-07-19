@@ -1,0 +1,25 @@
+{
+  "Question": "Who won the IPL 2025 championship?",
+  "Config": "D",
+  "Run": 2,
+  "Expected Answer": "No expected documents specified. Out of domain.",
+  "Generated Answer": "I'm unable to answer the question as it is not related to the provided context. The context is about TechNova Solutions Pvt. Ltd. - Employee Handbook, which does not mention the IPL 2025 championship.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nVision\nOur vision at TechNova Solutions is to be the global vanguard of Artificial Intelligence\nand Enterprise Software innovation. We aspire to create a future where intelligent\ntechnology seamlessly integrates with human potential, driving unprecedented\nefficiency, sustainability, and growth for businesses worldwide.\nWe envision a workplace where creativity is unbound, and where every TechNova\nemployee is empowered to architect the solutions of tomorrow.\nPage 6",
+    "TechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India | 650 Employees | Hybrid Work Model\nResignation\nTo resign, submit a formal email to your manager and hr@technova.com with a 30-day notice\nperiod.\nPage 28",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nAbout Company\nTechNova Solutions Pvt. Ltd. is a premier software development and AI solutions\nprovider headquartered in the vibrant tech hub of Bengaluru, Karnataka, India. With a\nrobust workforce of 650 dedicated professionals, we specialize in delivering\ncutting-edge, AI-driven applications and enterprise-grade software to clients across\nthe globe.\nSince our inception, we have consistently pushed the boundaries of innovation,\npartnering with industry leaders to solve complex technological challenges. Our\ndiverse teams across Engineering, Sales, Finance, and IT Security work\ncollaboratively to ensure the highest standards of delivery and customer satisfaction.\nPage 5"
+  ],
+  "Planner Output": {
+    "intent": "General",
+    "sub_queries": [
+      "IPL 2025 winner team name"
+    ],
+    "required_information": [
+      "IPL 2025 championship winner"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.3,
+  "Failure Reason": "Low Final Accuracy Score: 0.30"
+}

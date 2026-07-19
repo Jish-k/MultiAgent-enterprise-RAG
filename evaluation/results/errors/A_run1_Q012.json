@@ -1,0 +1,17 @@
+{
+  "Question": "Describe the company's policies regarding IT usage and data privacy.",
+  "Config": "A",
+  "Run": 1,
+  "Expected Answer": "Company-provided IT resources are to be used strictly for business purposes. Employees are prohibited from downloading unauthorized software, accessing inappropriate content, or using company resources for personal commercial gain. Passwords must be at least 14 characters long, contain numbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA) is mandatory. The company monitors network traffic to ensure compliance with security standards. All communications sent via the corporate email system are the property of TechNova Solutions Pvt. Ltd.",
+  "Generated Answer": "Based on the provided context, TechNova Solutions Pvt. Ltd. has the following policies regarding IT usage and data privacy:\n\n1. **Password Policy**: Not explicitly mentioned in the provided context.\n2. **Email Usage**: Not explicitly mentioned in the provided context.\n3. **VPN Access**: Not explicitly mentioned in the provided context.\n4. **Device Usage**: Not explicitly mentioned in the provided context.\n5. **Data Security**:\n   - All data at rest on company-issued laptops is fully encrypted.\n   - Employees are forbidden from uploading corporate data to unauthorized public cloud storage services or generative AI tools without an enterprise agreement.\n   - Data classification labels (Public, Internal, Confidential, Restricted) must be applied to all documents.\n6. **Incident Reporting**: Not explicitly mentioned in the provided context.\n7. **FAQ**: Not explicitly mentioned in the provided context.\n8. **Allowed Software**:\n   - A list of approved software is maintained in Appendix A.\n   - Any software not listed requires explicit CISO approval.\n\nIn summary, TechNova Solutions Pvt. Ltd. prioritizes data security by encrypting company data, restricting unauthorized cloud storage and AI tool usage, and enforcing data classification labels. They also maintain a list of approved software and require CISO approval for any software not listed.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\nAppendix A: Allowed Software\nThis appendix contains the approved list of software that can be requested via the IT\nService Portal. Any software not listed here requires explicit CISO approval.\nPage 10"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.2814962456311162,
+  "Failure Reason": "Low Final Accuracy Score: 0.28"
+}

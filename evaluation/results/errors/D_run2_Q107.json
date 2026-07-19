@@ -1,0 +1,28 @@
+{
+  "Question": "Can employees work remotely while they are on probation?",
+  "Config": "D",
+  "Run": 2,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "The answer is not explicitly mentioned in the provided context. However, based on the information given, we can infer that the Hybrid model allows for 2 days of remote work per week for full-time employees, but this is not directly related to the probation period.\n\nSince the probation period is mentioned separately, and there is no specific mention of remote work during probation, we can assume that the remote work policy does not apply to employees during their probation period. However, this is an inference and not a direct answer.\n\nTo provide a more accurate answer, we would need more information or clarification on the company's remote work policy during the probation period.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nFAQ\nQ: Can interns work remotely?\nA: Interns are not eligible for remote work and must work from the Bengaluru office.\nQ: How many casual leaves are allowed?\nA: Employees are allowed 12 casual leaves per year.\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: When does probation end?\nA: Probation ends after exactly 6 months from the date of joining, pending a\nsuccessful performance review.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 24",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nRemote Work\nOur Hybrid model allows for 2 days of remote work per week for full-time employees.\nInterns are not eligible for remote work and must work from the Bengaluru office.\nDuring remote days, employees must ensure they have a quiet, secure environment\nand a stable internet connection.\nWorking from public spaces (like cafes) while handling sensitive data is prohibited due\nto security risks. Employees must remain online and responsive on Slack and email\nduring core working hours.\nPage 19",
+    "TechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India | 650 Employees | Hybrid Work Model\nProbation\nProbation ends after exactly 6 months from the date of joining, pending a successful performance\nreview.\nPage 9",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n8. FAQ\nQ: Can interns work remotely?\nA: Interns are not eligible for remote work and must work from the Bengaluru office.\nQ: How many casual leaves are allowed?\nA: Employees are allowed 12 casual leaves per year.\nQ: Can I carry forward earned leave?\nA: Yes, up to 10 days of earned leave can be carried forward to the next calendar\nyear.\nQ: Who approves maternity leave?\nA: Maternity leave must be approved by the HR Head and the respective Department\nHead.\nPage 10"
+  ],
+  "Planner Output": {
+    "intent": "IT Policy",
+    "sub_queries": [
+      "What are the remote work policies for employees on probation?",
+      "Are there any restrictions on remote work during probationary period?"
+    ],
+    "required_information": [
+      "remote work policy for probationary employees",
+      "probationary period restrictions"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.4039288018242684,
+  "Failure Reason": "Low Final Accuracy Score: 0.40"
+}

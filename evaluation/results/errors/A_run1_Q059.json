@@ -1,0 +1,17 @@
+{
+  "Question": "What should an employee do after receiving a suspicious email?",
+  "Config": "A",
+  "Run": 1,
+  "Expected Answer": "Caution must be exercised when opening attachments or clicking on links from unknown senders to prevent phishing attacks.",
+  "Generated Answer": "According to the context, an employee should exercise caution when opening attachments or clicking on links from unknown senders to prevent phishing attacks. However, the specific action to take after receiving a suspicious email is not explicitly stated.\n\nBut, based on the context, it can be inferred that the employee should report the incident to the IT Security Desk by calling ext. 5555 or emailing security-alert@technova.com.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n2. Email Usage\nTechNova's email system is a critical business tool and must be used responsibly.\nEmployees are prohibited from using corporate email accounts for personal\ncommercial activities, political campaigning, or transmitting inappropriate content.\nCaution must be exercised when opening attachments or clicking on links from\nunknown senders to prevent phishing attacks. All outbound emails containing\nsensitive client information or proprietary source code must be encrypted using the\ninternal secure mailing gateway.\nPage 4",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n6. Incident Reporting\nRapid response is essential to mitigating the impact of a security breach. Any\nsuspected security incident, including lost or stolen laptops, suspicious emails, or\nunauthorized access attempts, must be reported immediately.\nEmployees must report incidents to the IT Security Desk by calling ext. 5555 or\nemailing security-alert@technova.com. Do not attempt to investigate or remediate a\nsuspected cyber attack on your own, as this may destroy critical forensic evidence.\nPage 8",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nEmergency Contacts\nIn the event of a medical emergency or security threat at the Bengaluru office,\nimmediately contact the Building Security Desk or the HR Emergency Hotline at\n+91-80-5555-0000.\nFor IT Security incidents, contact the IT response team. All employees are required to\nkeep their emergency contact information updated in the HR portal.\nPage 23"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.4250652819380655,
+  "Failure Reason": "Low Final Accuracy Score: 0.43"
+}

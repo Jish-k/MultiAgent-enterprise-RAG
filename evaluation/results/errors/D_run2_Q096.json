@@ -1,0 +1,30 @@
+{
+  "Question": "Explain the complete expense reimbursement workflow.",
+  "Config": "D",
+  "Run": 2,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "Based on the provided context, the complete expense reimbursement workflow for TechNova Solutions Pvt. Ltd. is as follows:\n\n1. **Travel Approval**: \n   - For domestic travel, approval is required from the immediate reporting manager through the internal Concur portal.\n   - For international travel, approval must be granted by the respective Vice President and the CEO through the Concur portal.\n\n2. **Travel**: Employees can travel after receiving the necessary approval.\n\n3. **Expense Claim Submission**: \n   - Submit all travel expense receipts through the Concur portal within 15 days of returning from the trip.\n\n4. **Expense Claim Approval**: \n   - No specific approval process is mentioned for expense claims, but it is implied that the expense claims will be automatically approved if submitted within the 15-day timeframe.\n\n5. **Reimbursement**: \n   - Approved reimbursements will be credited directly to the employee's salary account in the subsequent payroll cycle.\n\n6. **Late Expense Claims**: \n   - If an expense claim is submitted after 30 days, it will be rejected unless an exceptional circumstance is documented and approved by HR.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8",
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n5. Approval Workflow\nThe travel approval workflow is strictly enforced through the internal Concur portal.\nFor domestic travel, approval is required from the immediate reporting manager. For\ninternational travel, approval must be granted by the respective Vice President and\nthe CEO.\nExpense claims must be submitted within 15 days of returning from the trip. Claims\nsubmitted after 30 days will be rejected unless an exceptional circumstance is\ndocumented and approved by HR. Approved reimbursements will be credited directly\nto the employee's salary account in the subsequent payroll cycle.\nPage 7",
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\nTable of Contents\n1. Domestic Travel\n2. International Travel\n3. Hotel Reimbursement\n4. Food Allowance\n5. Approval Workflow\n6. FAQ\nPage 2",
+    "Travel & Expense Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1"
+  ],
+  "Planner Output": {
+    "intent": "IT Policy",
+    "sub_queries": [
+      "What are the steps involved in the expense reimbursement process?",
+      "Who is responsible for submitting and approving expense reports?",
+      "What are the deadlines for submitting expense reports and receiving reimbursement?"
+    ],
+    "required_information": [
+      "expense reimbursement process",
+      "Expense Report submission and approval workflow",
+      "Reimbursement deadlines"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.028307965579396334,
+  "Failure Reason": "Low Final Accuracy Score: 0.03"
+}

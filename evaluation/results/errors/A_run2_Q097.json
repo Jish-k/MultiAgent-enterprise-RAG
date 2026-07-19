@@ -1,0 +1,17 @@
+{
+  "Question": "Which expenses are not reimbursable under company policy?",
+  "Config": "A",
+  "Run": 2,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "Unfortunately, the provided context does not explicitly mention which expenses are not reimbursable under the company policy. However, based on the information given, it can be inferred that expenses not reimbursable might include those that are not related to business travel or those that are not in line with the company's policies.\n\nHowever, the context does mention that \"if an employee hosts a business dinner with a client, the actual expenses can be claimed separately using an itemized receipt, subject to the client entertainment policy.\" This implies that expenses related to personal entertainment or non-business-related activities might not be reimbursable.\n\nTo provide a more accurate answer, I would recommend referring to the company's policy document or consulting with the relevant authorities within the company.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\nTable of Contents\n1. Domestic Travel\n2. International Travel\n3. Hotel Reimbursement\n4. Food Allowance\n5. Approval Workflow\n6. FAQ\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8",
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n4. Food Allowance\nTechNova provides a daily per diem allowance for food and incidental expenses\nduring business travel. The domestic per diem is INR 1000 per day. The international\nper diem varies by region but averages $60 or 50 Euros per day.\nPer diem allowances are automatically calculated based on the travel dates and do\nnot require the submission of individual food receipts. However, if an employee hosts\na business dinner with a client, the actual expenses can be claimed separately using\nan itemized receipt, subject to the client entertainment policy.\nPage 6"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.40648714202967334,
+  "Failure Reason": "Low Final Accuracy Score: 0.41"
+}

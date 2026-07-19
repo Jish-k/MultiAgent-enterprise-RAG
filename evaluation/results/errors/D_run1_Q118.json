@@ -1,0 +1,31 @@
+{
+  "Question": "What is the complete employee exit process, including resignation and IT asset return?",
+  "Config": "D",
+  "Run": 1,
+  "Expected Answer": "To resign, submit a formal email to your manager and hr@technova.com with a 30-day notice period. \n\nProbation ends after exactly 6 months from the date of joining, pending a successful performance review.\n\nOn the final day, the employee must return all company property, including laptops and ID badges, to receive their full and final settlement.",
+  "Generated Answer": "Based on the provided context, the complete employee exit process is as follows:\n\n1. The employee must submit a formal email to their manager and hr@technova.com with a 30-day notice period to resign.\n2. On the final day of the 30-day notice period, the employee must return all company property, including laptops and ID badges.\n3. After returning the company property, the employee will receive their full and final settlement.\n\nNote that the context does not explicitly mention a performance review or probation period in the exit process, but it does mention that probation ends after exactly 6 months from the date of joining, pending a successful performance review. However, this is not a part of the exit process itself.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nExit Process\nShould an employee decide to leave TechNova, they must follow the standard exit\nprocess. To resign, submit a formal email to your manager and hr@technova.com\nwith a 30-day notice period.\nProbation ends after exactly 6 months from the date of joining, pending a successful\nperformance review. On the final day, the employee must return all company\nproperty, including laptops and ID badges, to receive their full and final settlement.\nPage 22",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\n19. Exit Process\n20. Emergency Contacts\n21. FAQ\nPage 3",
+    "Leave Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n7. Leave Approval Process\nAll leave requests must be submitted through the centralized HR Leave Portal. For\nplanned leaves (such as Earned Leave), requests must be submitted at least two\nweeks in advance to allow for adequate resource planning and handover.\nFor unplanned leaves (such as Sick Leave or emergency Casual Leave), employees\nmust notify their immediate supervisor via email or Slack as soon as possible, and\nformally apply for the leave in the portal within 24 hours of returning to work. Approval\nis at the discretion of the reporting manager.\nPage 9",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6"
+  ],
+  "Planner Output": {
+    "intent": "HR Policy",
+    "sub_queries": [
+      "What are the steps involved in the employee resignation process?",
+      "What is the IT asset return process for employees leaving the company?",
+      "How do employees return company property upon resignation?"
+    ],
+    "required_information": [
+      "employee resignation procedure",
+      "IT asset return policy",
+      "company property return guidelines"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.49726690881144486,
+  "Failure Reason": "Low Final Accuracy Score: 0.50"
+}

@@ -4,8 +4,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def generate_plots():
-    results_dir = "evaluation/results/pilot_v1.0"
-    csv_path = os.path.join(results_dir, "pilot_benchmark_data.csv")
+    results_dir = "evaluation/results/full_v1.0"
+    plots_dir = os.path.join(results_dir, "plots")
+    os.makedirs(plots_dir, exist_ok=True)
+    csv_path = os.path.join(results_dir, "benchmark.csv")
     
     if not os.path.exists(csv_path):
         print(f"Data not found at {csv_path}. Please run benchmark.py first.")
@@ -33,7 +35,7 @@ def generate_plots():
     for bar in bars:
         yval = bar.get_height()
         ax.text(bar.get_x() + bar.get_width()/2.0, yval + 0.02, f'{yval:.2f}', ha='center', va='bottom', fontsize=10)
-    plt.savefig(os.path.join(results_dir, "ablation_accuracy.png"), dpi=300)
+    plt.savefig(os.path.join(plots_dir, "ablation_accuracy.png"), dpi=300)
     plt.close()
 
     # 2. Confidence vs Correctness (Config C only)
@@ -53,7 +55,7 @@ def generate_plots():
         for bar in bars:
             yval = bar.get_height()
             ax.text(bar.get_x() + bar.get_width()/2.0, yval + 0.02, f'{yval:.2f}', ha='center', va='bottom', fontsize=10)
-        plt.savefig(os.path.join(results_dir, "confidence_vs_accuracy.png"), dpi=300)
+        plt.savefig(os.path.join(plots_dir, "confidence_vs_accuracy.png"), dpi=300)
         plt.close()
 
     # 3. Accuracy vs Retrieval Difficulty
@@ -67,7 +69,7 @@ def generate_plots():
     for bar in bars:
         yval = bar.get_height()
         ax.text(bar.get_x() + bar.get_width()/2.0, yval + 0.02, f'{yval:.2f}', ha='center', va='bottom', fontsize=10)
-    plt.savefig(os.path.join(results_dir, "accuracy_vs_retrieval_difficulty.png"), dpi=300)
+    plt.savefig(os.path.join(plots_dir, "accuracy_vs_retrieval_difficulty.png"), dpi=300)
     plt.close()
 
     # 4. Accuracy vs Reasoning Difficulty
@@ -81,7 +83,7 @@ def generate_plots():
     for bar in bars:
         yval = bar.get_height()
         ax.text(bar.get_x() + bar.get_width()/2.0, yval + 0.02, f'{yval:.2f}', ha='center', va='bottom', fontsize=10)
-    plt.savefig(os.path.join(results_dir, "accuracy_vs_reasoning_difficulty.png"), dpi=300)
+    plt.savefig(os.path.join(plots_dir, "accuracy_vs_reasoning_difficulty.png"), dpi=300)
     plt.close()
 
     # 5. Context Size Compression (Config C)
@@ -93,7 +95,7 @@ def generate_plots():
         ax.set_ylabel('Average Tokens')
         ax.set_title('Context Size Compression Across Pipeline Stages')
         ax.grid(True, linestyle=':', alpha=0.6)
-        plt.savefig(os.path.join(results_dir, "context_compression.png"), dpi=300)
+        plt.savefig(os.path.join(plots_dir, "context_compression.png"), dpi=300)
         plt.close()
 
     # 6. Latency Splits Pie Chart (Config C)
@@ -118,12 +120,12 @@ def generate_plots():
         ax.pie(lats, labels=labels, autopct='%1.1f%%', startangle=90, colors=['#ffffff', '#cccccc', '#999999', '#666666'], wedgeprops={'edgecolor': 'black'})
         ax.axis('equal')
         ax.set_title('Percentage of Total Latency by Stage')
-        plt.savefig(os.path.join(results_dir, "latency_splits.png"), dpi=300)
+        plt.savefig(os.path.join(plots_dir, "latency_splits.png"), dpi=300)
         plt.close()
 
     # 7. Spider/Radar Comparison
     try:
-        breakdown_csv = os.path.join(results_dir, "evaluation_breakdown.csv")
+        breakdown_csv = os.path.join(plots_dir, "evaluation_breakdown.csv")
         if os.path.exists(breakdown_csv):
             b_df = pd.DataFrame(pd.read_csv(breakdown_csv))
             # Aggregate metrics by config
@@ -165,7 +167,7 @@ def generate_plots():
             ax.set_title("Configuration Performance Analysis (Radar)", y=1.1)
             ax.legend(loc='upper right', bbox_to_anchor=(1.3, 1.1))
             
-            plt.savefig(os.path.join(results_dir, "radar_comparison.png"), dpi=300, bbox_inches='tight')
+            plt.savefig(os.path.join(plots_dir, "radar_comparison.png"), dpi=300, bbox_inches='tight')
             plt.close()
     except Exception as e:
         print(f"Could not generate radar chart: {e}")

@@ -3,7 +3,7 @@
   "Config": "D",
   "Run": 3,
   "Expected Answer": "No expected documents specified. Out of domain.",
-  "Generated Answer": "No, the company does not provide unlimited paid leave. The policy outlines specific accrual rates for Earned Leave (EL) and Casual Leave, with limits on the total number of days that can be taken per year.",
+  "Generated Answer": "No, the company does not provide unlimited paid leave. The policy outlines specific accrual rates for Earned Leave (EL) and Casual Leave, with limits on the number of days that can be carried forward or encashed.",
   "Retrieved Chunks": [
     "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6",
     "TechNova Solutions Pvt. Ltd. - Leave Policy\n1. Purpose & Eligibility\nThe purpose of this Leave Policy is to outline the various types of leave available to\nemployees of TechNova Solutions Pvt. Ltd., the eligibility criteria for each, and the\nprocedure for requesting and approving leave.\nAll full-time and part-time employees are eligible for leave benefits as described in this\npolicy. Contract employees and interns may have different leave structures, as\nspecified in their respective contracts.\nPage 3",

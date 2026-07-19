@@ -1,0 +1,33 @@
+{
+  "Question": "Summarize the company's Remote Work Policy.",
+  "Config": "D",
+  "Run": 2,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "Based on the provided context, here's a summary of TechNova Solutions Pvt. Ltd.'s Remote Work Policy:\n\n- Full-time employees are allowed to work 2 days remotely per week.\n- Interns are not eligible for remote work and must work from the Bengaluru office.\n- During remote days, employees must have a quiet, secure environment and a stable internet connection.\n- Working from public spaces (like cafes) while handling sensitive data is prohibited due to security risks.\n- Employees must remain online and responsive on Slack and email during core working hours (10:30 AM - 4:00 PM).",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nWorking Hours\nTechNova operates on a Hybrid work model to offer flexibility while maintaining team\ncohesion. Full-time employees are expected to work 3 days from the Bengaluru office\nand may work 2 days remotely per week.\nOur standard working hours are 9:00 AM to 6:00 PM IST, Monday through Friday,\ninclusive of a one-hour lunch break. Core collaboration hours are between 10:30 AM\nand 4:00 PM; during this time, all employees, regardless of location, must be\navailable for meetings and synchronized work. Interns are required to work from the\noffice 5 days a week.\nPage 11",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nRemote Work\nOur Hybrid model allows for 2 days of remote work per week for full-time employees.\nInterns are not eligible for remote work and must work from the Bengaluru office.\nDuring remote days, employees must ensure they have a quiet, secure environment\nand a stable internet connection.\nWorking from public spaces (like cafes) while handling sensitive data is prohibited due\nto security risks. Employees must remain online and responsive on Slack and email\nduring core working hours.\nPage 19",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nFAQ\nQ: Can interns work remotely?\nA: Interns are not eligible for remote work and must work from the Bengaluru office.\nQ: How many casual leaves are allowed?\nA: Employees are allowed 12 casual leaves per year.\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: When does probation end?\nA: Probation ends after exactly 6 months from the date of joining, pending a\nsuccessful performance review.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 24",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n8. FAQ\nQ: Can interns work remotely?\nA: Interns are not eligible for remote work and must work from the Bengaluru office.\nQ: How many casual leaves are allowed?\nA: Employees are allowed 12 casual leaves per year.\nQ: Can I carry forward earned leave?\nA: Yes, up to 10 days of earned leave can be carried forward to the next calendar\nyear.\nQ: Who approves maternity leave?\nA: Maternity leave must be approved by the HR Head and the respective Department\nHead.\nPage 10",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nAttendance\nPunctuality and consistent attendance are critical to our operational success.\nEmployees must log their daily attendance through the HR portal by 9:30 AM. If you\nare unable to report to work due to unforeseen circumstances, you must notify your\nimmediate supervisor and the HR department as soon as possible, preferably before\nthe start of the workday.\nRepeated unauthorized absences or unpunctuality may result in disciplinary action.\nThe hybrid model is a privilege that requires trust and accountability in managing\none's own schedule effectively.\nPage 12"
+  ],
+  "Planner Output": {
+    "intent": "IT Policy",
+    "sub_queries": [
+      "What are the company's remote work eligibility criteria?",
+      "What are the remote work hours and workday requirements?",
+      "How does the company ensure remote work security and data protection?"
+    ],
+    "required_information": [
+      "remote work eligibility criteria",
+      "remote work hours and workday requirements",
+      "data protection protocols"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.010339768531112584,
+  "Failure Reason": "Low Final Accuracy Score: 0.01"
+}

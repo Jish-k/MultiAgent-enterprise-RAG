@@ -3,10 +3,10 @@ import pandas as pd
 import json
 
 def generate_markdown_report():
-    results_dir = "evaluation/results/pilot"
-    csv_path = os.path.join(results_dir, "pilot_benchmark_data.csv")
+    results_dir = "evaluation/results/full_v1.0"
+    csv_path = os.path.join(results_dir, "benchmark.csv")
     breakdown_path = os.path.join(results_dir, "evaluation_breakdown.csv")
-    out_path = "evaluation/results/pilot_report.md"
+    out_path = os.path.join(results_dir, "final_report.md")
     
     if not os.path.exists(csv_path) or not os.path.exists(breakdown_path):
         print("Benchmark data not found. Ensure benchmark.py completed successfully.")
@@ -15,7 +15,7 @@ def generate_markdown_report():
     df = pd.read_csv(csv_path)
     b_df = pd.read_csv(breakdown_path)
     
-    with open("evaluation/dataset/pilot_questions.json", "r") as f:
+    with open("evaluation/dataset/questions.json", "r") as f:
         pilot_questions = {q["id"]: q for q in json.load(f)}
     
     with open("evaluation/dataset/ground_truth.json", "r") as f:
@@ -35,14 +35,22 @@ def generate_markdown_report():
         'Final Accuracy': ('Final', b_df),
         'Exact Match': ('Exact', b_df),
         'Semantic Similarity': ('Semantic', b_df),
+        'Recall@K': ('Recall', b_df),
+        'MRR': ('MRR', b_df),
+        'nDCG': ('nDCG', b_df),
         'Citation Accuracy': ('Citation', b_df),
         'ESS': ('ESS', b_df),
         'Claim Support Rate': ('Claim Support Rate', b_df),
         'Hallucination Resistance': ('hallucination_resistance', df),
         'Avg Latency (ms)': ('e2e_latency_ms', df),
-        'Avg Tokens (Gen)': ('generator_input_tokens', df)
+        'Avg Tokens (Gen)': ('generator_input_tokens', df),
+        'Context Compression': ('context_compression', df)
     }
     
+    # Calculate Context Compression if missing
+    if 'context_compression' not in df.columns:
+        df['context_compression'] = df.apply(lambda row: 1.0 - (row['after_reasoner_tokens'] / row['retriever_input_tokens']) if row['retriever_input_tokens'] > 0 else 0.0, axis=1)
+
     for metric_name, (col, target_df) in metrics.items():
         row = [metric_name]
         for config in ['A', 'B', 'C', 'D']:
@@ -67,9 +75,36 @@ def generate_markdown_report():
             val = df[(df['category'] == cat) & (df['config'] == config)]['accuracy'].mean()
             row.append(f"{val:.2f}" if pd.notnull(val) else "-")
         report.append("| " + " | ".join(row) + " |")
+    # 3. Accuracy by Difficulty
+    report.append("\n## 3. Accuracy by Difficulty\n")
+    report.append("| Difficulty | Baseline | Planner | Agentic | Plan+Gen |")
+    report.append("|---|---|---|---|---|")
+    
+    def map_custom_difficulty(qid):
+        q = pilot_questions.get(qid, {})
+        diff = q.get('difficulty', '')
+        qtype = q.get('question_type', '')
+        if qtype in ['Missing Information', 'Out of Domain']:
+            return 'Adversarial'
+        if qtype in ['Multi Hop', 'Comparison', 'Comprehensive']:
+            return 'Cross Document'
+        if diff in ['Hard', 'Expert']:
+            return 'Hard'
+        if diff in ['Medium', 'Easy']:
+            return diff
+        return 'Unknown'
         
-    # 3. Error Analysis (Top 5 Worst)
-    report.append("\n## 3. Error Analysis (Top 5 Worst-Performing Queries)\n")
+    df['custom_diff'] = df['id'].map(map_custom_difficulty)
+    difficulties = ['Easy', 'Medium', 'Hard', 'Cross Document', 'Adversarial']
+    for diff in difficulties:
+        row = [diff]
+        for config in ['A', 'B', 'C', 'D']:
+            val = df[(df['custom_diff'] == diff) & (df['config'] == config)]['accuracy'].mean()
+            row.append(f"{val:.2f}" if pd.notnull(val) else "-")
+        report.append("| " + " | ".join(row) + " |")
+        
+    # 4. Error Analysis (Top 5 Worst)
+    report.append("\n## 4. Error Analysis (Top 5 Worst-Performing Queries)\n")
     worst = b_df.sort_values(by='Final').head(5)
     for idx, row in worst.iterrows():
         qid = row['QID']
@@ -84,8 +119,8 @@ def generate_markdown_report():
         report.append(f"- **Confidence**: {row.get('Confidence', df[(df['id']==qid) & (df['config']==config)]['confidence'].mean()):.2f}")
         report.append(f"- **ESS**: {row['ESS']:.2f}\n")
         
-    # 4. Confidence Calibration (Config C only)
-    report.append("## 4. Confidence Calibration Table (Config C)\n")
+    # 5. Confidence Calibration (Config C only)
+    report.append("## 5. Confidence Calibration Table (Config C)\n")
     report.append("| Confidence Range | Average Accuracy | Count |")
     report.append("|---|---|---|")
     

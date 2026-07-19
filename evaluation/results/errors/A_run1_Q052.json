@@ -1,0 +1,17 @@
+{
+  "Question": "Can employees change departments every month?",
+  "Config": "A",
+  "Run": 1,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "There is no information in the provided context about employees changing departments every month. The context only mentions the organization structure, departments, and working hours, but does not provide any information about department changes.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nAttendance\nPunctuality and consistent attendance are critical to our operational success.\nEmployees must log their daily attendance through the HR portal by 9:30 AM. If you\nare unable to report to work due to unforeseen circumstances, you must notify your\nimmediate supervisor and the HR department as soon as possible, preferably before\nthe start of the workday.\nRepeated unauthorized absences or unpunctuality may result in disciplinary action.\nThe hybrid model is a privilege that requires trust and accountability in managing\none's own schedule effectively.\nPage 12",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.3496240042910401,
+  "Failure Reason": "Low Final Accuracy Score: 0.35"
+}

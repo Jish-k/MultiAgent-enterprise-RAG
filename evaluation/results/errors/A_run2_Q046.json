@@ -1,0 +1,17 @@
+{
+  "Question": "Explain the complete probation policy from joining to confirmation.",
+  "Config": "A",
+  "Run": 2,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "Based on the provided context, the complete probation policy from joining to confirmation at TechNova Solutions Pvt. Ltd. is as follows:\n\n1. **Date of Joining**: An employee joins TechNova Solutions Pvt. Ltd.\n2. **Probation Period**: The employee is placed on a probation period, which lasts for exactly 6 months from the date of joining.\n3. **Performance Review**: At the end of the 6-month probation period, a successful performance review is conducted.\n4. **Confirmation**: If the performance review is successful, the employee is confirmed, and the probation period ends.\n\nNote that the employee must return all company property, including laptops and ID badges, on the final day of the probation period to receive their full and final settlement.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India | 650 Employees | Hybrid Work Model\nProbation\nProbation ends after exactly 6 months from the date of joining, pending a successful performance\nreview.\nPage 9",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nFAQ\nQ: Can interns work remotely?\nA: Interns are not eligible for remote work and must work from the Bengaluru office.\nQ: How many casual leaves are allowed?\nA: Employees are allowed 12 casual leaves per year.\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: When does probation end?\nA: Probation ends after exactly 6 months from the date of joining, pending a\nsuccessful performance review.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 24",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nExit Process\nShould an employee decide to leave TechNova, they must follow the standard exit\nprocess. To resign, submit a formal email to your manager and hr@technova.com\nwith a 30-day notice period.\nProbation ends after exactly 6 months from the date of joining, pending a successful\nperformance review. On the final day, the employee must return all company\nproperty, including laptops and ID badges, to receive their full and final settlement.\nPage 22"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.02675749224611166,
+  "Failure Reason": "Low Final Accuracy Score: 0.03"
+}

@@ -1,0 +1,17 @@
+{
+  "Question": "Who won the IPL 2025 championship?",
+  "Config": "A",
+  "Run": 3,
+  "Expected Answer": "No expected documents specified. Out of domain.",
+  "Generated Answer": "I'm unable to answer the question based on the provided context as it does not mention the IPL 2025 championship. The context appears to be related to TechNova Solutions Pvt. Ltd., its employee handbook, and company information.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nPerformance\nPerformance Appraisals at TechNova are conducted bi-annually, in June and\nDecember, using the Objective and Key Results (OKR) framework. These reviews are\ndesigned to be constructive, focusing on employee growth, skill development, and\nalignment with company goals.\nPromotions, salary increments, and performance bonuses are tied to the December\nreview cycle. Regular 1-on-1 feedback sessions with managers are strongly\nencouraged.\nPage 20",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nVision\nOur vision at TechNova Solutions is to be the global vanguard of Artificial Intelligence\nand Enterprise Software innovation. We aspire to create a future where intelligent\ntechnology seamlessly integrates with human potential, driving unprecedented\nefficiency, sustainability, and growth for businesses worldwide.\nWe envision a workplace where creativity is unbound, and where every TechNova\nemployee is empowered to architect the solutions of tomorrow.\nPage 6",
+    "TechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India | 650 Employees | Hybrid Work Model\nProbation\nProbation ends after exactly 6 months from the date of joining, pending a successful performance\nreview.\nPage 9"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.3,
+  "Failure Reason": "Low Final Accuracy Score: 0.30"
+}

@@ -1,0 +1,17 @@
+{
+  "Question": "Does the company provide a four-day work week?",
+  "Config": "A",
+  "Run": 2,
+  "Expected Answer": "No expected documents specified. Out of domain.",
+  "Generated Answer": "No, the company does not provide a four-day work week. According to the context, full-time employees are expected to work 3 days from the Bengaluru office and may work 2 days remotely per week.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nWorking Hours\nTechNova operates on a Hybrid work model to offer flexibility while maintaining team\ncohesion. Full-time employees are expected to work 3 days from the Bengaluru office\nand may work 2 days remotely per week.\nOur standard working hours are 9:00 AM to 6:00 PM IST, Monday through Friday,\ninclusive of a one-hour lunch break. Core collaboration hours are between 10:30 AM\nand 4:00 PM; during this time, all employees, regardless of location, must be\navailable for meetings and synchronized work. Interns are required to work from the\noffice 5 days a week.\nPage 11",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nLeaves\nTechNova recognizes the importance of work-life balance and offers a\ncomprehensive leave policy. Employees are entitled to 20 days of Earned Leave\n(PTO), 12 days of Casual Leave, and 10 days of Sick Leave per calendar year. Yes,\nup to 10 days of earned leave can be carried forward to the next calendar year.\nMaternity leave is provided for 26 weeks, and Paternity leave for 4 weeks. Maternity\nleave must be approved by the HR Head and the respective Department Head.\nBereavement leave of up to 5 days is available. All leave requests must be submitted\nthrough the internal portal at least two weeks in advance, except in emergencies.\nPage 13"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.37167759786681204,
+  "Failure Reason": "Low Final Accuracy Score: 0.37"
+}

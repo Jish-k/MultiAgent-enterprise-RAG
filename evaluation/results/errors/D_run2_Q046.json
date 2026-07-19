@@ -1,0 +1,31 @@
+{
+  "Question": "Explain the complete probation policy from joining to confirmation.",
+  "Config": "D",
+  "Run": 2,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "Based on the provided context from the TechNova Solutions Pvt. Ltd. Employee Handbook, the complete probation policy from joining to confirmation is as follows:\n\n1. **Date of Joining**: An employee joins TechNova Solutions Pvt. Ltd.\n2. **Probation Period**: The employee is placed on a probation period, which lasts for exactly 6 months from the date of joining.\n3. **Performance Review**: At the end of the 6-month probation period, a performance review is conducted using the Objective and Key Results (OKR) framework.\n4. **Successful Performance Review**: If the performance review is successful, the employee is confirmed in their role.\n5. **Confirmation**: The employee is confirmed in their role, and the probation period ends.\n\nNote that there is no mention of any specific requirements or conditions that the employee must meet during the probation period to be confirmed. The successful completion of the performance review is the only condition mentioned for confirmation.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India | 650 Employees | Hybrid Work Model\nProbation\nProbation ends after exactly 6 months from the date of joining, pending a successful performance\nreview.\nPage 9",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nExit Process\nShould an employee decide to leave TechNova, they must follow the standard exit\nprocess. To resign, submit a formal email to your manager and hr@technova.com\nwith a 30-day notice period.\nProbation ends after exactly 6 months from the date of joining, pending a successful\nperformance review. On the final day, the employee must return all company\nproperty, including laptops and ID badges, to receive their full and final settlement.\nPage 22",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nPerformance\nPerformance Appraisals at TechNova are conducted bi-annually, in June and\nDecember, using the Objective and Key Results (OKR) framework. These reviews are\ndesigned to be constructive, focusing on employee growth, skill development, and\nalignment with company goals.\nPromotions, salary increments, and performance bonuses are tied to the December\nreview cycle. Regular 1-on-1 feedback sessions with managers are strongly\nencouraged.\nPage 20",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n7. Leave Approval Process\nAll leave requests must be submitted through the centralized HR Leave Portal. For\nplanned leaves (such as Earned Leave), requests must be submitted at least two\nweeks in advance to allow for adequate resource planning and handover.\nFor unplanned leaves (such as Sick Leave or emergency Casual Leave), employees\nmust notify their immediate supervisor via email or Slack as soon as possible, and\nformally apply for the leave in the portal within 24 hours of returning to work. Approval\nis at the discretion of the reporting manager.\nPage 9"
+  ],
+  "Planner Output": {
+    "intent": "HR Policy",
+    "sub_queries": [
+      "What is the probation period for new employees?",
+      "What are the key performance indicators (KPIs) during probation?",
+      "What is the process for confirmation after probation?"
+    ],
+    "required_information": [
+      "probation period duration",
+      "probation KPIs",
+      "confirmation process requirements"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.3343605579602051,
+  "Failure Reason": "Low Final Accuracy Score: 0.33"
+}

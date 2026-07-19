@@ -1,0 +1,33 @@
+{
+  "Question": "What policies should a new employee read before beginning hybrid work?",
+  "Config": "D",
+  "Run": 2,
+  "Expected Answer": "Before beginning hybrid work, a new employee should read the following policies:\n\n1. Working Hours (Page 10) - to understand the standard working hours, core collaboration hours, and remote work expectations.\n2. Attendance (Page 11) - to understand the importance of punctuality and consistent attendance, and the procedures for reporting absences.\n3. Remote Work (Page 18) - to understand the expectations for remote work, including the requirement to have a quiet, secure environment and a stable internet connection, and the prohibition on working from public spaces while handling sensitive data.",
+  "Generated Answer": "Based on the context, a new employee should read the following policies before beginning hybrid work:\n\n1. Remote Work (Page 19)\n2. Code of Conduct (Page 15)\n3. IT Security Policy (Page 18)\n4. Working Hours (Page 11)\n\nThese policies cover essential information about remote work, company expectations, security guidelines, and working hours, which are crucial for a new employee to understand before starting hybrid work.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nRemote Work\nOur Hybrid model allows for 2 days of remote work per week for full-time employees.\nInterns are not eligible for remote work and must work from the Bengaluru office.\nDuring remote days, employees must ensure they have a quiet, secure environment\nand a stable internet connection.\nWorking from public spaces (like cafes) while handling sensitive data is prohibited due\nto security risks. Employees must remain online and responsive on Slack and email\nduring core working hours.\nPage 19",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nCode of Conduct\nThe TechNova Code of Conduct mandates that all employees behave in a\nprofessional, respectful, and ethical manner at all times. We have a zero-tolerance\npolicy for workplace harassment, discrimination, and bullying.\nEmployees must avoid any conflicts of interest and act in the best interests of the\ncompany. Any violation of this code, whether in the office, during remote work, or at\ncompany-sponsored events, will be met with strict disciplinary action, up to and\nincluding termination of employment.\nPage 15",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nFAQ\nQ: Can interns work remotely?\nA: Interns are not eligible for remote work and must work from the Bengaluru office.\nQ: How many casual leaves are allowed?\nA: Employees are allowed 12 casual leaves per year.\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: When does probation end?\nA: Probation ends after exactly 6 months from the date of joining, pending a\nsuccessful performance review.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 24",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nWorking Hours\nTechNova operates on a Hybrid work model to offer flexibility while maintaining team\ncohesion. Full-time employees are expected to work 3 days from the Bengaluru office\nand may work 2 days remotely per week.\nOur standard working hours are 9:00 AM to 6:00 PM IST, Monday through Friday,\ninclusive of a one-hour lunch break. Core collaboration hours are between 10:30 AM\nand 4:00 PM; during this time, all employees, regardless of location, must be\navailable for meetings and synchronized work. Interns are required to work from the\noffice 5 days a week.\nPage 11",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nValues\nAt TechNova, our Core Values are the bedrock of our corporate identity. They are:\n1. Innovation: We challenge the status quo and embrace creative problem-solving.\n2. Integrity: We conduct our business with the utmost honesty and transparency.\n3. Collaboration: We believe that the best ideas are born from diverse,\ncross-functional teamwork.\n4. Customer-Centricity: The success of our clients is the ultimate measure of our\nsuccess.\n5. Empathy: We respect and support each other, cultivating a safe and inclusive\nworkplace.\nPage 8"
+  ],
+  "Planner Output": {
+    "intent": "IT Policy",
+    "sub_queries": [
+      "What are the company's remote work policies?",
+      "What are the security guidelines for working from home?",
+      "What are the expectations for communication and collaboration while working remotely?"
+    ],
+    "required_information": [
+      "Remote Work Policy",
+      "Security Guidelines for Remote Work",
+      "Communication and Collaboration Expectations"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.46947907217265766,
+  "Failure Reason": "Low Final Accuracy Score: 0.47"
+}

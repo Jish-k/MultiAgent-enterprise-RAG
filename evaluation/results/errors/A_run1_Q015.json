@@ -1,0 +1,17 @@
+{
+  "Question": "What is the annual salary of the CEO of TechNova Solutions?",
+  "Config": "A",
+  "Run": 1,
+  "Expected Answer": "No expected documents specified. Out of domain.",
+  "Generated Answer": "There is no information provided about the annual salary of the CEO of TechNova Solutions in the given context. The provided information is about the company's departments, organization structure, and resignation policy, but it does not mention the CEO's salary.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nDepartments\nOur 650 employees are distributed across several highly specialized departments:\n- Engineering: The core of TechNova, responsible for product development and AI\nresearch.\n- Human Resources: Dedicated to talent acquisition, employee well-being, and\norganizational development.\n- IT Security: Ensures the integrity of our digital infrastructure and protects enterprise\ndata.\n- Sales & Marketing: Drives market expansion, brand presence, and client acquisition.\n- Customer Support: Provides 24/7 assistance to our global client base.\n- Finance & Admin: Manages the financial health and physical operations of the\nBengaluru headquarters.\nPage 10",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nOrganization Structure\nTechNova operates on a matrix organizational structure to promote agility and\ncross-departmental collaboration. Our Executive Leadership Team, led by the CEO,\noversees the strategic direction of the company. Reporting directly to the executive\nboard are the Vice Presidents of our core divisions: Engineering, Human Resources,\nFinance, Sales & Marketing, IT Security, Administration, and Customer Support.\nEmployees are encouraged to engage with leadership through open-door policies and\nregular town-hall meetings, ensuring transparency across all levels of the\norganization.\nPage 9",
+    "TechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India | 650 Employees | Hybrid Work Model\nResignation\nTo resign, submit a formal email to your manager and hr@technova.com with a 30-day notice\nperiod.\nPage 28"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.4937189866812706,
+  "Failure Reason": "Low Final Accuracy Score: 0.49"
+}

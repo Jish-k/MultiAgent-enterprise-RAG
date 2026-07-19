@@ -1,0 +1,16 @@
+{
+  "Question": "Summarize the company's merger and acquisition policy.",
+  "Config": "A",
+  "Run": 3,
+  "Expected Answer": "No expected documents specified. Out of domain.",
+  "Generated Answer": "There is no information provided about the company's merger and acquisition policy in the given context. The provided context only includes the table of contents and a repeated statement about standard operating procedures and regulatory guidelines, but it does not mention anything about a merger and acquisition policy.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+    "operating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.3089567691799189,
+  "Failure Reason": "Low Final Accuracy Score: 0.31"
+}

@@ -1,0 +1,29 @@
+{
+  "Question": "Explain the company's cryptocurrency reimbursement policy.",
+  "Config": "D",
+  "Run": 3,
+  "Expected Answer": "No expected documents specified. Out of domain.",
+  "Generated Answer": "There is no information provided about the company's cryptocurrency reimbursement policy in the given context. The provided text only discusses the company's Travel & Expense Policy, specifically covering domestic and international travel, hotel reimbursement, food allowance, and approval workflow.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\nTable of Contents\n1. Domestic Travel\n2. International Travel\n3. Hotel Reimbursement\n4. Food Allowance\n5. Approval Workflow\n6. FAQ\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n3. Hotel Reimbursement\nAccommodation should be booked using the corporate travel desk's preferred hotel\npartners. The standard daily hotel cap is INR 5000 for Tier-1 cities (Mumbai, Delhi,\nBengaluru, Chennai) and INR 3500 for Tier-2 cities.\nFor international travel, hotel caps are defined dynamically based on the destination\ncity's cost of living index (e.g., $150/night for North America, 120 Euros/night for\nEurope). If a preferred hotel is unavailable, employees may book alternative\naccommodation within the stated limits, but a justification must be provided.\nPage 5",
+    "procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd.\nPage 15",
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n4. Food Allowance\nTechNova provides a daily per diem allowance for food and incidental expenses\nduring business travel. The domestic per diem is INR 1000 per day. The international\nper diem varies by region but averages $60 or 50 Euros per day.\nPer diem allowances are automatically calculated based on the travel dates and do\nnot require the submission of individual food receipts. However, if an employee hosts\na business dinner with a client, the actual expenses can be claimed separately using\nan itemized receipt, subject to the client entertainment policy.\nPage 6",
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8"
+  ],
+  "Planner Output": {
+    "intent": "IT Policy",
+    "sub_queries": [
+      "What are the company's cryptocurrency reimbursement guidelines?",
+      "Are there any specific conditions for reimbursing cryptocurrency-related expenses?"
+    ],
+    "required_information": [
+      "cryptocurrency reimbursement policy",
+      "conditions for reimbursing cryptocurrency-related expenses"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.48506133500170817,
+  "Failure Reason": "Low Final Accuracy Score: 0.49"
+}

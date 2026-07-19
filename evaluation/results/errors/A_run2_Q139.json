@@ -1,0 +1,17 @@
+{
+  "Question": "Explain the company's cryptocurrency reimbursement policy.",
+  "Config": "A",
+  "Run": 2,
+  "Expected Answer": "No expected documents specified. Out of domain.",
+  "Generated Answer": "There is no information provided about the company's cryptocurrency reimbursement policy. The provided context only discusses the company's Travel & Expense Policy, specifically covering domestic and international travel, hotel reimbursement, food allowance, approval workflow, and FAQs.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\nTable of Contents\n1. Domestic Travel\n2. International Travel\n3. Hotel Reimbursement\n4. Food Allowance\n5. Approval Workflow\n6. FAQ\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n5. Approval Workflow\nThe travel approval workflow is strictly enforced through the internal Concur portal.\nFor domestic travel, approval is required from the immediate reporting manager. For\ninternational travel, approval must be granted by the respective Vice President and\nthe CEO.\nExpense claims must be submitted within 15 days of returning from the trip. Claims\nsubmitted after 30 days will be rejected unless an exceptional circumstance is\ndocumented and approved by HR. Approved reimbursements will be credited directly\nto the employee's salary account in the subsequent payroll cycle.\nPage 7",
+    "Travel & Expense Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.3054779644652019,
+  "Failure Reason": "Low Final Accuracy Score: 0.31"
+}

@@ -1,0 +1,31 @@
+{
+  "Question": "Describe the company's employee performance review process.",
+  "Config": "D",
+  "Run": 3,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "The company's employee performance review process at TechNova Solutions Pvt. Ltd. involves the following:\n\n1. Bi-annual reviews: Performance appraisals are conducted twice a year, in June and December.\n2. Objective and Key Results (OKR) framework: The reviews are based on the OKR framework, focusing on employee growth, skill development, and alignment with company goals.\n3. Constructive reviews: The reviews are designed to be constructive, aiming to improve employee performance and growth.\n4. Promotions, salary increments, and performance bonuses: These are tied to the December review cycle.\n5. Regular 1-on-1 feedback sessions: Managers are encouraged to hold regular feedback sessions with employees to discuss their performance and growth.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nPerformance\nPerformance Appraisals at TechNova are conducted bi-annually, in June and\nDecember, using the Objective and Key Results (OKR) framework. These reviews are\ndesigned to be constructive, focusing on employee growth, skill development, and\nalignment with company goals.\nPromotions, salary increments, and performance bonuses are tied to the December\nreview cycle. Regular 1-on-1 feedback sessions with managers are strongly\nencouraged.\nPage 20",
+    "Employee Handbook\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nPage 1",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nCode of Conduct\nThe TechNova Code of Conduct mandates that all employees behave in a\nprofessional, respectful, and ethical manner at all times. We have a zero-tolerance\npolicy for workplace harassment, discrimination, and bullying.\nEmployees must avoid any conflicts of interest and act in the best interests of the\ncompany. Any violation of this code, whether in the office, during remote work, or at\ncompany-sponsored events, will be met with strict disciplinary action, up to and\nincluding termination of employment.\nPage 15",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nValues\nAt TechNova, our Core Values are the bedrock of our corporate identity. They are:\n1. Innovation: We challenge the status quo and embrace creative problem-solving.\n2. Integrity: We conduct our business with the utmost honesty and transparency.\n3. Collaboration: We believe that the best ideas are born from diverse,\ncross-functional teamwork.\n4. Customer-Centricity: The success of our clients is the ultimate measure of our\nsuccess.\n5. Empathy: We respect and support each other, cultivating a safe and inclusive\nworkplace.\nPage 8"
+  ],
+  "Planner Output": {
+    "intent": "HR Policy",
+    "sub_queries": [
+      "What is the company's employee performance review cycle?",
+      "Who is responsible for conducting employee performance reviews?",
+      "What are the key performance indicators (KPIs) used in employee performance reviews?"
+    ],
+    "required_information": [
+      "employee performance review cycle",
+      "Department Head approval",
+      "Performance Management System"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.018145711482436273,
+  "Failure Reason": "Low Final Accuracy Score: 0.02"
+}

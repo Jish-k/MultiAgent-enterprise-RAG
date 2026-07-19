@@ -1,0 +1,17 @@
+{
+  "Question": "Summarize everything an employee should know about the HR policy.",
+  "Config": "A",
+  "Run": 1,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "Based on the provided context, here's a summary of the HR policy:\n\n1. **Attendance**: \n   - Log daily attendance through the HR portal by 9:30 AM.\n   - Notify the immediate supervisor and HR department if unable to report to work due to unforeseen circumstances.\n   - Repeated unauthorized absences or unpunctuality may result in disciplinary action.\n\n2. **Hybrid Model**: \n   - It's a privilege that requires trust and accountability in managing one's own schedule effectively.\n\nNote: There is no detailed information about the HR policy in the provided context. The information is limited to attendance and the hybrid model.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nAttendance\nPunctuality and consistent attendance are critical to our operational success.\nEmployees must log their daily attendance through the HR portal by 9:30 AM. If you\nare unable to report to work due to unforeseen circumstances, you must notify your\nimmediate supervisor and the HR department as soon as possible, preferably before\nthe start of the workday.\nRepeated unauthorized absences or unpunctuality may result in disciplinary action.\nThe hybrid model is a privilege that requires trust and accountability in managing\none's own schedule effectively.\nPage 12",
+    "Employee Handbook\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nPage 1"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.28402322070336167,
+  "Failure Reason": "Low Final Accuracy Score: 0.28"
+}

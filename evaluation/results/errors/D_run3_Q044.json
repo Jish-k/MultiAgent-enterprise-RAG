@@ -1,0 +1,30 @@
+{
+  "Question": "Under what circumstances can flexible working hours be approved?",
+  "Config": "D",
+  "Run": 3,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "Unfortunately, the provided context does not explicitly mention the circumstances under which flexible working hours can be approved. However, it does mention that the hybrid model is a privilege that requires trust and accountability in managing one's own schedule effectively. This implies that flexible working hours may be approved on a case-by-case basis, but the specific circumstances are not outlined in the provided context.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nWorking Hours\nTechNova operates on a Hybrid work model to offer flexibility while maintaining team\ncohesion. Full-time employees are expected to work 3 days from the Bengaluru office\nand may work 2 days remotely per week.\nOur standard working hours are 9:00 AM to 6:00 PM IST, Monday through Friday,\ninclusive of a one-hour lunch break. Core collaboration hours are between 10:30 AM\nand 4:00 PM; during this time, all employees, regardless of location, must be\navailable for meetings and synchronized work. Interns are required to work from the\noffice 5 days a week.\nPage 11",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nAttendance\nPunctuality and consistent attendance are critical to our operational success.\nEmployees must log their daily attendance through the HR portal by 9:30 AM. If you\nare unable to report to work due to unforeseen circumstances, you must notify your\nimmediate supervisor and the HR department as soon as possible, preferably before\nthe start of the workday.\nRepeated unauthorized absences or unpunctuality may result in disciplinary action.\nThe hybrid model is a privilege that requires trust and accountability in managing\none's own schedule effectively.\nPage 12",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nRemote Work\nOur Hybrid model allows for 2 days of remote work per week for full-time employees.\nInterns are not eligible for remote work and must work from the Bengaluru office.\nDuring remote days, employees must ensure they have a quiet, secure environment\nand a stable internet connection.\nWorking from public spaces (like cafes) while handling sensitive data is prohibited due\nto security risks. Employees must remain online and responsive on Slack and email\nduring core working hours.\nPage 19",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n7. Leave Approval Process\nAll leave requests must be submitted through the centralized HR Leave Portal. For\nplanned leaves (such as Earned Leave), requests must be submitted at least two\nweeks in advance to allow for adequate resource planning and handover.\nFor unplanned leaves (such as Sick Leave or emergency Casual Leave), employees\nmust notify their immediate supervisor via email or Slack as soon as possible, and\nformally apply for the leave in the portal within 24 hours of returning to work. Approval\nis at the discretion of the reporting manager.\nPage 9"
+  ],
+  "Planner Output": {
+    "intent": "HR Policy",
+    "sub_queries": [
+      "What are the eligibility criteria for flexible working hours?",
+      "Under what circumstances can employees request flexible working hours?",
+      "What is the approval process for flexible working hours?"
+    ],
+    "required_information": [
+      "Flexible Working Hours Policy",
+      "Employee eligibility criteria",
+      "Manager approval"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.39884650591263854,
+  "Failure Reason": "Low Final Accuracy Score: 0.40"
+}

@@ -1,0 +1,17 @@
+{
+  "Question": "What is the probation period for newly hired employees?",
+  "Config": "A",
+  "Run": 1,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "The probation period for newly hired employees at TechNova Solutions Pvt. Ltd. is exactly 6 months from the date of joining, pending a successful performance review.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India | 650 Employees | Hybrid Work Model\nProbation\nProbation ends after exactly 6 months from the date of joining, pending a successful performance\nreview.\nPage 9",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nExit Process\nShould an employee decide to leave TechNova, they must follow the standard exit\nprocess. To resign, submit a formal email to your manager and hr@technova.com\nwith a 30-day notice period.\nProbation ends after exactly 6 months from the date of joining, pending a successful\nperformance review. On the final day, the employee must return all company\nproperty, including laptops and ID badges, to receive their full and final settlement.\nPage 22",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.2561965755930394,
+  "Failure Reason": "Low Final Accuracy Score: 0.26"
+}

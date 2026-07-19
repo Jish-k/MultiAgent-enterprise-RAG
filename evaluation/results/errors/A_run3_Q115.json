@@ -1,0 +1,17 @@
+{
+  "Question": "Can I work remotely while travelling for official business?",
+  "Config": "A",
+  "Run": 3,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "Based on the context, I couldn't find a direct answer to the question \"Can I work remotely while travelling for official business?\" However, I can infer the answer from the information provided.\n\nAccording to the \"Remote Work\" section, employees must remain online and responsive on Slack and email during core working hours while working remotely. \n\nAdditionally, the \"Leave Policy\" section doesn't explicitly mention remote work while traveling for official business, but it does mention that all travel expense receipts must be submitted through the Concur portal within 15 days of return, which implies that employees are expected to work while traveling for official business.\n\nHowever, the \"FAQ\" section under \"Leave Policy\" doesn't provide a direct answer to this question. \n\nBut, considering the \"Remote Work\" section, it can be inferred that employees are expected to work remotely while traveling for official business, as long as they have a quiet, secure environment and a stable internet connection.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nFAQ\nQ: Can interns work remotely?\nA: Interns are not eligible for remote work and must work from the Bengaluru office.\nQ: How many casual leaves are allowed?\nA: Employees are allowed 12 casual leaves per year.\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: When does probation end?\nA: Probation ends after exactly 6 months from the date of joining, pending a\nsuccessful performance review.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 24",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nRemote Work\nOur Hybrid model allows for 2 days of remote work per week for full-time employees.\nInterns are not eligible for remote work and must work from the Bengaluru office.\nDuring remote days, employees must ensure they have a quiet, secure environment\nand a stable internet connection.\nWorking from public spaces (like cafes) while handling sensitive data is prohibited due\nto security risks. Employees must remain online and responsive on Slack and email\nduring core working hours.\nPage 19",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n8. FAQ\nQ: Can interns work remotely?\nA: Interns are not eligible for remote work and must work from the Bengaluru office.\nQ: How many casual leaves are allowed?\nA: Employees are allowed 12 casual leaves per year.\nQ: Can I carry forward earned leave?\nA: Yes, up to 10 days of earned leave can be carried forward to the next calendar\nyear.\nQ: Who approves maternity leave?\nA: Maternity leave must be approved by the HR Head and the respective Department\nHead.\nPage 10"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.38668855748399356,
+  "Failure Reason": "Low Final Accuracy Score: 0.39"
+}

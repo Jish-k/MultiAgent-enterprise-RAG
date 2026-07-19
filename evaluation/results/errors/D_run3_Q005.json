@@ -1,0 +1,26 @@
+{
+  "Question": "How does the employee onboarding process work?",
+  "Config": "D",
+  "Run": 3,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "Unfortunately, the provided context does not mention the employee onboarding process. It appears to be a repetitive section outlining the standard operating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. However, based on the context, it can be inferred that the company has a hybrid work model, which might be part of the standard operating procedures.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India | 650 Employees | Hybrid Work Model\nTransfer\nThis section outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by",
+    "operating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by"
+  ],
+  "Planner Output": {
+    "intent": "HR Policy",
+    "sub_queries": [
+      "What are the steps involved in the employee onboarding process?",
+      "Who is responsible for completing the onboarding process?"
+    ],
+    "required_information": [
+      "employee onboarding checklist",
+      "Department Head responsibilities"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.39158766919031507,
+  "Failure Reason": "Low Final Accuracy Score: 0.39"
+}

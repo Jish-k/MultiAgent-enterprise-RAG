@@ -1,0 +1,1888 @@
+[
+  {
+    "id": "5abed9f45542994516f4545a",
+    "question": "Who was the body double for Emilia Clarke playing Daenerys Targaryen in Game of Thrones?",
+    "answer": "Rosie Mac",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Rosie Mac",
+      "Rosie Mac",
+      "Daenerys Targaryen"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "id": "5ab1dd6c5542993be8fa9860",
+    "question": "In what literary movement was the nineteenth century writer featured in Alicia Ramsey's historical play a leading figure?",
+    "answer": "Romantic",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Byron (play)",
+      "Byron (play)",
+      "Lord Byron"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "id": "5adfa059554299025d62a2f8",
+    "question": "Richard E. Grant starred in what 1995 British romantic comedy film?",
+    "answer": "Richard E. Grant",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Jack and Sarah",
+      "Richard E. Grant"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a8f9a24554299458435d690",
+    "question": "What is the name of the lead remix of the track from the remix album containing remixes of the lady gaga studio album \"The Fame\"?",
+    "answer": "Bad Romance",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Starsmith",
+      "The Remix (Lady Gaga album)"
+    ],
+    "supporting_sentence_ids": [
+      4,
+      1
+    ]
+  },
+  {
+    "id": "5a77535855429966f1a36d04",
+    "question": "Who was born earlier, Thomas Wolfe or Margaret Wilson?",
+    "answer": "Margaret Wilson",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Thomas Wolfe",
+      "Margaret Wilson (writer)"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a773772554299373536021d",
+    "question": "Who was born first Percy Clifford Mills or Nigel Graham Pearson?",
+    "answer": "Percy Clifford Mills",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Percy Mills (footballer)",
+      "Nigel Pearson"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5ab36fd355429969a97a814c",
+    "question": "Which studio album by childish gambina is produced by Glover and contains the song \"redbone\"?",
+    "answer": "\"Awaken, My Love!\"",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Redbone (song)",
+      "Redbone (song)",
+      "&quot;Awaken, My Love!&quot;",
+      "&quot;Awaken, My Love!&quot;"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1,
+      0,
+      4
+    ]
+  },
+  {
+    "id": "5ab57383554299494045efda",
+    "question": " Since 2017 Nick Ayers has been Chief of Staff to a man that served as governor of what state?",
+    "answer": "Indiana",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Nick Ayers",
+      "Mike Pence"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "5a78c8f955429974737f7887",
+    "question": "Which band formed first, Sunrise Avenue or Marcy Playground?",
+    "answer": "Marcy Playground",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Sunrise Avenue",
+      "Sunrise Avenue",
+      "Marcy Playground",
+      "Marcy Playground"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "5a7a013c5542990198eaf03a",
+    "question": "What was the member of the Lok Sabha from June 1977 to January 1978 as a member of political Party that belonged to one of the two major political parties in India, along with the Indian National Congress?",
+    "answer": "chief minister of the state",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Kailash Chandra Joshi",
+      "Bharatiya Janata Party"
+    ],
+    "supporting_sentence_ids": [
+      1,
+      0
+    ]
+  },
+  {
+    "id": "5ac021d1554299012d1db5b4",
+    "question": "Which American actor, artist, and former American football player born in 1968 appeared in the film \"Reach Me?\"",
+    "answer": "Terry Crews",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Reach Me",
+      "Terry Crews"
+    ],
+    "supporting_sentence_ids": [
+      1,
+      0
+    ]
+  },
+  {
+    "id": "5ab8c2465542991b5579effb",
+    "question": "What position does the current holder of the Ligue 1 Young player of the year play?",
+    "answer": "forward",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Ligue 1 Young player of the year",
+      "Ousmane Demb\u00e9l\u00e9"
+    ],
+    "supporting_sentence_ids": [
+      2,
+      0
+    ]
+  },
+  {
+    "id": "5a7c779d55429935c91b51ce",
+    "question": "How many ships does the cruise line that is a client of Moment Factory have?",
+    "answer": "24",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Moment Factory",
+      "Royal Caribbean International"
+    ],
+    "supporting_sentence_ids": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "5ae07ee155429945ae959384",
+    "question": "Who died first, Robert Baldock or Edward II of England?",
+    "answer": "Robert Baldock",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Robert Baldock",
+      "Edward II of England"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a7248045542990c210a40ad",
+    "question": "Who wrote the screenplay for the Alfred Hitchcock movie that Eva Marie Saint acted in?",
+    "answer": "Ernest Lehman",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Eva Marie Saint",
+      "North by Northwest"
+    ],
+    "supporting_sentence_ids": [
+      1,
+      1
+    ]
+  },
+  {
+    "id": "5ae731ff5542991e8301cbc0",
+    "question": "Michael Faraday was an early 19th-century British scientist, he contributed to the study of electromagnetism and electrochemistry, and died on which date?",
+    "answer": "25 August 1867",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Faraday (disambiguation)",
+      "Michael Faraday"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5abdcb525542991f66106043",
+    "question": "Who directed the 1959 American Western Film starring the actress who starred as Virginia in \"Marty?\"",
+    "answer": "Budd Boetticher",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Westbound (film)",
+      "Karen Steele"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "5a7d419b5542995f4f402249",
+    "question": "What research group was formed in 2014 due to Russia's suspension?",
+    "answer": "The G7 Research Group",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "G7 Research Group",
+      "Group of Eight"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5abdaca655429965af743dba",
+    "question": "Which ITV2 documentary series did the band made up of Lee Brennan, Jimmy Constable and Simon Dawbarn reform for in 2012?",
+    "answer": "\"The Big Reunion\"",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "911 (English band)",
+      "Spike Dawbarn"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "5ae209b25542997283cd2342",
+    "question": "Were both Strauder v. West Virginia and Lemon v. Kurtzman cases about racism?",
+    "answer": "no",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Strauder v. West Virginia",
+      "Lemon v. Kurtzman",
+      "Lemon v. Kurtzman"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "5add77c45542992ae4cec579",
+    "question": "Where are the headquarters for the company which developed the SecureEasySetup technology? ",
+    "answer": "Irvine, California",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "SecureEasySetup",
+      "Broadcom",
+      "Broadcom",
+      "Broadcom"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "5a83a7075542990548d0b20e",
+    "question": "The 1985 European Grand Prix was held in which town?",
+    "answer": "West Kingsdown in Kent, England",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "1985 European Grand Prix",
+      "Brands Hatch"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5ac2787355429921a00aaf9a",
+    "question": "What Roger Thomas designed casino was inspired by the Lake Como town of Bellagio in Italy?",
+    "answer": "Bellagio",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Roger Thomas (designer)",
+      "Bellagio (resort)"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "5ae5362c5542990ba0bbb229",
+    "question": "When was the American former professional basketball player born who was first overall pick in the 2000 NBA draft by the Nets'? ",
+    "answer": "December 30, 1977",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "2000\u201301 New Jersey Nets season",
+      "2000\u201301 New Jersey Nets season",
+      "Kenyon Martin"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "id": "5a75b7305542992d0ec05fea",
+    "question": "Pearle Vision stores in North America are owned by a company based in what European city?",
+    "answer": "Milan, Italy",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Pearle Vision",
+      "Luxottica",
+      "Luxottica"
+    ],
+    "supporting_sentence_ids": [
+      7,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "5ab78c6f5542995dae37e955",
+    "question": "Was The Stuff of Legend an American comedy like The Boatniks?",
+    "answer": "no",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "The Boatniks",
+      "The Boatniks",
+      "The Stuff of Legend",
+      "The Stuff of Legend",
+      "The Stuff of Legend"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "5ac43d195542995c82c4ad05",
+    "question": "Karl Kevin Marginson, is an English football manager and former player, who played in the Football League for Rotherham United, and since 2005, he has been the manager of F.C. United of Manchester, a semi-professional football club based in Moston, Manchester, in which UK country? ",
+    "answer": "England",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Karl Marginson",
+      "F.C. United of Manchester"
+    ],
+    "supporting_sentence_ids": [
+      1,
+      0
+    ]
+  },
+  {
+    "id": "5a8a0c7b5542992d82986e7b",
+    "question": "The Riegelmann Boardwalk is in what southwestern borough in New York City? ",
+    "answer": "Brooklyn",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Disco Freddy",
+      "Coney Island"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a85cdb65542991dd0999ea4",
+    "question": "Who did Holly Dunn record \"Daddy's Hands\" for?",
+    "answer": "MTM Records",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Daddy's Hands",
+      "Daddy's Hands",
+      "Holly Dunn"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "id": "5ac054a35542996f0d89cb90",
+    "question": "Which airport is in Georgia, St. Pete\u2013Clearwater International Airport or Augusta Regional Airport?  ",
+    "answer": "Augusta Regional Airport",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "St. Pete\u2013Clearwater International Airport",
+      "Augusta Regional Airport"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5abddcff5542991f6610607a",
+    "question": "The Frito Bandito was voiced by an American voice actor who began his 60-plus-year career performing in what?",
+    "answer": "radio",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Frito Bandito",
+      "Frito Bandito",
+      "Mel Blanc",
+      "Mel Blanc"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "5ab7df90554299366779402a",
+    "question": "Al-Sharki was born and raised in Sana'a, a town in old Sanaa, Sana'a, also spelled Sanaa or Sana, is the largest city in which country, and the centre of Sana'a Governorate?",
+    "answer": "Yemen",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Raufa Hassan al-Sharki",
+      "Sana'a"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5addfa2d5542995b365fabaa",
+    "question": "The biographical war film about Lyudmila Pavlichenko, the most successful female sniper in history, credits her with how many kills? ",
+    "answer": "Credited with 309 kills",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Battle for Sevastopol",
+      "Lyudmila Pavlichenko"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "5ab5a9935542992aa134a379",
+    "question": "When did English rock band New Order record their live album \"Live at Bestival 2012?",
+    "answer": "September 2012",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Live at Bestival 2012",
+      "New Order (band)"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5ade0d6f5542997545bbbe33",
+    "question": "Which church did the author of the book, upon whose novel Jerusalem Countdown is based, found?",
+    "answer": "Cornerstone Church",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Jerusalem Countdown (film)",
+      "John Hagee"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5ac3fe71554299204fd21ee9",
+    "question": "Bee's Knees and Smoking Bishop, are a type of cocktail?",
+    "answer": "no",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Bee's Knees (cocktail)",
+      "Smoking Bishop"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5ab2a06b5542992953946779",
+    "question": "Glenn Frey, Bernie Leadon, and which other person, who is the founding member of the Eagles, sings in \"Peaceful Easy Feeling?\"",
+    "answer": "Randy Herman Meisner",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Peaceful Easy Feeling",
+      "Randy Meisner"
+    ],
+    "supporting_sentence_ids": [
+      3,
+      0
+    ]
+  },
+  {
+    "id": "5ab5678a554299488d4d9975",
+    "question": "Why is Typhoon dot known by another name in other parts of the world?",
+    "answer": "Tropical depressions that enter or form in the Philippine area of responsibility are assigned a name by the Philippine Atmospheric, Geophysical and Astronomical Services Administration or PAGASA",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Typhoon Dot (1985)",
+      "1985 Pacific typhoon season",
+      "1985 Pacific typhoon season"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "5ae0c55e55429945ae959449",
+    "question": "The End of Time is a two-part story and the last story for which lead actor?",
+    "answer": "David Tennant",
+    "difficulty": "medium",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "The End of Time (Doctor Who)",
+      "David Tennant"
+    ],
+    "supporting_sentence_ids": [
+      2,
+      0
+    ]
+  },
+  {
+    "id": "5a78b829554299029c4b5e52",
+    "question": "What film  evolves around two LGBTQ American athletes, National Bird or Game Face?",
+    "answer": "Game Face",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "National Bird (film)",
+      "Game Face (film)",
+      "Game Face (film)"
+    ],
+    "supporting_sentence_ids": [
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "5a7cbcf8554299683c1c635d",
+    "question": "Clinical is a 2017 American horror thriller directed by Alistair Legrand, the film stars Kevin Rahm is an American actor, best known for his television roles as Kyle McCarty on \"Judging Amy\", Lee McDermott on \"Desperate Housewives\", and Ted Chaough on \"Mad Men\", born when? ",
+    "answer": "January 7, 1971",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Clinical (film)",
+      "Kevin Rahm"
+    ],
+    "supporting_sentence_ids": [
+      1,
+      0
+    ]
+  },
+  {
+    "id": "5a842f375542990548d0b25c",
+    "question": "U.S. Route 95 Alternate and Interstate 80 in Nevada both travel through which town?",
+    "answer": "Fernley",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "U.S. Route 95 Alternate (Schurz\u2013Fernley, Nevada)",
+      "Interstate 80 in Nevada"
+    ],
+    "supporting_sentence_ids": [
+      1,
+      1
+    ]
+  },
+  {
+    "id": "5abcfe275542992ac4f38184",
+    "question": "College Point borders the waterway that empties into what river?",
+    "answer": "East River",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "College Point, Queens",
+      "Flushing River"
+    ],
+    "supporting_sentence_ids": [
+      2,
+      0
+    ]
+  },
+  {
+    "id": "5adc39d3554299438c868d7f",
+    "question": "Comparison between Dashboard Confessional and Escanaba Firing Line?",
+    "answer": "rock band",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Dashboard Confessional",
+      "Escanaba Firing Line"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5ab5a77e554299637185c5d2",
+    "question": "Does Lucio Silla or Pell\u00e9as et M\u00e9lisande have more acts?",
+    "answer": "Pell\u00e9as et M\u00e9lisande",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Lucio Silla",
+      "Pell\u00e9as et M\u00e9lisande (opera)"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5ae4b3bc5542995dadf243c3",
+    "question": "What philanthropist founded ESL Music?",
+    "answer": "Eric Michael Hilton",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "ESL Music",
+      "Eric Hilton"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5abe52c155429965af743ec3",
+    "question": "Kern Island Canal and Indiana Harbor and Ship Canal are both what? ",
+    "answer": "canals",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Kern Island Canal",
+      "Indiana Harbor and Ship Canal"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "5a863e805542991e771815d5",
+    "question": "Is Apsarasas Kangri taller than Gangkhar Puensum?",
+    "answer": "no",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Gangkhar Puensum",
+      "Apsarasas Kangri"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "5a9082e35542995651fb517c",
+    "question": "What is the name of the race that is known as the test of the champion? ",
+    "answer": "2016 Belmont Stakes",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Irad Ortiz Jr.",
+      "2016 Belmont Stakes"
+    ],
+    "supporting_sentence_ids": [
+      1,
+      1
+    ]
+  },
+  {
+    "id": "5a72828d5542994cef4bc2f5",
+    "question": "Which of these films was released direct-to-video Eleanor's Secret or Otra Pel\u00edcula de Huevos y un Pollo?",
+    "answer": "Otra Pel\u00edcula de Huevos y un Pollo",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Eleanor's Secret",
+      "Eleanor's Secret",
+      "Eleanor's Secret",
+      "Otra Pel\u00edcula de Huevos y un Pollo",
+      "Otra Pel\u00edcula de Huevos y un Pollo"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1,
+      2,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "5a80f6de55429938b6142275",
+    "question": "Which magazine inspired two pioneering conferences, Latina or ROCKRGRL?",
+    "answer": "ROCKRGRL",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Latina (magazine)",
+      "ROCKRGRL",
+      "ROCKRGRL"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "5ac013f25542996f0d89cb1b",
+    "question": "What singer replaced Diana Ross as the lead singer of The Supremes in January of 1970 and provided the lead vocals on the song \"You Gotta Have Love in Your Heart\" by the Supremes and the Four Tops?",
+    "answer": "Jean Terrell",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "You Gotta Have Love in Your Heart",
+      "You Gotta Have Love in Your Heart",
+      "Jean Terrell"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      3,
+      1
+    ]
+  },
+  {
+    "id": "5ae11ee65542997b2ef7d0de",
+    "question": "Pennington is a small village and civil parish in Furness, an area of Cumbria in which country's northwestern region?",
+    "answer": "England",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Pennington, Cumbria",
+      "Furness"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a733c7d5542994cef4bc4ec",
+    "question": "A5117 road of Cheshire England runs just east of with Ellesmore Port outlet?",
+    "answer": "Cheshire Oaks Designer Outlet",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "A5117 road",
+      "A5117 road",
+      "Cheshire Oaks Designer Outlet"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      7,
+      0
+    ]
+  },
+  {
+    "id": "5a8bb2575542996e8ac889e2",
+    "question": "Who has more occupations, Tom Robinson or Paul Weller?",
+    "answer": "Thomas Giles \"Tom\" Robinson",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Tom Robinson",
+      "Paul Weller"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5abeda0e5542993fe9a41d55",
+    "question": "What type of wagon inspired the dominant form of transportation on the improved trail through the Great Appalachian Valley from Pennsylvania to North Carolina?",
+    "answer": "Conestoga wagon",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Covered wagon",
+      "Covered wagon",
+      "Great Wagon Road"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "id": "5abea45c5542993f32c2a18b",
+    "question": "what govern the  public institutes that  IIT Council is the governing body for ?",
+    "answer": "\"Institutes of Technology Act, 1961",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "IIT Council",
+      "Indian Institutes of Technology"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "5ab77a275542995dae37e932",
+    "question": "Are the bands Hole and Cage9 both American alternative rock bands?",
+    "answer": "yes",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Hole (band)",
+      "Cage9"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5ac0d647554299294b219029",
+    "question": "Massachusetts's twelfth congressional district was represented by what censured politician?",
+    "answer": "Gerry Eastman Studds",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Massachusetts's 12th congressional district",
+      "Gerry Studds",
+      "Gerry Studds"
+    ],
+    "supporting_sentence_ids": [
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "5ae5144e55429908b6326514",
+    "question": "Are Malipo County and Laiwu in the same country?",
+    "answer": "yes",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Malipo County",
+      "Laiwu"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a77106c55429937353601be",
+    "question": "What film is older The Incredible Journey or The Three Musketeers?",
+    "answer": "The Incredible Journey",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "The Incredible Journey (film)",
+      "The Three Musketeers (1993 film)"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5ac2599555429951e9e6856e",
+    "question": "Who has more scope of proffesion, Hideo Gosha or Dallas M. Fitzgerald?",
+    "answer": "Dallas M. Fitzgerald",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Hideo Gosha",
+      "Dallas M. Fitzgerald"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a8832a85542997e5c09a5a1",
+    "question": "Kim Swift, an American video game designer, was described as one of the most recognized women in the industry by an American digital, print, and e-commerce media company focused on who?",
+    "answer": "millennials",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Kim Swift",
+      "Kim Swift",
+      "Mental Floss"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      2,
+      0
+    ]
+  },
+  {
+    "id": "5a8927b9554299669944a4cf",
+    "question": "Who is an American author and mother of film and television producer Bryan Spears, who wrote a novel based on Britney's life?",
+    "answer": "Lynne Irene Spears",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "A Mother's Gift",
+      "Lynne Spears"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5ae07ccd55429945ae959372",
+    "question": "Are Mary Doria Russell and James Joyce both novelists?",
+    "answer": "yes",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Mary Doria Russell",
+      "James Joyce"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5ae145ea5542997b2ef7d19e",
+    "question": "The \"New York\" class of battleship was a class of ships designed and constructed by the United States Navy, it saw extensive service beginning in the United States occupation of Veracruz, which occurred as a response to the Tampico Affair on which date?",
+    "answer": "April 9, 1914",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "New York-class battleship",
+      "United States occupation of Veracruz"
+    ],
+    "supporting_sentence_ids": [
+      1,
+      0
+    ]
+  },
+  {
+    "id": "5a76aa855542993735360142",
+    "question": "The Lithuanian Crusade was a series of campaigns by the Teutonic Order, and the Livonian Order, they first conquered which tribe  Baltic tribe that lived in the southcentral part of contemporary Latvia, and northern Lithuania?",
+    "answer": "Semigallians",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Lithuanian Crusade",
+      "Semigallians"
+    ],
+    "supporting_sentence_ids": [
+      2,
+      0
+    ]
+  },
+  {
+    "id": "5ac29c25554299218029dabd",
+    "question": "Who designed the mall where the ballpark Diamond at the Summit is tenatively named for?",
+    "answer": "designed by Charles N. Agree",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Diamond at the Summit",
+      "Diamond at the Summit",
+      "Summit Place Mall",
+      "Summit Place Mall"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1,
+      0,
+      2
+    ]
+  },
+  {
+    "id": "5a7bfb225542996dd594b87b",
+    "question": "Who was born first, Vladim\u00edr Remek or Umberto Guidoni?",
+    "answer": "Vladim\u00edr Remek",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Vladim\u00edr Remek",
+      "Umberto Guidoni"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a848d8f5542997b5ce3feb4",
+    "question": "How many Canadians lost their lives in the deadliest conflict in history in absolute terms of total casualties?",
+    "answer": "More than 44,000 lost their lives",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Military history of Canada during World War II",
+      "Military history of Canada during World War II",
+      "World War II casualties"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "5ae1b3765542997283cd2249",
+    "question": "Which company is in the discount travel market, The Walt Disney Company or Priceline.com?",
+    "answer": "Priceline.com",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "The Walt Disney Company",
+      "Priceline.com"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a7302db5542994cef4bc41e",
+    "question": "Which University is a private Ivy League university, University of Delaware or Columbia University?",
+    "answer": "Columbia University",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "University of Delaware",
+      "Columbia University"
+    ],
+    "supporting_sentence_ids": [
+      2,
+      0
+    ]
+  },
+  {
+    "id": "5a79226555429970f5fffe59",
+    "question": "Which band formed earlier, Goldfinger or Enter Shikari?",
+    "answer": "Goldfinger",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Enter Shikari",
+      "Goldfinger (band)"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a762c6e5542994ccc9186fd",
+    "question": "Who has won more titles, Michael Chang or Ellis Ferreira?",
+    "answer": "Michael Te-Pei Chang",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Ellis Ferreira",
+      "Michael Chang",
+      "Michael Chang"
+    ],
+    "supporting_sentence_ids": [
+      2,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "5a8752cd5542993e715abeea",
+    "question": "What are both a Russian Spaniel and an Elo?",
+    "answer": "breed of dog",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Russian Spaniel",
+      "Elo (dog)"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a735a3155429901807dafde",
+    "question": "Which Australian cricketer served as an on-field captain in the Glamorgan County Cricket Club?",
+    "answer": "James \"Jim\" Allenby",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Glamorgan County Cricket Club in 2014",
+      "Jim Allenby"
+    ],
+    "supporting_sentence_ids": [
+      2,
+      0
+    ]
+  },
+  {
+    "id": "5a7f670055429969796c1a34",
+    "question": "the head coach of the LSU Tigers football team is Ed Orgeron, who is currently the head coach at what university?",
+    "answer": "Louisiana State",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "History of LSU Tigers football",
+      "Ed Orgeron"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "5ae7681f5542991e8301cc8e",
+    "question": "What show, whose  cast of celebrities travel to less-habitated, natural places to survive on their own and experience life with local tribes and people, helped make Kim Sung-won a household name?",
+    "answer": "Law of the Jungle",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Sleepy (rapper)",
+      "Sleepy (rapper)",
+      "Law of the Jungle (TV series)",
+      "Law of the Jungle (TV series)",
+      "Law of the Jungle (TV series)"
+    ],
+    "supporting_sentence_ids": [
+      1,
+      2,
+      0,
+      3,
+      6
+    ]
+  },
+  {
+    "id": "5ab6efb35542995eadef00e5",
+    "question": "Which musician is from Canada, Raine Maida or Kevin Parker?",
+    "answer": "Raine Maida",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Raine Maida",
+      "Kevin Parker (musician)"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a88a6fa5542997e5c09a68d",
+    "question": "Who was the father of the man born Rudolph Valentino Clay?",
+    "answer": "Cassius Marcellus Clay, Sr.",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Odessa Grady Clay",
+      "Odessa Grady Clay",
+      "Rahman Ali"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "id": "5a81d98b554299676cceb0fd",
+    "question": "What nationality are Poe and The Contortionist?",
+    "answer": "American",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Poe (singer)",
+      "The Contortionist"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a80c314554299260e20a148",
+    "question": "What type air travel package can be purchased at a discounted price bythird largest global airline alliance? ",
+    "answer": "round-the-world ticket",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Round-the-world ticket",
+      "Round-the-world ticket",
+      "Round-the-world ticket",
+      "Oneworld"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      2,
+      5,
+      4
+    ]
+  },
+  {
+    "id": "5ade17f055429975fa854e37",
+    "question": "The Brittish ruling class were involved in which movement?",
+    "answer": "Irish independence",
+    "difficulty": "easy",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Ascendancy (film)",
+      "Irish question"
+    ],
+    "supporting_sentence_ids": [
+      2,
+      1
+    ]
+  },
+  {
+    "id": "5ae379ed5542992e3233c41c",
+    "question": "Country living is a magazine that features  Lifestyle and home content,what Ohio town made their 2012 \u201c50 Things To Do This Summer in 50 States\u201d list ?",
+    "answer": "Dayton, Ohio",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "PNC Second Street Market",
+      "PNC Second Street Market",
+      "Country Living"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      2,
+      0
+    ]
+  },
+  {
+    "id": "5a7b8f9c554299294a54a9fa",
+    "question": "Which board game was centered around the construction of a railroad track: Monopoly Junior, or TransAmerica? ",
+    "answer": "TransAmerica",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Monopoly Junior",
+      "TransAmerica (board game)"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5ac2c0d75542990b17b1547c",
+    "question": "The Black Windmill is a film produced by a man best known for coproducing what? ",
+    "answer": "Jaws",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "The Black Windmill",
+      "David Brown (producer)"
+    ],
+    "supporting_sentence_ids": [
+      1,
+      0
+    ]
+  },
+  {
+    "id": "5ac2d70455429921a00ab061",
+    "question": "Are both Tonka and The Happiest Millionaire names of films?",
+    "answer": "yes",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Tonka (film)",
+      "The Happiest Millionaire"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a9087fa55429933b8a20539",
+    "question": "Were both Roger Corman and Jonas Mekas Lithuanian?",
+    "answer": "no",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Roger Corman",
+      "Jonas Mekas"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5ade704d5542997c77adee2c",
+    "question": "Deacon Blue and The National, are bands that have which mutual genre?",
+    "answer": "rock",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Deacon Blue",
+      "The National (band)"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a8cb17a554299240d9c21e0",
+    "question": " Liam Aiken played Klaus Baudelaire in a 2004 film directed by who?",
+    "answer": "Brad Silberling",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Liam Aiken",
+      "Lemony Snicket's A Series of Unfortunate Events"
+    ],
+    "supporting_sentence_ids": [
+      2,
+      0
+    ]
+  },
+  {
+    "id": "5a81b6785542995ce29dcc44",
+    "question": "Is Berea College of the University of Delaware further west?",
+    "answer": "Berea College",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Berea College",
+      "University of Delaware"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5abc97d455429959677d6ac3",
+    "question": "Are both Veridia and Digital Summer rock bands ?",
+    "answer": "yes",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Veridia",
+      "Digital Summer"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a83cf5d5542996488c2e4e1",
+    "question": "Which breed of dog is from Scotland, the Pharaoh Hound or the Cairn Terrier?",
+    "answer": "Cairn Terrier",
+    "difficulty": "medium",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Pharaoh Hound",
+      "Cairn Terrier"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5abbc9ed55429931dba14531",
+    "question": "When were the Detroit Music Awards, which feature some of Detroit's most notable musical artists like Bob Seger, initially proposed?",
+    "answer": "1988",
+    "difficulty": "hard",
+    "reasoning_type": "bridge",
+    "supporting_titles": [
+      "Detroit Music Awards",
+      "Detroit Music Awards",
+      "Bob Seger"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      4,
+      1
+    ]
+  },
+  {
+    "id": "5a78d4ea554299029c4b5eae",
+    "question": "Bob Geldof and Boy George, have which occupation in common?",
+    "answer": "singer-songwriter",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Bob Geldof",
+      "Boy George"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a84b68c5542994c784dda17",
+    "question": "What country does Macross Frontier and Mai Mai Miracle originate from? ",
+    "answer": "Japan",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Macross Frontier",
+      "Mai Mai Miracle"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "5a7277d75542994cef4bc2b9",
+    "question": "Toy Story 3 and The Apple Dumpling Gang Rides Again are both what kind of movie?",
+    "answer": "a sequel",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Toy Story 3",
+      "The Apple Dumpling Gang Rides Again"
+    ],
+    "supporting_sentence_ids": [
+      1,
+      0
+    ]
+  },
+  {
+    "id": "5ac4bcbc554299076e296dee",
+    "question": "What do Reptiles and Chic have in common?",
+    "answer": "magazine",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Reptiles (magazine)",
+      "Chic (magazine)"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a7942b2554299029c4b5f3f",
+    "question": "Natalia Ginzburg and Lytton Strachey, have which occupation in common?",
+    "answer": "writer",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Natalia Ginzburg",
+      "Lytton Strachey"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a7a32535542990783324eb5",
+    "question": "Museum of Illumination and Heating Appliances and Vasat Atik Ali Pasha Mosque,  are located in Istanbul, in which country?",
+    "answer": "Turkey",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Museum of Illumination and Heating Appliances",
+      "Vasat Atik Ali Pasha Mosque"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5adcc9d05542994ed6169c05",
+    "question": "Which is a biger species of plant Scrophularia or Callicarpa?",
+    "answer": "Scrophularia",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Scrophularia",
+      "Callicarpa"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a735dc355429901807db006",
+    "question": "McDull, Kung Fu Kindergarten and  Pok\u00e9mon: Arceus and the Jewel of Life where both released on what year?",
+    "answer": "2009",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Pok\u00e9mon: Arceus and the Jewel of Life",
+      "McDull, Kung Fu Kindergarten"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a7e895c55429949594199f9",
+    "question": "What is the third Disney animated feature film, Fantasia or Jungle Cruise?",
+    "answer": "Fantasia",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Fantasia (1940 film)",
+      "Fantasia (1940 film)",
+      "Jungle Cruise"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "id": "5a84bcbe5542997b5ce3ff47",
+    "question": "Do tennis players Martina Navratilova and Wesley Moodie share the same nationality?",
+    "answer": "no",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Martina Navratilova",
+      "Wesley Moodie"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a8b84f15542997f31a41d5e",
+    "question": "Are Ptychosperma and Leontopodium genera?",
+    "answer": "yes",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Ptychosperma",
+      "Leontopodium"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a8745d95542994846c1cd43",
+    "question": "Scott Derrickson and Umberto Lenzi, have which mutual occupation?",
+    "answer": "film director",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Scott Derrickson",
+      "Umberto Lenzi"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a8ca8305542996e8ac88b08",
+    "question": "who is the lead singer of the Belgian band K's Choice, Marcus Cooper or Sarah Bettens ?",
+    "answer": "Sarah Bettens",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Sarah Bettens",
+      "Marcus Cooper"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a7a0dd05542990783324e18",
+    "question": "Which band was formed first, Counting Crows or Belle and Sebastian?",
+    "answer": "Counting Crows",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Belle and Sebastian",
+      "Counting Crows"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5ab971d1554299131ca42338",
+    "question": "Longyan and Jurong, Jiangsu are both located in which country?",
+    "answer": "China",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Longyan",
+      "Jurong, Jiangsu"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5adde1e65542997dc7907086",
+    "question": "Who is more popular among Martin Flavin and William March ?",
+    "answer": "Martin Archer Flavin",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Martin Flavin",
+      "William March"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a87d2185542993e715abfe1",
+    "question": "Are both Brachychiton and Colchicum found on the same continent?",
+    "answer": "no",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Brachychiton",
+      "Colchicum"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "5a88b9825542993e715ac084",
+    "question": "KO Magazine and Pro Wrestling Illustrated, are located in which country?",
+    "answer": "United States",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "KO Magazine",
+      "Pro Wrestling Illustrated"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "5ae4a35b5542995ad6573de9",
+    "question": "What type of university are both University of Massachusetts Lowell and New Mexico State University?",
+    "answer": "research",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "University of Massachusetts Lowell",
+      "New Mexico State University"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5ae332305542990afbd1e0d6",
+    "question": "What do Munto and Macross Frontier have in common?",
+    "answer": "animated television series",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Munto",
+      "Munto",
+      "Macross Frontier",
+      "Macross Frontier"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "5a83c7aa554299123d8c21b5",
+    "question": "Barclay Tower and The Epic, are located in which city?",
+    "answer": "New York City",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Barclay Tower",
+      "The Epic"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5ab733ef5542993667793f88",
+    "question": "What do Constantine Maroulis and Feargal Sharkey have in common? ",
+    "answer": "singer",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Feargal Sharkey",
+      "Constantine Maroulis"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a7e42e15542991319bc9456",
+    "question": "Lindsay Anderson and Alfonso Cuar\u00f3n, share which common industry occupation?",
+    "answer": "director",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Lindsay Anderson",
+      "Alfonso Cuar\u00f3n"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5ae58f0d5542993aec5ec1be",
+    "question": "Are \"Woman's World\" and \"The Delineator\" both American women's magazines?",
+    "answer": "yes",
+    "difficulty": "easy",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Woman's World",
+      "The Delineator"
+    ],
+    "supporting_sentence_ids": [
+      2,
+      0
+    ]
+  },
+  {
+    "id": "5a712fcc5542994082a3e642",
+    "question": "Who is older, Bob Bryan or Mariaan de Swardt?",
+    "answer": "Mariaan de Swardt",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Bob Bryan",
+      "Mariaan de Swardt"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "5a7608f8554299109176e621",
+    "question": "Which man who went into space was born first, Dirk Frimout or Franz Viehb\u00f6ck?",
+    "answer": "Dirk Dries David Damiaan",
+    "difficulty": "hard",
+    "reasoning_type": "comparison",
+    "supporting_titles": [
+      "Dirk Frimout",
+      "Franz Viehb\u00f6ck"
+    ],
+    "supporting_sentence_ids": [
+      0,
+      0
+    ]
+  }
+]

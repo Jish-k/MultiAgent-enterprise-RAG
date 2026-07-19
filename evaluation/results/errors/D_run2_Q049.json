@@ -1,0 +1,28 @@
+{
+  "Question": "Explain the disciplinary process for repeated attendance violations.",
+  "Config": "D",
+  "Run": 2,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "According to the Employee Handbook, repeated unauthorized absences or unpunctuality may result in disciplinary action. However, the handbook does not explicitly outline the disciplinary process for repeated attendance violations. It only mentions that any violation of the code, including attendance, will be met with strict disciplinary action, up to and including termination of employment, as stated in the Code of Conduct section (Page 15).",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nAttendance\nPunctuality and consistent attendance are critical to our operational success.\nEmployees must log their daily attendance through the HR portal by 9:30 AM. If you\nare unable to report to work due to unforeseen circumstances, you must notify your\nimmediate supervisor and the HR department as soon as possible, preferably before\nthe start of the workday.\nRepeated unauthorized absences or unpunctuality may result in disciplinary action.\nThe hybrid model is a privilege that requires trust and accountability in managing\none's own schedule effectively.\nPage 12",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nCode of Conduct\nThe TechNova Code of Conduct mandates that all employees behave in a\nprofessional, respectful, and ethical manner at all times. We have a zero-tolerance\npolicy for workplace harassment, discrimination, and bullying.\nEmployees must avoid any conflicts of interest and act in the best interests of the\ncompany. Any violation of this code, whether in the office, during remote work, or at\ncompany-sponsored events, will be met with strict disciplinary action, up to and\nincluding termination of employment.\nPage 15",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\n19. Exit Process\n20. Emergency Contacts\n21. FAQ\nPage 3",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2"
+  ],
+  "Planner Output": {
+    "intent": "HR Policy",
+    "sub_queries": [
+      "What are the steps in the disciplinary process for attendance violations?",
+      "What are the consequences for repeated attendance violations?"
+    ],
+    "required_information": [
+      "disciplinary process for attendance violations",
+      "consequences of repeated attendance violations"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.394974812597592,
+  "Failure Reason": "Low Final Accuracy Score: 0.39"
+}

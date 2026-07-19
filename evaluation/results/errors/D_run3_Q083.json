@@ -1,0 +1,27 @@
+{
+  "Question": "Which travel expenses are reimbursable and which are not?",
+  "Config": "D",
+  "Run": 3,
+  "Expected Answer": "Based on the provided document context, the following travel expenses are reimbursable:\n\n1. Domestic air travel booked at least 7 days in advance using TechNova preferred airlines.\n2. Train travel in 2-Tier or 3-Tier AC.\n3. Road travel via personal vehicle at a standard rate of INR 10 per kilometer, subject to prior approval and submission of toll receipts.\n4. Airport transfers using authorized cab aggregators like Ola or Uber, using the corporate billing profile.\n5. Visa application fees, travel insurance, and necessary vaccinations for international travel.\n6. Hotel expenses booked using the corporate travel desk's preferred hotel partners, up to the stated daily hotel caps.\n7. Food and incidental expenses during business travel, covered by the daily per diem allowance.\n8. Actual expenses for business dinners with clients, subject to the client entertainment policy.\n\nThe following travel expenses are not reimbursable or require special approval:\n\n1. Flights exceeding 8 hours of continuous travel, unless booked in Premium Economy with VP approval.\n2. Business class travel, except for Executive Leadership (C-Suite) or specific client-mandated travel.\n3. Hotel expenses exceeding the stated daily hotel caps.\n4. Food expenses exceeding the daily per diem allowance, unless itemized receipts are submitted for business dinners with clients.",
+  "Generated Answer": "Unfortunately, the provided context does not contain the answer to the question \"Which travel expenses are reimbursable and which are not?\"",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\n6. FAQ\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 8",
+    "TechNova Solutions Pvt. Ltd. - Travel & Expense Policy\nTable of Contents\n1. Domestic Travel\n2. International Travel\n3. Hotel Reimbursement\n4. Food Allowance\n5. Approval Workflow\n6. FAQ\nPage 2",
+    "Travel & Expense Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1"
+  ],
+  "Planner Output": {
+    "intent": "IT Policy",
+    "sub_queries": [
+      "What travel expenses are reimbursable by the company?",
+      "What are the non-reimbursable travel expenses?"
+    ],
+    "required_information": [
+      "reimbursable travel expenses policy",
+      "non-reimbursable travel expenses list"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.06836465572643166,
+  "Failure Reason": "Low Final Accuracy Score: 0.07"
+}

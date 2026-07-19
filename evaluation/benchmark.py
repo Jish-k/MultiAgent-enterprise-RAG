@@ -40,11 +40,44 @@ def compute_semantic_similarity(ans, exp):
     except:
         return 0.0
 
+def compute_retrieval_metrics(retrieved_chunks, expected_docs, k=5):
+    if not expected_docs:
+        return 0.0, 0.0, 0.0
+    
+    top_k = retrieved_chunks[:k]
+    
+    # 1. Recall@K
+    found_docs = set([c.metadata.get("source") for c in top_k if c.metadata.get("source") in expected_docs])
+    recall_at_k = len(found_docs) / len(expected_docs)
+    
+    # 2. MRR (Mean Reciprocal Rank)
+    mrr = 0.0
+    for i, chunk in enumerate(top_k):
+        if chunk.metadata.get("source") in expected_docs:
+            mrr = 1.0 / (i + 1)
+            break
+            
+    # 3. nDCG@K
+    import math
+    dcg = 0.0
+    for i, chunk in enumerate(top_k):
+        if chunk.metadata.get("source") in expected_docs:
+            dcg += 1.0 / math.log2(i + 2)
+            
+    R = sum(1 for c in top_k if c.metadata.get("source") in expected_docs)
+    if R == 0:
+        ndcg = 0.0
+    else:
+        idcg = sum(1.0 / math.log2(j + 2) for j in range(R))
+        ndcg = dcg / idcg
+
+    return recall_at_k, mrr, ndcg
+
 def run_benchmark():
-    dataset_path = "evaluation/dataset/pilot_questions.json"
+    dataset_path = "evaluation/dataset/questions.json"
     gt_path = "evaluation/dataset/ground_truth.json"
     meta_path = "evaluation/dataset/metadata.json"
-    results_dir = "evaluation/results/pilot"
+    results_dir = "evaluation/results/full_v1.0"
     errors_dir = os.path.join("evaluation/results/errors")
     
     os.makedirs(results_dir, exist_ok=True)
@@ -52,7 +85,7 @@ def run_benchmark():
     
     # Save experiment config
     experiment_config = {
-        "experiment_id": "pilot_v1.0",
+        "experiment_id": "full_v1.0",
         "dataset_version": "1.0",
         "pipeline_version": "1.0",
         "benchmark_date": time.strftime("%Y-%m-%d"),
@@ -161,6 +194,13 @@ def run_benchmark():
                     metrics["retriever_input_tokens"] = count_tokens(" ".join([c.content for c in evidence_pkg.chunks])) 
                     metrics["after_dedup_tokens"] = metrics["retriever_input_tokens"] 
                     
+                    expected_docs = gt_data.get(q_id, {}).get("expected_documents", [])
+                    recall, mrr, ndcg = compute_retrieval_metrics(evidence_pkg.chunks, expected_docs, k=5)
+                    metrics["recall"] = recall
+                    metrics["mrr"] = mrr
+                    metrics["ndcg"] = ndcg
+
+                    
                     answer = ""
                     used_chunks = evidence_pkg.chunks
                     citation_accuracy = 0.0
@@ -250,7 +290,10 @@ def run_benchmark():
                         "Citation Accuracy": citation_acc,
                         "LLM Judge": llm_judge,
                         "Confidence": 0.0 if metrics.get("confidence") is None else metrics.get("confidence"),
-                        "Final": final_score
+                        "Final": final_score,
+                        "Recall": metrics.get("recall", 0.0),
+                        "MRR": metrics.get("mrr", 0.0),
+                        "nDCG": metrics.get("ndcg", 0.0)
                     })
                     
                     if final_score < 0.5:
@@ -289,7 +332,7 @@ def run_benchmark():
         with open(os.path.join(config_dir, "metrics.json"), "w") as f: json.dump(config_results, f, indent=2)
             
     df = pd.DataFrame(all_results)
-    df.to_csv(os.path.join(results_dir, "pilot_benchmark_data.csv"), index=False)
+    df.to_csv(os.path.join(results_dir, "benchmark.csv"), index=False)
     
     breakdown_df = pd.DataFrame(evaluation_breakdown)
     breakdown_df.to_csv(os.path.join(results_dir, "evaluation_breakdown.csv"), index=False)

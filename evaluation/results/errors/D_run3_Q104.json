@@ -1,0 +1,29 @@
+{
+  "Question": "What equipment does the company provide for remote employees?",
+  "Config": "D",
+  "Run": 3,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "The context does not mention the company providing any equipment for remote employees. It only mentions the requirements for remote work, such as having a quiet, secure environment and a stable internet connection.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nRemote Work\nOur Hybrid model allows for 2 days of remote work per week for full-time employees.\nInterns are not eligible for remote work and must work from the Bengaluru office.\nDuring remote days, employees must ensure they have a quiet, secure environment\nand a stable internet connection.\nWorking from public spaces (like cafes) while handling sensitive data is prohibited due\nto security risks. Employees must remain online and responsive on Slack and email\nduring core working hours.\nPage 19",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nWelcome\nWelcome to TechNova Solutions Pvt. Ltd.! We are incredibly excited to have you join\nour dynamic and innovative team in Bengaluru. TechNova was founded on the belief\nthat technology can transform businesses, and it is our people who drive that\ntransformation. As you embark on your journey with us, this Employee Handbook will\nserve as your comprehensive guide to our company culture, policies, and the\nresources available to support your success.\nWe encourage you to read this handbook thoroughly. It is designed to provide you\nwith a clear understanding of what you can expect from TechNova, and what we\nexpect from you in return. Your unique skills and perspectives are highly valued here,\nand we are committed to fostering an environment where you can grow professionally\nand personally. Welcome to the TechNova family!\nPage 4",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+    "TechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India | 650 Employees | Hybrid Work Model\nPromotion\nThis section outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by\nTechNova Solutions Pvt. Ltd. This section outlines the standard operating procedures and\nregulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This section outlines the standard\noperating procedures and regulatory guidelines mandated by TechNova Solutions Pvt. Ltd. This\nsection outlines the standard operating procedures and regulatory guidelines mandated by"
+  ],
+  "Planner Output": {
+    "intent": "IT Policy",
+    "sub_queries": [
+      "What equipment does the company provide for remote employees?",
+      "What is the company's remote work policy on equipment provision?"
+    ],
+    "required_information": [
+      "company-provided remote work equipment",
+      "remote work policy on equipment provision"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.3875039575478545,
+  "Failure Reason": "Low Final Accuracy Score: 0.39"
+}

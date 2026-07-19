@@ -1,0 +1,17 @@
+{
+  "Question": "How should employees protect confidential information while working remotely?",
+  "Config": "A",
+  "Run": 1,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "Employees should ensure they have a quiet, secure environment and a stable internet connection while working remotely. They must also remain online and responsive on Slack and email during core working hours. Additionally, they should not upload corporate data to unauthorized public cloud storage services or generative AI tools that do not have an enterprise agreement with TechNova.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nRemote Work\nOur Hybrid model allows for 2 days of remote work per week for full-time employees.\nInterns are not eligible for remote work and must work from the Bengaluru office.\nDuring remote days, employees must ensure they have a quiet, secure environment\nand a stable internet connection.\nWorking from public spaces (like cafes) while handling sensitive data is prohibited due\nto security risks. Employees must remain online and responsive on Slack and email\nduring core working hours.\nPage 19",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.12922710675267482,
+  "Failure Reason": "Low Final Accuracy Score: 0.13"
+}

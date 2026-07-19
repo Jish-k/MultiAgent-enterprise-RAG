@@ -1,0 +1,28 @@
+{
+  "Question": "How should employees protect confidential information while working remotely?",
+  "Config": "D",
+  "Run": 3,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "Employees should ensure they have a quiet, secure environment and a stable internet connection while working remotely. They must also use the Enterprise Virtual Private Network (VPN) at all times when working remotely or connecting from public Wi-Fi networks.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nRemote Work\nOur Hybrid model allows for 2 days of remote work per week for full-time employees.\nInterns are not eligible for remote work and must work from the Bengaluru office.\nDuring remote days, employees must ensure they have a quiet, secure environment\nand a stable internet connection.\nWorking from public spaces (like cafes) while handling sensitive data is prohibited due\nto security risks. Employees must remain online and responsive on Slack and email\nduring core working hours.\nPage 19",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n3. VPN Access\nAccessing the TechNova corporate network from external locations requires a secure\nconnection. The Enterprise Virtual Private Network (VPN) must be used at all times\nwhen working remotely or connecting from public Wi-Fi networks.\nEmployees experiencing connectivity issues should first ensure their internet\nconnection is stable and their MFA token is synchronized before contacting the IT\nHelpdesk. Splitting the tunnel (accessing the local network while connected to the\nVPN) is disabled by default to prevent data leakage.\nPage 5"
+  ],
+  "Planner Output": {
+    "intent": "IT Policy",
+    "sub_queries": [
+      "What are the security protocols for remote work?",
+      "How can employees protect confidential data while working remotely?"
+    ],
+    "required_information": [
+      "Virtual Private Network (VPN) usage",
+      "Two-Factor Authentication (2FA) implementation"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.12601795438234245,
+  "Failure Reason": "Low Final Accuracy Score: 0.13"
+}

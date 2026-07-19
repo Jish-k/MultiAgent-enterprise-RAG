@@ -1,0 +1,28 @@
+{
+  "Question": "Describe the responsibilities of employees in maintaining information security.",
+  "Config": "D",
+  "Run": 2,
+  "Expected Answer": "According to the provided documents, employees are responsible for maintaining information security as follows:\n\n- Adhering to the IT Security Policy at all times.\n- Using passwords that are at least 14 characters long, contain numbers and symbols, and are changed every 90 days.\n- Enabling Multi-Factor Authentication (MFA) for accessing all TechNova internal systems.\n- Not sharing their passwords with colleagues, contractors, or IT support staff.\n- Reporting any suspected security incidents, including lost or stolen devices, or suspected phishing attempts, to the IT Security Desk immediately.\n- Using company-issued laptops and not Bring Your Own Device (BYOD).\n- Ensuring they have a quiet, secure environment and a stable internet connection during remote work days.\n- Not working from public spaces (like cafes) while handling sensitive data due to security risks.",
+  "Generated Answer": "According to the provided context, the responsibilities of employees in maintaining information security at TechNova Solutions Pvt. Ltd. include:\n\n1. Adhering to the IT Security Policy at all times.\n2. Using a password that is at least 14 characters long, contains numbers and symbols, and is changed every 90 days.\n3. Not sharing their password with colleagues, contractors, or IT support staff.\n4. Using Multi-Factor Authentication (MFA) for accessing all TechNova internal systems.\n5. Using the company-approved password manager to generate and securely store their credentials.\n6. Reporting any lost or stolen devices, or suspected phishing attempts to the IT Security Desk immediately.\n7. Not using Bring Your Own Device (BYOD) and instead using the company-issued laptop.\n8. Applying data classification labels (Public, Internal, Confidential, Restricted) to all documents.\n9. Not uploading corporate data to unauthorized public cloud storage services or generative AI tools without an enterprise agreement with TechNova.\n10. Ensuring that all data at rest on company-issued laptops is fully encrypted using standard disk encryption technologies.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n1. Password Policy\nThe foundation of our enterprise security begins with robust password management.\nPasswords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days. Under no circumstances should an employee share their\npassword with colleagues, contractors, or IT support staff.\nMulti-Factor Authentication (MFA) is strictly mandatory for accessing all TechNova\ninternal systems, including the HR portal, email servers, and GitHub repositories.\nEmployees are strongly encouraged to use the company-approved password\nmanager to generate and securely store their credentials.\nPage 3",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7"
+  ],
+  "Planner Output": {
+    "intent": "IT Policy",
+    "sub_queries": [
+      "What are the employee responsibilities for maintaining information security?",
+      "What are the consequences of non-compliance with information security policies?"
+    ],
+    "required_information": [
+      "Data Classification Policy",
+      "Password Management Policy"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.48472909059556646,
+  "Failure Reason": "Low Final Accuracy Score: 0.48"
+}

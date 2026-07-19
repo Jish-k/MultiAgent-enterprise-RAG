@@ -1,0 +1,17 @@
+{
+  "Question": "What is the leave policy for employees working in the United States office?",
+  "Config": "A",
+  "Run": 2,
+  "Expected Answer": "No expected documents specified. Out of domain.",
+  "Generated Answer": "There is no information provided about the leave policy for employees working in the United States office. The leave policy provided is specific to TechNova Solutions Pvt. Ltd. in Bengaluru, Karnataka, India.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6",
+    "Leave Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n2. Casual Leave\nEmployees are allowed 12 casual leaves per year. Casual leave is intended to\naccommodate unforeseen circumstances, personal emergencies, or brief personal\nmatters that require an employee's attention during standard working hours.\nCasual leave is credited at the beginning of each calendar year. For employees\njoining mid-year, casual leave is pro-rated based on the date of joining. Casual leave\ncannot be carried forward to the next calendar year and cannot be encashed.\nPage 4"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.3057590299809632,
+  "Failure Reason": "Low Final Accuracy Score: 0.31"
+}

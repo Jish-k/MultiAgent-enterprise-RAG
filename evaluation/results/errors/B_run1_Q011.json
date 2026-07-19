@@ -1,0 +1,32 @@
+{
+  "Question": "Explain the complete leave overview and employee responsibilities.",
+  "Config": "B",
+  "Run": 1,
+  "Expected Answer": "TechNova Solutions Pvt. Ltd. offers a comprehensive leave policy to support work-life balance. The leave policy includes:\n\n1. **Earned Leave (PTO)**: 20 days per calendar year, up to 10 days can be carried forward to the next calendar year.\n2. **Casual Leave**: 12 days per year.\n3. **Sick Leave**: 10 days per year.\n4. **Maternity Leave**: 26 weeks, subject to approval by the HR Head and Department Head.\n5. **Paternity Leave**: 4 weeks.\n6. **Bereavement Leave**: Up to 5 days.\n\nEmployee responsibilities:\n\n1. Submit leave requests through the internal portal at least two weeks in advance, except in emergencies.\n2. Ensure all leave requests are approved before taking time off.\n3. Return to work on the scheduled date after taking leave.\n4. Inform their manager and HR department if they are unable to report to work due to unforeseen circumstances.\n5. Log their daily attendance through the HR portal by 9:30 AM.",
+  "Generated Answer": "Employees are eligible for two types of leaves: casual leaves and earned leaves. Casual leaves are available for 12 days per calendar year, with no carry-forward option. Earned leaves are available for 20 days per calendar year, with a carry-forward option of up to 10 days to the next calendar year. In addition to these leaves, employees are also eligible for maternity leave (26 weeks) and paternity leave (4 weeks). However, the leave policies do not provide information on other types of leaves, such as sick leave or bereavement leave. Employees are responsible for submitting all leave requests through the internal portal at least two weeks in advance, except in emergencies. For unplanned leaves, employees must obtain approval from their reporting manager.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n1. Purpose & Eligibility\nThe purpose of this Leave Policy is to outline the various types of leave available to\nemployees of TechNova Solutions Pvt. Ltd., the eligibility criteria for each, and the\nprocedure for requesting and approving leave.\nAll full-time and part-time employees are eligible for leave benefits as described in this\npolicy. Contract employees and interns may have different leave structures, as\nspecified in their respective contracts.\nPage 3",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n2. Casual Leave\nEmployees are allowed 12 casual leaves per year. Casual leave is intended to\naccommodate unforeseen circumstances, personal emergencies, or brief personal\nmatters that require an employee's attention during standard working hours.\nCasual leave is credited at the beginning of each calendar year. For employees\njoining mid-year, casual leave is pro-rated based on the date of joining. Casual leave\ncannot be carried forward to the next calendar year and cannot be encashed.\nPage 4",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\nTable of Contents\n1. Purpose & Eligibility\n2. Casual Leave\n3. Sick Leave\n4. Earned Leave\n5. Maternity Leave\n6. Paternity Leave\n7. Leave Approval Process\n8. FAQ\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nLeaves\nTechNova recognizes the importance of work-life balance and offers a\ncomprehensive leave policy. Employees are entitled to 20 days of Earned Leave\n(PTO), 12 days of Casual Leave, and 10 days of Sick Leave per calendar year. Yes,\nup to 10 days of earned leave can be carried forward to the next calendar year.\nMaternity leave is provided for 26 weeks, and Paternity leave for 4 weeks. Maternity\nleave must be approved by the HR Head and the respective Department Head.\nBereavement leave of up to 5 days is available. All leave requests must be submitted\nthrough the internal portal at least two weeks in advance, except in emergencies.\nPage 13",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n7. Leave Approval Process\nAll leave requests must be submitted through the centralized HR Leave Portal. For\nplanned leaves (such as Earned Leave), requests must be submitted at least two\nweeks in advance to allow for adequate resource planning and handover.\nFor unplanned leaves (such as Sick Leave or emergency Casual Leave), employees\nmust notify their immediate supervisor via email or Slack as soon as possible, and\nformally apply for the leave in the portal within 24 hours of returning to work. Approval\nis at the discretion of the reporting manager.\nPage 9"
+  ],
+  "Planner Output": {
+    "intent": "HR Policy",
+    "sub_queries": [
+      "What are the different types of leave available to employees?",
+      "What are the eligibility criteria for each type of leave?",
+      "What are the employee responsibilities during the leave period?"
+    ],
+    "required_information": [
+      "types of leave",
+      "leave eligibility criteria",
+      "employee responsibilities during leave"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.4450256191792202,
+  "Failure Reason": "Low Final Accuracy Score: 0.45"
+}

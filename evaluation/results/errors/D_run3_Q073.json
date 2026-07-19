@@ -1,0 +1,28 @@
+{
+  "Question": "Does the company use biometric authentication for all employees?",
+  "Config": "D",
+  "Run": 3,
+  "Expected Answer": "No expected documents specified. Out of domain.",
+  "Generated Answer": "There is no information in the provided context about the company using biometric authentication for all employees. The context only mentions Multi-Factor Authentication (MFA) as mandatory for accessing all TechNova internal systems, but it does not specify the type of MFA used.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n1. Password Policy\nThe foundation of our enterprise security begins with robust password management.\nPasswords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days. Under no circumstances should an employee share their\npassword with colleagues, contractors, or IT support staff.\nMulti-Factor Authentication (MFA) is strictly mandatory for accessing all TechNova\ninternal systems, including the HR portal, email servers, and GitHub repositories.\nEmployees are strongly encouraged to use the company-approved password\nmanager to generate and securely store their credentials.\nPage 3",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n4. Device Usage\nThe physical security of computing devices is paramount. No, Bring Your Own Device\n(BYOD) is strictly prohibited. You must use the company-issued laptop for all\nbusiness activities.\nLaptops must be locked when unattended, even within the Bengaluru headquarters.\nEmployees must not install unauthorized software or disable the endpoint detection\nand response (EDR) agent installed on their machines. Portable storage devices,\nsuch as USB drives, are blocked by default unless an explicit exception is granted by\nthe CISO.\nPage 6",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nDress Code\nTechNova promotes a 'Smart Casual' dress code. We trust our employees to use their\nbest judgment in selecting attire that is professional, comfortable, and appropriate for\nthe workplace.\nWhen meeting with clients or attending formal corporate events, 'Business\nProfessional' attire is required. Offensive graphics, overly revealing clothing, and\nbeachwear are not permitted in the office. For remote video calls, employees must\nensure they are professionally presented from the waist up.\nPage 16"
+  ],
+  "Planner Output": {
+    "intent": "IT Policy",
+    "sub_queries": [
+      "Does the company use biometric authentication?",
+      "Is biometric authentication mandatory for all employees?"
+    ],
+    "required_information": [
+      "biometric authentication policy",
+      "mandatory employee authentication"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.49032191770056877,
+  "Failure Reason": "Low Final Accuracy Score: 0.49"
+}

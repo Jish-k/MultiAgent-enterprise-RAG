@@ -1,0 +1,28 @@
+{
+  "Question": "Does the company provide a four-day work week?",
+  "Config": "D",
+  "Run": 2,
+  "Expected Answer": "No expected documents specified. Out of domain.",
+  "Generated Answer": "No, the company does not provide a four-day work week. According to the context, full-time employees are expected to work 3 days from the Bengaluru office and may work 2 days remotely per week.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nWorking Hours\nTechNova operates on a Hybrid work model to offer flexibility while maintaining team\ncohesion. Full-time employees are expected to work 3 days from the Bengaluru office\nand may work 2 days remotely per week.\nOur standard working hours are 9:00 AM to 6:00 PM IST, Monday through Friday,\ninclusive of a one-hour lunch break. Core collaboration hours are between 10:30 AM\nand 4:00 PM; during this time, all employees, regardless of location, must be\navailable for meetings and synchronized work. Interns are required to work from the\noffice 5 days a week.\nPage 11",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nRemote Work\nOur Hybrid model allows for 2 days of remote work per week for full-time employees.\nInterns are not eligible for remote work and must work from the Bengaluru office.\nDuring remote days, employees must ensure they have a quiet, secure environment\nand a stable internet connection.\nWorking from public spaces (like cafes) while handling sensitive data is prohibited due\nto security risks. Employees must remain online and responsive on Slack and email\nduring core working hours.\nPage 19",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nAttendance\nPunctuality and consistent attendance are critical to our operational success.\nEmployees must log their daily attendance through the HR portal by 9:30 AM. If you\nare unable to report to work due to unforeseen circumstances, you must notify your\nimmediate supervisor and the HR department as soon as possible, preferably before\nthe start of the workday.\nRepeated unauthorized absences or unpunctuality may result in disciplinary action.\nThe hybrid model is a privilege that requires trust and accountability in managing\none's own schedule effectively.\nPage 12",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nTable of Contents\n1. Welcome\n2. About Company\n3. Vision\n4. Mission\n5. Values\n6. Organization Structure\n7. Departments\n8. Working Hours\n9. Attendance\n10. Leaves\n11. Benefits\n12. Code of Conduct\n13. Dress Code\n14. IT Usage\n15. Security\n16. Remote Work\n17. Performance\n18. Training\nPage 2"
+  ],
+  "Planner Output": {
+    "intent": "IT Policy",
+    "sub_queries": [
+      "Does the company offer flexible work arrangements?",
+      "What are the standard working hours for employees?"
+    ],
+    "required_information": [
+      "flexible work arrangements",
+      "standard working hours"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.37167759786681204,
+  "Failure Reason": "Low Final Accuracy Score: 0.37"
+}

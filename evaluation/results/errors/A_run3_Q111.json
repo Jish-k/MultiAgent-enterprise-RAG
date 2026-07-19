@@ -1,0 +1,17 @@
+{
+  "Question": "How do I apply for maternity leave and who approves it?",
+  "Config": "A",
+  "Run": 3,
+  "Expected Answer": "According to the Leave Policy document (Page 6) and the Employee Handbook (Page 12), maternity leave must be approved by the HR Head and the respective Department Head.",
+  "Generated Answer": "According to the provided context, to apply for maternity leave, you must submit a request through the internal portal at least two weeks in advance, except in emergencies. \n\nMaternity leave must be approved by the HR Head and the respective Department Head.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\nTable of Contents\n1. Purpose & Eligibility\n2. Casual Leave\n3. Sick Leave\n4. Earned Leave\n5. Maternity Leave\n6. Paternity Leave\n7. Leave Approval Process\n8. FAQ\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n5. Maternity Leave\nTechNova is committed to supporting its employees during significant life events.\nFemale employees are entitled to 26 weeks of paid Maternity Leave, in accordance\nwith the Maternity Benefit Act.\nMaternity leave must be approved by the HR Head and the respective Department\nHead. The leave can be availed starting up to 8 weeks before the expected date of\ndelivery. Employees returning from maternity leave may also request flexible working\narrangements or extended remote work, subject to managerial approval.\nPage 7",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nLeaves\nTechNova recognizes the importance of work-life balance and offers a\ncomprehensive leave policy. Employees are entitled to 20 days of Earned Leave\n(PTO), 12 days of Casual Leave, and 10 days of Sick Leave per calendar year. Yes,\nup to 10 days of earned leave can be carried forward to the next calendar year.\nMaternity leave is provided for 26 weeks, and Paternity leave for 4 weeks. Maternity\nleave must be approved by the HR Head and the respective Department Head.\nBereavement leave of up to 5 days is available. All leave requests must be submitted\nthrough the internal portal at least two weeks in advance, except in emergencies.\nPage 13"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.47296031614419826,
+  "Failure Reason": "Low Final Accuracy Score: 0.47"
+}

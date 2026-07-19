@@ -1,0 +1,29 @@
+{
+  "Question": "What happens if I violate the company's IT Security Policy?",
+  "Config": "D",
+  "Run": 2,
+  "Expected Answer": "Any violation of the IT Security Policy, whether in the office, during remote work, or at company-sponsored events, will be met with strict disciplinary action, up to and including termination of employment.",
+  "Generated Answer": "Unfortunately, the provided context does not explicitly mention the consequences of violating the company's IT Security Policy. However, it does mention that employees must adhere to the IT Security Policy at all times, and that any lost or stolen devices, or suspected phishing attempts, must be reported to the IT Security Desk immediately.\n\nIt can be inferred that violating the IT Security Policy might lead to disciplinary actions, but the exact consequences are not specified in the provided context.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n6. Incident Reporting\nRapid response is essential to mitigating the impact of a security breach. Any\nsuspected security incident, including lost or stolen laptops, suspicious emails, or\nunauthorized access attempts, must be reported immediately.\nEmployees must report incidents to the IT Security Desk by calling ext. 5555 or\nemailing security-alert@technova.com. Do not attempt to investigate or remediate a\nsuspected cyber attack on your own, as this may destroy critical forensic evidence.\nPage 8",
+    "IT Security Policy\nTechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India\nEffective Date: January 1, 2026\nPage 1",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nEmergency Contacts\nIn the event of a medical emergency or security threat at the Bengaluru office,\nimmediately contact the Building Security Desk or the HR Emergency Hotline at\n+91-80-5555-0000.\nFor IT Security incidents, contact the IT response team. All employees are required to\nkeep their emergency contact information updated in the HR portal.\nPage 23"
+  ],
+  "Planner Output": {
+    "intent": "IT Policy",
+    "sub_queries": [
+      "What are the consequences of violating the IT Security Policy?",
+      "What are the steps to report a security incident?"
+    ],
+    "required_information": [
+      "IT Security Policy consequences",
+      "Incident reporting procedure"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.43192623325030666,
+  "Failure Reason": "Low Final Accuracy Score: 0.43"
+}

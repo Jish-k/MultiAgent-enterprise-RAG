@@ -1,0 +1,29 @@
+{
+  "Question": "What is the probation period for newly hired employees?",
+  "Config": "D",
+  "Run": 2,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "The probation period for newly hired employees at TechNova Solutions Pvt. Ltd. is exactly 6 months from the date of joining, pending a successful performance review.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India | 650 Employees | Hybrid Work Model\nProbation\nProbation ends after exactly 6 months from the date of joining, pending a successful performance\nreview.\nPage 9",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nExit Process\nShould an employee decide to leave TechNova, they must follow the standard exit\nprocess. To resign, submit a formal email to your manager and hr@technova.com\nwith a 30-day notice period.\nProbation ends after exactly 6 months from the date of joining, pending a successful\nperformance review. On the final day, the employee must return all company\nproperty, including laptops and ID badges, to receive their full and final settlement.\nPage 22",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nFAQ\nQ: Can interns work remotely?\nA: Interns are not eligible for remote work and must work from the Bengaluru office.\nQ: How many casual leaves are allowed?\nA: Employees are allowed 12 casual leaves per year.\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: When does probation end?\nA: Probation ends after exactly 6 months from the date of joining, pending a\nsuccessful performance review.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 24",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n2. Casual Leave\nEmployees are allowed 12 casual leaves per year. Casual leave is intended to\naccommodate unforeseen circumstances, personal emergencies, or brief personal\nmatters that require an employee's attention during standard working hours.\nCasual leave is credited at the beginning of each calendar year. For employees\njoining mid-year, casual leave is pro-rated based on the date of joining. Casual leave\ncannot be carried forward to the next calendar year and cannot be encashed.\nPage 4"
+  ],
+  "Planner Output": {
+    "intent": "HR Policy",
+    "sub_queries": [
+      "What is the standard probation period for new hires?",
+      "Is the probation period the same for all job roles?"
+    ],
+    "required_information": [
+      "probation period duration",
+      "job role-specific probation periods"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.2561965755930394,
+  "Failure Reason": "Low Final Accuracy Score: 0.26"
+}

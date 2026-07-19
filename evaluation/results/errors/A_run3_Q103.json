@@ -1,0 +1,17 @@
+{
+  "Question": "Who approves remote work requests?",
+  "Config": "A",
+  "Run": 3,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "The answer is not explicitly mentioned in the provided context. However, based on the information given, it can be inferred that remote work requests are not explicitly mentioned as a separate approval process. \n\nBut, considering the general remote work policy, it can be assumed that the approval process for remote work requests would be handled by the HR department or the management, but the exact person or department is not specified in the provided context.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nRemote Work\nOur Hybrid model allows for 2 days of remote work per week for full-time employees.\nInterns are not eligible for remote work and must work from the Bengaluru office.\nDuring remote days, employees must ensure they have a quiet, secure environment\nand a stable internet connection.\nWorking from public spaces (like cafes) while handling sensitive data is prohibited due\nto security risks. Employees must remain online and responsive on Slack and email\nduring core working hours.\nPage 19",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nFAQ\nQ: Can interns work remotely?\nA: Interns are not eligible for remote work and must work from the Bengaluru office.\nQ: How many casual leaves are allowed?\nA: Employees are allowed 12 casual leaves per year.\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: When does probation end?\nA: Probation ends after exactly 6 months from the date of joining, pending a\nsuccessful performance review.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 24",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n8. FAQ\nQ: Can interns work remotely?\nA: Interns are not eligible for remote work and must work from the Bengaluru office.\nQ: How many casual leaves are allowed?\nA: Employees are allowed 12 casual leaves per year.\nQ: Can I carry forward earned leave?\nA: Yes, up to 10 days of earned leave can be carried forward to the next calendar\nyear.\nQ: Who approves maternity leave?\nA: Maternity leave must be approved by the HR Head and the respective Department\nHead.\nPage 10"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.41475656666127025,
+  "Failure Reason": "Low Final Accuracy Score: 0.41"
+}

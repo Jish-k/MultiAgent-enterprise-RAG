@@ -1,0 +1,17 @@
+{
+  "Question": "How should employees securely dispose of confidential company information?",
+  "Config": "A",
+  "Run": 1,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "Unfortunately, the provided context does not mention the secure disposal of confidential company information. It only discusses data security, password policy, and multi-factor authentication.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n5. Data Security\nTechNova handles highly sensitive intellectual property and client data. All data at\nrest on company-issued laptops is fully encrypted using standard disk encryption\ntechnologies (BitLocker for Windows, FileVault for macOS).\nEmployees are strictly forbidden from uploading corporate data to unauthorized public\ncloud storage services (e.g., personal Google Drive, Dropbox) or generative AI tools\nthat do not have an enterprise agreement with TechNova. Data classification labels\n(Public, Internal, Confidential, Restricted) must be applied to all documents.\nPage 7",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\n1. Password Policy\nThe foundation of our enterprise security begins with robust password management.\nPasswords must be at least 14 characters long, contain numbers, symbols, and be\nchanged every 90 days. Under no circumstances should an employee share their\npassword with colleagues, contractors, or IT support staff.\nMulti-Factor Authentication (MFA) is strictly mandatory for accessing all TechNova\ninternal systems, including the HR portal, email servers, and GitHub repositories.\nEmployees are strongly encouraged to use the company-approved password\nmanager to generate and securely store their credentials.\nPage 3"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.39516299669524824,
+  "Failure Reason": "Low Final Accuracy Score: 0.40"
+}

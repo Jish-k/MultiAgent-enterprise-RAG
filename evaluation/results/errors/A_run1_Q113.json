@@ -1,0 +1,17 @@
+{
+  "Question": "What happens if I violate the company's IT Security Policy?",
+  "Config": "A",
+  "Run": 1,
+  "Expected Answer": "Any violation of the IT Security Policy, whether in the office, during remote work, or at company-sponsored events, will be met with strict disciplinary action, up to and including termination of employment.",
+  "Generated Answer": "Unfortunately, the provided context does not explicitly mention the consequences of violating the company's IT Security Policy. However, it does mention that employees must adhere to the IT Security Policy at all times, and that any lost or stolen devices, or suspected phishing attempts, must be reported to the IT Security Desk immediately.\n\nIt is likely that violating the IT Security Policy would result in disciplinary action, but the exact consequences are not specified in the provided context.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\nTable of Contents\n1. Password Policy\n2. Email Usage\n3. VPN Access\n4. Device Usage\n5. Data Security\n6. Incident Reporting\n7. FAQ\nAppendix A: Allowed Software\nPage 2",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nSecurity\nInformation security is everyone's responsibility. Employees must adhere to the IT\nSecurity Policy at all times. Passwords must be at least 14 characters long, contain\nnumbers, symbols, and be changed every 90 days. Multi-Factor Authentication (MFA)\nis mandatory.\nNo, Bring Your Own Device (BYOD) is strictly prohibited. You must use the\ncompany-issued laptop. Any lost or stolen devices, or suspected phishing attempts,\nmust be reported to the IT Security Desk immediately at ext. 5555.\nPage 18",
+    "TechNova Solutions Pvt. Ltd. - IT Security Policy\nAppendix A: Allowed Software\nThis appendix contains the approved list of software that can be requested via the IT\nService Portal. Any software not listed here requires explicit CISO approval.\nPage 10"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.4333789195824955,
+  "Failure Reason": "Low Final Accuracy Score: 0.43"
+}

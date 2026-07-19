@@ -1,0 +1,28 @@
+{
+  "Question": "What should an employee do during the probation period?",
+  "Config": "B",
+  "Run": 1,
+  "Expected Answer": "Probation ends after exactly 6 months from the date of joining, pending a successful performance review.",
+  "Generated Answer": "During the probation period, an employee should focus on meeting the company's expectations and achieving the set OKRs to ensure a successful performance review. The employee should also be prepared for a performance appraisal in December, as it is the first scheduled appraisal after the probation period.",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd.\nBengaluru, Karnataka, India | 650 Employees | Hybrid Work Model\nProbation\nProbation ends after exactly 6 months from the date of joining, pending a successful performance\nreview.\nPage 9",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nPerformance\nPerformance Appraisals at TechNova are conducted bi-annually, in June and\nDecember, using the Objective and Key Results (OKR) framework. These reviews are\ndesigned to be constructive, focusing on employee growth, skill development, and\nalignment with company goals.\nPromotions, salary increments, and performance bonuses are tied to the December\nreview cycle. Regular 1-on-1 feedback sessions with managers are strongly\nencouraged.\nPage 20",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nExit Process\nShould an employee decide to leave TechNova, they must follow the standard exit\nprocess. To resign, submit a formal email to your manager and hr@technova.com\nwith a 30-day notice period.\nProbation ends after exactly 6 months from the date of joining, pending a successful\nperformance review. On the final day, the employee must return all company\nproperty, including laptops and ID badges, to receive their full and final settlement.\nPage 22",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\nFAQ\nQ: Can interns work remotely?\nA: Interns are not eligible for remote work and must work from the Bengaluru office.\nQ: How many casual leaves are allowed?\nA: Employees are allowed 12 casual leaves per year.\nQ: How do I claim travel expenses?\nA: Submit all travel expense receipts through the Concur portal within 15 days of\nreturn.\nQ: When does probation end?\nA: Probation ends after exactly 6 months from the date of joining, pending a\nsuccessful performance review.\nQ: Who approves international travel?\nA: All international travel must be approved by the VP of Finance and the CEO.\nPage 24"
+  ],
+  "Planner Output": {
+    "intent": "HR Policy",
+    "sub_queries": [
+      "What are the expectations during the probation period?",
+      "What are the key performance indicators (KPIs) for probation?"
+    ],
+    "required_information": [
+      "probation period expectations",
+      "probation KPIs"
+    ]
+  },
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.409603287812302,
+  "Failure Reason": "Low Final Accuracy Score: 0.41"
+}

@@ -1,0 +1,17 @@
+{
+  "Question": "Under what circumstances can emergency leave be granted?",
+  "Config": "A",
+  "Run": 3,
+  "Expected Answer": "Information not found in the expected documents.",
+  "Generated Answer": "There is no information about \"emergency leave\" in the provided context. The context only discusses \"Earned Leave\" and \"Leave Policy\" but does not mention \"emergency leave\".",
+  "Retrieved Chunks": [
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n4. Earned Leave\nEarned Leave (EL), also known as Paid Time Off (PTO), is provided for employees to\nrest, recuperate, and take extended vacations. Employees accrue Earned Leave at a\nrate of 1.66 days per month, totaling 20 days per calendar year.\nEmployees are encouraged to utilize their Earned Leave for maintaining a healthy\nwork-life balance. Yes, up to 10 days of earned leave can be carried forward to the\nnext calendar year. Earned leave can be encashed at the time of separation from the\ncompany, subject to a maximum cap of 30 days.\nPage 6",
+    "TechNova Solutions Pvt. Ltd. - Employee Handbook\n19. Exit Process\n20. Emergency Contacts\n21. FAQ\nPage 3",
+    "TechNova Solutions Pvt. Ltd. - Leave Policy\n1. Purpose & Eligibility\nThe purpose of this Leave Policy is to outline the various types of leave available to\nemployees of TechNova Solutions Pvt. Ltd., the eligibility criteria for each, and the\nprocedure for requesting and approving leave.\nAll full-time and part-time employees are eligible for leave benefits as described in this\npolicy. Contract employees and interns may have different leave structures, as\nspecified in their respective contracts.\nPage 3"
+  ],
+  "Planner Output": "N/A",
+  "Confidence": null,
+  "ESS": null,
+  "Final Score": 0.3954675460272429,
+  "Failure Reason": "Low Final Accuracy Score: 0.40"
+}
