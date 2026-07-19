@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useState, useEffect } from "react";
 import { fetchProjectOverview, fetchResults } from "@/lib/api";
 import { Loader2, MonitorPlay, GraduationCap, Microscope } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
