@@ -13,27 +13,61 @@ const STEPS = [
   { id: "verifier", title: "Verifier Agent", icon: <ShieldCheck className="w-5 h-5" />, color: "text-emerald-500", bg: "bg-emerald-500/10", border: "border-emerald-500/30" },
 ];
 
-const MOCK_DATA = {
-  question: "Who was born first, Percy Clifford Mills or Nigel Graham Pearson?",
-  planner: [
-    "Percy Clifford Mills birth date",
-    "Nigel Graham Pearson birth date",
-  ],
-  retriever: [
-    "...Percy Clifford Mills (born 1909) was an English footballer...",
-    "...Nigel Graham Pearson (born 21 August 1963) is an English football manager..."
-  ],
-  reasoner: "Based on the retrieved context, Percy Clifford Mills was born in 1909. Nigel Graham Pearson was born in 1963. Since 1909 is earlier than 1963, Percy Clifford Mills was born first.",
-  verifier: "The reasoning trace logically follows from the retrieved context. The birth years match exactly. The conclusion is factually correct."
-};
+const MOCK_DATA_LIST = [
+  {
+    question: "Who was born first, Percy Clifford Mills or Nigel Graham Pearson?",
+    planner: [
+      "Percy Clifford Mills birth date",
+      "Nigel Graham Pearson birth date",
+    ],
+    retriever: [
+      "...Percy Clifford Mills (born 1909) was an English footballer...",
+      "...Nigel Graham Pearson (born 21 August 1963) is an English football manager..."
+    ],
+    reasoner: "Based on the retrieved context, Percy Clifford Mills was born in 1909. Nigel Graham Pearson was born in 1963. Since 1909 is earlier than 1963, Percy Clifford Mills was born first.",
+    verifier: "The reasoning trace logically follows from the retrieved context. The birth years match exactly. The conclusion is factually correct."
+  },
+  {
+    question: "Which magazine was first started, Arthur's Magazine or First for Women?",
+    planner: [
+      "When was Arthur's Magazine first started?",
+      "When was First for Women first started?"
+    ],
+    retriever: [
+      "[Doc 1] Arthur's Magazine (1844–1846) was an American literary magazine published in Philadelphia.",
+      "[Doc 2] First for Women is a woman's magazine published by Bauer Media Group in the USA. It was started in 1989."
+    ],
+    reasoner: "1. Arthur's Magazine was started in 1844.\n2. First for Women was started in 1989.\n3. 1844 is earlier than 1989.\nConclusion: Arthur's Magazine was started first.",
+    verifier: "[PASS] Context verifies Arthur's Magazine began publication in 1844 and First for Women in 1989. The temporal reasoning holds."
+  },
+  {
+    question: "What is the English translation of Telemundo?",
+    planner: [
+      "What does 'Telemundo' mean in English?",
+      "Translate 'Telemundo' to English."
+    ],
+    retriever: [
+      "[Doc 1] Telemundo (Spanish pronunciation: [teleˈmundo]; English: World TV) is an American Spanish-language terrestrial television network."
+    ],
+    reasoner: "1. The context provides the English translation for Telemundo.\n2. It translates to 'World TV'.",
+    verifier: "[PASS] The provided context explicitly contains the English translation 'World TV'. No hallucination detected."
+  }
+];
 
 export default function InteractivePipeline() {
   const [activeStep, setActiveStep] = useState(-1);
   const [isRunning, setIsRunning] = useState(false);
   const [typedQuestion, setTypedQuestion] = useState("");
+  const [dataIndex, setDataIndex] = useState(0);
 
   const startSimulation = () => {
     if (isRunning) return;
+    
+    // Determine the next question to show
+    const nextIndex = activeStep === -1 ? dataIndex : (dataIndex + 1) % MOCK_DATA_LIST.length;
+    setDataIndex(nextIndex);
+    const currentData = MOCK_DATA_LIST[nextIndex];
+    
     setIsRunning(true);
     setActiveStep(-1);
     setTypedQuestion("");
@@ -41,9 +75,9 @@ export default function InteractivePipeline() {
     // Simulate typing the question
     let i = 0;
     const typeInterval = setInterval(() => {
-      setTypedQuestion(MOCK_DATA.question.slice(0, i + 1));
+      setTypedQuestion(currentData.question.slice(0, i + 1));
       i++;
-      if (i === MOCK_DATA.question.length) {
+      if (i === currentData.question.length) {
         clearInterval(typeInterval);
         // Start pipeline execution
         setTimeout(() => setActiveStep(0), 600); // Start Planner
@@ -55,6 +89,8 @@ export default function InteractivePipeline() {
       }
     }, 40);
   };
+  
+  const activeData = MOCK_DATA_LIST[dataIndex];
 
   return (
     <section id="interactive-pipeline" className="min-h-screen py-24 flex flex-col">
@@ -177,8 +213,8 @@ export default function InteractivePipeline() {
                 >
                   <div>
                     <h5 className="text-sm font-bold text-blue-500 uppercase tracking-wider mb-3 flex items-center"><Bot className="w-4 h-4 mr-2"/> Planner Queries Generated</h5>
-                    <div className="flex gap-3">
-                      {MOCK_DATA.planner.map((q, i) => (
+                    <div className="flex gap-3 flex-wrap">
+                      {activeData.planner.map((q, i) => (
                         <span key={i} className="px-4 py-2 bg-blue-500/10 border border-blue-500/20 rounded-lg text-sm font-mono text-blue-400">"{q}"</span>
                       ))}
                     </div>
@@ -195,7 +231,7 @@ export default function InteractivePipeline() {
                   <div>
                     <h5 className="text-sm font-bold text-purple-500 uppercase tracking-wider mb-3 flex items-center"><Search className="w-4 h-4 mr-2"/> Top Retrieved Context</h5>
                     <div className="space-y-3">
-                      {MOCK_DATA.retriever.map((chunk, i) => (
+                      {activeData.retriever.map((chunk, i) => (
                         <div key={i} className="p-4 bg-purple-500/5 border border-purple-500/20 rounded-xl text-sm leading-relaxed text-muted-foreground italic">
                           {chunk}
                         </div>
@@ -213,8 +249,8 @@ export default function InteractivePipeline() {
                 >
                   <div>
                     <h5 className="text-sm font-bold text-amber-500 uppercase tracking-wider mb-3 flex items-center"><BrainCircuit className="w-4 h-4 mr-2"/> CoT Reasoning Trace</h5>
-                    <div className="p-5 bg-amber-500/10 border border-amber-500/30 rounded-xl font-medium leading-relaxed text-amber-100">
-                      {MOCK_DATA.reasoner}
+                    <div className="p-5 bg-amber-500/10 border border-amber-500/30 rounded-xl font-medium leading-relaxed text-amber-900 dark:text-amber-100 whitespace-pre-line">
+                      {activeData.reasoner}
                     </div>
                   </div>
                 </motion.div>
@@ -228,8 +264,8 @@ export default function InteractivePipeline() {
                 >
                   <div>
                     <h5 className="text-sm font-bold text-emerald-500 uppercase tracking-wider mb-3 flex items-center"><ShieldCheck className="w-4 h-4 mr-2"/> Verifier Critique</h5>
-                    <div className="p-5 bg-emerald-500/10 border border-emerald-500/30 rounded-xl font-medium text-emerald-400">
-                      {MOCK_DATA.verifier}
+                    <div className="p-5 bg-emerald-500/10 border border-emerald-500/30 rounded-xl font-medium text-emerald-900 dark:text-emerald-400">
+                      {activeData.verifier}
                     </div>
                   </div>
                 </motion.div>
