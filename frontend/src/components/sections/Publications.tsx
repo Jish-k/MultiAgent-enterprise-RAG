@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FileText, Image as ImageIcon, Presentation, Github, Download } from "lucide-react";
+import { FileText, Image as ImageIcon, Presentation, GitBranch, Download } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const publications = [
@@ -32,7 +32,7 @@ const publications = [
   {
     title: "GitHub Repository",
     description: "Open-source implementation containing the FastAPI backend, Next.js frontend, and all evaluation scripts used in this research.",
-    icon: <Github className="w-8 h-8 text-emerald-500" />,
+    icon: <GitBranch className="w-8 h-8 text-emerald-500" />,
     filename: "Source Code",
     color: "bg-emerald-500/10 border-emerald-500/30",
     hoverColor: "hover:bg-emerald-500/20"
