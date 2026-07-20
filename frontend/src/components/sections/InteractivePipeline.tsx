@@ -51,6 +51,93 @@ const MOCK_DATA_LIST = [
     ],
     reasoner: "1. The context provides the English translation for Telemundo.\n2. It translates to 'World TV'.",
     verifier: "[PASS] The provided context explicitly contains the English translation 'World TV'. No hallucination detected."
+  },
+  {
+    question: "What was Q3 2023 revenue for TechCorp Inc?",
+    planner: [
+      "TechCorp Inc Q3 2023 earnings report",
+      "TechCorp Inc revenue Q3 2023"
+    ],
+    retriever: [
+      "[Doc 1] TechCorp Inc. reported a strong third quarter in 2023, with total consolidated revenue reaching $4.2 billion, up 12% year-over-year."
+    ],
+    reasoner: "1. Context mentions TechCorp Inc.'s third quarter of 2023.\n2. The stated total consolidated revenue is $4.2 billion.",
+    verifier: "[PASS] The revenue figure exactly matches the earnings report in the context."
+  },
+  {
+    question: "What is the company policy on remote work and travel expenses?",
+    planner: [
+      "Company policy remote work",
+      "Company policy travel expenses"
+    ],
+    retriever: [
+      "[Doc 1] Employees may work remotely up to 3 days per week with manager approval.",
+      "[Doc 2] Travel expenses for remote workers visiting the main office are covered up to $500 per quarter."
+    ],
+    reasoner: "1. Remote work policy: Up to 3 days a week with manager approval.\n2. Travel expense policy: Reimbursed up to $500 per quarter for main office visits.",
+    verifier: "[PASS] Both sub-queries were accurately addressed by independent chunks. Reasoning synthesizes them perfectly."
+  },
+  {
+    question: "Who is the CEO of Acme Corp and when did they join?",
+    planner: [
+      "Who is the CEO of Acme Corp?",
+      "When did Acme Corp CEO join?"
+    ],
+    retriever: [
+      "[Doc 1] Jane Smith is the current Chief Executive Officer of Acme Corp.",
+      "[Doc 2] Jane Smith originally joined Acme Corp in March 2018 as Chief Operating Officer before becoming CEO."
+    ],
+    reasoner: "1. The CEO of Acme Corp is Jane Smith.\n2. Jane Smith joined the company in March 2018.",
+    verifier: "[PASS] The identity of the CEO and their join date are fully supported by the text."
+  },
+  {
+    question: "How many vacation days do senior engineers get?",
+    planner: [
+      "Senior engineer benefits tier",
+      "Vacation days per benefits tier"
+    ],
+    retriever: [
+      "[Doc 1] Senior Engineers fall under the Tier 3 benefits package.",
+      "[Doc 2] Tier 3 employees are granted 25 days of paid vacation per year."
+    ],
+    reasoner: "1. Senior Engineers are in the Tier 3 benefits package.\n2. Tier 3 provides 25 vacation days.\nConclusion: Senior engineers get 25 days.",
+    verifier: "[PASS] The multi-hop reasoning successfully linked 'Senior Engineer' -> 'Tier 3' -> '25 days'."
+  },
+  {
+    question: "What is the standard onboarding process for new hires?",
+    planner: [
+      "Standard onboarding process for new hires",
+      "New hire checklist"
+    ],
+    retriever: [
+      "[Doc 1] The new hire onboarding process consists of three main phases: 1) IT Setup and security training on Day 1. 2) Department orientation on Day 2. 3) A 30-day mentorship program."
+    ],
+    reasoner: "1. Phase 1: IT Setup and security training (Day 1).\n2. Phase 2: Department orientation (Day 2).\n3. Phase 3: 30-day mentorship program.",
+    verifier: "[PASS] Summarization is accurate and does not omit any of the three documented phases."
+  },
+  {
+    question: "Does the company cover gym memberships under wellness benefits?",
+    planner: [
+      "Wellness benefits coverage",
+      "Are gym memberships covered?"
+    ],
+    retriever: [
+      "[Doc 1] The annual wellness stipend of $600 can be applied to fitness equipment, mental health apps, and monthly gym memberships."
+    ],
+    reasoner: "1. The company provides a $600 annual wellness stipend.\n2. Gym memberships are explicitly listed as an approved expense for this stipend.",
+    verifier: "[PASS] The chunk explicitly states gym memberships are covered under the wellness stipend."
+  },
+  {
+    question: "What are the core values of the engineering department?",
+    planner: [
+      "Engineering department core values",
+      "Engineering culture"
+    ],
+    retriever: [
+      "[Doc 1] The engineering department operates on three core values: 'Move Fast', 'Radical Candor', and 'Customer First'."
+    ],
+    reasoner: "1. The core values listed are 'Move Fast', 'Radical Candor', and 'Customer First'.",
+    verifier: "[PASS] The values are quoted directly from the source text."
   }
 ];
 
