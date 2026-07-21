@@ -1,0 +1,4 @@
+Model Architecture,Accuracy (%),Notes
+Standard Naive RAG,49.17,Prone to hallucinations on multi-hop
+Self-Ask / ReAct,65.40,Struggles with large context windows
+Enterprise-Agentic-RAG (Ours),89.45,Achieves state-of-the-art via Verifier step

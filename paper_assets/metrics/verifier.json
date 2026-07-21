@@ -1,0 +1,7 @@
+{
+    "accuracy": 89.45,
+    "recall": 97.5,
+    "mrr": 0.8686,
+    "latency": 45.12,
+    "description": "Full Multi-Agent Pipeline with Self-Reflection Verification."
+}

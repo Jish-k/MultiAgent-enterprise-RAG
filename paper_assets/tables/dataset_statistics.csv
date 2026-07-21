@@ -1,0 +1,3 @@
+Dataset Name,Total Documents,Total Queries,Average Tokens/Doc,Domain
+Enterprise HR Docs,15000,500,450,Corporate Policy
+HotpotQA (Subset),5000,200,300,General Knowledge

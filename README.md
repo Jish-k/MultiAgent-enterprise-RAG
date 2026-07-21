@@ -9,10 +9,63 @@ This repository contains a prototype for an Enterprise AI Assistant using a Mult
 
 ## Architecture
 The system uses LangGraph to coordinate the following agents:
-1. **Router Agent**: Directs queries to the appropriate tools or databases.
-2. **Retriever Agent**: Optimizes search and retrieves relevant context from ChromaDB.
-3. **Synthesizer Agent**: Drafts responses with explicit citations.
-4. **Verifier Agent**: Critiques and fact-checks the draft against the source context before returning it to the user.
+
+```text
+                        ┌──────────────────────────────┐
+                        │        User Question         │
+                        └──────────────┬───────────────┘
+                                       │
+                                       ▼
+                    ┌─────────────────────────────────────┐
+                    │        Planner Agent                │
+                    │-------------------------------------│
+                    │ • Intent Detection                  │
+                    │ • Query Decomposition               │
+                    │ • Retrieval Planning                │
+                    └──────────────┬──────────────────────┘
+                                   │
+                    Multiple Retrieval Queries
+                                   │
+                                   ▼
+                    ┌─────────────────────────────────────┐
+                    │     Evidence Retrieval Agent        │
+                    │-------------------------------------│
+                    │ • ChromaDB Search                  │
+                    │ • Semantic Similarity Ranking      │
+                    │ • Evidence Merging                 │
+                    │ • Duplicate Removal                │
+                    └──────────────┬──────────────────────┘
+                                   │
+                           Ranked Evidence
+                                   │
+                                   ▼
+                    ┌─────────────────────────────────────┐
+                    │        Reasoner Agent              │
+                    │-------------------------------------│
+                    │ • Evidence Analysis               │
+                    │ • Multi-hop Reasoning             │
+                    │ • Answer Synthesis                │
+                    └──────────────┬──────────────────────┘
+                                   │
+                             Draft Answer
+                                   │
+                                   ▼
+                    ┌─────────────────────────────────────┐
+                    │        Verifier Agent              │
+                    │-------------------------------------│
+                    │ • Claim Validation                │
+                    │ • Evidence Sufficiency            │
+                    │ • Hallucination Detection         │
+                    │ • Citation Verification           │
+                    └──────────────┬──────────────────────┘
+                                   │
+                                   ▼
+                    ┌─────────────────────────────────────┐
+                    │        Final Response              │
+                    │-------------------------------------│
+                    │ Answer + Citations + Confidence    │
+                    └─────────────────────────────────────┘
+```
 
 ## Tech Stack
 - **Language**: Python

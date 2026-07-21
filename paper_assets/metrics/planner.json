@@ -1,0 +1,7 @@
+{
+    "accuracy": 51.67,
+    "recall": 97.5,
+    "mrr": 0.8686,
+    "latency": 22.58,
+    "description": "RAG with multi-query planning enabled."
+}

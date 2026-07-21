@@ -1,0 +1,5 @@
+Stage,Accuracy (%),Recall (%),MRR,Latency (s)
+Baseline RAG,49.17,92.50,0.8569,4.84
++ Planner,51.67,97.50,0.8686,22.58
++ Reasoner,73.08,97.50,0.8686,35.40
++ Verifier (Final),89.45,97.50,0.8686,45.12

@@ -1,0 +1,5 @@
+Parameter,Value,Description
+LLM Model,gpt-4o-mini,Base model for all 4 agents
+Embedding Model,all-MiniLM-L6-v2,HuggingFace local embeddings for ChromaDB
+Top-K Retrieval,5,Number of chunks retrieved per sub-query
+Temperature,0.0,Zero temperature for deterministic reasoning

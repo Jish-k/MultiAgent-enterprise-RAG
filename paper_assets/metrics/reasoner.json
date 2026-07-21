@@ -1,0 +1,7 @@
+{
+    "accuracy": 73.08,
+    "recall": 97.5,
+    "mrr": 0.8686,
+    "latency": 35.4,
+    "description": "RAG with Planner and Chain-of-Thought Reasoner."
+}

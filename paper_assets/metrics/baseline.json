@@ -1,0 +1,7 @@
+{
+    "accuracy": 49.17,
+    "recall": 92.5,
+    "mrr": 0.8569,
+    "latency": 4.84,
+    "description": "Standard naive RAG without agentic reasoning."
+}
