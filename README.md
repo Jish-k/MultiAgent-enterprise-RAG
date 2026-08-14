@@ -10,62 +10,9 @@ This repository contains a prototype for an AI Assistant using a Multi-Agent Ret
 ## Architecture
 The system uses LangGraph to coordinate the following agents:
 
-```text
-                        ┌──────────────────────────────┐
-                        │        User Question         │
-                        └──────────────┬───────────────┘
-                                       │
-                                       ▼
-                    ┌─────────────────────────────────────┐
-                    │        Planner Agent                │
-                    │-------------------------------------│
-                    │ • Intent Detection                  │
-                    │ • Query Decomposition               │
-                    │ • Retrieval Planning                │
-                    └──────────────┬──────────────────────┘
-                                   │
-                    Multiple Retrieval Queries
-                                   │
-                                   ▼
-                    ┌─────────────────────────────────────┐
-                    │     Evidence Retrieval Agent        │
-                    │-------------------------------------│
-                    │ • ChromaDB Search                  │
-                    │ • Semantic Similarity Ranking      │
-                    │ • Evidence Merging                 │
-                    │ • Duplicate Removal                │
-                    └──────────────┬──────────────────────┘
-                                   │
-                           Ranked Evidence
-                                   │
-                                   ▼
-                    ┌─────────────────────────────────────┐
-                    │        Reasoner Agent               │
-                    │-------------------------------------│
-                    │ • Evidence Analysis                 │
-                    │ • Multi-hop Reasoning               │
-                    │ • Answer Synthesis                  │
-                    └──────────────┬──────────────────────┘
-                                   │
-                             Draft Answer
-                                   │
-                                   ▼
-                    ┌─────────────────────────────────────┐
-                    │        Verifier Agent               │
-                    │-------------------------------------│
-                    │ • Claim Validation                  │
-                    │ • Evidence Sufficiency              │
-                    │ • Hallucination Detection           │
-                    │ • Citation Verification             │
-                    └──────────────┬──────────────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────────────┐
-                    │        Final Response               │
-                    │-------------------------------------│
-                    │ Answer + Citations + Confidence     │
-                    └─────────────────────────────────────┘
-```
+<p align="center">
+  <img src="evaluation/paper_assets/figures/architecture.png" width="850">
+</p>
 
 ## Tech Stack
 - **Language**: Python
