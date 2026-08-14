@@ -530,50 +530,90 @@ Future development directions include:
 
 ---
 
-# Citation
 
-If you use this work in your research, please cite:
-
-```bibtex
-@article{ka2025agenticrag,
-  title={An Agentic Retrieval-Augmented Generation Framework for Multi-Hop Question Answering Using Multi-Agent Collaboration},
-  author={Jishnu Ka and Balaji Va and Karthikeyan Pa and Ashwini Kumar Mathura},
-  journal={Procedia Computer Science},
-  year={2025}
-}
-```
-
----
 
 # References
 
-1. Lewis, P., Perez, E., Piktus, A., et al. *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks*. NeurIPS, 2020.
+1. P. Lewis, E. Perez, A. Piktus, F. Petroni, V. Karpukhin, N. Goyal, H. Kuttler, M. Lewis, W.-t. Yih, T. Rockt¨ aschel, S. Riedel, and D. Kiela,
+“Retrieval-augmented generation for knowledge-intensive NLP tasks,” in Advances in Neural Information Processing Systems (NeurIPS),
+2020.
 
-2. Asai, A., Wu, Z., Wang, Y., Sil, A., and Hajishirzi, H. *Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection*. ICLR, 2024.
+2. A. Asai, Z. Wu, Y. Wang, A. Sil, and H. Hajishirzi, “Self-RAG: Learning to retrieve, generate, and critique through self-reflection,” in Interna-
+tional Conference on Learning Representations (ICLR), 2024.
 
-3. Karpukhin, V., Oguz, B., Min, S., et al. *Dense Passage Retrieval for Open-Domain Question Answering*. EMNLP, 2020.
+3. V. Karpukhin, B. Oguz, S. Min, P. Lewis, L. Wu, S. Edunov, D. Chen, and W.-t. Yih, “Dense passage retrieval for open-domain question
+answering,” in Empirical Methods in Natural Language Processing (EMNLP), 2020.
 
-4. Gao, L., Ma, X., Lin, J., and Callan, J. *Precise Zero-Shot Dense Retrieval without Relevance Labels*. ACL, 2023.
+4. L. Gao, X. Ma, J. Lin, and J. Callan, “Precise zero-shot dense retrieval without relevance labels,” in Association for Computational Linguistics
+(ACL), 2023.
 
-5. Wei, J., Wang, X., Schuurmans, D., et al. *Chain-of-Thought Prompting Elicits Reasoning in Large Language Models*. NeurIPS, 2022.
+5. L. Lahre, P. Singh, and N. K. Nagwani, “Integration of retrieval augmented generation (rag) with small language models (slms) for development
+of optimized agentic ai chatbot,” Procedia Computer Science, vol. 283, pp. 2243–2250, 2026.
 
-6. Yao, S., Zhao, J., Yu, D., et al. *ReAct: Synergizing Reasoning and Acting in Language Models*. ICLR, 2023.
+6. J. Wei, X. Wang, D. Schuurmans, M. Bosma, B. Ichter, F. Xia, E. Chi, Q. Le, and D. Zhou, “Chain-of-thought prompting elicits reasoning in
+large language models,” in Advances in Neural Information Processing Systems (NeurIPS), 2022.
 
-7. Wu, Q., Bansal, G., Zhang, J., et al. *AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation*. arXiv, 2023.
+7. X. Wang, J. Wei, D. Schuurmans, Q. Le, E. Chi, S. Narang, A. Chowdhery, and D. Zhou, “Self-consistency improves chain of thought reasoning
+in language models,” in International Conference on Learning Representations (ICLR), 2023.
 
-8. Yan, S.-Q., Gu, J.-C., Zhu, Y., and Ling, Z.-H. *Corrective Retrieval Augmented Generation*. arXiv, 2024.
+8. S. Yao, D. Yu, J. Zhao, I. Shafran, T. L. Griffiths, Y. Cao, and D. Narasimhan, “Tree of thoughts: Deliberate problem solving with large language
+models,” in Advances in Neural Information Processing Systems (NeurIPS), 2023.
 
-9. Jeong, S., Baek, J., Cho, S., Hwang, S. J., and Park, J. C. *Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity*. NAACL, 2024.
+9. S. Yao, J. Zhao, D. Yu, N. Du, I. Shafran, K. Narasimhan, and Y. Cao, “ReAct: Synergizing reasoning and acting in language models,” in
+International Conference on Learning Representations (ICLR), 2023.
 
-10. Jiang, Z., Xu, F. F., Gao, L., et al. *Active Retrieval Augmented Generation*. EMNLP, 2023.
+10. N. Shinn, F. Cassano, E. Berman, E. Gopinath, K. Narasimhan, and S. Yao, “Reflexion: Language agents with verbal reinforcement learning,”
+in Advances in Neural Information Processing Systems (NeurIPS), 2023.
 
-11. Trivedi, H., Balasubramanian, N., Khot, T., and Sabharwal, A. *Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions*. ACL, 2023.
+11. T. Schick, J. Dwivedi-Yu, R. Dess` ı, R. Raileanu, M. Lomeli, L. Zettlemoyer, N. Cancedda, and T. Scialom, “Toolformer: Language models can
+teach themselves to use tools,” in Advances in Neural Information Processing Systems (NeurIPS), 2023.
 
-12. Sarthi, P., Abdullah, S., Tuli, A., et al. *RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval*. ICLR, 2024.
+12. R. Nakano, J. Hilton, S. Balaji, J. Wu, L. Ouyang, C. Kim, C. Hesse, S. Jain, V. Kosaraju, W. Saunders et al., “WebGPT: Browser-assisted
+question-answering with human feedback,” arXiv preprint arXiv:2112.09332, 2021.
 
-13. Edge, D., Trinh, H., Cheng, N., et al. *From Local to Global: A GraphRAG Approach to Query-Focused Summarization*. arXiv, 2024.
+13. Y. Shen, K. Song, X. Tan, D. Li, W. Lu, and Y. Zhuang, “HuggingGPT: Solving AI tasks with ChatGPT and its friends in Hugging Face,” in
+Advances in Neural Information Processing Systems (NeurIPS), 2023.
 
----
+14. Q. Wu, G. Bansal, J. Zhang, Y. Wu, B. Li, E. Zhu, L. Jiang, X. Zhang, S. Zhang, J. Liu, A. H. Awadallah, R. W. White, D. Burger, and C.
+Wang, “AutoGen: Enabling next-gen LLM applications via multi-agent conversation,” arXiv preprint arXiv:2308.08155, 2023.
+
+15. “Conversations with context: A modular transformer framework for understanding and generating natural language,” Procedia Computer
+Science, vol. 283, pp. 4426–4438, 2026.
+
+16. S.-Q. Yan, J.-C. Gu, Y. Zhu, and Z.-H. Ling, “Corrective retrieval augmented generation,” arXiv preprint arXiv:2401.15884, 2024.
+
+17. S. Jeong, J. Baek, S. Cho, S. J. Hwang, and J. C. Park, “Adaptive-RAG: Learning to adapt retrieval-augmented large language models through
+question complexity,” in North American Chapter of the Association for Computational Linguistics (NAACL), 2024.
+
+18. Z. Jiang, F. F. Xu, L. Gao, Z. Sun, Q. Liu, J. Dwivedi-Yu, Y. Yang, J. Callan, and G. Neubig, “Active retrieval augmented generation,” in
+Empirical Methods in Natural Language Processing (EMNLP), 2023.
+
+19. “Medkg-llm: A framework for knowledge graph-augmented biomedical language models with explainable reasoning,” Procedia Computer
+Science, vol. 283, pp. 3842–3851, 2026.
+
+20. H. Trivedi, N. Balasubramanian, T. Khot, and A. Sabharwal, “Interleaving retrieval with chain-of-thought reasoning for knowledge-intensive
+multi-step questions,” in Association for Computational Linguistics (ACL), 2023.
+
+21. P. Sarthi, S. Abdullah, A. Tuli, S. Khanna, A. Goldie, and C. D. Manning, “RAPTOR: Recursive abstractive processing for tree-organized
+retrieval,” in International Conference on Learning Representations (ICLR), 2024.
+
+22. Y. Yu, W. Ping, Z. Liu, B. Wang, J. You, C. Zhang, M. Shoeybi, and C. Catanzaro, “RankRAG: Unifying context ranking with retrieval-
+augmented generation in LLMs,” in Advances in Neural Information Processing Systems (NeurIPS), 2024.
+
+23. D. Edge, H. Trinh, N. Cheng, J. Bradley, A. Chao, A. Mody, S. Truitt, and J. Larson, “From local to global: A GraphRAG approach to
+query-focused summarization,” arXiv preprint arXiv:2404.16130, 2024.
+
+24. S. U. Ahmed and N. Ahmad, “A rhetorical role relatedness (rrr) framework for legal case brief generation,” Procedia Computer Science, vol.
+258, pp. 3333–3344, 2025.
+
+25. V. G. Biju, B. Babu, A. Asghar, B. R. P. Boppuru, and V. Reddy, “From text to action: Nlp techniques for washing machine manual processing,”
+Procedia Computer Science, vol. 235, pp. 1903–1919, 2024.
+
+26. A. Saxena, A. Santhanavijayan, and H. K. Shakya, “Fixing poorly written questions and classifying their difficulty with distilbert, albert, cnn,
+and explainable ai,” Procedia Computer Science, vol. 258, pp. 2130–2139, 2025.
+
+27. M. A. Sayeed, D. Gupta, and V. Kanjirangat, “Engineering text-to-text generation language models as discriminative classifiers for accurate
+answer detection,” Procedia Computer Science, vol. 258, pp. 2930–2947, 2025.
 
 # Source Code and Data Availability
 
