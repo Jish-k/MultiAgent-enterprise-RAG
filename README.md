@@ -28,7 +28,7 @@ The framework was evaluated on a stratified sample of **120 HotpotQA distractor 
 # Architecture Overview
 
 <p align="center">
-  <img src="evaluation/paper_assets/figures/architecture.png" width="900">
+  <img src="https://raw.githubusercontent.com/Jish-k/MultiAgent-enterprise-RAG/main/evaluation/paper_assets/figures/architecture.png" width="900">
 </p>
 
 The proposed framework consists of four cooperating agents:
@@ -233,7 +233,7 @@ This staged evaluation isolates the contribution of decomposition, reasoning, an
 ## Quantitative Results
 
 <p align="center">
-  <img src="evaluation/paper_assets/figures/HeatMap.png" width="750">
+  <img src="https://raw.githubusercontent.com/Jish-k/MultiAgent-enterprise-RAG/main/evaluation/paper_assets/figures/HeatMap.png" width="750">
 </p>
 
 | Configuration | EM (%) | F1 (%) | Sp F1 (%) | Joint F1 (%) | Latency (s) | ESS |
@@ -274,7 +274,7 @@ The verifier independently re-searches the vector index for atomic claims rather
 # Capability Coverage
 
 <p align="center">
-  <img src="evaluation/paper_assets/figures/capability_comparison_ieee.png" width="850">
+  <img src="https://raw.githubusercontent.com/Jish-k/MultiAgent-enterprise-RAG/main/evaluation/paper_assets/figures/capability_comparison_ieee.png" width="850">
 </p>
 
 The capability comparison visualization summarizes the coverage of representative RAG and agentic QA approaches across the selected architectural capabilities.
