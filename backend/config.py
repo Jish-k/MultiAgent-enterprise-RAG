@@ -6,7 +6,7 @@ load_dotenv()
 
 class Config:
     # Dataset Settings
-    DATASET_SOURCE = os.getenv("DATASET_SOURCE", "enterprise") # "enterprise" or "hotpotqa"
+    DATASET_SOURCE = "hotpotqa"
     HOTPOTQA_SUBSET_SIZE = int(os.getenv("HOTPOTQA_SUBSET_SIZE", "100"))
     
     # LLM Settings
@@ -29,5 +29,5 @@ class Config:
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     
     # Dynamic ChromaDB Collection
-    ACTIVE_CHROMA_COLLECTION = "enterprise_hr_docs" if DATASET_SOURCE == "enterprise" else "hotpotqa_docs"
+    ACTIVE_CHROMA_COLLECTION = "hotpotqa_docs"
     CHROMA_PERSIST_DIR = os.path.join(BASE_DIR, "embeddings", "chroma_db")

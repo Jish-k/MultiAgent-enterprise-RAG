@@ -24,12 +24,7 @@ const comparisonData = [
     myWork: true,
     description: "The base paper assumes the LLM's answer is correct. My work introduces an autonomous Verifier Agent that checks the final answer against the raw retrieved facts to prevent hallucinations."
   },
-  {
-    category: "Enterprise Dataset",
-    basePaper: false,
-    myWork: true,
-    description: "Evaluated strictly on HotpotQA (Wikipedia). My implementation extends the evaluation to complex enterprise-grade data with structured/unstructured hybrid formats."
-  },
+
   {
     category: "Interactive Demo",
     basePaper: false,
@@ -62,7 +57,7 @@ export default function BasePaperComparison() {
                 <TableRow>
                   <TableHead className="w-[300px] text-lg font-bold py-6 px-8">Category</TableHead>
                   <TableHead className="text-center text-lg font-bold py-6 text-muted-foreground">Base Paper</TableHead>
-                  <TableHead className="text-center text-lg font-bold py-6 text-primary">Enterprise Agentic RAG</TableHead>
+                  <TableHead className="text-center text-lg font-bold py-6 text-primary">Agentic RAG</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>

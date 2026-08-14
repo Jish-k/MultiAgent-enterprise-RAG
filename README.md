@@ -1,6 +1,6 @@
-# Agentic RAG Framework for Enterprise Knowledge Management
+# Agentic RAG Framework
 
-This repository contains a prototype for an Enterprise AI Assistant using a Multi-Agent Retrieval-Augmented Generation (RAG) framework. The system is designed to read enterprise documents, answer user questions, use multiple collaborating AI agents to verify answers, provide citations, and minimize hallucinations.
+This repository contains a prototype for an AI Assistant using a Multi-Agent Retrieval-Augmented Generation (RAG) framework evaluated on the HotpotQA benchmark. The system is designed to read documents, answer user questions, use multiple collaborating AI agents to verify answers, provide citations, and minimize hallucinations.
 
 ## Key Features
 - **Traditional RAG Baseline**: A standard linear pipeline for benchmark comparison.
@@ -40,30 +40,30 @@ The system uses LangGraph to coordinate the following agents:
                                    │
                                    ▼
                     ┌─────────────────────────────────────┐
-                    │        Reasoner Agent              │
+                    │        Reasoner Agent               │
                     │-------------------------------------│
-                    │ • Evidence Analysis               │
-                    │ • Multi-hop Reasoning             │
-                    │ • Answer Synthesis                │
+                    │ • Evidence Analysis                 │
+                    │ • Multi-hop Reasoning               │
+                    │ • Answer Synthesis                  │
                     └──────────────┬──────────────────────┘
                                    │
                              Draft Answer
                                    │
                                    ▼
                     ┌─────────────────────────────────────┐
-                    │        Verifier Agent              │
+                    │        Verifier Agent               │
                     │-------------------------------------│
-                    │ • Claim Validation                │
-                    │ • Evidence Sufficiency            │
-                    │ • Hallucination Detection         │
-                    │ • Citation Verification           │
+                    │ • Claim Validation                  │
+                    │ • Evidence Sufficiency              │
+                    │ • Hallucination Detection           │
+                    │ • Citation Verification             │
                     └──────────────┬──────────────────────┘
                                    │
                                    ▼
                     ┌─────────────────────────────────────┐
-                    │        Final Response              │
+                    │        Final Response               │
                     │-------------------------------------│
-                    │ Answer + Citations + Confidence    │
+                    │ Answer + Citations + Confidence     │
                     └─────────────────────────────────────┘
 ```
 

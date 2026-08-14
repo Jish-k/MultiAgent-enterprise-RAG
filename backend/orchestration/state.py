@@ -1,7 +1,7 @@
 from typing import TypedDict, Optional, List, Dict, Any
-from agents.retriever.models import EvidencePackage
-from agents.reasoner.models import ReasoningOutput
-from agents.verifier.models import VerifiedResponse
+from retriever.models import EvidencePackage
+from reasoner.models import ReasoningOutput
+from verifier.models import VerifiedResponse
 
 class AgenticRAGState(TypedDict):
     request_id: str

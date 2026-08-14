@@ -1,15 +1,44 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Send, Bot, Search, BrainCircuit, ShieldCheck, CheckCircle2, Loader2, Play } from "lucide-react";
+import { Send, Bot, Search, BrainCircuit, ShieldCheck, CheckCircle2, Loader2, Play, Settings } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { BACKEND_URL } from "@/lib/api";
 
 export default function LiveDemonstration() {
   const [question, setQuestion] = useState("");
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<any>(null);
+  const [showConnectors, setShowConnectors] = useState(false);
+  const [apiKey, setApiKey] = useState("");
+  const [anthropicApiKey, setAnthropicApiKey] = useState("");
+  const [llmProvider, setLlmProvider] = useState("openai");
+
+  useEffect(() => {
+    const savedOpenAI = localStorage.getItem("openai_api_key");
+    const savedAnthropic = localStorage.getItem("anthropic_api_key");
+    const savedProvider = localStorage.getItem("llm_provider");
+    if (savedOpenAI) setApiKey(savedOpenAI);
+    if (savedAnthropic) setAnthropicApiKey(savedAnthropic);
+    if (savedProvider) setLlmProvider(savedProvider);
+  }, []);
+
+  const handleOpenAiKeyChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setApiKey(e.target.value);
+    localStorage.setItem("openai_api_key", e.target.value);
+  };
+
+  const handleAnthropicKeyChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setAnthropicApiKey(e.target.value);
+    localStorage.setItem("anthropic_api_key", e.target.value);
+  };
+
+  const handleProviderChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    setLlmProvider(e.target.value);
+    localStorage.setItem("llm_provider", e.target.value);
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -19,10 +48,23 @@ export default function LiveDemonstration() {
     setResult(null);
 
     try {
-      const response = await fetch("http://localhost:8000/api/demo", {
+      const token = localStorage.getItem("token");
+      const body: any = { question };
+      if (llmProvider === "openai" && apiKey.trim()) {
+        body.api_key = apiKey.trim();
+        body.llm_provider = "openai";
+      } else if (llmProvider === "anthropic" && anthropicApiKey.trim()) {
+        body.anthropic_api_key = anthropicApiKey.trim();
+        body.llm_provider = "anthropic";
+      }
+      
+      const response = await fetch(`${BACKEND_URL}/api/demo`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question })
+        headers: { 
+          "Content-Type": "application/json",
+          ...(token ? { "Authorization": `Bearer ${token}` } : {})
+        },
+        body: JSON.stringify(body)
       });
       const data = await response.json();
       
@@ -45,12 +87,90 @@ export default function LiveDemonstration() {
           <Play className="w-10 h-10 text-primary fill-primary" /> Live Demonstration
         </h2>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          Test the Enterprise Agentic RAG pipeline interactively. Connects directly to the FastAPI backend.
+          Test the Agentic RAG pipeline interactively. Connects directly to the FastAPI backend.
         </p>
       </div>
 
-      <div className="max-w-4xl mx-auto w-full space-y-8">
+      <div className="max-w-4xl mx-auto w-full space-y-8 relative">
         
+        {/* Connectors / Settings Button */}
+        <div className="flex justify-end mb-4 relative z-50">
+          <Button 
+            type="button"
+            variant="outline" 
+            className="rounded-full bg-background/50 backdrop-blur"
+            onClick={() => setShowConnectors(!showConnectors)}
+          >
+            <Settings className="w-4 h-4 mr-2" /> Connectors
+          </Button>
+
+          {/* Connectors Dropdown */}
+          <AnimatePresence>
+            {showConnectors && (
+              <motion.div
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -10 }}
+                className="absolute top-12 right-0 w-80 p-5 rounded-xl border border-border/50 bg-background/95 backdrop-blur-xl shadow-2xl z-50 text-left"
+              >
+                <h4 className="font-semibold text-sm mb-2">API Connectors</h4>
+                <p className="text-xs text-muted-foreground mb-4">
+                  Add your API key to bypass mock results and run the live Agentic RAG pipeline dynamically.
+                </p>
+                <div className="space-y-2">
+                  <label className="text-xs font-medium uppercase tracking-wider">LLM Provider</label>
+                  <select
+                    value={llmProvider}
+                    onChange={handleProviderChange}
+                    className="w-full bg-background border border-border/50 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 mb-3"
+                  >
+                    <option value="openai">ChatGPT (OpenAI)</option>
+                    <option value="anthropic">Claude (Anthropic)</option>
+                  </select>
+
+                  {llmProvider === "openai" && (
+                    <>
+                      <label className="text-xs font-medium uppercase tracking-wider block mt-3 mb-1">OpenAI API Key</label>
+                      <input
+                        type="password"
+                        value={apiKey}
+                        onChange={handleOpenAiKeyChange}
+                        placeholder="sk-..."
+                        className="w-full bg-background border border-border/50 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 mb-4"
+                      />
+                    </>
+                  )}
+
+                  {llmProvider === "anthropic" && (
+                    <>
+                      <label className="text-xs font-medium uppercase tracking-wider block mt-3 mb-1">Anthropic API Key</label>
+                      <input
+                        type="password"
+                        value={anthropicApiKey}
+                        onChange={handleAnthropicKeyChange}
+                        placeholder="sk-ant-..."
+                        className="w-full bg-background border border-border/50 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 mb-4"
+                      />
+                    </>
+                  )}
+
+                  <hr className="border-border/40 my-4" />
+
+                  <label className="text-xs font-medium uppercase tracking-wider block mb-2">Integrations</label>
+                  <Button 
+                    variant="outline" 
+                    className="w-full justify-start text-muted-foreground"
+                    onClick={() => alert("Google Drive integration requires GCP OAuth setup and is currently a mock UI.")}
+                  >
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg" alt="Google Drive" className="w-4 h-4 mr-2" />
+                    Connect Google Drive
+                  </Button>
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
+
         {/* Input Form */}
         <form onSubmit={handleSubmit} className="relative group">
           <div className="absolute inset-0 bg-primary/20 blur-xl opacity-50 rounded-3xl" />

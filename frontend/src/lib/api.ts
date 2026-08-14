@@ -1,5 +1,5 @@
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api";
-
+export const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8000";
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || `${BACKEND_URL}/api`;
 export async function fetchProjectOverview() {
   const res = await fetch(`${API_BASE_URL}/project`, { next: { revalidate: 10 } });
   if (!res.ok) throw new Error("Failed to fetch project overview");

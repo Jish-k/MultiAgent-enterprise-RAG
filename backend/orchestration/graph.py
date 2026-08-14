@@ -6,17 +6,17 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from langgraph.graph import StateGraph, END
 from orchestration.state import AgenticRAGState
 
-from agents.planner.agent import PlannerAgent
-from agents.retriever.agent import EvidenceRetrievalAgent
-from agents.reasoner.agent import ReasonerAgent
-from agents.verifier.agent import VerifierAgent
+from planner.agent import PlannerAgent
+from retriever.agent import EvidenceRetrievalAgent
+from reasoner.agent import ReasonerAgent
+from verifier.agent import VerifierAgent
 
 class AgenticRAGGraph:
-    def __init__(self, verifier_threshold: float = 0.50):
-        self.planner = PlannerAgent()
-        self.retriever = EvidenceRetrievalAgent()
-        self.reasoner = ReasonerAgent()
-        self.verifier = VerifierAgent(threshold=verifier_threshold)
+    def __init__(self, verifier_threshold: float = 0.50, api_key: str = None, anthropic_api_key: str = None, llm_provider: str = "openai"):
+        self.planner = PlannerAgent(api_key=api_key, anthropic_api_key=anthropic_api_key, llm_provider=llm_provider)
+        self.retriever = EvidenceRetrievalAgent()  # Does not use LLM for now
+        self.reasoner = ReasonerAgent(api_key=api_key, anthropic_api_key=anthropic_api_key, llm_provider=llm_provider)
+        self.verifier = VerifierAgent(threshold=verifier_threshold, api_key=api_key, anthropic_api_key=anthropic_api_key, llm_provider=llm_provider)
         
         # Build graph
         workflow = StateGraph(AgenticRAGState)

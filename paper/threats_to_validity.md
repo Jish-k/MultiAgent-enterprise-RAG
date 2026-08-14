@@ -19,7 +19,7 @@ This document transparently outlines the limitations and validity threats of our
 ## 3. External Validity
 *How well do these findings generalize outside of this specific experimental setup?*
 
-- **Synthetic Enterprise Corpus:** The benchmark utilizes a synthetically generated set of enterprise policy documents. Results may differ when applied to highly unstructured, messy, or massive-scale production knowledge bases.
+- **HotpotQA Benchmark:** The benchmark utilizes the HotpotQA dataset. Results may differ when applied to highly unstructured, messy, or massive-scale production knowledge bases.
 - **Model Specificity:** Experiments were conducted exclusively using Groq's `llama-3.1-8b`. The observed benefits of the Reasoner or Verifier may diminish or amplify when using significantly larger (e.g., GPT-4) or smaller parameter models.
 - **Embedding Dependency:** Performance heavily depends on `all-MiniLM-L6-v2`. A more sophisticated embedding model could potentially raise the baseline (Config A) accuracy, thereby reducing the marginal utility of the Planner.
 

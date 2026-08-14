@@ -30,7 +30,7 @@ const steps = [
     id: "solution",
     title: "Our Solution",
     icon: <CheckCircle2 className="w-8 h-8 text-emerald-500" />,
-    description: "Enterprise Agentic RAG: An autonomous multi-agent pipeline that plans, retrieves, reasons, and verifies.",
+    description: "Agentic RAG: An autonomous multi-agent pipeline that plans, retrieves, reasons, and verifies.",
     status: "positive"
   }
 ];
@@ -43,7 +43,7 @@ export default function ProblemStatement() {
         <div className="text-center space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight">The Problem with RAG</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Why simply gluing a vector database to an LLM isn't enough for enterprise-grade reasoning.
+            Why simply gluing a vector database to an LLM isn't enough for complex reasoning.
           </p>
         </div>
 

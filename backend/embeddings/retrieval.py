@@ -25,4 +25,4 @@ def test_retrieval(query):
         
 if __name__ == "__main__":
     # Test block
-    test_retrieval("What is the password policy?")
+    test_retrieval("Who directed Big Stone Gap?")

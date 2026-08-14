@@ -1,18 +1,27 @@
 import os
 import json
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from typing import Optional
 from orchestration.graph import AgenticRAGGraph
+from database.postgres import Base, engine
+from auth.routes import router as auth_router
+from auth.jwt_handler import get_current_user
 
-app = FastAPI(title="Enterprise Agentic RAG API", description="Backend for the Research Visualization Platform")
+app = FastAPI(title="Agentic RAG API", description="Backend for the Research Visualization Platform")
 
 rag_pipeline = None
 
 @app.on_event("startup")
 async def startup_event():
     global rag_pipeline
+    # Initialize the database tables
+    Base.metadata.create_all(bind=engine)
     rag_pipeline = AgenticRAGGraph()
+
+# Include the authentication router
+app.include_router(auth_router)
 
 # Enable CORS for the Next.js frontend
 app.add_middleware(
@@ -37,7 +46,7 @@ def load_json_file(filename: str, default_val=None):
 @app.get("/api/project")
 async def get_project_overview():
     return {
-        "title": "Enterprise Agentic RAG",
+        "title": "Agentic RAG Framework",
         "subtitle": "A multi-stage, reasoning-driven retrieval augmented generation architecture.",
         "goal": "Solve multi-hop reasoning and hallucination in standard RAG pipelines.",
         "problemStatement": "Traditional RAG struggles with multi-hop reasoning, complex queries, and unverified outputs. We propose a pipeline using a Planner, Retriever, Reasoner, and Verifier.",
@@ -79,20 +88,49 @@ async def get_datasets():
             "questions": 120,
             "documents": "Derived from Wikipedia paragraphs",
             "type": "Multi-hop Reasoning"
-        },
-        "enterprise": {
-            "name": "Enterprise Private Data",
-            "questions": 0,
-            "documents": 0,
-            "type": "Private Docs"
         }
     }
 
 class DemoRequest(BaseModel):
     question: str
+    api_key: Optional[str] = None
+    anthropic_api_key: Optional[str] = None
+    llm_provider: Optional[str] = "openai"
 
 @app.post("/api/demo")
-async def run_demo(req: DemoRequest):
+async def run_demo(req: DemoRequest, current_user: dict = Depends(get_current_user)):
+    if req.api_key or req.anthropic_api_key:
+        try:
+            graph = AgenticRAGGraph(
+                api_key=req.api_key, 
+                anthropic_api_key=req.anthropic_api_key,
+                llm_provider=req.llm_provider
+            )
+            state = graph.invoke(req.question)
+            
+            pkg = state.get("evidence_package")
+            chunks = [f"[Doc {i+1}] {c.content}" for i, c in enumerate(pkg.chunks)] if pkg and hasattr(pkg, 'chunks') else []
+            
+            rout = state.get("reasoning_output")
+            reasoning_text = rout.answer if rout and hasattr(rout, 'answer') else ""
+            
+            vresp = state.get("verifier_response")
+            if vresp and hasattr(vresp, 'verification_metrics'):
+                verification = f"[Confidence: {vresp.verification_metrics.average_confidence*100:.1f}%] Supported claims: {len(vresp.supported_claims)}/{len(vresp.claims)}."
+            else:
+                verification = "[PENDING] Verifier output not available."
+                
+            return {
+                "question": req.question,
+                "planner_queries": state.get("sub_queries", []),
+                "retrieved_chunks": chunks,
+                "reasoning": reasoning_text,
+                "verification": verification,
+                "final_answer": state.get("final_answer", "")
+            }
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=str(e))
+
     # In a full deployment, this triggers the Agentic RAG pipeline.
     # For presentation reliability, we return pre-computed traces for 10 specific demo questions.
     
@@ -145,120 +183,14 @@ async def run_demo(req: DemoRequest):
             "final_answer": "The English translation of Telemundo is 'World TV'."
         }
 
-    elif "techcorp inc" in q_lower or "q3 2023 revenue" in q_lower:
-        return {
-            "question": req.question,
-            "planner_queries": [
-                "TechCorp Inc Q3 2023 earnings report",
-                "TechCorp Inc revenue Q3 2023"
-            ],
-            "retrieved_chunks": [
-                "[Doc 1] TechCorp Inc. reported a strong third quarter in 2023, with total consolidated revenue reaching $4.2 billion, up 12% year-over-year."
-            ],
-            "reasoning": "1. Context mentions TechCorp Inc.'s third quarter of 2023.\n2. The stated total consolidated revenue is $4.2 billion.",
-            "verification": "[PASS] The revenue figure exactly matches the earnings report in the context.",
-            "final_answer": "TechCorp Inc.'s revenue for Q3 2023 was $4.2 billion."
-        }
 
-    elif "remote work" in q_lower or "travel expenses" in q_lower:
-        return {
-            "question": req.question,
-            "planner_queries": [
-                "Company policy remote work",
-                "Company policy travel expenses"
-            ],
-            "retrieved_chunks": [
-                "[Doc 1] Employees may work remotely up to 3 days per week with manager approval.",
-                "[Doc 2] Travel expenses for remote workers visiting the main office are covered up to $500 per quarter."
-            ],
-            "reasoning": "1. Remote work policy: Up to 3 days a week with manager approval.\n2. Travel expense policy: Reimbursed up to $500 per quarter for main office visits.",
-            "verification": "[PASS] Both sub-queries were accurately addressed by independent chunks. Reasoning synthesizes them perfectly.",
-            "final_answer": "Employees can work remotely up to 3 days a week with manager approval, and they receive up to $500 per quarter for travel expenses when visiting the main office."
-        }
-
-    elif "ceo of acme" in q_lower or "when did they join" in q_lower:
-        return {
-            "question": req.question,
-            "planner_queries": [
-                "Who is the CEO of Acme Corp?",
-                "When did Acme Corp CEO join?"
-            ],
-            "retrieved_chunks": [
-                "[Doc 1] Jane Smith is the current Chief Executive Officer of Acme Corp.",
-                "[Doc 2] Jane Smith originally joined Acme Corp in March 2018 as Chief Operating Officer before becoming CEO."
-            ],
-            "reasoning": "1. The CEO of Acme Corp is Jane Smith.\n2. Jane Smith joined the company in March 2018.",
-            "verification": "[PASS] The identity of the CEO and their join date are fully supported by the text.",
-            "final_answer": "The CEO of Acme Corp is Jane Smith, and she originally joined the company in March 2018."
-        }
-
-    elif "vacation days" in q_lower or "senior engineers" in q_lower:
-        return {
-            "question": req.question,
-            "planner_queries": [
-                "Senior engineer benefits tier",
-                "Vacation days per benefits tier"
-            ],
-            "retrieved_chunks": [
-                "[Doc 1] Senior Engineers fall under the Tier 3 benefits package.",
-                "[Doc 2] Tier 3 employees are granted 25 days of paid vacation per year."
-            ],
-            "reasoning": "1. Senior Engineers are in the Tier 3 benefits package.\n2. Tier 3 provides 25 vacation days.\nConclusion: Senior engineers get 25 days.",
-            "verification": "[PASS] The multi-hop reasoning successfully linked 'Senior Engineer' -> 'Tier 3' -> '25 days'.",
-            "final_answer": "Senior engineers are entitled to 25 days of paid vacation per year under the Tier 3 benefits package."
-        }
-
-    elif "onboarding process" in q_lower or "new hires" in q_lower:
-        return {
-            "question": req.question,
-            "planner_queries": [
-                "Standard onboarding process for new hires",
-                "New hire checklist"
-            ],
-            "retrieved_chunks": [
-                "[Doc 1] The new hire onboarding process consists of three main phases: 1) IT Setup and security training on Day 1. 2) Department orientation on Day 2. 3) A 30-day mentorship program."
-            ],
-            "reasoning": "1. Phase 1: IT Setup and security training (Day 1).\n2. Phase 2: Department orientation (Day 2).\n3. Phase 3: 30-day mentorship program.",
-            "verification": "[PASS] Summarization is accurate and does not omit any of the three documented phases.",
-            "final_answer": "The standard onboarding process involves three phases: IT setup and security training on Day 1, department orientation on Day 2, and a 30-day mentorship program."
-        }
-
-    elif "gym memberships" in q_lower or "wellness benefits" in q_lower:
-        return {
-            "question": req.question,
-            "planner_queries": [
-                "Wellness benefits coverage",
-                "Are gym memberships covered?"
-            ],
-            "retrieved_chunks": [
-                "[Doc 1] The annual wellness stipend of $600 can be applied to fitness equipment, mental health apps, and monthly gym memberships."
-            ],
-            "reasoning": "1. The company provides a $600 annual wellness stipend.\n2. Gym memberships are explicitly listed as an approved expense for this stipend.",
-            "verification": "[PASS] The chunk explicitly states gym memberships are covered under the wellness stipend.",
-            "final_answer": "Yes, the company covers gym memberships through a $600 annual wellness stipend."
-        }
-
-    elif "core values" in q_lower or "engineering department" in q_lower:
-        return {
-            "question": req.question,
-            "planner_queries": [
-                "Engineering department core values",
-                "Engineering culture"
-            ],
-            "retrieved_chunks": [
-                "[Doc 1] The engineering department operates on three core values: 'Move Fast', 'Radical Candor', and 'Customer First'."
-            ],
-            "reasoning": "1. The core values listed are 'Move Fast', 'Radical Candor', and 'Customer First'.",
-            "verification": "[PASS] The values are quoted directly from the source text.",
-            "final_answer": "The core values of the engineering department are 'Move Fast', 'Radical Candor', and 'Customer First'."
-        }
 
     # Fallback for any other random question
     return {
         "question": req.question,
         "planner_queries": [
             f"Extract key entities from: {req.question}",
-            f"Search Wikipedia/Enterprise DB for: {req.question}"
+            f"Search HotpotQA DB for: {req.question}"
         ],
         "retrieved_chunks": [
             f"Chunk 1: Document containing information related to '{req.question[:20]}...'",

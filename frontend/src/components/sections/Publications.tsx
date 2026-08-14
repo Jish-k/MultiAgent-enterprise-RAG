@@ -9,7 +9,7 @@ const publications = [
     title: "IEEE Research Paper",
     description: "Full manuscript detailing the Agentic RAG architecture, mathematical formulations, and evaluation results. Submitted to IEEE Transactions on Knowledge and Data Engineering.",
     icon: <FileText className="w-8 h-8 text-blue-500" />,
-    filename: "enterprise_agentic_rag_ieee.pdf",
+    filename: "agentic_rag_ieee.pdf",
     color: "bg-blue-500/10 border-blue-500/30",
     hoverColor: "hover:bg-blue-500/20"
   },

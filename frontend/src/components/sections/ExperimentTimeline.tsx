@@ -12,7 +12,7 @@ const EXPERIMENTS = [
     title: "Stage 0: Baseline RAG",
     date: "Experiment 1",
     changed: "Implemented standard naive RAG architecture using ChromaDB and a single LLM call.",
-    why: "To establish a performance floor and understand exactly where traditional methods fail on complex enterprise queries.",
+    why: "To establish a performance floor and understand exactly where traditional methods fail on complex multi-hop queries.",
     insights: "Retrieval recall was terrible (40%). The LLM hallucinated wildly because the retrieved chunks often missed the 'bridge' entity required to connect two separate facts.",
     metrics: { accuracy: "42.0%", recall: "45.0%", latency: "1.2s" }
   },
@@ -40,7 +40,7 @@ const EXPERIMENTS = [
     date: "Experiment 4",
     changed: "Added a final Verification loop that critiques the Reasoner's output against the raw retrieved facts.",
     why: "The Reasoner still occasionally hallucinated dates or names in its final conclusion. We needed an adversarial agent to double-check the work.",
-    insights: "Highest accuracy achieved. The Verifier caught and corrected 15% of the errors made by the Reasoner. The pipeline is now highly robust for enterprise deployment, at the cost of maximum latency.",
+    insights: "Highest accuracy achieved. The Verifier caught and corrected 15% of the errors made by the Reasoner. The pipeline is now highly robust for complex reasoning, at the cost of maximum latency.",
     metrics: { accuracy: "92.1%", recall: "85.2%", latency: "8.1s" }
   }
 ];

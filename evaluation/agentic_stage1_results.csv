@@ -1,0 +1,121 @@
+id,difficulty,reasoning_type,question,expected_answer,prediction,citations,is_correct,latency,mrr,recall_hit,prompt_tokens,completion_tokens
+5abed9f45542994516f4545a,medium,bridge,Who was the body double for Emilia Clarke playing Daenerys Targaryen in Game of Thrones?,Rosie Mac,I don't know,,0,11.60010290145874,0.0,0,328,47
+5ab1dd6c5542993be8fa9860,medium,bridge,In what literary movement was the nineteenth century writer featured in Alicia Ramsey's historical play a leading figure?,Romantic,Romanticism,,1,1.374506950378418,0.0,0,324,38
+5adfa059554299025d62a2f8,hard,bridge,Richard E. Grant starred in what 1995 British romantic comedy film?,Richard E. Grant,Four Weddings and a Funeral,,0,0.9023091793060303,0.0,0,314,35
+5a8f9a24554299458435d690,medium,bridge,"What is the name of the lead remix of the track from the remix album containing remixes of the lady gaga studio album ""The Fame""?",Bad Romance,Just Dance (Dave Audé Remix),,0,0.9033920764923096,0.0,0,343,41
+5a77535855429966f1a36d04,hard,comparison,"Who was born earlier, Thomas Wolfe or Margaret Wilson?",Margaret Wilson,Thomas Wolfe (1900)  Margaret Wilson (1886),,1,0.9458892345428467,0.0,0,306,33
+5a773772554299373536021d,medium,bridge,Who was born first Percy Clifford Mills or Nigel Graham Pearson?,Percy Clifford Mills,I don't know,,0,0.8556318283081055,0.0,0,308,27
+5ab36fd355429969a97a814c,medium,bridge,"Which studio album by childish gambina is produced by Glover and contains the song ""redbone""?","""Awaken, My Love!""","""Awaken My Love!""",,1,0.9747331142425537,0.0,0,323,49
+5ab57383554299494045efda,medium,bridge, Since 2017 Nick Ayers has been Chief of Staff to a man that served as governor of what state?,Indiana,Georgia,,0,0.821295976638794,0.0,0,331,32
+5a78c8f955429974737f7887,medium,comparison,"Which band formed first, Sunrise Avenue or Marcy Playground?",Marcy Playground,Marcy Playground,,1,0.7207167148590088,0.0,0,308,33
+5a7a013c5542990198eaf03a,easy,bridge,"What was the member of the Lok Sabha from June 1977 to January 1978 as a member of political Party that belonged to one of the two major political parties in India, along with the Indian National Congress?",chief minister of the state,Janata Party,,0,0.7342970371246338,0.0,0,372,39
+5ac021d1554299012d1db5b4,medium,bridge,"Which American actor, artist, and former American football player born in 1968 appeared in the film ""Reach Me?""",Terry Crews,Ryan Phillippe,,0,1.1518948078155518,0.0,0,332,77
+5ab8c2465542991b5579effb,medium,bridge,What position does the current holder of the Ligue 1 Young player of the year play?,forward,I don't know,,0,0.7077350616455078,0.0,0,322,50
+5a7c779d55429935c91b51ce,medium,bridge,How many ships does the cruise line that is a client of Moment Factory have?,24,I don't know,,0,0.7386600971221924,0.0,0,316,34
+5ae07ee155429945ae959384,hard,bridge,"Who died first, Robert Baldock or Edward II of England?",Robert Baldock,Robert Baldock,,1,0.6744880676269531,0.0,0,310,30
+5a7248045542990c210a40ad,hard,bridge,Who wrote the screenplay for the Alfred Hitchcock movie that Eva Marie Saint acted in?,Ernest Lehman,Ernest Lehman,,1,0.7587680816650391,0.0,0,318,25
+5ae731ff5542991e8301cbc0,easy,bridge,"Michael Faraday was an early 19th-century British scientist, he contributed to the study of electromagnetism and electrochemistry, and died on which date?",25 August 1867,"August 25, 1867",,0,0.8111662864685059,0.0,0,348,26
+5abdcb525542991f66106043,easy,bridge,"Who directed the 1959 American Western Film starring the actress who starred as Virginia in ""Marty?""",Budd Boetticher,Eli Wallach,,0,0.6896820068359375,0.0,0,326,42
+5a7d419b5542995f4f402249,medium,bridge,What research group was formed in 2014 due to Russia's suspension?,The G7 Research Group,World Anti-Doping Agency (WADA) Independent Commission,,0,1.0904760360717773,0.0,0,314,109
+5abdaca655429965af743dba,medium,bridge,"Which ITV2 documentary series did the band made up of Lee Brennan, Jimmy Constable and Simon Dawbarn reform for in 2012?","""The Big Reunion""",Hed Kandi: Sing It Back,,0,1.1531479358673096,0.0,0,342,55
+5ae209b25542997283cd2342,medium,comparison,Were both Strauder v. West Virginia and Lemon v. Kurtzman cases about racism?,no,I don't know,,1,1.093674898147583,0.0,0,320,126
+5add77c45542992ae4cec579,medium,bridge,Where are the headquarters for the company which developed the SecureEasySetup technology? ,"Irvine, California",Netgear.,,0,0.8011350631713867,0.0,0,316,33
+5a83a7075542990548d0b20e,hard,bridge,The 1985 European Grand Prix was held in which town?,"West Kingsdown in Kent, England",Nürburgring,,0,0.7202780246734619,0.0,0,310,34
+5ac2787355429921a00aaf9a,medium,bridge,What Roger Thomas designed casino was inspired by the Lake Como town of Bellagio in Italy?,Bellagio,Bellagio,,1,0.827225923538208,0.0,0,322,33
+5ae5362c5542990ba0bbb229,medium,bridge,When was the American former professional basketball player born who was first overall pick in the 2000 NBA draft by the Nets'? ,"December 30, 1977",Kenny Anderson was not the first overall pick in the 2000 NBA draft.   The answer is: 1974,,0,0.9589352607727051,0.0,0,336,66
+5a75b7305542992d0ec05fea,hard,bridge,Pearle Vision stores in North America are owned by a company based in what European city?,"Milan, Italy",Luxembourg,,0,1.0390830039978027,0.0,0,320,54
+5ab78c6f5542995dae37e955,easy,comparison,Was The Stuff of Legend an American comedy like The Boatniks?,no,I don't know,,1,1.109144926071167,0.0,0,312,72
+5ac43d195542995c82c4ad05,easy,bridge,"Karl Kevin Marginson, is an English football manager and former player, who played in the Football League for Rotherham United, and since 2005, he has been the manager of F.C. United of Manchester, a semi-professional football club based in Moston, Manchester, in which UK country? ",England,England,,1,0.8406150341033936,0.0,0,413,24
+5a8a0c7b5542992d82986e7b,medium,bridge,The Riegelmann Boardwalk is in what southwestern borough in New York City? ,Brooklyn,Coney Island,,0,0.9111490249633789,0.0,0,318,35
+5a85cdb65542991dd0999ea4,hard,bridge,"Who did Holly Dunn record ""Daddy's Hands"" for?",MTM Records,Holly Dunn,,0,0.8743782043457031,0.0,0,310,32
+5ac054a35542996f0d89cb90,medium,comparison,"Which airport is in Georgia, St. Pete–Clearwater International Airport or Augusta Regional Airport?  ",Augusta Regional Airport,I don't know,,0,1.0656099319458008,0.0,0,324,36
+5abddcff5542991f6610607a,medium,bridge,The Frito Bandito was voiced by an American voice actor who began his 60-plus-year career performing in what?,radio,Radio.,,1,1.1095318794250488,0.0,0,332,25
+5ab7df90554299366779402a,easy,bridge,"Al-Sharki was born and raised in Sana'a, a town in old Sanaa, Sana'a, also spelled Sanaa or Sana, is the largest city in which country, and the centre of Sana'a Governorate?",Yemen,Yemen,,1,0.7010617256164551,0.0,0,388,35
+5addfa2d5542995b365fabaa,easy,bridge,"The biographical war film about Lyudmila Pavlichenko, the most successful female sniper in history, credits her with how many kills? ",Credited with 309 kills,557,,0,0.659562349319458,0.0,0,344,40
+5ab5a9935542992aa134a379,medium,bridge,"When did English rock band New Order record their live album ""Live at Bestival 2012?",September 2012,I don't know,,0,0.7034411430358887,0.0,0,324,39
+5ade0d6f5542997545bbbe33,medium,bridge,"Which church did the author of the book, upon whose novel Jerusalem Countdown is based, found?",Cornerstone Church,Lamb & Lion Ministries,,0,0.778512716293335,0.0,0,322,40
+5ac3fe71554299204fd21ee9,easy,comparison,"Bee's Knees and Smoking Bishop, are a type of cocktail?",no,Yes,,0,0.9212660789489746,0.0,0,313,19
+5ab2a06b5542992953946779,medium,bridge,"Glenn Frey, Bernie Leadon, and which other person, who is the founding member of the Eagles, sings in ""Peaceful Easy Feeling?""",Randy Herman Meisner,Don Henley,,0,0.8883402347564697,0.0,0,345,41
+5ab5678a554299488d4d9975,easy,bridge,Why is Typhoon dot known by another name in other parts of the world?,"Tropical depressions that enter or form in the Philippine area of responsibility are assigned a name by the Philippine Atmospheric, Geophysical and Astronomical Services Administration or PAGASA",Tropical cyclone,,0,0.7557649612426758,0.0,0,316,58
+5ae0c55e55429945ae959449,medium,bridge,The End of Time is a two-part story and the last story for which lead actor?,David Tennant,David Tennant,,1,0.7339107990264893,0.0,0,320,26
+5a78b829554299029c4b5e52,easy,comparison,"What film  evolves around two LGBTQ American athletes, National Bird or Game Face?",Game Face,Game Face,,1,0.9530730247497559,0.0,0,316,30
+5a7cbcf8554299683c1c635d,easy,bridge,"Clinical is a 2017 American horror thriller directed by Alistair Legrand, the film stars Kevin Rahm is an American actor, best known for his television roles as Kyle McCarty on ""Judging Amy"", Lee McDermott on ""Desperate Housewives"", and Ted Chaough on ""Mad Men"", born when? ","January 7, 1971",1964,,0,0.7754378318786621,0.0,0,420,29
+5a842f375542990548d0b25c,hard,bridge,U.S. Route 95 Alternate and Interstate 80 in Nevada both travel through which town?,Fernley,Winnemucca,,0,1.8192458152770996,0.0,0,322,47
+5abcfe275542992ac4f38184,hard,bridge,College Point borders the waterway that empties into what river?,East River,Flushing River,,0,0.6430859565734863,0.0,0,310,30
+5adc39d3554299438c868d7f,easy,comparison,Comparison between Dashboard Confessional and Escanaba Firing Line?,rock band,I don't know,,0,1.4197759628295898,0.0,0,310,87
+5ab5a77e554299637185c5d2,medium,comparison,Does Lucio Silla or Pelléas et Mélisande have more acts?,Pelléas et Mélisande,I don't know,,0,0.669978141784668,0.0,0,320,26
+5ae4b3bc5542995dadf243c3,easy,bridge,What philanthropist founded ESL Music?,Eric Michael Hilton,I don't know,,0,1.2028379440307617,0.0,0,300,27
+5abe52c155429965af743ec3,hard,comparison,Kern Island Canal and Indiana Harbor and Ship Canal are both what? ,canals,Ship canals.,,1,0.8118910789489746,0.0,0,313,57
+5a863e805542991e771815d5,medium,comparison,Is Apsarasas Kangri taller than Gangkhar Puensum?,no,I don't know,,1,0.7735848426818848,0.0,0,316,25
+5a9082e35542995651fb517c,easy,bridge,What is the name of the race that is known as the test of the champion? ,2016 Belmont Stakes,I don't know.,,0,1.1888790130615234,0.0,0,320,32
+5a72828d5542994cef4bc2f5,medium,comparison,Which of these films was released direct-to-video Eleanor's Secret or Otra Película de Huevos y un Pollo?,Otra Película de Huevos y un Pollo,Eleanor's Secret,,0,0.603147029876709,0.0,0,336,27
+5a80f6de55429938b6142275,hard,comparison,"Which magazine inspired two pioneering conferences, Latina or ROCKRGRL?",ROCKRGRL,ROCKRGRL,,1,1.4444530010223389,0.0,0,310,28
+5ac013f25542996f0d89cb1b,easy,bridge,"What singer replaced Diana Ross as the lead singer of The Supremes in January of 1970 and provided the lead vocals on the song ""You Gotta Have Love in Your Heart"" by the Supremes and the Four Tops?",Jean Terrell,Jean Terrell,,1,0.7220251560211182,0.0,0,380,58
+5ae11ee65542997b2ef7d0de,easy,bridge,"Pennington is a small village and civil parish in Furness, an area of Cumbria in which country's northwestern region?",England,England,,1,0.7657899856567383,0.0,0,340,14
+5a733c7d5542994cef4bc4ec,hard,bridge,A5117 road of Cheshire England runs just east of with Ellesmore Port outlet?,Cheshire Oaks Designer Outlet,Shropshire,,0,0.7349350452423096,0.0,0,322,31
+5a8bb2575542996e8ac889e2,hard,comparison,"Who has more occupations, Tom Robinson or Paul Weller?","Thomas Giles ""Tom"" Robinson",I don't know,,0,0.5893361568450928,0.0,0,308,20
+5abeda0e5542993fe9a41d55,hard,bridge,What type of wagon inspired the dominant form of transportation on the improved trail through the Great Appalachian Valley from Pennsylvania to North Carolina?,Conestoga wagon,Conestoga wagon,,1,0.8226606845855713,0.0,0,334,36
+5abea45c5542993f32c2a18b,hard,bridge,what govern the  public institutes that  IIT Council is the governing body for ?,"""Institutes of Technology Act, 1961","Indian Institutes of Technology (IIT) Act, 1961",,0,0.9137659072875977,0.0,0,318,45
+5ab77a275542995dae37e932,easy,comparison,Are the bands Hole and Cage9 both American alternative rock bands?,yes,Yes,,1,0.7977781295776367,0.0,0,310,37
+5ac0d647554299294b219029,hard,bridge,Massachusetts's twelfth congressional district was represented by what censured politician?,Gerry Eastman Studds,Anthony Weiner,,0,0.7355587482452393,0.0,0,315,41
+5ae5144e55429908b6326514,hard,comparison,Are Malipo County and Laiwu in the same country?,yes,I don't know,,0,0.692641019821167,0.0,0,310,37
+5a77106c55429937353601be,medium,comparison,What film is older The Incredible Journey or The Three Musketeers?,The Incredible Journey,The Three Musketeers,,0,0.6870479583740234,0.0,0,312,32
+5ac2599555429951e9e6856e,medium,comparison,"Who has more scope of proffesion, Hideo Gosha or Dallas M. Fitzgerald?",Dallas M. Fitzgerald,I don't know,,0,1.7962791919708252,0.0,0,322,33
+5a8832a85542997e5c09a5a1,hard,bridge,"Kim Swift, an American video game designer, was described as one of the most recognized women in the industry by an American digital, print, and e-commerce media company focused on who?",millennials,Women in gaming,,0,0.6222939491271973,0.0,0,358,19
+5a8927b9554299669944a4cf,easy,bridge,"Who is an American author and mother of film and television producer Bryan Spears, who wrote a novel based on Britney's life?",Lynne Irene Spears,Lynne Spears,,0,1.075138807296753,0.0,0,336,39
+5ae07ccd55429945ae959372,medium,comparison,Are Mary Doria Russell and James Joyce both novelists?,yes,Yes,,1,0.7844991683959961,0.0,0,308,37
+5ae145ea5542997b2ef7d19e,easy,bridge,"The ""New York"" class of battleship was a class of ships designed and constructed by the United States Navy, it saw extensive service beginning in the United States occupation of Veracruz, which occurred as a response to the Tampico Affair on which date?","April 9, 1914","April 21, 1914",,0,0.7143480777740479,0.0,0,392,43
+5a76aa855542993735360142,easy,bridge,"The Lithuanian Crusade was a series of campaigns by the Teutonic Order, and the Livonian Order, they first conquered which tribe  Baltic tribe that lived in the southcentral part of contemporary Latvia, and northern Lithuania?",Semigallians,Selonians,,0,0.8692629337310791,0.0,0,378,78
+5ac29c25554299218029dabd,easy,bridge,Who designed the mall where the ballpark Diamond at the Summit is tenatively named for?,designed by Charles N. Agree,I don't know,,0,0.6754112243652344,0.0,0,318,38
+5a7bfb225542996dd594b87b,medium,comparison,"Who was born first, Vladimír Remek or Umberto Guidoni?",Vladimír Remek,Vladimír Remek,,1,0.6244039535522461,0.0,0,314,25
+5a848d8f5542997b5ce3feb4,easy,bridge,How many Canadians lost their lives in the deadliest conflict in history in absolute terms of total casualties?,"More than 44,000 lost their lives",I don't know,,0,0.757159948348999,0.0,0,322,49
+5ae1b3765542997283cd2249,hard,comparison,"Which company is in the discount travel market, The Walt Disney Company or Priceline.com?",Priceline.com,Priceline.com,,1,0.7245001792907715,0.0,0,322,21
+5a7302db5542994cef4bc41e,medium,comparison,"Which University is a private Ivy League university, University of Delaware or Columbia University?",Columbia University,Columbia University,,1,0.7030210494995117,0.0,0,316,29
+5a79226555429970f5fffe59,medium,comparison,"Which band formed earlier, Goldfinger or Enter Shikari?",Goldfinger,Goldfinger,,1,0.7745201587677002,0.0,0,310,35
+5a762c6e5542994ccc9186fd,medium,comparison,"Who has won more titles, Michael Chang or Ellis Ferreira?",Michael Te-Pei Chang,I don't know,,0,0.6438798904418945,0.0,0,310,22
+5a8752cd5542993e715abeea,hard,comparison,What are both a Russian Spaniel and an Elo?,breed of dog,Russian Spaniel  Elo rating,,0,0.8621480464935303,0.0,0,306,25
+5a735a3155429901807dafde,hard,bridge,Which Australian cricketer served as an on-field captain in the Glamorgan County Cricket Club?,"James ""Jim"" Allenby",Ian Chappell,,0,0.7680718898773193,0.0,0,322,45
+5a7f670055429969796c1a34,easy,bridge,"the head coach of the LSU Tigers football team is Ed Orgeron, who is currently the head coach at what university?",Louisiana State,LSU,,0,0.7391810417175293,0.0,0,334,37
+5ae7681f5542991e8301cc8e,easy,bridge,"What show, whose  cast of celebrities travel to less-habitated, natural places to survive on their own and experience life with local tribes and people, helped make Kim Sung-won a household name?",Law of the Jungle,Running Man,,0,0.7980780601501465,0.0,0,366,39
+5ab6efb35542995eadef00e5,medium,comparison,"Which musician is from Canada, Raine Maida or Kevin Parker?",Raine Maida,Raine Maida,,1,0.7746250629425049,0.0,0,312,38
+5a88a6fa5542997e5c09a68d,hard,bridge,Who was the father of the man born Rudolph Valentino Clay?,"Cassius Marcellus Clay, Sr.",I don't know,,0,0.8047947883605957,0.0,0,312,31
+5a81d98b554299676cceb0fd,medium,comparison,What nationality are Poe and The Contortionist?,American,American,,1,0.7655401229858398,0.0,0,304,14
+5a80c314554299260e20a148,hard,bridge,What type air travel package can be purchased at a discounted price bythird largest global airline alliance? ,round-the-world ticket,Star Alliance,,0,0.9384200572967529,0.0,0,324,57
+5ade17f055429975fa854e37,easy,bridge,The Brittish ruling class were involved in which movement?,Irish independence,I don't know.,,0,0.6435461044311523,0.0,0,306,30
+5ae379ed5542992e3233c41c,hard,bridge,"Country living is a magazine that features  Lifestyle and home content,what Ohio town made their 2012 “50 Things To Do This Summer in 50 States” list ?","Dayton, Ohio",Hudson,,0,0.792518138885498,0.0,0,354,50
+5a7b8f9c554299294a54a9fa,medium,comparison,"Which board game was centered around the construction of a railroad track: Monopoly Junior, or TransAmerica? ",TransAmerica,TransAmerica,,1,0.6057240962982178,0.0,0,328,32
+5ac2c0d75542990b17b1547c,hard,bridge,The Black Windmill is a film produced by a man best known for coproducing what? ,Jaws,The Ipcress File,,0,0.6645851135253906,0.0,0,322,41
+5ac2d70455429921a00ab061,medium,comparison,Are both Tonka and The Happiest Millionaire names of films?,yes,Tonka  The Happiest Millionaire,,0,0.6789579391479492,0.0,0,312,22
+5a9087fa55429933b8a20539,medium,comparison,Were both Roger Corman and Jonas Mekas Lithuanian?,no,Lithuanian-American,,0,0.6073298454284668,0.0,0,310,36
+5ade704d5542997c77adee2c,easy,comparison,"Deacon Blue and The National, are bands that have which mutual genre?",rock,Indie rock,,1,0.6851820945739746,0.0,0,314,29
+5a8cb17a554299240d9c21e0,hard,bridge, Liam Aiken played Klaus Baudelaire in a 2004 film directed by who?,Brad Silberling,Henry Selick,,0,0.8603758811950684,0.0,0,323,89
+5a81b6785542995ce29dcc44,hard,comparison,Is Berea College of the University of Delaware further west?,Berea College,I don't know,,0,0.7811739444732666,0.0,0,308,53
+5abc97d455429959677d6ac3,medium,comparison,Are both Veridia and Digital Summer rock bands ?,yes,Yes,,1,0.8956811428070068,0.0,0,304,20
+5a83cf5d5542996488c2e4e1,medium,comparison,"Which breed of dog is from Scotland, the Pharaoh Hound or the Cairn Terrier?",Cairn Terrier,Cairn Terrier,,1,0.5995988845825195,0.0,0,324,27
+5abbc9ed55429931dba14531,hard,bridge,"When were the Detroit Music Awards, which feature some of Detroit's most notable musical artists like Bob Seger, initially proposed?",1988,I don't know.,,0,0.711097240447998,0.0,0,334,46
+5a78d4ea554299029c4b5eae,easy,comparison,"Bob Geldof and Boy George, have which occupation in common?",singer-songwriter,Singer,,0,0.948127031326294,0.0,0,310,35
+5a84b68c5542994c784dda17,hard,comparison,What country does Macross Frontier and Mai Mai Miracle originate from? ,Japan,Japan,,1,0.9425511360168457,0.0,0,312,20
+5a7277d75542994cef4bc2b9,hard,comparison,Toy Story 3 and The Apple Dumpling Gang Rides Again are both what kind of movie?,a sequel,Western comedy films,,0,0.9176549911499023,0.0,0,324,17
+5ac4bcbc554299076e296dee,easy,comparison,What do Reptiles and Chic have in common?,magazine,I don't know,,0,0.7409000396728516,0.0,0,306,47
+5a7942b2554299029c4b5f3f,easy,comparison,"Natalia Ginzburg and Lytton Strachey, have which occupation in common?",writer,Writer,,1,0.7681059837341309,0.0,0,323,52
+5a7a32535542990783324eb5,easy,comparison,"Museum of Illumination and Heating Appliances and Vasat Atik Ali Pasha Mosque,  are located in Istanbul, in which country?",Turkey,Turkey,,1,0.907351016998291,0.0,0,339,26
+5adcc9d05542994ed6169c05,hard,comparison,Which is a biger species of plant Scrophularia or Callicarpa?,Scrophularia,I don't know,,0,0.7605149745941162,0.0,0,318,39
+5a735dc355429901807db006,hard,comparison,"McDull, Kung Fu Kindergarten and  Pokémon: Arceus and the Jewel of Life where both released on what year?",2009,2007,,0,0.6592991352081299,0.0,0,339,29
+5a7e895c55429949594199f9,easy,comparison,"What is the third Disney animated feature film, Fantasia or Jungle Cruise?",Fantasia,Bambi,,0,0.6731240749359131,0.0,0,314,23
+5a84bcbe5542997b5ce3ff47,hard,comparison,Do tennis players Martina Navratilova and Wesley Moodie share the same nationality?,no,I don't know,,1,0.7589359283447266,0.0,0,320,24
+5a8b84f15542997f31a41d5e,easy,comparison,Are Ptychosperma and Leontopodium genera?,yes,Yes,,1,0.8932931423187256,0.0,0,308,29
+5a8745d95542994846c1cd43,easy,comparison,"Scott Derrickson and Umberto Lenzi, have which mutual occupation?",film director,Film director,,1,1.1615219116210938,0.0,0,312,25
+5a8ca8305542996e8ac88b08,easy,comparison,"who is the lead singer of the Belgian band K's Choice, Marcus Cooper or Sarah Bettens ?",Sarah Bettens,Sarah Bettens,,1,1.1902577877044678,0.0,0,324,22
+5a7a0dd05542990783324e18,hard,comparison,"Which band was formed first, Counting Crows or Belle and Sebastian?",Counting Crows,Counting Crows,,1,0.8863072395324707,0.0,0,314,40
+5ab971d1554299131ca42338,easy,comparison,"Longyan and Jurong, Jiangsu are both located in which country?",China,China,,1,0.8420009613037109,0.0,0,314,19
+5adde1e65542997dc7907086,hard,comparison,Who is more popular among Martin Flavin and William March ?,Martin Archer Flavin,I don't know,,0,0.8052840232849121,0.0,0,308,26
+5a87d2185542993e715abfe1,hard,comparison,Are both Brachychiton and Colchicum found on the same continent?,no,Yes,,0,0.8507289886474609,0.0,0,316,38
+5a88b9825542993e715ac084,easy,comparison,"KO Magazine and Pro Wrestling Illustrated, are located in which country?",United States,United States,,1,0.8846070766448975,0.0,0,310,28
+5ae4a35b5542995ad6573de9,hard,comparison,What type of university are both University of Massachusetts Lowell and New Mexico State University?,research,Public university,,0,0.7235980033874512,0.0,0,316,21
+5ae332305542990afbd1e0d6,hard,comparison,What do Munto and Macross Frontier have in common?,animated television series,Shoji Kawamori,,0,0.7575821876525879,0.0,0,308,53
+5a83c7aa554299123d8c21b5,easy,comparison,"Barclay Tower and The Epic, are located in which city?",New York City,Toronto,,0,0.769542932510376,0.0,0,311,31
+5ab733ef5542993667793f88,easy,comparison,What do Constantine Maroulis and Feargal Sharkey have in common? ,singer,American Idol,,0,0.705413818359375,0.0,0,318,69
+5a7e42e15542991319bc9456,easy,comparison,"Lindsay Anderson and Alfonso Cuarón, share which common industry occupation?",director,Film director,,1,0.7070248126983643,0.0,0,317,17
+5ae58f0d5542993aec5ec1be,easy,comparison,"Are ""Woman's World"" and ""The Delineator"" both American women's magazines?",yes,Yes,,1,0.7489328384399414,0.0,0,322,31
+5a712fcc5542994082a3e642,hard,comparison,"Who is older, Bob Bryan or Mariaan de Swardt?",Mariaan de Swardt,I don't know,,0,0.6544692516326904,0.0,0,312,23
+5a7608f8554299109176e621,hard,comparison,"Which man who went into space was born first, Dirk Frimout or Franz Viehböck?",Dirk Dries David Damiaan,Dirk Frimout,,0,0.7387001514434814,0.0,0,326,40
