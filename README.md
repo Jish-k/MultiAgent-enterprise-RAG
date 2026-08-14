@@ -14,6 +14,13 @@ The system uses LangGraph to coordinate the following agents:
   <img src="evaluation/paper_assets/figures/architecture.png" width="850">
 </p>
 
+## Experimental Datasets
+
+The framework was evaluated using the HotpotQA dataset, a benchmark for multi-hop question answering that requires reasoning over multiple supporting paragraphs.
+
+- **HotpotQA Dataset (Distractor)**: Focuses on Bridge & Comparison Reasoning.
+- **Link**: [https://huggingface.co/datasets/hotpotqa/hotpot_qa](https://huggingface.co/datasets/hotpotqa/hotpot_qa)
+
 ## Tech Stack
 - **Language**: Python
 - **Framework**: LangChain, LangGraph
