@@ -19,6 +19,10 @@ The framework was evaluated using the HotpotQA dataset, a benchmark for multi-ho
 - **HotpotQA Dataset (Distractor)**: Focuses on Bridge & Comparison Reasoning.
 - **Link**: [https://huggingface.co/datasets/hotpotqa/hotpot_qa](https://huggingface.co/datasets/hotpotqa/hotpot_qa)
 
+
+## Performance Evaluation
+
+![Performance Evaluation](evaluation/paper_assets/figures/results_accuracy.png)
 ## Tech Stack
 - **Language**: Python
 - **Framework**: LangChain, LangGraph
