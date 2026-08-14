@@ -10,9 +10,7 @@ This repository contains a prototype for an AI Assistant using a Multi-Agent Ret
 ## Architecture
 The system uses LangGraph to coordinate the following agents:
 
-<p align="center">
-  <img src="evaluation/paper_assets/figures/architecture.png" width="850">
-</p>
+![Architecture](evaluation/paper_assets/figures/architecture.png)
 
 ## Experimental Datasets
 
